@@ -1,0 +1,16 @@
+{
+  "phase": "Q12v3",
+  "name": "two_qubit_separate_positions",
+  "sq1_layer": 8,
+  "sq1_pos": -1,
+  "sq2_layer": 16,
+  "sq2_pos": -2,
+  "sq1_amp": 0.996771,
+  "sq2_cross_amp": 0.401015,
+  "cross_amp_sq1fixed": 0.401958,
+  "joint_E_min": -0.9996,
+  "joint_E_max": 0.2856,
+  "separability_residual_std": 0.268717,
+  "joint_S_chsh": 0.215956,
+  "elapsed": 173.6
+}

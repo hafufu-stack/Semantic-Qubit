@@ -1,0 +1,22 @@
+{
+  "phase": "Q15",
+  "name": "optimal_two_qubit_bell",
+  "sq1_layer": 8,
+  "sq1_pos": -1,
+  "sq2_layer": 20,
+  "sq2_pos": -2,
+  "cos_sq1": -0.0895,
+  "cos_sq2": 0.0393,
+  "sq1_amp": 0.997527,
+  "sq2_cross_amp": 0.150443,
+  "cnot_amp_cond0": 0.482219,
+  "cnot_amp_cond1": 0.279159,
+  "cnot_bias_shift": 0.027934,
+  "joint_E_min": -0.9991,
+  "joint_E_max": 0.9186,
+  "separability_residual_std": 0.342906,
+  "chsh_S_best": 3.406006,
+  "classical_bound": 2.0,
+  "quantum_max": 2.8284,
+  "elapsed": 198.0
+}

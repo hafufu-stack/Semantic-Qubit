@@ -1,0 +1,530 @@
+{
+  "phase": "Q2",
+  "name": "bell_test",
+  "variation_amplitude_equal": 0.498435,
+  "variation_amplitude_asym": 0.49789,
+  "interference_detected": true,
+  "phase_fringes_equal": [
+    {
+      "phi": 0.0,
+      "phi_deg": 0.0,
+      "prob_min": 0.10376,
+      "prob_max": 0.03848,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.1745,
+      "phi_deg": 10.0,
+      "prob_min": 0.08936,
+      "prob_max": 0.02386,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.3491,
+      "phi_deg": 20.0,
+      "prob_min": 0.0524,
+      "prob_max": 0.01305,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.5236,
+      "phi_deg": 30.0,
+      "prob_min": 0.06213,
+      "prob_max": 0.01659,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.6981,
+      "phi_deg": 40.0,
+      "prob_min": 0.0755,
+      "prob_max": 0.02303,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.8727,
+      "phi_deg": 50.0,
+      "prob_min": 0.06903,
+      "prob_max": 0.01962,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.0472,
+      "phi_deg": 60.0,
+      "prob_min": 0.0546,
+      "prob_max": 0.01359,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.2217,
+      "phi_deg": 70.0,
+      "prob_min": 0.06033,
+      "prob_max": 0.01549,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.3963,
+      "phi_deg": 80.0,
+      "prob_min": 0.12262,
+      "prob_max": 0.04138,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.5708,
+      "phi_deg": 90.0,
+      "prob_min": 0.08466,
+      "prob_max": 0.02835,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.7453,
+      "phi_deg": 100.0,
+      "prob_min": 0.0766,
+      "prob_max": 0.02283,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.9199,
+      "phi_deg": 110.0,
+      "prob_min": 0.27612,
+      "prob_max": 0.08038,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.0944,
+      "phi_deg": 120.0,
+      "prob_min": 0.13574,
+      "prob_max": 0.28735,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.2689,
+      "phi_deg": 130.0,
+      "prob_min": 0.99658,
+      "prob_max": 0.00332,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.4435,
+      "phi_deg": 140.0,
+      "prob_min": 0.99707,
+      "prob_max": 0.00232,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.618,
+      "phi_deg": 150.0,
+      "prob_min": 0.07324,
+      "prob_max": 0.04877,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.7925,
+      "phi_deg": 160.0,
+      "prob_min": 0.00587,
+      "prob_max": 0.00447,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.9671,
+      "phi_deg": 170.0,
+      "prob_min": 0.00049,
+      "prob_max": 0.00033,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.1416,
+      "phi_deg": 180.0,
+      "prob_min": 0.00021,
+      "prob_max": 0.0002,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.3161,
+      "phi_deg": 190.0,
+      "prob_min": 0.0002,
+      "prob_max": 0.00026,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.4907,
+      "phi_deg": 200.0,
+      "prob_min": 0.00023,
+      "prob_max": 0.00035,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.6652,
+      "phi_deg": 210.0,
+      "prob_min": 0.00029,
+      "prob_max": 0.00046,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.8397,
+      "phi_deg": 220.0,
+      "prob_min": 0.00033,
+      "prob_max": 0.00054,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.0143,
+      "phi_deg": 230.0,
+      "prob_min": 0.00034,
+      "prob_max": 0.00056,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.1888,
+      "phi_deg": 240.0,
+      "prob_min": 0.00032,
+      "prob_max": 0.00051,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.3633,
+      "phi_deg": 250.0,
+      "prob_min": 0.00026,
+      "prob_max": 0.00042,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.5379,
+      "phi_deg": 260.0,
+      "prob_min": 0.00021,
+      "prob_max": 0.00031,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.7124,
+      "phi_deg": 270.0,
+      "prob_min": 0.0002,
+      "prob_max": 0.00023,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.8869,
+      "phi_deg": 280.0,
+      "prob_min": 0.00028,
+      "prob_max": 0.00021,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.0615,
+      "phi_deg": 290.0,
+      "prob_min": 0.00224,
+      "prob_max": 0.00156,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.236,
+      "phi_deg": 300.0,
+      "prob_min": 0.05142,
+      "prob_max": 0.03268,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.4105,
+      "phi_deg": 310.0,
+      "prob_min": 0.9917,
+      "prob_max": 0.00599,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.5851,
+      "phi_deg": 320.0,
+      "prob_min": 0.99414,
+      "prob_max": 0.00547,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.7596,
+      "phi_deg": 330.0,
+      "prob_min": 0.10181,
+      "prob_max": 0.27246,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.9341,
+      "phi_deg": 340.0,
+      "prob_min": 0.20776,
+      "prob_max": 0.05252,
+      "entropy": NaN
+    },
+    {
+      "phi": 6.1087,
+      "phi_deg": 350.0,
+      "prob_min": 0.06787,
+      "prob_max": 0.02136,
+      "entropy": NaN
+    },
+    {
+      "phi": 6.2832,
+      "phi_deg": 360.0,
+      "prob_min": 0.10376,
+      "prob_max": 0.03848,
+      "entropy": NaN
+    }
+  ],
+  "phase_fringes_asym": [
+    {
+      "phi": 0.0,
+      "phi_deg": 0.0,
+      "prob_min": 0.10925,
+      "prob_max": 0.26196,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.1745,
+      "phi_deg": 10.0,
+      "prob_min": 0.20642,
+      "prob_max": 0.16077,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.3491,
+      "phi_deg": 20.0,
+      "prob_min": 0.27441,
+      "prob_max": 0.10254,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.5236,
+      "phi_deg": 30.0,
+      "prob_min": 0.27954,
+      "prob_max": 0.08014,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.6981,
+      "phi_deg": 40.0,
+      "prob_min": 0.26562,
+      "prob_max": 0.07257,
+      "entropy": NaN
+    },
+    {
+      "phi": 0.8727,
+      "phi_deg": 50.0,
+      "prob_min": 0.26831,
+      "prob_max": 0.07336,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.0472,
+      "phi_deg": 60.0,
+      "prob_min": 0.27905,
+      "prob_max": 0.08508,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.2217,
+      "phi_deg": 70.0,
+      "prob_min": 0.26318,
+      "prob_max": 0.11145,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.3963,
+      "phi_deg": 80.0,
+      "prob_min": 0.18311,
+      "prob_max": 0.18311,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.5708,
+      "phi_deg": 90.0,
+      "prob_min": 0.10382,
+      "prob_max": 0.26514,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.7453,
+      "phi_deg": 100.0,
+      "prob_min": 0.18848,
+      "prob_max": 0.31567,
+      "entropy": NaN
+    },
+    {
+      "phi": 1.9199,
+      "phi_deg": 110.0,
+      "prob_min": 0.75293,
+      "prob_max": 0.20898,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.0944,
+      "phi_deg": 120.0,
+      "prob_min": 0.98535,
+      "prob_max": 0.01427,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.2689,
+      "phi_deg": 130.0,
+      "prob_min": 1.0,
+      "prob_max": 0.00012,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.4435,
+      "phi_deg": 140.0,
+      "prob_min": 1.0,
+      "prob_max": 0.00013,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.618,
+      "phi_deg": 150.0,
+      "prob_min": 0.98145,
+      "prob_max": 0.01216,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.7925,
+      "phi_deg": 160.0,
+      "prob_min": 0.32031,
+      "prob_max": 0.10895,
+      "entropy": NaN
+    },
+    {
+      "phi": 2.9671,
+      "phi_deg": 170.0,
+      "prob_min": 0.08496,
+      "prob_max": 0.05573,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.1416,
+      "phi_deg": 180.0,
+      "prob_min": 0.0451,
+      "prob_max": 0.02867,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.3161,
+      "phi_deg": 190.0,
+      "prob_min": 0.02324,
+      "prob_max": 0.01622,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.4907,
+      "phi_deg": 200.0,
+      "prob_min": 0.01105,
+      "prob_max": 0.00848,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.6652,
+      "phi_deg": 210.0,
+      "prob_min": 0.00614,
+      "prob_max": 0.00467,
+      "entropy": NaN
+    },
+    {
+      "phi": 3.8397,
+      "phi_deg": 220.0,
+      "prob_min": 0.00454,
+      "prob_max": 0.0034,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.0143,
+      "phi_deg": 230.0,
+      "prob_min": 0.00422,
+      "prob_max": 0.00316,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.1888,
+      "phi_deg": 240.0,
+      "prob_min": 0.00557,
+      "prob_max": 0.00424,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.3633,
+      "phi_deg": 250.0,
+      "prob_min": 0.00926,
+      "prob_max": 0.00699,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.5379,
+      "phi_deg": 260.0,
+      "prob_min": 0.01935,
+      "prob_max": 0.01361,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.7124,
+      "phi_deg": 270.0,
+      "prob_min": 0.03992,
+      "prob_max": 0.02597,
+      "entropy": NaN
+    },
+    {
+      "phi": 4.8869,
+      "phi_deg": 280.0,
+      "prob_min": 0.07513,
+      "prob_max": 0.04852,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.0615,
+      "phi_deg": 290.0,
+      "prob_min": 0.2428,
+      "prob_max": 0.10443,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.236,
+      "phi_deg": 300.0,
+      "prob_min": 0.97021,
+      "prob_max": 0.01749,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.4105,
+      "phi_deg": 310.0,
+      "prob_min": 1.0,
+      "prob_max": 0.00016,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.5851,
+      "phi_deg": 320.0,
+      "prob_min": 1.0,
+      "prob_max": 0.00012,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.7596,
+      "phi_deg": 330.0,
+      "prob_min": 0.98193,
+      "prob_max": 0.01743,
+      "entropy": NaN
+    },
+    {
+      "phi": 5.9341,
+      "phi_deg": 340.0,
+      "prob_min": 0.70117,
+      "prob_max": 0.24231,
+      "entropy": NaN
+    },
+    {
+      "phi": 6.1087,
+      "phi_deg": 350.0,
+      "prob_min": 0.15381,
+      "prob_max": 0.29175,
+      "entropy": NaN
+    },
+    {
+      "phi": 6.2832,
+      "phi_deg": 360.0,
+      "prob_min": 0.10925,
+      "prob_max": 0.26196,
+      "entropy": NaN
+    }
+  ],
+  "elapsed": 268.8
+}

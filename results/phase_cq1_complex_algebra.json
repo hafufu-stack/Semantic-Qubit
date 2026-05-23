@@ -1,0 +1,56 @@
+{
+  "phase": "CQ1",
+  "name": "complex_algebra",
+  "dimension": 64,
+  "all_tests_passed": true,
+  "results": {
+    "inner_product": {
+      "norm_psi": 1.0,
+      "inner_phi_psi_abs": 0.086471,
+      "cauchy_schwarz_satisfied": true
+    },
+    "unitarity": {
+      "U_Udagger_minus_I_norm": 0.0,
+      "is_unitary": true
+    },
+    "born_rule": {
+      "sum_of_probs": 1.0,
+      "sums_to_one": true,
+      "max_prob": 0.080159,
+      "min_prob": 0.00057764
+    },
+    "superposition": {
+      "P(e0 | +state)": 0.5,
+      "P(e1 | +state)": 0.5,
+      "P(e0 | -state)": 0.5,
+      "P(e1 | -state)": 0.5,
+      "inner_plus_minus": 0.0,
+      "plus_minus_orthogonal": true
+    },
+    "hadamard": {
+      "H2_squared_minus_I_norm": 0.0,
+      "H2_is_identity": true,
+      "H2_psi_norm_error": 0.0,
+      "H_applied_twice_recovers": true
+    },
+    "schmidt": {
+      "bell_state_schmidt_rank": 8,
+      "product_state_schmidt_rank": 1,
+      "bell_sv_top5": [
+        0.353553,
+        0.353553,
+        0.353553,
+        0.353553,
+        0.353553
+      ],
+      "product_sv_top5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "elapsed": 0.3
+}

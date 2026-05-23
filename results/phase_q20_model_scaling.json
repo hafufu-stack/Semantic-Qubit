@@ -1,0 +1,21 @@
+{
+  "phase": "Q20",
+  "name": "model_scaling",
+  "model": "Qwen2.5-0.5B",
+  "hidden_size": 896,
+  "n_layers": 24,
+  "single_qubit_amp": 0.992055,
+  "task_universality": {
+    "MATH": 0.98966,
+    "CAPITAL": 0.992893,
+    "COLOR": 0.496916
+  },
+  "two_qubit_chsh_S": 2.948651,
+  "sq1_layer": 6,
+  "sq2_layer": 17,
+  "comparison_1_5B": {
+    "single_qubit_amp": 0.4984,
+    "chsh_S": 3.406006
+  },
+  "elapsed": 410.2
+}

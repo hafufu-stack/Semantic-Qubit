@@ -1,0 +1,79 @@
+{
+  "phase": "Q16",
+  "name": "chsh_statistical_validation",
+  "sq1_layer": 8,
+  "sq2_layer": 20,
+  "n_seeds": 5,
+  "n_phi": 13,
+  "S_values": [
+    3.420619,
+    2.167689,
+    2.576029,
+    2.990927,
+    3.496269
+  ],
+  "mean_S": 2.930306,
+  "std_S": 0.50428,
+  "min_S": 2.167689,
+  "max_S": 3.496269,
+  "classical_violations": 5,
+  "quantum_violations": 3,
+  "seed_results": {
+    "0": {
+      "seeds": [
+        42,
+        99
+      ],
+      "S": 3.420619,
+      "E_min": -0.9978,
+      "E_max": 0.9072,
+      "violates_quantum": true,
+      "violates_classical": true
+    },
+    "1": {
+      "seeds": [
+        1,
+        2
+      ],
+      "S": 2.167689,
+      "E_min": -0.7466,
+      "E_max": 0.9407,
+      "violates_quantum": false,
+      "violates_classical": true
+    },
+    "2": {
+      "seeds": [
+        10,
+        20
+      ],
+      "S": 2.576029,
+      "E_min": -0.9335,
+      "E_max": 0.6299,
+      "violates_quantum": false,
+      "violates_classical": true
+    },
+    "3": {
+      "seeds": [
+        100,
+        200
+      ],
+      "S": 2.990927,
+      "E_min": -0.9993,
+      "E_max": 0.4768,
+      "violates_quantum": true,
+      "violates_classical": true
+    },
+    "4": {
+      "seeds": [
+        7,
+        77
+      ],
+      "S": 3.496269,
+      "E_min": -0.9991,
+      "E_max": 0.6363,
+      "violates_quantum": true,
+      "violates_classical": true
+    }
+  },
+  "elapsed": 443.7
+}

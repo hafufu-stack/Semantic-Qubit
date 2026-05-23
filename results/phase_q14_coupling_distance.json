@@ -1,0 +1,79 @@
+{
+  "phase": "Q14",
+  "name": "coupling_distance",
+  "sq1_layer": 8,
+  "sq1_pos": -1,
+  "sq2_pos": -2,
+  "sq2_epochs": 75,
+  "results": {
+    "8": {
+      "distance": 0,
+      "cross_coupling_amp": 0.23432,
+      "E_min": -0.1559,
+      "E_max": 0.3127
+    },
+    "9": {
+      "distance": 1,
+      "cross_coupling_amp": 0.422768,
+      "E_min": -0.9521,
+      "E_max": -0.1066
+    },
+    "10": {
+      "distance": 2,
+      "cross_coupling_amp": 0.386267,
+      "E_min": -0.9899,
+      "E_max": -0.2174
+    },
+    "12": {
+      "distance": 4,
+      "cross_coupling_amp": 0.494158,
+      "E_min": -0.8833,
+      "E_max": 0.105
+    },
+    "14": {
+      "distance": 6,
+      "cross_coupling_amp": 0.453685,
+      "E_min": -0.7277,
+      "E_max": 0.1797
+    },
+    "16": {
+      "distance": 8,
+      "cross_coupling_amp": 0.399381,
+      "E_min": -0.8788,
+      "E_max": -0.0801
+    },
+    "18": {
+      "distance": 10,
+      "cross_coupling_amp": 0.708724,
+      "E_min": -0.9868,
+      "E_max": 0.4307
+    },
+    "20": {
+      "distance": 12,
+      "cross_coupling_amp": 0.819378,
+      "E_min": -0.8518,
+      "E_max": 0.7869
+    },
+    "22": {
+      "distance": 14,
+      "cross_coupling_amp": 0.403994,
+      "E_min": -0.9809,
+      "E_max": -0.173
+    },
+    "24": {
+      "distance": 16,
+      "cross_coupling_amp": 0.459188,
+      "E_min": 0.0761,
+      "E_max": 0.9945
+    },
+    "26": {
+      "distance": 18,
+      "cross_coupling_amp": 0.225245,
+      "E_min": 0.5458,
+      "E_max": 0.9963
+    }
+  },
+  "peak_layer": 20,
+  "peak_amplitude": 0.819378,
+  "elapsed": 583.4
+}

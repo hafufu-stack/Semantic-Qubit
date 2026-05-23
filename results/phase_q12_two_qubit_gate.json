@@ -1,0 +1,38 @@
+{
+  "phase": "Q12",
+  "name": "two_qubit_gate",
+  "sq1_layer": 8,
+  "sq2_layer": 16,
+  "product_states": {
+    "|00>": {
+      "P_min": 0.0,
+      "P_max": 0.0,
+      "E": -0.0
+    },
+    "|01>": {
+      "P_min": 0.0,
+      "P_max": 0.0,
+      "E": 0.0
+    },
+    "|10>": {
+      "P_min": 0.0,
+      "P_max": 0.0,
+      "E": -0.0
+    },
+    "|11>": {
+      "P_min": 0.0,
+      "P_max": 0.0,
+      "E": 0.0
+    }
+  },
+  "bell_state": {
+    "P_min": 0.0179,
+    "P_max": 0.0036,
+    "E": 0.0144
+  },
+  "joint_S_chsh": 4e-06,
+  "cross_qubit_amplitude": 0.007355,
+  "joint_E_min": -0.0,
+  "joint_E_max": 0.0143,
+  "elapsed": 191.4
+}

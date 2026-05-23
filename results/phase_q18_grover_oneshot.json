@@ -1,0 +1,114 @@
+{
+  "phase": "Q18",
+  "name": "virtual_grover_oneshot",
+  "inject_layer": 8,
+  "inject_pos": -1,
+  "cos_yes_no": 0.1154,
+  "n_correct": 10,
+  "n_total": 10,
+  "success_rate": 1.0,
+  "mean_amplification": 4631.219,
+  "results": [
+    {
+      "prompt": "Is 7 prime? Answer:",
+      "is_prime": true,
+      "p_correct_base": 6.5e-05,
+      "p_correct_|0>": 0.999783,
+      "p_correct_|1>": 1.1e-05,
+      "p_correct_|+>": 0.434251,
+      "amplification": 6677.4074,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 11 prime? Answer:",
+      "is_prime": true,
+      "p_correct_base": 7e-05,
+      "p_correct_|0>": 0.999722,
+      "p_correct_|1>": 0.000206,
+      "p_correct_|+>": 0.344876,
+      "amplification": 4952.5163,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 17 prime? Answer:",
+      "is_prime": true,
+      "p_correct_base": 8.3e-05,
+      "p_correct_|0>": 0.999705,
+      "p_correct_|1>": 0.000213,
+      "p_correct_|+>": 0.357018,
+      "amplification": 4294.4545,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 23 prime? Answer:",
+      "is_prime": true,
+      "p_correct_base": 5.5e-05,
+      "p_correct_|0>": 0.999808,
+      "p_correct_|1>": 0.000158,
+      "p_correct_|+>": 0.367432,
+      "amplification": 6738.398,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 29 prime? Answer:",
+      "is_prime": true,
+      "p_correct_base": 6.2e-05,
+      "p_correct_|0>": 0.999611,
+      "p_correct_|1>": 0.000315,
+      "p_correct_|+>": 0.234007,
+      "amplification": 3760.2504,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 9 prime? Answer:",
+      "is_prime": false,
+      "p_correct_base": 2.8e-05,
+      "p_correct_|0>": 1e-06,
+      "p_correct_|1>": 0.999787,
+      "p_correct_|+>": 0.116592,
+      "amplification": 4177.7021,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 12 prime? Answer:",
+      "is_prime": false,
+      "p_correct_base": 5.8e-05,
+      "p_correct_|0>": 1e-06,
+      "p_correct_|1>": 0.999644,
+      "p_correct_|+>": 0.244168,
+      "amplification": 4239.6449,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 15 prime? Answer:",
+      "is_prime": false,
+      "p_correct_base": 4.1e-05,
+      "p_correct_|0>": 1e-06,
+      "p_correct_|1>": 0.999532,
+      "p_correct_|+>": 0.202735,
+      "amplification": 4939.7934,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 21 prime? Answer:",
+      "is_prime": false,
+      "p_correct_base": 4e-05,
+      "p_correct_|0>": 1e-06,
+      "p_correct_|1>": 0.999194,
+      "p_correct_|+>": 0.119677,
+      "amplification": 2989.6557,
+      "grover_correct": true
+    },
+    {
+      "prompt": "Is 25 prime? Answer:",
+      "is_prime": false,
+      "p_correct_base": 3.9e-05,
+      "p_correct_|0>": 1e-06,
+      "p_correct_|1>": 0.999711,
+      "p_correct_|+>": 0.138791,
+      "amplification": 3542.3677,
+      "grover_correct": true
+    }
+  ],
+  "elapsed": 125.0
+}

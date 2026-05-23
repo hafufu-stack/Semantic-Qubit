@@ -1,0 +1,23 @@
+{
+  "phase": "Q24",
+  "name": "quantum_teleportation",
+  "sq1": {
+    "layer": 8,
+    "pos": -1
+  },
+  "sq2": {
+    "layer": 16,
+    "pos": -2
+  },
+  "sq3": {
+    "layer": 20,
+    "pos": -3
+  },
+  "amp_direct": 0.998571,
+  "amp_teleport": 0.416189,
+  "amp_no_mediator": 0.998678,
+  "amp_sq3_alone": 0.071014,
+  "fidelity_r": -0.079719,
+  "mediator_enhancement": 0.4167,
+  "elapsed": 267.3
+}

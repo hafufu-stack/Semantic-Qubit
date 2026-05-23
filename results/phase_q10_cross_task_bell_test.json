@@ -1,0 +1,60 @@
+{
+  "phase": "Q10",
+  "name": "cross_task_bell_test",
+  "inject_layer": 8,
+  "n_phi": 37,
+  "results": {
+    "MATH_min": {
+      "amplitude": 0.499273,
+      "visibility": 0.999958,
+      "p0_baseline": 0.9986,
+      "p1_baseline": 0.0,
+      "cosine_01": -0.0888,
+      "p_max": 0.9986,
+      "p_min": 0.0
+    },
+    "CAPITAL": {
+      "amplitude": 0.498333,
+      "visibility": 1.0,
+      "p0_baseline": 0.9967,
+      "p1_baseline": 0.5114,
+      "cosine_01": 0.0095,
+      "p_max": 0.9967,
+      "p_min": 0.0
+    },
+    "COLOR": {
+      "amplitude": 0.499912,
+      "visibility": 1.0,
+      "p0_baseline": 0.9998,
+      "p1_baseline": 0.0006,
+      "cosine_01": -0.106,
+      "p_max": 0.9998,
+      "p_min": 0.0
+    },
+    "CODE_keyword": {
+      "amplitude": 0.499567,
+      "visibility": 1.0,
+      "p0_baseline": 0.9991,
+      "p1_baseline": 0.0193,
+      "cosine_01": 0.0371,
+      "p_max": 0.9991,
+      "p_min": 0.0
+    },
+    "NUMBER_parity": {
+      "amplitude": 0.499768,
+      "visibility": 1.0,
+      "p0_baseline": 0.9995,
+      "p1_baseline": 0.0,
+      "cosine_01": 0.0221,
+      "p_max": 0.9995,
+      "p_min": 0.0
+    }
+  },
+  "summary": {
+    "mean_amplitude": 0.499371,
+    "std_amplitude": 0.000561,
+    "cv_amplitude": 0.0011,
+    "universal_coherence": true
+  },
+  "elapsed": 516.1
+}

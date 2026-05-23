@@ -1,0 +1,77 @@
+{
+  "phase": "Q23",
+  "name": "deutsch_jozsa_algorithm",
+  "inject_layer": 8,
+  "n_correct": 6,
+  "n_total": 6,
+  "accuracy": 1.0,
+  "results": [
+    {
+      "name": "addition_2+2",
+      "true_type": "constant",
+      "dj_verdict": "CONSTANT",
+      "correct": true,
+      "p_tok0_base": 0.317651,
+      "p_tok0_state0": 0.99989,
+      "p_tok0_state1": 0.999602,
+      "p_tok0_superposition": 0.034362,
+      "distinguisher": 0.000288
+    },
+    {
+      "name": "capital_fixed",
+      "true_type": "constant",
+      "dj_verdict": "CONSTANT",
+      "correct": true,
+      "p_tok0_base": 0.001216,
+      "p_tok0_state0": 0.999788,
+      "p_tok0_state1": 0.99914,
+      "p_tok0_superposition": 3.4e-05,
+      "distinguisher": 0.000648
+    },
+    {
+      "name": "min_max",
+      "true_type": "balanced",
+      "dj_verdict": "BALANCED",
+      "correct": true,
+      "p_tok0_base": 0.115487,
+      "p_tok0_state0": 0.998935,
+      "p_tok0_state1": 2e-05,
+      "p_tok0_superposition": 0.063873,
+      "distinguisher": 0.998915
+    },
+    {
+      "name": "color_blue_green",
+      "true_type": "balanced",
+      "dj_verdict": "BALANCED",
+      "correct": true,
+      "p_tok0_base": 3e-06,
+      "p_tok0_state0": 0.999855,
+      "p_tok0_state1": 0.000611,
+      "p_tok0_superposition": 0.001117,
+      "distinguisher": 0.999244
+    },
+    {
+      "name": "prime_yes_no",
+      "true_type": "balanced",
+      "dj_verdict": "BALANCED",
+      "correct": true,
+      "p_tok0_base": 6.5e-05,
+      "p_tok0_state0": 0.999783,
+      "p_tok0_state1": 1.1e-05,
+      "p_tok0_superposition": 0.434251,
+      "distinguisher": 0.999772
+    },
+    {
+      "name": "size_small_large",
+      "true_type": "balanced",
+      "dj_verdict": "BALANCED",
+      "correct": true,
+      "p_tok0_base": 0.0,
+      "p_tok0_state0": 0.999538,
+      "p_tok0_state1": 1.4e-05,
+      "p_tok0_superposition": 0.000119,
+      "distinguisher": 0.999524
+    }
+  ],
+  "elapsed": 680.9
+}

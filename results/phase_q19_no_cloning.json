@@ -1,0 +1,314 @@
+{
+  "phase": "Q19",
+  "name": "no_cloning_violation",
+  "inject_layer": 8,
+  "save_layers": [
+    10,
+    14,
+    18,
+    20,
+    22,
+    24,
+    26
+  ],
+  "perfect_replays": 35,
+  "total_tests": 35,
+  "perfect_ratio": 1.0,
+  "results": {
+    "10": [
+      {
+        "phi": "0",
+        "E_orig": 0.998024,
+        "E_replay": 0.998024,
+        "E_perturbed": 0.997707,
+        "replay_fidelity": 1.151926,
+        "clone_divergence": 0.000317
+      },
+      {
+        "phi": "pi/4",
+        "E_orig": 0.000925,
+        "E_replay": 0.000925,
+        "E_perturbed": 0.000964,
+        "replay_fidelity": 1.096638,
+        "clone_divergence": 4e-05
+      },
+      {
+        "phi": "pi/2",
+        "E_orig": 0.045857,
+        "E_replay": 0.045857,
+        "E_perturbed": 0.045316,
+        "replay_fidelity": 1.130473,
+        "clone_divergence": 0.00054
+      },
+      {
+        "phi": "3pi/4",
+        "E_orig": 0.001574,
+        "E_replay": 0.001574,
+        "E_perturbed": 0.001348,
+        "replay_fidelity": 1.142027,
+        "clone_divergence": 0.000225
+      },
+      {
+        "phi": "pi",
+        "E_orig": -0.996075,
+        "E_replay": -0.996075,
+        "E_perturbed": -0.995501,
+        "replay_fidelity": 1.151883,
+        "clone_divergence": 0.000573
+      }
+    ],
+    "14": [
+      {
+        "phi": "0",
+        "E_orig": 0.998024,
+        "E_replay": 0.998024,
+        "E_perturbed": 0.998023,
+        "replay_fidelity": 1.151926,
+        "clone_divergence": 1e-06
+      },
+      {
+        "phi": "pi/4",
+        "E_orig": 0.000925,
+        "E_replay": 0.000925,
+        "E_perturbed": 0.000872,
+        "replay_fidelity": 1.096638,
+        "clone_divergence": 5.2e-05
+      },
+      {
+        "phi": "pi/2",
+        "E_orig": 0.045857,
+        "E_replay": 0.045857,
+        "E_perturbed": 0.046359,
+        "replay_fidelity": 1.130473,
+        "clone_divergence": 0.000503
+      },
+      {
+        "phi": "3pi/4",
+        "E_orig": 0.001574,
+        "E_replay": 0.001574,
+        "E_perturbed": 0.001593,
+        "replay_fidelity": 1.142027,
+        "clone_divergence": 1.9e-05
+      },
+      {
+        "phi": "pi",
+        "E_orig": -0.996075,
+        "E_replay": -0.996075,
+        "E_perturbed": -0.996538,
+        "replay_fidelity": 1.151883,
+        "clone_divergence": 0.000463
+      }
+    ],
+    "18": [
+      {
+        "phi": "0",
+        "E_orig": 0.998024,
+        "E_replay": 0.998024,
+        "E_perturbed": 0.998111,
+        "replay_fidelity": 1.151926,
+        "clone_divergence": 8.7e-05
+      },
+      {
+        "phi": "pi/4",
+        "E_orig": 0.000925,
+        "E_replay": 0.000925,
+        "E_perturbed": 0.000854,
+        "replay_fidelity": 1.096638,
+        "clone_divergence": 7e-05
+      },
+      {
+        "phi": "pi/2",
+        "E_orig": 0.045857,
+        "E_replay": 0.045857,
+        "E_perturbed": 0.045813,
+        "replay_fidelity": 1.130473,
+        "clone_divergence": 4.4e-05
+      },
+      {
+        "phi": "3pi/4",
+        "E_orig": 0.001574,
+        "E_replay": 0.001574,
+        "E_perturbed": 0.001691,
+        "replay_fidelity": 1.142027,
+        "clone_divergence": 0.000118
+      },
+      {
+        "phi": "pi",
+        "E_orig": -0.996075,
+        "E_replay": -0.996075,
+        "E_perturbed": -0.996899,
+        "replay_fidelity": 1.151883,
+        "clone_divergence": 0.000824
+      }
+    ],
+    "20": [
+      {
+        "phi": "0",
+        "E_orig": 0.998024,
+        "E_replay": 0.998024,
+        "E_perturbed": 0.998079,
+        "replay_fidelity": 1.151926,
+        "clone_divergence": 5.5e-05
+      },
+      {
+        "phi": "pi/4",
+        "E_orig": 0.000925,
+        "E_replay": 0.000925,
+        "E_perturbed": 0.000942,
+        "replay_fidelity": 1.096638,
+        "clone_divergence": 1.7e-05
+      },
+      {
+        "phi": "pi/2",
+        "E_orig": 0.045857,
+        "E_replay": 0.045857,
+        "E_perturbed": 0.044678,
+        "replay_fidelity": 1.130473,
+        "clone_divergence": 0.001179
+      },
+      {
+        "phi": "3pi/4",
+        "E_orig": 0.001574,
+        "E_replay": 0.001574,
+        "E_perturbed": 0.001556,
+        "replay_fidelity": 1.142027,
+        "clone_divergence": 1.8e-05
+      },
+      {
+        "phi": "pi",
+        "E_orig": -0.996075,
+        "E_replay": -0.996075,
+        "E_perturbed": -0.996164,
+        "replay_fidelity": 1.151883,
+        "clone_divergence": 8.9e-05
+      }
+    ],
+    "22": [
+      {
+        "phi": "0",
+        "E_orig": 0.998024,
+        "E_replay": 0.998024,
+        "E_perturbed": 0.997841,
+        "replay_fidelity": 1.151926,
+        "clone_divergence": 0.000183
+      },
+      {
+        "phi": "pi/4",
+        "E_orig": 0.000925,
+        "E_replay": 0.000925,
+        "E_perturbed": 0.000896,
+        "replay_fidelity": 1.096638,
+        "clone_divergence": 2.9e-05
+      },
+      {
+        "phi": "pi/2",
+        "E_orig": 0.045857,
+        "E_replay": 0.045857,
+        "E_perturbed": 0.045914,
+        "replay_fidelity": 1.130473,
+        "clone_divergence": 5.7e-05
+      },
+      {
+        "phi": "3pi/4",
+        "E_orig": 0.001574,
+        "E_replay": 0.001574,
+        "E_perturbed": 0.001533,
+        "replay_fidelity": 1.142027,
+        "clone_divergence": 4.1e-05
+      },
+      {
+        "phi": "pi",
+        "E_orig": -0.996075,
+        "E_replay": -0.996075,
+        "E_perturbed": -0.996415,
+        "replay_fidelity": 1.151883,
+        "clone_divergence": 0.00034
+      }
+    ],
+    "24": [
+      {
+        "phi": "0",
+        "E_orig": 0.998024,
+        "E_replay": 0.998024,
+        "E_perturbed": 0.997993,
+        "replay_fidelity": 1.151926,
+        "clone_divergence": 3.1e-05
+      },
+      {
+        "phi": "pi/4",
+        "E_orig": 0.000925,
+        "E_replay": 0.000925,
+        "E_perturbed": 0.00094,
+        "replay_fidelity": 1.096638,
+        "clone_divergence": 1.6e-05
+      },
+      {
+        "phi": "pi/2",
+        "E_orig": 0.045857,
+        "E_replay": 0.045857,
+        "E_perturbed": 0.046107,
+        "replay_fidelity": 1.130473,
+        "clone_divergence": 0.000251
+      },
+      {
+        "phi": "3pi/4",
+        "E_orig": 0.001574,
+        "E_replay": 0.001574,
+        "E_perturbed": 0.001641,
+        "replay_fidelity": 1.142027,
+        "clone_divergence": 6.7e-05
+      },
+      {
+        "phi": "pi",
+        "E_orig": -0.996075,
+        "E_replay": -0.996075,
+        "E_perturbed": -0.995958,
+        "replay_fidelity": 1.151883,
+        "clone_divergence": 0.000117
+      }
+    ],
+    "26": [
+      {
+        "phi": "0",
+        "E_orig": 0.998024,
+        "E_replay": 0.998024,
+        "E_perturbed": 0.998054,
+        "replay_fidelity": 1.151926,
+        "clone_divergence": 3e-05
+      },
+      {
+        "phi": "pi/4",
+        "E_orig": 0.000925,
+        "E_replay": 0.000925,
+        "E_perturbed": 0.000909,
+        "replay_fidelity": 1.096638,
+        "clone_divergence": 1.6e-05
+      },
+      {
+        "phi": "pi/2",
+        "E_orig": 0.045857,
+        "E_replay": 0.045857,
+        "E_perturbed": 0.045752,
+        "replay_fidelity": 1.130473,
+        "clone_divergence": 0.000105
+      },
+      {
+        "phi": "3pi/4",
+        "E_orig": 0.001574,
+        "E_replay": 0.001574,
+        "E_perturbed": 0.001603,
+        "replay_fidelity": 1.142027,
+        "clone_divergence": 2.9e-05
+      },
+      {
+        "phi": "pi",
+        "E_orig": -0.996075,
+        "E_replay": -0.996075,
+        "E_perturbed": -0.996071,
+        "replay_fidelity": 1.151883,
+        "clone_divergence": 4e-06
+      }
+    ]
+  },
+  "elapsed": 126.3
+}

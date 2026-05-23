@@ -1,0 +1,117 @@
+{
+  "phase": "Q1",
+  "name": "superposition_basis",
+  "min_acc": 1.0,
+  "max_acc": 1.0,
+  "cos_sim_min_max": -0.08140924572944641,
+  "min_norm": 2.446779489517212,
+  "max_norm": 2.4504308700561523,
+  "superposition_sweep": [
+    {
+      "alpha": 0.0,
+      "prob_min": 0.0,
+      "prob_max": 1.0
+    },
+    {
+      "alpha": 0.05,
+      "prob_min": 1e-05,
+      "prob_max": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "prob_min": 0.00283,
+      "prob_max": 0.99121
+    },
+    {
+      "alpha": 0.15,
+      "prob_min": 0.24023,
+      "prob_max": 0.18994
+    },
+    {
+      "alpha": 0.2,
+      "prob_min": 0.08923,
+      "prob_max": 0.02292
+    },
+    {
+      "alpha": 0.25,
+      "prob_min": 0.01346,
+      "prob_max": 0.01421
+    },
+    {
+      "alpha": 0.3,
+      "prob_min": 0.01133,
+      "prob_max": 0.03806
+    },
+    {
+      "alpha": 0.35,
+      "prob_min": 0.01596,
+      "prob_max": 0.03247
+    },
+    {
+      "alpha": 0.4,
+      "prob_min": 0.10437,
+      "prob_max": 0.0321
+    },
+    {
+      "alpha": 0.45,
+      "prob_min": 0.05093,
+      "prob_max": 0.01287
+    },
+    {
+      "alpha": 0.5,
+      "prob_min": 0.10498,
+      "prob_max": 0.0386
+    },
+    {
+      "alpha": 0.55,
+      "prob_min": 0.0625,
+      "prob_max": 0.01877
+    },
+    {
+      "alpha": 0.6,
+      "prob_min": 0.12866,
+      "prob_max": 0.03177
+    },
+    {
+      "alpha": 0.65,
+      "prob_min": 0.29419,
+      "prob_max": 0.08563
+    },
+    {
+      "alpha": 0.7,
+      "prob_min": 0.12451,
+      "prob_max": 0.229
+    },
+    {
+      "alpha": 0.75,
+      "prob_min": 0.14258,
+      "prob_max": 0.28784
+    },
+    {
+      "alpha": 0.8,
+      "prob_min": 0.63867,
+      "prob_max": 0.28784
+    },
+    {
+      "alpha": 0.85,
+      "prob_min": 0.94238,
+      "prob_max": 0.05487
+    },
+    {
+      "alpha": 0.9,
+      "prob_min": 0.99707,
+      "prob_max": 0.00271
+    },
+    {
+      "alpha": 0.95,
+      "prob_min": 1.0,
+      "prob_max": 0.00013
+    },
+    {
+      "alpha": 1.0,
+      "prob_min": 1.0,
+      "prob_max": 5e-05
+    }
+  ],
+  "elapsed": 217.5
+}

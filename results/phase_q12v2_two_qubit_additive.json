@@ -1,0 +1,16 @@
+{
+  "phase": "Q12v2",
+  "name": "two_qubit_additive",
+  "sq1_layer": 8,
+  "sq2_layer": 16,
+  "alpha": 0.5,
+  "beta": 0.5,
+  "sq1_amp_single": 0.003902,
+  "sq2_amp_single": 0.002176,
+  "joint_E_min": 0.0175,
+  "joint_E_max": 0.0252,
+  "joint_S_chsh": 0.037709,
+  "separability_residual_std": 0.001646,
+  "is_separable": true,
+  "elapsed": 186.8
+}

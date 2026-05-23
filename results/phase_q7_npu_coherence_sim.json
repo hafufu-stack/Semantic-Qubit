@@ -1,0 +1,60 @@
+{
+  "phase": "Q7",
+  "name": "npu_coherence_sim",
+  "baseline": {
+    "entropy": 5.967243671417236,
+    "p_correct": 0.0414389755576849
+  },
+  "freq_sweep": {
+    "0.5": {
+      "avg_entropy": 5.9636,
+      "avg_p_correct": 0.0418,
+      "entropy_delta": -0.0037
+    },
+    "1.0": {
+      "avg_entropy": 5.9572,
+      "avg_p_correct": 0.0418,
+      "entropy_delta": -0.0101
+    },
+    "2.0": {
+      "avg_entropy": 5.9808,
+      "avg_p_correct": 0.0418,
+      "entropy_delta": 0.0136
+    },
+    "4.0": {
+      "avg_entropy": 5.9877,
+      "avg_p_correct": 0.0407,
+      "entropy_delta": 0.0205
+    },
+    "8.0": {
+      "avg_entropy": 5.9646,
+      "avg_p_correct": 0.0415,
+      "entropy_delta": -0.0027
+    }
+  },
+  "amp_sweep": {
+    "0.01": {
+      "avg_entropy": 5.9704,
+      "avg_p_correct": 0.0413,
+      "entropy_delta": 0.0032
+    },
+    "0.05": {
+      "avg_entropy": 5.981,
+      "avg_p_correct": 0.0404,
+      "entropy_delta": 0.0138
+    },
+    "0.1": {
+      "avg_entropy": 5.9842,
+      "avg_p_correct": 0.0375,
+      "entropy_delta": 0.017
+    },
+    "0.2": {
+      "avg_entropy": 5.9398,
+      "avg_p_correct": 0.0451,
+      "entropy_delta": -0.0274
+    }
+  },
+  "best_freq": 4.0,
+  "best_amp": 0.1,
+  "elapsed": 124.5
+}
