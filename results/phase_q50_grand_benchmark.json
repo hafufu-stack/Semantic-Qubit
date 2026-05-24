@@ -1,0 +1,16 @@
+{
+  "phase": "Q50",
+  "name": "grand_unified_benchmark",
+  "inject_layer": 10,
+  "QAS": 74.58,
+  "scores": {
+    "deutsch_jozsa": 1.0,
+    "bernstein_vazirani": 0.0625,
+    "simon": 1.0,
+    "grover": 0.3317,
+    "bb84": 0.8261,
+    "superdense": 1.0,
+    "discrimination": 1.0
+  },
+  "elapsed": 83.8
+}

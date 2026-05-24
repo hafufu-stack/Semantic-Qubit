@@ -1,0 +1,11 @@
+{
+  "phase": "Q43",
+  "name": "swap_test",
+  "inject_layer": 10,
+  "n_test": 50,
+  "correlation": 0.83182,
+  "linear_r2": 0.691924,
+  "E_identical": 0.998912,
+  "E_orthogonal": 0.13298,
+  "elapsed": 48.5
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "Q32",
+  "name": "quantum_random_walk",
+  "inject_layer": 8,
+  "T_steps": 30,
+  "N_walks": 100,
+  "alpha_classical": 0.9299,
+  "alpha_quantum": 1.0,
+  "alpha_enhanced": 1.0,
+  "speedup": 1.0754,
+  "final_var_classical": 27.15,
+  "final_var_quantum": 0.0,
+  "elapsed": 253.5
+}

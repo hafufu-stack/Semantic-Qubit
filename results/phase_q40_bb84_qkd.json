@@ -1,0 +1,20 @@
+{
+  "phase": "Q40",
+  "name": "bb84_qkd",
+  "inject_layer": 10,
+  "n_rounds": 200,
+  "sifted_bits": 106,
+  "sifted_accuracy_no_eve": 1.0,
+  "sifted_accuracy_with_eve": 0.716981,
+  "wrong_basis_rate": 0.542553,
+  "qber_no_eve": 0.0,
+  "qber_with_eve": 0.283019,
+  "eve_detectable": true,
+  "calibration": {
+    "Z0": 0.998912,
+    "Z1": 0.998764,
+    "X0": 0.1388,
+    "X1": 0.047817
+  },
+  "elapsed": 78.5
+}

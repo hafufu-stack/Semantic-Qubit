@@ -1,0 +1,24 @@
+{
+  "phase": "Q34",
+  "name": "llm_qrng",
+  "n_bits": 1341,
+  "proportion": 0.47651,
+  "entropy": 0.998407,
+  "serial_correlation": 0.033752,
+  "tests_passed": 3,
+  "test_results": {
+    "frequency": {
+      "quantum": 0.085362
+    },
+    "runs": {
+      "quantum": 0.207486
+    },
+    "block_freq": {
+      "quantum": 0.586183
+    },
+    "serial_corr": {
+      "quantum": 0.033752
+    }
+  },
+  "elapsed": 356.6
+}

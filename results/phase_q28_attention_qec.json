@@ -1,0 +1,116 @@
+{
+  "phase": "Q28",
+  "name": "attention_qec",
+  "sq_layers": [
+    8,
+    16,
+    20
+  ],
+  "phi_test": 1.0472,
+  "E_clean_1q": 0.172989,
+  "E_clean_3q": 0.152827,
+  "results_1q": [
+    {
+      "sigma": 0.0,
+      "E_mean": 0.172989,
+      "error": 0.0
+    },
+    {
+      "sigma": 0.005,
+      "E_mean": 0.169654,
+      "error": 0.003334
+    },
+    {
+      "sigma": 0.01,
+      "E_mean": 0.170237,
+      "error": 0.002752
+    },
+    {
+      "sigma": 0.02,
+      "E_mean": 0.17496,
+      "error": 0.001971
+    },
+    {
+      "sigma": 0.05,
+      "E_mean": 0.161661,
+      "error": 0.011328
+    },
+    {
+      "sigma": 0.1,
+      "E_mean": 0.133415,
+      "error": 0.039574
+    },
+    {
+      "sigma": 0.2,
+      "E_mean": 0.017734,
+      "error": 0.155255
+    },
+    {
+      "sigma": 0.5,
+      "E_mean": 0.013313,
+      "error": 0.159676
+    },
+    {
+      "sigma": 1.0,
+      "E_mean": 0.002628,
+      "error": 0.170361
+    }
+  ],
+  "results_3q": [
+    {
+      "sigma": 0.0,
+      "E_mean": 0.152827,
+      "error": 0.0,
+      "recovery": 1.0
+    },
+    {
+      "sigma": 0.005,
+      "E_mean": 0.139526,
+      "error": 0.013301,
+      "recovery": -2.989
+    },
+    {
+      "sigma": 0.01,
+      "E_mean": 0.12695,
+      "error": 0.025878,
+      "recovery": -8.402
+    },
+    {
+      "sigma": 0.02,
+      "E_mean": 0.12022,
+      "error": 0.032607,
+      "recovery": -15.5421
+    },
+    {
+      "sigma": 0.05,
+      "E_mean": 0.083986,
+      "error": 0.068841,
+      "recovery": -5.0772
+    },
+    {
+      "sigma": 0.1,
+      "E_mean": 4.9e-05,
+      "error": 0.152778,
+      "recovery": -2.8606
+    },
+    {
+      "sigma": 0.2,
+      "E_mean": -0.004024,
+      "error": 0.156851,
+      "recovery": -0.0103
+    },
+    {
+      "sigma": 0.5,
+      "E_mean": -0.001368,
+      "error": 0.154195,
+      "recovery": 0.0343
+    },
+    {
+      "sigma": 1.0,
+      "E_mean": 0.002447,
+      "error": 0.15038,
+      "recovery": 0.1173
+    }
+  ],
+  "elapsed": 127.5
+}

@@ -1,0 +1,33 @@
+{
+  "phase": "Q42",
+  "name": "simon_algorithm",
+  "inject_layer": 10,
+  "overall_accuracy": 1.0,
+  "results": [
+    {
+      "n_bits": 2,
+      "n_tested": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "classical_queries": 2,
+      "quantum_queries": 2
+    },
+    {
+      "n_bits": 3,
+      "n_tested": 7,
+      "correct": 7,
+      "accuracy": 1.0,
+      "classical_queries": 2,
+      "quantum_queries": 3
+    },
+    {
+      "n_bits": 4,
+      "n_tested": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "classical_queries": 4,
+      "quantum_queries": 4
+    }
+  ],
+  "elapsed": 48.9
+}

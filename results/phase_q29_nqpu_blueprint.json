@@ -1,0 +1,60 @@
+{
+  "phase": "Q29",
+  "name": "nqpu_silicon_blueprint",
+  "architecture": "attention + soul_vectors",
+  "dims_tested": [
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "results": [
+    {
+      "d": 64,
+      "amplitude": 0.062419,
+      "visibility": 0.27377,
+      "cos_r2": 0.888367,
+      "cos_sim_01": 0.0,
+      "chsh_S": 0.9584,
+      "classical_violation": false
+    },
+    {
+      "d": 128,
+      "amplitude": 0.079785,
+      "visibility": 0.44575,
+      "cos_r2": 0.880327,
+      "cos_sim_01": 0.0,
+      "chsh_S": 0.5152,
+      "classical_violation": false
+    },
+    {
+      "d": 256,
+      "amplitude": 0.03741,
+      "visibility": 0.387404,
+      "cos_r2": 0.325776,
+      "cos_sim_01": 0.0,
+      "chsh_S": 0.2365,
+      "classical_violation": false
+    },
+    {
+      "d": 512,
+      "amplitude": 0.049283,
+      "visibility": 0.777412,
+      "cos_r2": 0.67306,
+      "cos_sim_01": -0.0,
+      "chsh_S": -0.3029,
+      "classical_violation": false
+    },
+    {
+      "d": 1024,
+      "amplitude": 0.014357,
+      "visibility": 1.0,
+      "cos_r2": 0.889145,
+      "cos_sim_01": 0.0,
+      "chsh_S": 0.0807,
+      "classical_violation": false
+    }
+  ],
+  "elapsed": 6.1
+}

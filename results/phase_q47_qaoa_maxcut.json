@@ -1,0 +1,71 @@
+{
+  "phase": "Q47",
+  "name": "qaoa_maxcut",
+  "inject_layer": 10,
+  "n_graphs": 6,
+  "n_optimal": 1,
+  "avg_ratio": 0.5806,
+  "results": [
+    {
+      "name": "Triangle (3 nodes)",
+      "n_nodes": 3,
+      "n_edges": 3,
+      "optimal_cut": 2,
+      "sq_cut": 2,
+      "sq_assignment": "110",
+      "approx_ratio": 1.0,
+      "optimal_assignment": "001"
+    },
+    {
+      "name": "Square (4 nodes)",
+      "n_nodes": 4,
+      "n_edges": 4,
+      "optimal_cut": 4,
+      "sq_cut": 2,
+      "sq_assignment": "1110",
+      "approx_ratio": 0.5,
+      "optimal_assignment": "0101"
+    },
+    {
+      "name": "Pentagon (5 nodes)",
+      "n_nodes": 5,
+      "n_edges": 5,
+      "optimal_cut": 4,
+      "sq_cut": 2,
+      "sq_assignment": "11110",
+      "approx_ratio": 0.5,
+      "optimal_assignment": "00101"
+    },
+    {
+      "name": "K4 Complete (4 nodes)",
+      "n_nodes": 4,
+      "n_edges": 6,
+      "optimal_cut": 4,
+      "sq_cut": 3,
+      "sq_assignment": "1110",
+      "approx_ratio": 0.75,
+      "optimal_assignment": "0011"
+    },
+    {
+      "name": "Petersen-sub (5 nodes)",
+      "n_nodes": 5,
+      "n_edges": 7,
+      "optimal_cut": 6,
+      "sq_cut": 2,
+      "sq_assignment": "11110",
+      "approx_ratio": 0.3333,
+      "optimal_assignment": "01101"
+    },
+    {
+      "name": "Star (6 nodes)",
+      "n_nodes": 6,
+      "n_edges": 5,
+      "optimal_cut": 5,
+      "sq_cut": 2,
+      "sq_assignment": "111100",
+      "approx_ratio": 0.4,
+      "optimal_assignment": "011111"
+    }
+  ],
+  "elapsed": 81.1
+}

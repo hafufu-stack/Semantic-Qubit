@@ -1,0 +1,18 @@
+{
+  "phase": "Q48",
+  "name": "quantum_reservoir",
+  "inject_layer": 10,
+  "n_features": 20,
+  "sine": {
+    "rmse": 0.7138,
+    "corr": 0.7142
+  },
+  "xor": {
+    "accuracy": 1.0
+  },
+  "nonlinear": {
+    "rmse": 0.6431,
+    "corr": -0.0016
+  },
+  "elapsed": 93.9
+}

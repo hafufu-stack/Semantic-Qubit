@@ -1,0 +1,39 @@
+{
+  "phase": "Q31",
+  "name": "superdense_coding",
+  "sq1_layer": 8,
+  "sq2_layer": 20,
+  "n_trials_per_msg": 50,
+  "overall_accuracy": 1.0,
+  "bits_per_qubit": 2.0,
+  "beat_classical": true,
+  "per_message": {
+    "00": {
+      "accuracy": 1.0,
+      "E_mean": 0.011838,
+      "E_std": 0.0
+    },
+    "01": {
+      "accuracy": 1.0,
+      "E_mean": 0.857745,
+      "E_std": 0.0
+    },
+    "10": {
+      "accuracy": 1.0,
+      "E_mean": 0.002154,
+      "E_std": 0.0
+    },
+    "11": {
+      "accuracy": 1.0,
+      "E_mean": 0.016974,
+      "E_std": 0.0
+    }
+  },
+  "calibration_E": {
+    "00": 0.011838,
+    "01": 0.857745,
+    "10": 0.002154,
+    "11": 0.016974
+  },
+  "elapsed": 147.7
+}

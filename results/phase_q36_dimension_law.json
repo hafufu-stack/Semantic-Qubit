@@ -1,0 +1,100 @@
+{
+  "phase": "Q36",
+  "name": "dimension_coherence_law",
+  "dims_tested": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    768,
+    1024,
+    1536,
+    2048
+  ],
+  "n_seeds": 5,
+  "results": [
+    {
+      "d": 16,
+      "visibility": 0.868453,
+      "cos_r2": 0.68569,
+      "chsh_S": 0.2221,
+      "fidelity": 1.0,
+      "cross_corr": 0.702898
+    },
+    {
+      "d": 32,
+      "visibility": 1.0,
+      "cos_r2": 0.680979,
+      "chsh_S": 0.297,
+      "fidelity": 1.0,
+      "cross_corr": 0.748582
+    },
+    {
+      "d": 64,
+      "visibility": 0.956939,
+      "cos_r2": 0.715461,
+      "chsh_S": -0.2568,
+      "fidelity": 1.0,
+      "cross_corr": 0.782983
+    },
+    {
+      "d": 128,
+      "visibility": 1.0,
+      "cos_r2": 0.71409,
+      "chsh_S": -0.0823,
+      "fidelity": 1.0,
+      "cross_corr": 0.794327
+    },
+    {
+      "d": 256,
+      "visibility": 1.0,
+      "cos_r2": 0.733847,
+      "chsh_S": 0.2065,
+      "fidelity": 1.0,
+      "cross_corr": 0.731661
+    },
+    {
+      "d": 512,
+      "visibility": 1.0,
+      "cos_r2": 0.734937,
+      "chsh_S": 0.2216,
+      "fidelity": 1.0,
+      "cross_corr": 0.727726
+    },
+    {
+      "d": 768,
+      "visibility": 1.0,
+      "cos_r2": 0.731226,
+      "chsh_S": 0.2642,
+      "fidelity": 1.0,
+      "cross_corr": 0.846441
+    },
+    {
+      "d": 1024,
+      "visibility": 1.0,
+      "cos_r2": 0.727116,
+      "chsh_S": 0.1779,
+      "fidelity": 1.0,
+      "cross_corr": 0.871898
+    },
+    {
+      "d": 1536,
+      "visibility": 1.0,
+      "cos_r2": 0.711089,
+      "chsh_S": 0.1056,
+      "fidelity": 1.0,
+      "cross_corr": 0.563393
+    },
+    {
+      "d": 2048,
+      "visibility": 1.0,
+      "cos_r2": 0.730449,
+      "chsh_S": 0.1037,
+      "fidelity": 1.0,
+      "cross_corr": 0.835386
+    }
+  ],
+  "elapsed": 100.3
+}

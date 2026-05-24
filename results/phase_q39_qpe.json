@@ -1,0 +1,174 @@
+{
+  "phase": "Q39",
+  "name": "quantum_phase_estimation",
+  "inject_layer": 10,
+  "n_calibration": 100,
+  "mean_error_rad": 1.683846,
+  "max_error_rad": 3.06226,
+  "precision_bits": 1.9,
+  "estimation_results": [
+    {
+      "true_phi": 0.0,
+      "estimated_phi": 4.061857,
+      "E_measured": 0.223176,
+      "error_rad": 2.221328,
+      "name": "0"
+    },
+    {
+      "true_phi": 0.523599,
+      "estimated_phi": 3.744525,
+      "E_measured": 0.137017,
+      "error_rad": 3.06226,
+      "name": "pi/6"
+    },
+    {
+      "true_phi": 0.785398,
+      "estimated_phi": 4.950388,
+      "E_measured": 0.056785,
+      "error_rad": 2.118195,
+      "name": "pi/4"
+    },
+    {
+      "true_phi": 1.047198,
+      "estimated_phi": 3.617592,
+      "E_measured": 0.069639,
+      "error_rad": 2.570394,
+      "name": "pi/3"
+    },
+    {
+      "true_phi": 1.570796,
+      "estimated_phi": 3.617592,
+      "E_measured": 0.071509,
+      "error_rad": 2.046795,
+      "name": "pi/2"
+    },
+    {
+      "true_phi": 2.094395,
+      "estimated_phi": 3.998391,
+      "E_measured": 0.082112,
+      "error_rad": 1.903996,
+      "name": "2pi/3"
+    },
+    {
+      "true_phi": 2.356194,
+      "estimated_phi": 4.759989,
+      "E_measured": 0.065933,
+      "error_rad": 2.403794,
+      "name": "3pi/4"
+    },
+    {
+      "true_phi": 2.617994,
+      "estimated_phi": 4.442656,
+      "E_measured": -0.079452,
+      "error_rad": 1.824662,
+      "name": "5pi/6"
+    },
+    {
+      "true_phi": 3.141593,
+      "estimated_phi": 5.711987,
+      "E_measured": -0.000169,
+      "error_rad": 2.570394,
+      "name": "pi"
+    },
+    {
+      "true_phi": 3.665191,
+      "estimated_phi": 4.37919,
+      "E_measured": -0.130721,
+      "error_rad": 0.713998,
+      "name": "7pi/6"
+    },
+    {
+      "true_phi": 3.926991,
+      "estimated_phi": 5.204254,
+      "E_measured": 0.030776,
+      "error_rad": 1.277264,
+      "name": "5pi/4"
+    },
+    {
+      "true_phi": 4.18879,
+      "estimated_phi": 0.571199,
+      "E_measured": 0.26964,
+      "error_rad": 2.665594,
+      "name": "4pi/3"
+    },
+    {
+      "true_phi": 4.712389,
+      "estimated_phi": 5.204254,
+      "E_measured": 0.032134,
+      "error_rad": 0.491866,
+      "name": "3pi/2"
+    },
+    {
+      "true_phi": 5.235988,
+      "estimated_phi": 4.506123,
+      "E_measured": 0.024511,
+      "error_rad": 0.729865,
+      "name": "5pi/3"
+    },
+    {
+      "true_phi": 5.497787,
+      "estimated_phi": 5.394654,
+      "E_measured": 0.001673,
+      "error_rad": 0.103133,
+      "name": "7pi/4"
+    },
+    {
+      "true_phi": 5.759587,
+      "estimated_phi": 5.521587,
+      "E_measured": 0.000697,
+      "error_rad": 0.237999,
+      "name": "11pi/6"
+    }
+  ],
+  "resolution_results": [
+    {
+      "delta": 1.570796,
+      "delta_deg": 90.0,
+      "E_a": 0.1388,
+      "E_b": 0.998764,
+      "diff": 0.859964,
+      "distinguishable": true
+    },
+    {
+      "delta": 0.785398,
+      "delta_deg": 45.0,
+      "E_a": 0.1388,
+      "E_b": 0.466369,
+      "diff": 0.327569,
+      "distinguishable": true
+    },
+    {
+      "delta": 0.392699,
+      "delta_deg": 22.5,
+      "E_a": 0.1388,
+      "E_b": 0.24513,
+      "diff": 0.10633,
+      "distinguishable": true
+    },
+    {
+      "delta": 0.19635,
+      "delta_deg": 11.25,
+      "E_a": 0.1388,
+      "E_b": 0.140927,
+      "diff": 0.002127,
+      "distinguishable": true
+    },
+    {
+      "delta": 0.098175,
+      "delta_deg": 5.62,
+      "E_a": 0.1388,
+      "E_b": 0.131493,
+      "diff": 0.007307,
+      "distinguishable": true
+    },
+    {
+      "delta": 0.049087,
+      "delta_deg": 2.81,
+      "E_a": 0.1388,
+      "E_b": 0.133076,
+      "diff": 0.005724,
+      "distinguishable": true
+    }
+  ],
+  "elapsed": 85.7
+}

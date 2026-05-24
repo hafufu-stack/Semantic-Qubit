@@ -1,0 +1,18 @@
+{
+  "phase": "Q30",
+  "name": "entanglement_swapping",
+  "qubit_layers": {
+    "A": 6,
+    "B": 10,
+    "C": 16,
+    "D": 22
+  },
+  "chsh_S_direct": 2.995139,
+  "chsh_S_bridged": 1.987356,
+  "correlation_direct": 0.397673,
+  "correlation_bridged": 0.08949,
+  "swap_gain": 0.225,
+  "amplitude_direct": 0.367414,
+  "amplitude_bridged": 0.04573,
+  "elapsed": 161.4
+}

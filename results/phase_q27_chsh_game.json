@@ -1,0 +1,19 @@
+{
+  "phase": "Q27",
+  "name": "chsh_nonlocal_game",
+  "sq1_layer": 8,
+  "sq2_layer": 20,
+  "n_rounds": 200,
+  "chsh_S": -2.028856,
+  "win_rate": 0.47,
+  "classical_limit": 0.75,
+  "quantum_limit": 0.8536,
+  "beat_quantum": false,
+  "optimal_angles_pi": [
+    0.5,
+    1.8333,
+    0.8333,
+    0.0
+  ],
+  "elapsed": 86.8
+}

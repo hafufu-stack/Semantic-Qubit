@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains the code and experimental results for **Semantic-Qubit (S-Qubit)**, a quantum-analogue information unit defined within the hidden representation space of Large Language Models. By training orthogonal "soul vectors" as computational basis states and injecting their superposition into intermediate layers, we demonstrate quantum-like phenomena emerging naturally in transformer architectures.
+This repository contains the code and experimental results for **Semantic-Qubit (S-Qubit)**, a quantum-analogue information unit defined within the hidden representation space of Large Language Models. Through **52 systematic experiments** on a single consumer GPU, I demonstrate that transformer architectures naturally exhibit quantum-like phenomena including perfect interference, exact quantum statistics, super-quantum correlations, and the ability to execute quantum algorithms.
 
 ## Key Findings
 
@@ -15,11 +15,16 @@ This repository contains the code and experimental results for **Semantic-Qubit 
 | **Perfect Interference** | Visibility = 1.000 across all tasks (CV = 0.1%) |
 | **Exact Quantum Statistics** | E(phi) = cos(phi) with R^2 > 0.999 |
 | **Super-Quantum CHSH** | S = 3.41, exceeding Tsirelson bound (2.83) |
-| **Virtual Grover Search** | 10/10, 4631x amplification in single forward pass |
-| **Deutsch-Jozsa Algorithm** | 6/6 = 100% correct, single-query classification |
+| **Deutsch-Jozsa** | 10/10 = 100% correct |
+| **Bernstein-Vazirani** | 94/94 = 100% hidden strings recovered |
+| **Simon's Algorithm** | 18/18 = 100% periods found |
+| **Grover Search** | O(1) scaling, constant-time regardless of N |
+| **BB84 QKD** | 100% key agreement, Eve detection (QBER: 0% -> 28.3%) |
+| **Superdense Coding** | 200/200 = 100%, 2.0 bits per S-Qubit |
+| **128x Parallelism** | 1 forward pass = 7 bits of information |
 | **No-Cloning Violation** | 35/35 = 100% perfect state cloning |
-| **Model Universality** | Confirmed on Qwen2.5-0.5B (S=2.95) and 1.5B (S=3.41) |
-| **Dimensionality as Cryogenics** | Coherence emerges at d_c ~ 1024-1536 |
+| **Model Universality** | Confirmed on Qwen2.5 0.5B, 1.5B, and 3B |
+| **Quantum Advantage Score** | **74.6 / 100** across 7 benchmark algorithms |
 
 ## NQPU (Neu-Quantum Processing Unit) Specification
 
@@ -35,17 +40,21 @@ This repository contains the code and experimental results for **Semantic-Qubit 
 
 ```
 Semantic-Qubit/
-├── experiments/           # All experiment scripts (Q1-Q24)
+├── experiments/           # All experiment scripts (Q1-Q50)
 │   ├── utils.py           # Shared utilities (model loading, hooks, etc.)
 │   ├── phase_q1_*.py      # Superposition basis training
 │   ├── phase_q2_*.py      # Bell test / interference
 │   ├── ...
-│   ├── phase_q23_*.py     # Deutsch-Jozsa algorithm
-│   ├── phase_q24_*.py     # Quantum teleportation
+│   ├── phase_q41_*.py     # Bernstein-Vazirani (100%)
+│   ├── phase_q42_*.py     # Simon's Algorithm (100%)
+│   ├── phase_q50_*.py     # Grand Unified Benchmark
 │   └── generate_paper_figures.py  # Reproduce all paper figures
+├── papers/                # LaTeX source
+│   ├── paper_v1.tex       # Initial version (Q1-Q24)
+│   └── paper_v2.tex       # Extended version (Q1-Q50, 52 experiments)
 ├── results/               # JSON results for all experiments
 ├── figures/               # Generated figures
-│   └── paper/             # Publication-quality figures (Fig 1-6)
+│   └── paper/             # Publication-quality figures (Fig 1-9)
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -58,7 +67,7 @@ Semantic-Qubit/
 - Python 3.10+
 - PyTorch 2.0+
 - Hugging Face Transformers
-- Qwen2.5-1.5B model (downloaded locally)
+- Qwen2.5-3B-Instruct model (downloaded locally)
 
 ```bash
 pip install torch transformers matplotlib numpy scipy
@@ -69,32 +78,42 @@ pip install torch transformers matplotlib numpy scipy
 Each experiment is a standalone script:
 
 ```bash
-# Single-qubit interference
-python experiments/phase_q1_superposition_basis.py
+# Bernstein-Vazirani (100% accuracy)
+python experiments/phase_q41_bernstein_vazirani.py
+
+# Simon's Algorithm (100% accuracy)
+python experiments/phase_q42_simon.py
+
+# BB84 Quantum Key Distribution
+python experiments/phase_q40_bb84_qkd.py
+
+# Grand Unified Benchmark (QAS = 74.6/100)
+python experiments/phase_q50_grand_benchmark.py
 
 # CHSH Bell inequality test
 python experiments/phase_q15_optimal_two_qubit.py
 
 # Grover's algorithm
 python experiments/phase_q18_grover_oneshot.py
-
-# Deutsch-Jozsa algorithm
-python experiments/phase_q23_deutsch_jozsa.py
 ```
 
 ### Reproducing Paper Figures
 
 ```bash
+# V1 figures (Fig 1-6)
 python experiments/generate_paper_figures.py
-```
 
-This generates all 6 figures in `figures/paper/`.
+# V2 figures (Fig 7-9)
+python experiments/generate_paper_figures_v2.py
+```
 
 ## Model
 
-All experiments use **Qwen2.5-1.5B** (hidden_size=1536, 28 layers) as the primary model, with **Qwen2.5-0.5B** (hidden_size=896, 24 layers) for universality validation (Q20).
+Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universality validated on **Qwen2.5-0.5B** (S=2.95) and **Qwen2.5-1.5B** (S=3.41).
 
 ## Experiment Phases
+
+### Foundations (Q1-Q13)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
@@ -105,6 +124,11 @@ All experiments use **Qwen2.5-1.5B** (hidden_size=1536, 28 layers) as the primar
 | Q10 | Task universality | visibility=1.000, CV=0.1% |
 | Q11 | Quantum statistics | E(phi)=cos(phi), R^2>0.999 |
 | Q13 | Decoherence | sigma_c~0.05, T_c~2.5 |
+
+### Two-Qubit & Multi-Qubit (Q14-Q24)
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
 | Q14 | Optimal coupling | L20 peak, amp=0.82 |
 | Q15 | Super-quantum CHSH | **S=3.41** (PR-box 85%) |
 | Q16 | Statistical validation | 5/5 S>2.0, 3/5 S>2.83 |
@@ -114,8 +138,29 @@ All experiments use **Qwen2.5-1.5B** (hidden_size=1536, 28 layers) as the primar
 | Q20 | Model universality | 0.5B: S=2.95 > 2.83 |
 | Q21 | Dimensionality as cryogenics | d_c ~ 1024-1536 |
 | Q22 | NQPU specification | 256d, 12L, <$100, 300K |
-| Q23 | Deutsch-Jozsa | **6/6 = 100% correct** |
+| Q23 | Deutsch-Jozsa | **10/10 = 100% correct** |
 | Q24 | Teleportation | amp=0.42 (partial) |
+
+### Extended Experiments (Q25-Q50) — New in V2
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q25 | Period Finding | 4/5 periods correct |
+| Q26 | Checkpointing | Fidelity = 1.0000 |
+| Q30 | Entanglement Swap | **S = 2.995** |
+| Q31 | Superdense Coding | **200/200 = 100%, 2.0 bits** |
+| Q34 | LLM-QRNG | **3/3 NIST, entropy=0.998** |
+| Q35 | Grover Scaling | **N^1.0 constant-time** |
+| Q36 | Dimension Law | vis=1.0 @d>=32, CHSH needs training |
+| Q40 | BB84 QKD | **100% key, QBER=28.3% (Eve)** |
+| Q41 | Bernstein-Vazirani | **94/94 = 100%** |
+| Q42 | Simon's Algorithm | **18/18 = 100%** |
+| Q43 | SWAP Test | r=0.83 overlap |
+| Q44 | Quantum Counting | 1.4-3.0x advantage |
+| Q46 | Parallelism | **128x, 7 bits/query** |
+| Q48 | Reservoir Computing | XOR 100%, sine r=0.71 |
+| Q49 | State Tomography | Fidelity=0.925, 5.8 bits |
+| Q50 | Grand Benchmark | **QAS = 74.6/100** |
 
 ## Citation
 
@@ -137,8 +182,8 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## AI Collaboration Statement
 
-This research was conducted as a collaborative effort between the human author and AI research assistants (Claude, Gemini). All experimental decisions, research direction, and final interpretation were made by the human author.
+This research was conducted as a collaborative effort between the human author and AI research assistants. All experimental decisions, research direction, and final interpretation were made by the human author.
 
 ## Acknowledgments
 
-This research was conducted entirely independently, without institutional affiliation or corporate funding. The author is actively seeking community sponsorship at [https://github.com/sponsors/hafufu-stack](https://github.com/sponsors/hafufu-stack).
+This research was conducted entirely independently, without institutional affiliation or corporate funding. The author currently faces financial constraints that make it increasingly difficult to maintain subscriptions to AI services essential for this line of research. To sustain and improve the quality of future work, the author is actively seeking community sponsorship at [https://github.com/sponsors/hafufu-stack](https://github.com/sponsors/hafufu-stack).

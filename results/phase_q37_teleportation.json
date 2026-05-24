@@ -1,0 +1,13 @@
+{
+  "phase": "Q37",
+  "name": "quantum_teleportation",
+  "alice_layer": 8,
+  "bob_layer": 20,
+  "n_phases": 37,
+  "corr_teleported": -0.131019,
+  "corr_mismatch": -0.122698,
+  "corr_direct": 0.041388,
+  "rmse_teleported": 0.41258,
+  "rmse_mismatch": 0.449531,
+  "elapsed": 125.4
+}

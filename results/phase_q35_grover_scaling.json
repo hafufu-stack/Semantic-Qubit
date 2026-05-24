@@ -1,0 +1,94 @@
+{
+  "phase": "Q35",
+  "name": "grover_scaling",
+  "db_sizes": [
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "scaling_exponent": 1.0,
+  "results": [
+    {
+      "N": 4,
+      "target_p": 0.997424,
+      "avg_non_target": 0.393996,
+      "max_non_target": 0.951017,
+      "min_non_target": 0.091221,
+      "amp_ratio": 2.5316,
+      "contrast": 0.433678,
+      "classical_p": 0.25,
+      "quantum_advantage": 3.9897
+    },
+    {
+      "N": 8,
+      "target_p": 0.997424,
+      "avg_non_target": 0.264611,
+      "max_non_target": 0.951017,
+      "min_non_target": 0.011115,
+      "amp_ratio": 3.7694,
+      "contrast": 0.58066,
+      "classical_p": 0.125,
+      "quantum_advantage": 7.9794
+    },
+    {
+      "N": 16,
+      "target_p": 0.997424,
+      "avg_non_target": 0.265928,
+      "max_non_target": 0.951017,
+      "min_non_target": 0.002137,
+      "amp_ratio": 3.7507,
+      "contrast": 0.579012,
+      "classical_p": 0.0625,
+      "quantum_advantage": 15.9588
+    },
+    {
+      "N": 32,
+      "target_p": 0.997424,
+      "avg_non_target": 0.272855,
+      "max_non_target": 0.995124,
+      "min_non_target": 0.002137,
+      "amp_ratio": 3.6555,
+      "contrast": 0.570402,
+      "classical_p": 0.03125,
+      "quantum_advantage": 31.9176
+    },
+    {
+      "N": 64,
+      "target_p": 0.997424,
+      "avg_non_target": 0.277107,
+      "max_non_target": 0.997044,
+      "min_non_target": 0.002094,
+      "amp_ratio": 3.5994,
+      "contrast": 0.565162,
+      "classical_p": 0.015625,
+      "quantum_advantage": 63.8352
+    },
+    {
+      "N": 128,
+      "target_p": 0.997424,
+      "avg_non_target": 0.278776,
+      "max_non_target": 0.997377,
+      "min_non_target": 0.001721,
+      "amp_ratio": 3.5779,
+      "contrast": 0.563115,
+      "classical_p": 0.007812,
+      "quantum_advantage": 127.6703
+    },
+    {
+      "N": 256,
+      "target_p": 0.997424,
+      "avg_non_target": 0.27973,
+      "max_non_target": 0.997418,
+      "min_non_target": 0.001721,
+      "amp_ratio": 3.5657,
+      "contrast": 0.561947,
+      "classical_p": 0.003906,
+      "quantum_advantage": 255.3406
+    }
+  ],
+  "elapsed": 74.7
+}

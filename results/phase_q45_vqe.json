@@ -1,0 +1,15 @@
+{
+  "phase": "Q45",
+  "name": "vqe",
+  "inject_layer": 10,
+  "E_min": -0.096342,
+  "E_max": 0.999158,
+  "theta_ground": 4.37919,
+  "corr_Z": -0.302786,
+  "corr_tilted": 0.089389,
+  "vqe_converged": false,
+  "vqe_iterations": 31,
+  "vqe_initial_E": 0.459212,
+  "vqe_final_E": 0.130798,
+  "elapsed": 50.5
+}

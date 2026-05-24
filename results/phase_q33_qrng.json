@@ -1,0 +1,34 @@
+{
+  "phase": "Q33",
+  "name": "quantum_rng",
+  "nqpu_d": 512,
+  "n_bits": 10000,
+  "proportion_1s": 0.6442,
+  "binary_entropy": 0.939142,
+  "serial_correlation": 0.232527,
+  "tests_passed": 0,
+  "tests_total": 4,
+  "test_results": {
+    "frequency": {
+      "quantum": 0.0,
+      "classical": 0.128511
+    },
+    "runs": {
+      "quantum": 0.0,
+      "classical": 0.387947
+    },
+    "block_freq": {
+      "quantum": 0.0,
+      "classical": 0.985956
+    },
+    "serial_corr": {
+      "quantum": 0.232527,
+      "classical": -0.008731
+    },
+    "chi_square_4bit": {
+      "quantum": 0.0,
+      "classical": 0.912276
+    }
+  },
+  "elapsed": 23.1
+}

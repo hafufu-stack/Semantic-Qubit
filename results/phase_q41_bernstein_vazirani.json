@@ -1,0 +1,101 @@
+{
+  "phase": "Q41",
+  "name": "bernstein_vazirani",
+  "inject_layer": 10,
+  "overall_accuracy": 1.0,
+  "per_length": [
+    {
+      "n_bits": 1,
+      "n_tested": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "classical_queries": 1,
+      "quantum_queries": 1,
+      "sq_queries": 1
+    },
+    {
+      "n_bits": 2,
+      "n_tested": 4,
+      "correct": 4,
+      "accuracy": 1.0,
+      "classical_queries": 2,
+      "quantum_queries": 1,
+      "sq_queries": 2
+    },
+    {
+      "n_bits": 3,
+      "n_tested": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "classical_queries": 3,
+      "quantum_queries": 1,
+      "sq_queries": 3
+    },
+    {
+      "n_bits": 4,
+      "n_tested": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "classical_queries": 4,
+      "quantum_queries": 1,
+      "sq_queries": 4
+    },
+    {
+      "n_bits": 5,
+      "n_tested": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "classical_queries": 5,
+      "quantum_queries": 1,
+      "sq_queries": 5
+    },
+    {
+      "n_bits": 6,
+      "n_tested": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "classical_queries": 6,
+      "quantum_queries": 1,
+      "sq_queries": 6
+    },
+    {
+      "n_bits": 7,
+      "n_tested": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "classical_queries": 7,
+      "quantum_queries": 1,
+      "sq_queries": 7
+    },
+    {
+      "n_bits": 8,
+      "n_tested": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "classical_queries": 8,
+      "quantum_queries": 1,
+      "sq_queries": 8
+    }
+  ],
+  "oneshot": [
+    {
+      "n_bits": 2,
+      "n_states": 4,
+      "correct": 4,
+      "accuracy": 1.0
+    },
+    {
+      "n_bits": 3,
+      "n_states": 8,
+      "correct": 8,
+      "accuracy": 1.0
+    },
+    {
+      "n_bits": 4,
+      "n_states": 16,
+      "correct": 16,
+      "accuracy": 1.0
+    }
+  ],
+  "elapsed": 75.8
+}

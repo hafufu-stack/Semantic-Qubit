@@ -1,0 +1,81 @@
+{
+  "phase": "Q46",
+  "name": "quantum_parallelism",
+  "inject_layer": 10,
+  "max_N_99pct": 128,
+  "info_bits": 5.61,
+  "entropy": 4.2097,
+  "discrimination": [
+    {
+      "N": 2,
+      "n_distinguishable": 1,
+      "bits_encoded": 0,
+      "decode_accuracy": 1.0,
+      "classical_bits": 1.0
+    },
+    {
+      "N": 4,
+      "n_distinguishable": 3,
+      "bits_encoded": 1.58,
+      "decode_accuracy": 1.0,
+      "classical_bits": 2.0
+    },
+    {
+      "N": 8,
+      "n_distinguishable": 7,
+      "bits_encoded": 2.81,
+      "decode_accuracy": 1.0,
+      "classical_bits": 3.0
+    },
+    {
+      "N": 16,
+      "n_distinguishable": 15,
+      "bits_encoded": 3.91,
+      "decode_accuracy": 1.0,
+      "classical_bits": 4.0
+    },
+    {
+      "N": 32,
+      "n_distinguishable": 28,
+      "bits_encoded": 4.81,
+      "decode_accuracy": 1.0,
+      "classical_bits": 5.0
+    },
+    {
+      "N": 64,
+      "n_distinguishable": 50,
+      "bits_encoded": 5.64,
+      "decode_accuracy": 0.9844,
+      "classical_bits": 6.0
+    },
+    {
+      "N": 128,
+      "n_distinguishable": 88,
+      "bits_encoded": 6.46,
+      "decode_accuracy": 0.9922,
+      "classical_bits": 7.0
+    },
+    {
+      "N": 256,
+      "n_distinguishable": 150,
+      "bits_encoded": 7.23,
+      "decode_accuracy": 0.9883,
+      "classical_bits": 8.0
+    },
+    {
+      "N": 512,
+      "n_distinguishable": 230,
+      "bits_encoded": 7.85,
+      "decode_accuracy": 0.9863,
+      "classical_bits": 9.0
+    },
+    {
+      "N": 1024,
+      "n_distinguishable": 327,
+      "bits_encoded": 8.35,
+      "decode_accuracy": 0.9658,
+      "classical_bits": 10.0
+    }
+  ],
+  "elapsed": 189.5
+}

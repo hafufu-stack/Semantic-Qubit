@@ -1,0 +1,56 @@
+{
+  "phase": "Q25",
+  "name": "virtual_period_finding",
+  "inject_layer": 8,
+  "n_samples": 48,
+  "n_correct": 4,
+  "n_total": 5,
+  "results": [
+    {
+      "a": 2,
+      "N": 15,
+      "true_period": 4,
+      "detected_period": 4,
+      "dominant_freq": 0.25,
+      "correct": true,
+      "fft_peak_magnitude": 9.9664
+    },
+    {
+      "a": 3,
+      "N": 7,
+      "true_period": 6,
+      "detected_period": 3,
+      "dominant_freq": 0.333333,
+      "correct": false,
+      "fft_peak_magnitude": 4.0709
+    },
+    {
+      "a": 2,
+      "N": 7,
+      "true_period": 3,
+      "detected_period": 3,
+      "dominant_freq": 0.333333,
+      "correct": true,
+      "fft_peak_magnitude": 2.3932
+    },
+    {
+      "a": 4,
+      "N": 15,
+      "true_period": 2,
+      "detected_period": 2,
+      "dominant_freq": 0.5,
+      "correct": true,
+      "fft_peak_magnitude": 17.7483
+    },
+    {
+      "a": 7,
+      "N": 15,
+      "true_period": 4,
+      "detected_period": 4,
+      "dominant_freq": 0.25,
+      "correct": true,
+      "fft_peak_magnitude": 11.5551
+    }
+  ],
+  "elapsed": 89.9
+}
