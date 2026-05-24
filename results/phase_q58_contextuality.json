@@ -1,0 +1,12 @@
+{
+  "phase": "Q58",
+  "name": "quantum_contextuality",
+  "avg_context_shift_tvd": 0.6595,
+  "max_context_shift": 0.9773,
+  "avg_pairwise_agreement": 0.2283,
+  "nc_bound": 0.5,
+  "contextual": true,
+  "avg_deterministic_shift": 0.0,
+  "n_contexts": 6,
+  "elapsed": 21.7
+}

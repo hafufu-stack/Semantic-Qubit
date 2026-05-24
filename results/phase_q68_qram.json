@@ -1,0 +1,14 @@
+{
+  "phase": "Q68",
+  "name": "dentate_qram",
+  "scaling_alpha": 0.0071,
+  "query_times_ms": {
+    "1": 40.05,
+    "2": 39.6,
+    "4": 41.02,
+    "8": 40.23
+  },
+  "o1_confirmed": true,
+  "bridge": "Master's Thesis (Dentate Gyrus) -> QRAM O(1)",
+  "elapsed": 165.0
+}

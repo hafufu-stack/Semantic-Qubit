@@ -1,0 +1,10 @@
+{
+  "phase": "Q73",
+  "name": "quantum_darwinism",
+  "ref_prob": 0.999,
+  "avg_retention": 0.9918,
+  "redundancy_pct": 100.0,
+  "plateau_fragments": 8,
+  "total_heads": 12,
+  "elapsed": 32.0
+}

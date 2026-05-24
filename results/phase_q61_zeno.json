@@ -1,0 +1,41 @@
+{
+  "phase": "Q61",
+  "name": "quantum_zeno_effect",
+  "base_prob": 0.1155,
+  "single_inject_prob": 0.999,
+  "zeno_results": {
+    "1": {
+      "final_similarity": 0.06871222704648972,
+      "target_prob": 2.886441734517575e-07,
+      "n_injections": 18
+    },
+    "2": {
+      "final_similarity": 0.06871222704648972,
+      "target_prob": 6.752723038516706e-07,
+      "n_injections": 9
+    },
+    "3": {
+      "final_similarity": 0.02740957960486412,
+      "target_prob": 0.002517533255741,
+      "n_injections": 6
+    },
+    "5": {
+      "final_similarity": 0.02740957960486412,
+      "target_prob": 0.002517533255741,
+      "n_injections": 4
+    },
+    "8": {
+      "final_similarity": 0.06871222704648972,
+      "target_prob": 6.752723038516706e-07,
+      "n_injections": 3
+    },
+    "12": {
+      "final_similarity": 0.019611680880188942,
+      "target_prob": 0.003665568307042122,
+      "n_injections": 2
+    }
+  },
+  "free_final_similarity": 0.0524,
+  "zeno_strength": 0.0163,
+  "elapsed": 19.8
+}

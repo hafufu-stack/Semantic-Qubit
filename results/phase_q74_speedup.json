@@ -1,0 +1,83 @@
+{
+  "phase": "Q74",
+  "name": "quantum_speedup_census",
+  "grover_scaling": {
+    "4": {
+      "sqbit_ms": 40.439,
+      "classical_ms": 0.000136,
+      "phys_qc_ms": 2.0,
+      "speedup_vs_classical": 0.0
+    },
+    "8": {
+      "sqbit_ms": 40.317,
+      "classical_ms": 0.00016,
+      "phys_qc_ms": 2.828,
+      "speedup_vs_classical": 0.0
+    },
+    "16": {
+      "sqbit_ms": 39.456,
+      "classical_ms": 0.000252,
+      "phys_qc_ms": 4.0,
+      "speedup_vs_classical": 0.0
+    },
+    "32": {
+      "sqbit_ms": 40.087,
+      "classical_ms": 0.000372,
+      "phys_qc_ms": 5.657,
+      "speedup_vs_classical": 0.0
+    },
+    "64": {
+      "sqbit_ms": 39.962,
+      "classical_ms": 0.00102,
+      "phys_qc_ms": 8.0,
+      "speedup_vs_classical": 0.0
+    },
+    "128": {
+      "sqbit_ms": 40.728,
+      "classical_ms": 0.002164,
+      "phys_qc_ms": 11.314,
+      "speedup_vs_classical": 0.0001
+    }
+  },
+  "algorithms": {
+    "Deutsch-Jozsa": {
+      "sqbit": "O(1)",
+      "classical": "O(N/2+1)",
+      "physical_qc": "O(1)"
+    },
+    "Bernstein-Vazirani": {
+      "sqbit": "O(1)",
+      "classical": "O(N)",
+      "physical_qc": "O(1)"
+    },
+    "Grover Search": {
+      "sqbit": "O(1)",
+      "classical": "O(N)",
+      "physical_qc": "O(sqrt(N))"
+    },
+    "Simon": {
+      "sqbit": "O(1)",
+      "classical": "O(2^(N/2))",
+      "physical_qc": "O(N)"
+    },
+    "BB84 QKD": {
+      "sqbit": "O(N)",
+      "classical": "impossible",
+      "physical_qc": "O(N)"
+    },
+    "Superdense": {
+      "sqbit": "O(1)",
+      "classical": "O(2)",
+      "physical_qc": "O(1)"
+    },
+    "QRAM Load": {
+      "sqbit": "O(1)",
+      "classical": "O(N)",
+      "physical_qc": "O(N)"
+    }
+  },
+  "avg_train_sec": 7.51,
+  "avg_infer_ms": 40.51,
+  "amortization_queries": 185,
+  "elapsed": 59.8
+}

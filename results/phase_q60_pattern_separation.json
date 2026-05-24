@@ -1,0 +1,13 @@
+{
+  "phase": "Q60",
+  "name": "pattern_separation_orthogonalization",
+  "avg_similarity_natural": 0.8749,
+  "avg_similarity_sqbit": 0.9996,
+  "separation_gain": -0.1247,
+  "separation_pct": -14.3,
+  "sqbit_orthogonality": 0.0221,
+  "expansion_ratio": 512.0,
+  "n_confusable_pairs": 8,
+  "bridge": "Master's Thesis (Dentate Gyrus) -> Semantic-Qubit",
+  "elapsed": 56.3
+}

@@ -1,0 +1,104 @@
+{
+  "phase": "Q77",
+  "name": "quantum_zeno",
+  "baseline_prob": 0.999,
+  "zeno_results": [
+    {
+      "n_obs": 0,
+      "p_min": 0.999,
+      "p_max": 0.0,
+      "entropy": 0.015
+    },
+    {
+      "n_obs": 1,
+      "p_min": 0.0,
+      "p_max": 0.0,
+      "entropy": 2.3124
+    },
+    {
+      "n_obs": 2,
+      "p_min": 0.02,
+      "p_max": 0.0068,
+      "entropy": 3.8395
+    },
+    {
+      "n_obs": 3,
+      "p_min": 0.002,
+      "p_max": 0.0006,
+      "entropy": 2.8667
+    },
+    {
+      "n_obs": 4,
+      "p_min": 0.005,
+      "p_max": 0.0023,
+      "entropy": 3.5162
+    },
+    {
+      "n_obs": 5,
+      "p_min": 0.0005,
+      "p_max": 0.0002,
+      "entropy": 1.9766
+    },
+    {
+      "n_obs": 6,
+      "p_min": 0.0011,
+      "p_max": 0.0002,
+      "entropy": 3.4526
+    },
+    {
+      "n_obs": 7,
+      "p_min": 0.0151,
+      "p_max": 0.0555,
+      "entropy": 4.4753
+    },
+    {
+      "n_obs": 8,
+      "p_min": 0.0001,
+      "p_max": 0.0001,
+      "entropy": 3.8382
+    },
+    {
+      "n_obs": 9,
+      "p_min": 0.0011,
+      "p_max": 0.0004,
+      "entropy": 4.2083
+    },
+    {
+      "n_obs": 10,
+      "p_min": 0.0065,
+      "p_max": 0.0002,
+      "entropy": 4.2621
+    },
+    {
+      "n_obs": 11,
+      "p_min": 0.0,
+      "p_max": 0.0,
+      "entropy": 1.5949
+    },
+    {
+      "n_obs": 12,
+      "p_min": 0.0037,
+      "p_max": 0.0021,
+      "entropy": 3.4028
+    },
+    {
+      "n_obs": 13,
+      "p_min": 0.0024,
+      "p_max": 0.2193,
+      "entropy": 3.2082
+    },
+    {
+      "n_obs": 14,
+      "p_min": 0.0012,
+      "p_max": 0.0,
+      "entropy": 3.176
+    },
+    {
+      "n_obs": 15,
+      "p_min": 0.0025,
+      "p_max": 0.0004,
+      "entropy": 2.8694
+    }
+  ],
+  "elapsed": 41.2
+}

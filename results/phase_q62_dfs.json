@@ -1,0 +1,18 @@
+{
+  "phase": "Q62",
+  "name": "decoherence_free_subspace",
+  "svd_singular_values": [
+    2.66,
+    2.38,
+    2.29,
+    2.19
+  ],
+  "n_dominant_dims": 4,
+  "total_dims": 1536,
+  "dfs_dims": 1532,
+  "clean_performance": 0.999,
+  "dfs_integrity_pct": 100.0,
+  "protected_noise_integrity_pct": 66.7,
+  "dfs_exists": true,
+  "bridge": "NeuOS SVD Analysis -> Semantic-Qubit"
+}

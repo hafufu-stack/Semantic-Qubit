@@ -14,20 +14,28 @@ _SNAP_1B5 = _os.path.join(_HF_CACHE, "models--Qwen--Qwen2.5-1.5B",
 _SNAP_0B5 = _os.path.join(_HF_CACHE, "models--Qwen--Qwen2.5-0.5B",
                            "snapshots", "060db6499f32faf8b98477b0a26969ef7d8b9987")
 
-# Use 1.5B if available, fallback to 0.5B
-MODEL_ID = _SNAP_1B5 if _os.path.exists(_SNAP_1B5) else _SNAP_0B5
+# Allow model size override via env var (for Q71 scaling experiments)
+def _get_model_id():
+    size = _os.environ.get('SQBIT_MODEL_SIZE', '')
+    if size == '0.5B' and _os.path.exists(_SNAP_0B5):
+        return _SNAP_0B5
+    # Default: 1.5B if available, fallback to 0.5B
+    return _SNAP_1B5 if _os.path.exists(_SNAP_1B5) else _SNAP_0B5
+
+MODEL_ID = _get_model_id()
 
 
 def load_model(device=None, dtype=None):
-    """Load Qwen2.5-1.5B with local_files_only=True."""
+    """Load Qwen2.5 with local_files_only=True. Respects SQBIT_MODEL_SIZE env var."""
     if device is None:
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
     if dtype is None:
         dtype = torch.float16 if device == 'cuda' else torch.float32
 
-    tok = AutoTokenizer.from_pretrained(MODEL_ID, local_files_only=True)
+    mid = _get_model_id()
+    tok = AutoTokenizer.from_pretrained(mid, local_files_only=True)
     model = AutoModelForCausalLM.from_pretrained(
-        MODEL_ID,
+        mid,
         torch_dtype=dtype,
         device_map=device,
         local_files_only=True,

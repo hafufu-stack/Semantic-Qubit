@@ -1,0 +1,13 @@
+{
+  "phase": "Q65",
+  "name": "quantum_channel_capacity",
+  "mutual_information_bits": 2.3874,
+  "max_capacity_bits": 3.0,
+  "holevo_bound": 1.0,
+  "sqbit_holevo_ratio": 2.4,
+  "h_y": 5.0288,
+  "h_y_given_x": 2.6414,
+  "info_per_dim": 0.00155433,
+  "n_messages": 8,
+  "elapsed": 205.4
+}

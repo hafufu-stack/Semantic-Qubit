@@ -1,0 +1,33 @@
+{
+  "phase": "Q54",
+  "name": "nqu_scaling_law",
+  "results": [
+    {
+      "model": "0.5B",
+      "d": 896,
+      "layers": 24,
+      "dj_score": 1.0,
+      "sd_score": 1.0,
+      "disc_score": 1.0,
+      "chsh_S": 0.592,
+      "qas": 100.0,
+      "nqu": 18145781.1,
+      "nqu_log": 7.2588
+    },
+    {
+      "model": "1.5B",
+      "d": 1536,
+      "layers": 28,
+      "dj_score": 1.0,
+      "sd_score": 1.0,
+      "disc_score": 1.0,
+      "chsh_S": 0.2842,
+      "qas": 100.0,
+      "nqu": 11405639.4,
+      "nqu_log": 7.0571
+    }
+  ],
+  "nqu_physical": 0.012353,
+  "correlation": null,
+  "elapsed": 83.9
+}

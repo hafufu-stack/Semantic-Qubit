@@ -1,0 +1,29 @@
+{
+  "phase": "Q57",
+  "name": "quantum_advantage_frontier",
+  "frontier": {
+    "speed": {
+      "sqbit_ops_per_sec": 27.5,
+      "sqbit_us_per_op": 36311.7,
+      "physical_ops_per_sec": 10000,
+      "advantage": 0.0
+    },
+    "fidelity": {
+      "sqbit_error": 0.0,
+      "physical_error": 0.001,
+      "advantage": 1000000000000.0
+    },
+    "scalability": {
+      "sqbit_dim": 1536,
+      "sqbit_effective_qubits": 10.6,
+      "physical_logical_qubits": 10,
+      "advantage": 1.1
+    },
+    "cost": {
+      "sqbit_ops_per_dollar": 198283.0,
+      "physical_ops_per_dollar": 36000.0,
+      "advantage": 6.0
+    }
+  },
+  "elapsed": 41.9
+}

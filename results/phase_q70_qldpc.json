@@ -1,0 +1,10 @@
+{
+  "phase": "Q70",
+  "name": "attention_qldpc",
+  "clean_prob": 0.999,
+  "self_repair_capacity": 0,
+  "total_attack_layers": 7,
+  "noise_sigma": 0.05,
+  "bridge": "qLDPC Physical Codes -> Attention Self-Healing",
+  "elapsed": 71.2
+}

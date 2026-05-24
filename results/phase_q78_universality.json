@@ -1,0 +1,26 @@
+{
+  "phase": "Q78",
+  "name": "phase_transition_universality",
+  "mean_t_c": 0.4889,
+  "std_t_c": 0.3267,
+  "critical_points": [
+    {
+      "name": "min->max",
+      "t_c": 0.95,
+      "dp_max": 6.3792
+    },
+    {
+      "name": "add->sub",
+      "t_c": 0.2833,
+      "dp_max": -18.4595
+    },
+    {
+      "name": "sort->reverse",
+      "t_c": 0.2333,
+      "dp_max": -12.5078
+    }
+  ],
+  "mean_beta": -1.3545,
+  "is_universal": false,
+  "elapsed": 86.6
+}

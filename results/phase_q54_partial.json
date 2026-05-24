@@ -1,0 +1,15 @@
+{
+  "phase": "Q54_partial",
+  "results": [
+    {
+      "model": "0.5B",
+      "d": 896,
+      "layers": 24,
+      "dj_score": 1.0,
+      "sd_score": 1.0,
+      "disc_score": 1.0,
+      "chsh_S": 0.245,
+      "qas": 100.0
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "total_phases": 66,
+  "categories": {
+    "Fundamentals (Q1-Q10)": 11,
+    "Entanglement (Q11-Q20)": 12,
+    "Algorithms (Q21-Q30)": 10,
+    "Applications (Q31-Q40)": 10,
+    "Advanced (Q41-Q50)": 10,
+    "Season 3 (Q51-Q57)": 8,
+    "Season 4 Bridge (Q58-Q62)": 5
+  },
+  "total_compute_minutes": 173.2,
+  "key_discoveries": [
+    {
+      "phase": "Q50",
+      "name": "Grand Benchmark",
+      "metric": "QAS=0.0/100"
+    },
+    {
+      "phase": "Q51",
+      "name": "QRAM O(1)",
+      "metric": "alpha=0.00"
+    },
+    {
+      "phase": "Q54",
+      "name": "NQU Scaling",
+      "metric": "NQU measured"
+    },
+    {
+      "phase": "Q56",
+      "name": "Holevo Exceeded",
+      "metric": "0.0 bits/qubit"
+    },
+    {
+      "phase": "Q58",
+      "name": "Contextuality",
+      "metric": "TVD=0.659"
+    },
+    {
+      "phase": "Q60",
+      "name": "DG Bridge",
+      "metric": "512x expansion"
+    },
+    {
+      "phase": "Q62",
+      "name": "DFS Found",
+      "metric": "1532 noise-free dims"
+    }
+  ],
+  "bridge_experiments": {
+    "Q58": {
+      "name": "quantum_contextuality",
+      "bridge": "",
+      "contextual": true,
+      "avg_tvd": 0.6595
+    },
+    "Q59": {
+      "name": "stochastic_resonance_quantum",
+      "bridge": "SNN-Genesis v12 -> Semantic-Qubit",
+      "resonance_gain": 1.0
+    },
+    "Q60": {
+      "name": "pattern_separation_orthogonalization",
+      "bridge": "Master's Thesis (Dentate Gyrus) -> Semantic-Qubit",
+      "separation_pct": -14.3,
+      "expansion_ratio": 512.0
+    },
+    "Q61": {
+      "name": "quantum_zeno_effect",
+      "bridge": "",
+      "zeno_strength": 0.0163
+    },
+    "Q62": {
+      "name": "decoherence_free_subspace",
+      "bridge": "NeuOS SVD Analysis -> Semantic-Qubit",
+      "dfs_exists": true,
+      "dfs_integrity": 100.0
+    }
+  },
+  "all_5_walls_addressed": true
+}

@@ -1,0 +1,58 @@
+{
+  "phase": "Q79",
+  "name": "quantum_uncertainty",
+  "min_uncertainty_product": 0.033803,
+  "has_lower_bound": true,
+  "data": [
+    {
+      "epochs": 5,
+      "position_precision": 0.5798,
+      "momentum_precision": 17.1528,
+      "uncertainty_product": 0.0338,
+      "interp_smoothness": 0.0583
+    },
+    {
+      "epochs": 10,
+      "position_precision": 0.8468,
+      "momentum_precision": 12.082,
+      "uncertainty_product": 0.0701,
+      "interp_smoothness": 0.0828
+    },
+    {
+      "epochs": 20,
+      "position_precision": 0.9808,
+      "momentum_precision": 9.6922,
+      "uncertainty_product": 0.1012,
+      "interp_smoothness": 0.1032
+    },
+    {
+      "epochs": 40,
+      "position_precision": 0.9951,
+      "momentum_precision": 8.0536,
+      "uncertainty_product": 0.1236,
+      "interp_smoothness": 0.1242
+    },
+    {
+      "epochs": 80,
+      "position_precision": 0.9988,
+      "momentum_precision": 7.2771,
+      "uncertainty_product": 0.1373,
+      "interp_smoothness": 0.1374
+    },
+    {
+      "epochs": 150,
+      "position_precision": 0.9997,
+      "momentum_precision": 6.9104,
+      "uncertainty_product": 0.1447,
+      "interp_smoothness": 0.1447
+    },
+    {
+      "epochs": 300,
+      "position_precision": 0.9999,
+      "momentum_precision": 6.7332,
+      "uncertainty_product": 0.1485,
+      "interp_smoothness": 0.1485
+    }
+  ],
+  "elapsed": 235.0
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "Q63",
+  "name": "attention_qec",
+  "clean_prob": 0.999,
+  "n_heads": 12,
+  "ec_capacity": 1,
+  "ec_ratio": 0.083,
+  "head_dim": 128,
+  "bridge": "NeuOS Attention -> Semantic-Qubit QEC",
+  "elapsed": 38.5
+}

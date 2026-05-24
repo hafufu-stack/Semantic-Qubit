@@ -1,0 +1,11 @@
+{
+  "phase": "Q69",
+  "name": "quantum_theta_rhythm",
+  "baseline_prob": 0.999,
+  "resonant_freq": 2.3793,
+  "peak_prob": 0.3316,
+  "resonance_gain": 0.33,
+  "n_inject_layers": 12,
+  "bridge": "Master's Thesis (LD/MD coupling) -> Quantum Theta Rhythm",
+  "elapsed": 56.7
+}

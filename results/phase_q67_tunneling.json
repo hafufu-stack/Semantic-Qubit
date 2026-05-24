@@ -1,0 +1,11 @@
+{
+  "phase": "Q67",
+  "name": "quantum_tunneling",
+  "barrier_height": 10.2749,
+  "max_loss_lerp": 10.2759,
+  "max_loss_barrier": 7.9455,
+  "max_loss_slerp": 10.1072,
+  "tunneling_ratio": 1.2721,
+  "bridge": "SNN-Genesis Flash Annealing -> Semantic-Qubit",
+  "elapsed": 78.5
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "Q64",
+  "name": "adiabatic_state_transfer",
+  "crossover_t": 0.755,
+  "max_gradient": 0.2521,
+  "smoothness": 7.6,
+  "adiabatic": false,
+  "n_steps": 50,
+  "elapsed": 70.9
+}

@@ -1,0 +1,95 @@
+{
+  "phase": "Q55",
+  "name": "room_temp_vqe",
+  "results": [
+    {
+      "N_spins": 3,
+      "N_configs": 8,
+      "true_gs_energy": -2.0,
+      "true_gs_config": [
+        0,
+        0,
+        0
+      ],
+      "predicted_gs_energy": -0.8266,
+      "predicted_gs_config": [
+        0,
+        0,
+        0
+      ],
+      "approx_ratio": 2.4195,
+      "gs_found": false,
+      "correlation": -0.3581
+    },
+    {
+      "N_spins": 4,
+      "N_configs": 16,
+      "true_gs_energy": -3.0,
+      "true_gs_config": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "predicted_gs_energy": -1.2775,
+      "predicted_gs_config": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "approx_ratio": 2.3483,
+      "gs_found": false,
+      "correlation": -0.3882
+    },
+    {
+      "N_spins": 5,
+      "N_configs": 32,
+      "true_gs_energy": -4.0,
+      "true_gs_config": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "predicted_gs_energy": -0.8894,
+      "predicted_gs_config": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "approx_ratio": 4.4975,
+      "gs_found": false,
+      "correlation": -0.2318
+    },
+    {
+      "N_spins": 6,
+      "N_configs": 64,
+      "true_gs_energy": -5.0,
+      "true_gs_config": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "predicted_gs_energy": -0.903,
+      "predicted_gs_config": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "approx_ratio": 5.5373,
+      "gs_found": false,
+      "correlation": -0.2077
+    }
+  ],
+  "elapsed": 345.6
+}

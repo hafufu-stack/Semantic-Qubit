@@ -1,0 +1,10 @@
+{
+  "phase": "Q76",
+  "name": "attention_qldpc_v2",
+  "clean_prob": 0.999,
+  "zero_threshold_50pct": 0.41,
+  "zero_threshold_90pct": 0.205,
+  "noise_threshold": 1.0,
+  "effective_redundancy_pct": 41.0,
+  "elapsed": 47.2
+}

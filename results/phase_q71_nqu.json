@@ -1,0 +1,31 @@
+{
+  "phase": "Q71",
+  "name": "nqu_scaling_law",
+  "models": {
+    "0.5B": {
+      "d_model": 896,
+      "n_layers": 24,
+      "E_R": 896,
+      "S_CHSH": 0.1921,
+      "grover_prob": 0.9999,
+      "cos_similarity": 0.0947,
+      "C_context": 32768,
+      "Omega_NQU": 4935786039.759317,
+      "dim_cooling": 784.0
+    },
+    "1.5B": {
+      "d_model": 1536,
+      "n_layers": 28,
+      "E_R": 1536,
+      "S_CHSH": 0.2693,
+      "grover_prob": 0.9983,
+      "cos_similarity": 0.0577,
+      "C_context": 131072,
+      "Omega_NQU": 81329657445.4923,
+      "dim_cooling": 2304.0
+    }
+  },
+  "scaling_confirmed": true,
+  "d_c": 1024,
+  "elapsed": 81.6
+}

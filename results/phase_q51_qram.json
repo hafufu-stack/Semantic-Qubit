@@ -1,0 +1,65 @@
+{
+  "phase": "Q51",
+  "name": "semantic_qram",
+  "scaling_exponent": 0.2458,
+  "E_drift": 0.0516,
+  "results": [
+    {
+      "target_tokens": 10,
+      "actual_tokens": 14,
+      "avg_time_ms": 34.39,
+      "std_time_ms": 1.38,
+      "E_value": 0.0239
+    },
+    {
+      "target_tokens": 25,
+      "actual_tokens": 26,
+      "avg_time_ms": 36.09,
+      "std_time_ms": 1.55,
+      "E_value": 0.0755
+    },
+    {
+      "target_tokens": 50,
+      "actual_tokens": 50,
+      "avg_time_ms": 35.11,
+      "std_time_ms": 1.22,
+      "E_value": 0.0461
+    },
+    {
+      "target_tokens": 100,
+      "actual_tokens": 94,
+      "avg_time_ms": 35.1,
+      "std_time_ms": 1.16,
+      "E_value": 0.0264
+    },
+    {
+      "target_tokens": 200,
+      "actual_tokens": 183,
+      "avg_time_ms": 37.57,
+      "std_time_ms": 1.49,
+      "E_value": 0.0378
+    },
+    {
+      "target_tokens": 500,
+      "actual_tokens": 450,
+      "avg_time_ms": 82.85,
+      "std_time_ms": 27.93,
+      "E_value": 0.0322
+    },
+    {
+      "target_tokens": 750,
+      "actual_tokens": 672,
+      "avg_time_ms": 69.75,
+      "std_time_ms": 2.75,
+      "E_value": 0.0269
+    },
+    {
+      "target_tokens": 1000,
+      "actual_tokens": 894,
+      "avg_time_ms": 93.39,
+      "std_time_ms": 3.67,
+      "E_value": 0.067
+    }
+  ],
+  "elapsed": 50.8
+}

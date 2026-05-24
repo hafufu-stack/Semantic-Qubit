@@ -1,0 +1,17 @@
+{
+  "phase": "Q66",
+  "name": "interference_visibility_scaling",
+  "visibility_by_paths": {
+    "2": 1.0,
+    "3": 0.9999,
+    "4": 0.9999,
+    "5": 0.9998,
+    "6": 0.9998,
+    "7": 0.9998,
+    "8": 0.9997
+  },
+  "max_paths_tested": 8,
+  "avg_visibility": 0.9999,
+  "min_visibility": 0.9997,
+  "elapsed": 267.3
+}

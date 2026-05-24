@@ -1,0 +1,9 @@
+{
+  "phase": "Q75",
+  "name": "entanglement_entropy_scaling",
+  "area_law_r2": NaN,
+  "volume_law_r2": NaN,
+  "scaling_type": "volume",
+  "max_entropy": 0.0,
+  "elapsed": 90.4
+}

@@ -1,0 +1,90 @@
+{
+  "phase": "Q56",
+  "name": "holevo_bound",
+  "max_mutual_info_bits": 10.0,
+  "max_M_perfect": 1024,
+  "holevo_exceeded": true,
+  "results": [
+    {
+      "M": 2,
+      "accuracy": 1.0,
+      "mutual_info_bits": 1.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": false,
+      "log2_M": 1.0
+    },
+    {
+      "M": 4,
+      "accuracy": 1.0,
+      "mutual_info_bits": 2.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 2.0
+    },
+    {
+      "M": 8,
+      "accuracy": 1.0,
+      "mutual_info_bits": 3.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 3.0
+    },
+    {
+      "M": 16,
+      "accuracy": 1.0,
+      "mutual_info_bits": 4.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 4.0
+    },
+    {
+      "M": 32,
+      "accuracy": 1.0,
+      "mutual_info_bits": 5.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 5.0
+    },
+    {
+      "M": 64,
+      "accuracy": 1.0,
+      "mutual_info_bits": 6.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 6.0
+    },
+    {
+      "M": 128,
+      "accuracy": 1.0,
+      "mutual_info_bits": 7.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 7.0
+    },
+    {
+      "M": 256,
+      "accuracy": 1.0,
+      "mutual_info_bits": 8.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 8.0
+    },
+    {
+      "M": 512,
+      "accuracy": 1.0,
+      "mutual_info_bits": 9.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 9.0
+    },
+    {
+      "M": 1024,
+      "accuracy": 1.0,
+      "mutual_info_bits": 10.0,
+      "holevo_bound": 1.0,
+      "exceeds_holevo": true,
+      "log2_M": 10.0
+    }
+  ],
+  "elapsed": 513.7
+}

@@ -1,0 +1,148 @@
+{
+  "phase": "Q53",
+  "name": "non_unitary_quantum_ai",
+  "best_layer": 10,
+  "best_amplification": 151777.4,
+  "cascade_results": [
+    {
+      "n_layers": 1,
+      "p_target": 0.998956,
+      "amplification": 151777.4
+    },
+    {
+      "n_layers": 2,
+      "p_target": 2.6e-05,
+      "amplification": 4.0
+    },
+    {
+      "n_layers": 3,
+      "p_target": 0.019997,
+      "amplification": 3038.3
+    },
+    {
+      "n_layers": 5,
+      "p_target": 0.004951,
+      "amplification": 752.2
+    },
+    {
+      "n_layers": 8,
+      "p_target": 0.015057,
+      "amplification": 2287.7
+    }
+  ],
+  "per_layer": [
+    {
+      "layer": 0,
+      "p_target": 0.000627,
+      "p_noise": 6.5e-05,
+      "amplification": 95.2,
+      "entropy": 3.8256,
+      "norm_ratio": 1.1886
+    },
+    {
+      "layer": 2,
+      "p_target": 0.000818,
+      "p_noise": 3e-05,
+      "amplification": 124.3,
+      "entropy": 3.6496,
+      "norm_ratio": 1.0879
+    },
+    {
+      "layer": 4,
+      "p_target": 6.8e-05,
+      "p_noise": 3.7e-05,
+      "amplification": 10.3,
+      "entropy": 5.8816,
+      "norm_ratio": 1.0164
+    },
+    {
+      "layer": 6,
+      "p_target": 0.013593,
+      "p_noise": 0.007107,
+      "amplification": 2065.2,
+      "entropy": 4.565,
+      "norm_ratio": 1.0905
+    },
+    {
+      "layer": 8,
+      "p_target": 0.116737,
+      "p_noise": 0.014273,
+      "amplification": 17736.5,
+      "entropy": 4.0857,
+      "norm_ratio": 1.1109
+    },
+    {
+      "layer": 10,
+      "p_target": 0.998956,
+      "p_noise": 4.4e-05,
+      "amplification": 151777.4,
+      "entropy": 0.0122,
+      "norm_ratio": 0.9785
+    },
+    {
+      "layer": 12,
+      "p_target": 0.019997,
+      "p_noise": 0.006804,
+      "amplification": 3038.3,
+      "entropy": 6.048,
+      "norm_ratio": 1.081
+    },
+    {
+      "layer": 14,
+      "p_target": 0.004951,
+      "p_noise": 0.002302,
+      "amplification": 752.2,
+      "entropy": 4.5096,
+      "norm_ratio": 1.012
+    },
+    {
+      "layer": 16,
+      "p_target": 0.001068,
+      "p_noise": 0.000199,
+      "amplification": 162.3,
+      "entropy": 6.0254,
+      "norm_ratio": 1.0565
+    },
+    {
+      "layer": 18,
+      "p_target": 8.7e-05,
+      "p_noise": 9.1e-05,
+      "amplification": 13.3,
+      "entropy": 4.6237,
+      "norm_ratio": 1.0877
+    },
+    {
+      "layer": 20,
+      "p_target": 0.006512,
+      "p_noise": 0.000186,
+      "amplification": 989.4,
+      "entropy": 5.136,
+      "norm_ratio": 1.1501
+    },
+    {
+      "layer": 22,
+      "p_target": 0.003666,
+      "p_noise": 0.002072,
+      "amplification": 556.9,
+      "entropy": 7.0585,
+      "norm_ratio": 1.1878
+    },
+    {
+      "layer": 24,
+      "p_target": 0.001226,
+      "p_noise": 4.4e-05,
+      "amplification": 186.2,
+      "entropy": 7.2438,
+      "norm_ratio": 1.0973
+    },
+    {
+      "layer": 26,
+      "p_target": 1e-06,
+      "p_noise": 2e-06,
+      "amplification": 0.1,
+      "entropy": 9.0615,
+      "norm_ratio": 0.9441
+    }
+  ],
+  "elapsed": 73.1
+}

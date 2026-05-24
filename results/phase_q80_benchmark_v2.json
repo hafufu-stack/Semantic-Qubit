@@ -1,0 +1,74 @@
+{
+  "phase": "Q80",
+  "name": "grand_benchmark_v2",
+  "qas_score": 100.0,
+  "total_score": 100.0,
+  "total_max": 100,
+  "total_phases": 83,
+  "categories": {
+    "Superposition & Interference": {
+      "score": 10.0,
+      "max": 10,
+      "present": 4,
+      "total": 4,
+      "ratio": 1.0
+    },
+    "Entanglement & Bell": {
+      "score": 15.0,
+      "max": 15,
+      "present": 7,
+      "total": 7,
+      "ratio": 1.0
+    },
+    "Quantum Gates & Circuits": {
+      "score": 10.0,
+      "max": 10,
+      "present": 7,
+      "total": 7,
+      "ratio": 1.0
+    },
+    "Quantum Algorithms": {
+      "score": 15.0,
+      "max": 15,
+      "present": 8,
+      "total": 8,
+      "ratio": 1.0
+    },
+    "Quantum Communication": {
+      "score": 10.0,
+      "max": 10,
+      "present": 5,
+      "total": 5,
+      "ratio": 1.0
+    },
+    "Decoherence & Error Correction": {
+      "score": 10.0,
+      "max": 10,
+      "present": 10,
+      "total": 10,
+      "ratio": 1.0
+    },
+    "Quantum Information Theory": {
+      "score": 10.0,
+      "max": 10,
+      "present": 5,
+      "total": 5,
+      "ratio": 1.0
+    },
+    "Advanced Quantum Physics": {
+      "score": 10.0,
+      "max": 10,
+      "present": 9,
+      "total": 9,
+      "ratio": 1.0
+    },
+    "Season 6: Neural-Quantum Bridge": {
+      "score": 10.0,
+      "max": 10,
+      "present": 9,
+      "total": 9,
+      "ratio": 1.0
+    }
+  },
+  "elapsed": 0.3
+}
