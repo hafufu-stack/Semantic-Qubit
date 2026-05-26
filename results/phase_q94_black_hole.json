@@ -1,0 +1,186 @@
+{
+  "phase": "Q94",
+  "name": "Black Hole Information Paradox",
+  "all_preserved": true,
+  "mean_fidelity": 0.9976156098502023,
+  "page_curve_shape": "Monotonic rise",
+  "recovery_data": [
+    {
+      "inject_layer": 0,
+      "output_diff": 169.7635498046875,
+      "fidelity": 0.9959971308708191,
+      "kl_divergence": 0.016593297943472862,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 2,
+      "output_diff": 145.02099609375,
+      "fidelity": 0.9992408156394958,
+      "kl_divergence": 0.0028074532747268677,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 4,
+      "output_diff": 233.42530822753906,
+      "fidelity": 0.9991137981414795,
+      "kl_divergence": 0.003322115633636713,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 6,
+      "output_diff": 296.6126403808594,
+      "fidelity": 0.9955956935882568,
+      "kl_divergence": 0.015424605458974838,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 8,
+      "output_diff": 323.6441345214844,
+      "fidelity": 0.9976009130477905,
+      "kl_divergence": 0.008555648848414421,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 10,
+      "output_diff": 340.3306884765625,
+      "fidelity": 0.9989750981330872,
+      "kl_divergence": 0.0036658430472016335,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 12,
+      "output_diff": 316.04449462890625,
+      "fidelity": 0.9962920546531677,
+      "kl_divergence": 0.01280064508318901,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 14,
+      "output_diff": 266.7481384277344,
+      "fidelity": 0.9974237084388733,
+      "kl_divergence": 0.00855211727321148,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 16,
+      "output_diff": 248.93356323242188,
+      "fidelity": 0.99587082862854,
+      "kl_divergence": 0.01507596019655466,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 18,
+      "output_diff": 222.03839111328125,
+      "fidelity": 0.9986220598220825,
+      "kl_divergence": 0.0055515943095088005,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 20,
+      "output_diff": 247.25331115722656,
+      "fidelity": 0.9975736737251282,
+      "kl_divergence": 0.009691283106803894,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 22,
+      "output_diff": 213.85263061523438,
+      "fidelity": 0.998675525188446,
+      "kl_divergence": 0.005131239537149668,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 24,
+      "output_diff": 198.95391845703125,
+      "fidelity": 0.9971482157707214,
+      "kl_divergence": 0.010989230126142502,
+      "info_preserved": true
+    },
+    {
+      "inject_layer": 26,
+      "output_diff": 172.27932739257812,
+      "fidelity": 0.9984890222549438,
+      "kl_divergence": 0.0057549672201275826,
+      "info_preserved": true
+    }
+  ],
+  "page_curve": [
+    {
+      "fraction": 0.05,
+      "mean_entropy": 0.0
+    },
+    {
+      "fraction": 0.1,
+      "mean_entropy": 0.0
+    },
+    {
+      "fraction": 0.15,
+      "mean_entropy": 0.0
+    },
+    {
+      "fraction": 0.2,
+      "mean_entropy": 0.00015436352502244213
+    },
+    {
+      "fraction": 0.25,
+      "mean_entropy": 0.00039348489372059703
+    },
+    {
+      "fraction": 0.3,
+      "mean_entropy": 0.0004996104689780623
+    },
+    {
+      "fraction": 0.35,
+      "mean_entropy": 0.0006654133224704614
+    },
+    {
+      "fraction": 0.39999999999999997,
+      "mean_entropy": 0.000748542855338504
+    },
+    {
+      "fraction": 0.44999999999999996,
+      "mean_entropy": 0.000989050546195358
+    },
+    {
+      "fraction": 0.49999999999999994,
+      "mean_entropy": 0.000989050546195358
+    },
+    {
+      "fraction": 0.5499999999999999,
+      "mean_entropy": 0.0012103089635881286
+    },
+    {
+      "fraction": 0.6,
+      "mean_entropy": 0.0014091545211461682
+    },
+    {
+      "fraction": 0.65,
+      "mean_entropy": 0.001492929218026499
+    },
+    {
+      "fraction": 0.7,
+      "mean_entropy": 0.0017154896243785818
+    },
+    {
+      "fraction": 0.75,
+      "mean_entropy": 0.0018384779493014018
+    },
+    {
+      "fraction": 0.7999999999999999,
+      "mean_entropy": 0.0019461471044148009
+    },
+    {
+      "fraction": 0.85,
+      "mean_entropy": 0.002029531829369565
+    },
+    {
+      "fraction": 0.9,
+      "mean_entropy": 0.0023646327511717877
+    },
+    {
+      "fraction": 0.95,
+      "mean_entropy": 0.0023646327511717877
+    }
+  ],
+  "elapsed": 4.871471166610718
+}

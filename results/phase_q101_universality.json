@@ -1,0 +1,200 @@
+{
+  "phase": "Q101",
+  "name": "Cross-Architecture Universality",
+  "n_models_tested": 6,
+  "models": [
+    {
+      "model_name": "Qwen-1.5B",
+      "num_layers": 28,
+      "hidden_size": 1536,
+      "num_params_M": 1543.714304,
+      "superposition": {
+        "interference": 0.18364648520946503,
+        "diff_1": 0.25736120343208313,
+        "diff_sup": 0.48381149768829346,
+        "confirmed": "True"
+      },
+      "entanglement": {
+        "entropy": 0.0026397020556032658,
+        "confirmed": true
+      },
+      "holographic": {
+        "bulk_entropy": 1.966573715209961,
+        "boundary_entropy": 1.922576904296875,
+        "rt_ratio": 0.9776276827710212,
+        "confirmed": true
+      },
+      "consciousness": {
+        "phi": 31.06471783186214,
+        "confirmed": true
+      },
+      "unitarity": {
+        "info_signal": 0.25736120343208313,
+        "confirmed": "True"
+      },
+      "n_confirmed": 5,
+      "total": 5
+    },
+    {
+      "model_name": "Qwen-0.5B",
+      "num_layers": 24,
+      "hidden_size": 896,
+      "num_params_M": 494.032768,
+      "superposition": {
+        "interference": 0.3057330548763275,
+        "diff_1": 1.2953968048095703,
+        "diff_sup": 2.142016887664795,
+        "confirmed": "True"
+      },
+      "entanglement": {
+        "entropy": 0.008868426084518433,
+        "confirmed": true
+      },
+      "holographic": {
+        "bulk_entropy": 1.9253945350646973,
+        "boundary_entropy": 1.9612152576446533,
+        "rt_ratio": 1.0186043544976053,
+        "confirmed": false
+      },
+      "consciousness": {
+        "phi": 61.60037247709705,
+        "confirmed": true
+      },
+      "unitarity": {
+        "info_signal": 1.2953968048095703,
+        "confirmed": "True"
+      },
+      "n_confirmed": 4,
+      "total": 5
+    },
+    {
+      "model_name": "GPT2-small",
+      "num_layers": 12,
+      "hidden_size": 768,
+      "num_params_M": 124.439808,
+      "superposition": {
+        "interference": 0.4928109049797058,
+        "diff_1": 2.7641680240631104,
+        "diff_sup": 4.035487174987793,
+        "confirmed": "True"
+      },
+      "entanglement": {
+        "entropy": 0.04505357891321182,
+        "confirmed": true
+      },
+      "holographic": {
+        "bulk_entropy": 1.1750884056091309,
+        "boundary_entropy": 2.1250922679901123,
+        "rt_ratio": 1.8084530982225822,
+        "confirmed": false
+      },
+      "consciousness": {
+        "phi": 18.990713633494497,
+        "confirmed": true
+      },
+      "unitarity": {
+        "info_signal": 2.7641680240631104,
+        "confirmed": "True"
+      },
+      "n_confirmed": 4,
+      "total": 5
+    },
+    {
+      "model_name": "GPT2-medium",
+      "num_layers": 24,
+      "hidden_size": 1024,
+      "num_params_M": 354.823168,
+      "superposition": {
+        "interference": 0.3003508746623993,
+        "diff_1": 3.4431772232055664,
+        "diff_sup": 1.1613065004348755,
+        "confirmed": "True"
+      },
+      "entanglement": {
+        "entropy": 0.08755354583263397,
+        "confirmed": true
+      },
+      "holographic": {
+        "bulk_entropy": 0.750179648399353,
+        "boundary_entropy": 2.026789903640747,
+        "rt_ratio": 2.7017393869523176,
+        "confirmed": false
+      },
+      "consciousness": {
+        "phi": -1.507847181271977,
+        "confirmed": true
+      },
+      "unitarity": {
+        "info_signal": 3.4431772232055664,
+        "confirmed": "True"
+      },
+      "n_confirmed": 4,
+      "total": 5
+    },
+    {
+      "model_name": "GPT2-large",
+      "num_layers": 36,
+      "hidden_size": 1280,
+      "num_params_M": 774.03008,
+      "superposition": {
+        "interference": 0.00024256587494164705,
+        "diff_1": 0.216613307595253,
+        "diff_sup": 0.20011767745018005,
+        "confirmed": "False"
+      },
+      "entanglement": {
+        "entropy": 0.08654453605413437,
+        "confirmed": true
+      },
+      "holographic": {
+        "bulk_entropy": 1.5616320371627808,
+        "boundary_entropy": 1.9806756973266602,
+        "rt_ratio": 1.2683370026132255,
+        "confirmed": false
+      },
+      "consciousness": {
+        "phi": 64.92650300751339,
+        "confirmed": true
+      },
+      "unitarity": {
+        "info_signal": 0.216613307595253,
+        "confirmed": "True"
+      },
+      "n_confirmed": 3,
+      "total": 5
+    },
+    {
+      "model_name": "Llama-1B",
+      "num_layers": 16,
+      "hidden_size": 2048,
+      "num_params_M": 1235.8144,
+      "superposition": {
+        "interference": 0.2737234830856323,
+        "diff_1": 2.766925811767578,
+        "diff_sup": 4.514777660369873,
+        "confirmed": "True"
+      },
+      "entanglement": {
+        "entropy": 0.016475897282361984,
+        "confirmed": true
+      },
+      "holographic": {
+        "bulk_entropy": 0.1423102766275406,
+        "boundary_entropy": 1.813699722290039,
+        "rt_ratio": 12.744685513910204,
+        "confirmed": false
+      },
+      "consciousness": {
+        "phi": -5.564869654131334,
+        "confirmed": true
+      },
+      "unitarity": {
+        "info_signal": 2.766925811767578,
+        "confirmed": "True"
+      },
+      "n_confirmed": 4,
+      "total": 5
+    }
+  ],
+  "elapsed": 19.084010124206543
+}

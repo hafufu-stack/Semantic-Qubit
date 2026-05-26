@@ -1,0 +1,23 @@
+{
+  "phase": "Q81",
+  "name": "NQU Scaling Law vs Physical QC",
+  "sqbit_omegas": {
+    "Qwen2.5-0.5B": 54132736.00000001,
+    "Qwen2.5-1.5B": 107269324.80000001,
+    "Qwen2.5-3B": 143025766.4
+  },
+  "physical_omegas": {
+    "Google Willow": 5.1972348417211215e-08,
+    "IBM Eagle": 5.7024626368789085e-09,
+    "Quantinuum H2": 8.869947463205029e-09,
+    "QuEra (neutral atom)": 7.414552001894647e-07
+  },
+  "advantages": {
+    "Qwen2.5-0.5B": 73008775157511.1,
+    "Qwen2.5-1.5B": 144674047430767.75,
+    "Qwen2.5-3B": 192898729907690.3
+  },
+  "scaling_exponent": 0.5495521716260419,
+  "best_physical": "QuEra (neutral atom)",
+  "elapsed": 0.5224921703338623
+}

@@ -1,0 +1,54 @@
+{
+  "phase": "Q88",
+  "name": "Non-Linear QC & NP-Complete Problems",
+  "tsp_results": [
+    {
+      "n_cities": 4,
+      "optimal_dist": 1.817736282428739,
+      "greedy_dist": 1.8177362824287393,
+      "sqbit_dist": 2.601156336896869,
+      "sqbit_approx_ratio": 1.4309866408554475,
+      "greedy_approx_ratio": 0.9999999999449867,
+      "sqbit_vs_greedy": 0.6988185433434512
+    },
+    {
+      "n_cities": 5,
+      "optimal_dist": 1.839611948258827,
+      "greedy_dist": 1.839611948258827,
+      "sqbit_dist": 1.90051181385916,
+      "sqbit_approx_ratio": 1.0331047346994369,
+      "greedy_approx_ratio": 0.9999999999456407,
+      "sqbit_vs_greedy": 0.9679560709630812
+    },
+    {
+      "n_cities": 6,
+      "optimal_dist": 2.410680754905988,
+      "greedy_dist": 2.7959382397998946,
+      "sqbit_dist": 3.501947219426384,
+      "sqbit_approx_ratio": 1.4526797926910422,
+      "greedy_approx_ratio": 1.1598127350516596,
+      "sqbit_vs_greedy": 0.7983953111029547
+    },
+    {
+      "n_cities": 7,
+      "optimal_dist": 2.1400436578055118,
+      "greedy_dist": 2.3964866916756287,
+      "sqbit_dist": 3.141976342396255,
+      "sqbit_approx_ratio": 1.4681832918639368,
+      "greedy_approx_ratio": 1.1198307486965482,
+      "sqbit_vs_greedy": 0.7627322520740734
+    },
+    {
+      "n_cities": 8,
+      "optimal_dist": 2.375325489497159,
+      "greedy_dist": 2.9908523935846456,
+      "sqbit_dist": 3.277345510453855,
+      "sqbit_approx_ratio": 1.3797458600125043,
+      "greedy_approx_ratio": 1.2591337089098793,
+      "sqbit_vs_greedy": 0.9125837919600995
+    }
+  ],
+  "mean_sqbit_ratio": 1.3529400640244735,
+  "mean_greedy_ratio": 1.107755438509743,
+  "elapsed": 35.6380820274353
+}

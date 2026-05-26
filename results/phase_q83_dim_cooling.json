@@ -1,0 +1,47 @@
+{
+  "phase": "Q83",
+  "name": "Dimensional Cooling 4K Threshold",
+  "d_model": 1536,
+  "T_critical_K": 0.01,
+  "d_min_4K": 30720,
+  "d_min_77K": 134783,
+  "d_min_300K": 266043,
+  "temperature_sweep": [
+    {
+      "temperature_K": 0.01,
+      "noise_sigma": 0.001,
+      "visibility": 0.93505859375
+    },
+    {
+      "temperature_K": 0.1,
+      "noise_sigma": 0.0031622776601683794,
+      "visibility": 0.93505859375
+    },
+    {
+      "temperature_K": 1.0,
+      "noise_sigma": 0.01,
+      "visibility": 0.93515625
+    },
+    {
+      "temperature_K": 4.0,
+      "noise_sigma": 0.02,
+      "visibility": 0.9349609375
+    },
+    {
+      "temperature_K": 20,
+      "noise_sigma": 0.044721359549995794,
+      "visibility": 0.9349609375
+    },
+    {
+      "temperature_K": 77,
+      "noise_sigma": 0.08774964387392122,
+      "visibility": 0.934375
+    },
+    {
+      "temperature_K": 300,
+      "noise_sigma": 0.17320508075688773,
+      "visibility": 0.92998046875
+    }
+  ],
+  "elapsed": 6.143493890762329
+}

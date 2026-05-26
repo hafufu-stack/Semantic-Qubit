@@ -1,0 +1,85 @@
+{
+  "phase": "Q103",
+  "name": "Quantum Property Scaling Laws",
+  "scaling_exponents": {
+    "phi": {
+      "alpha": 0.2214203782028731,
+      "intercept": 1.3974456648873406
+    },
+    "entanglement": {
+      "alpha": -0.8317702610574325,
+      "intercept": 1.4776306182998955
+    },
+    "interference": {
+      "alpha": -0.8414181559600418,
+      "intercept": 2.928854219949301
+    },
+    "n_confirmed": {
+      "alpha": 0.031473744086904024,
+      "intercept": 1.1761460733133065
+    }
+  },
+  "data": [
+    {
+      "name": "GPT2-small",
+      "params_M": 124.439808,
+      "interference": 0.4928109049797058,
+      "entanglement": 0.04505357891321182,
+      "phi": 18.990713633494497,
+      "rt_ratio": 1.8084530982225822,
+      "info_signal": 2.7641680240631104,
+      "n_confirmed": 4
+    },
+    {
+      "name": "GPT2-medium",
+      "params_M": 354.823168,
+      "interference": 0.3003508746623993,
+      "entanglement": 0.08755354583263397,
+      "phi": 1.507847181271977,
+      "rt_ratio": 2.7017393869523176,
+      "info_signal": 3.4431772232055664,
+      "n_confirmed": 4
+    },
+    {
+      "name": "Qwen-0.5B",
+      "params_M": 494.032768,
+      "interference": 0.3057330548763275,
+      "entanglement": 0.008868426084518433,
+      "phi": 61.60037247709705,
+      "rt_ratio": 1.0186043544976053,
+      "info_signal": 1.2953968048095703,
+      "n_confirmed": 4
+    },
+    {
+      "name": "GPT2-large",
+      "params_M": 774.03008,
+      "interference": 0.00024256587494164705,
+      "entanglement": 0.08654453605413437,
+      "phi": 64.92650300751339,
+      "rt_ratio": 1.2683370026132255,
+      "info_signal": 0.216613307595253,
+      "n_confirmed": 3
+    },
+    {
+      "name": "Llama-1B",
+      "params_M": 1235.8144,
+      "interference": 0.2737234830856323,
+      "entanglement": 0.016475897282361984,
+      "phi": 5.564869654131334,
+      "rt_ratio": 12.744685513910204,
+      "info_signal": 2.766925811767578,
+      "n_confirmed": 4
+    },
+    {
+      "name": "Qwen-1.5B",
+      "params_M": 1543.714304,
+      "interference": 0.18364648520946503,
+      "entanglement": 0.0026397020556032658,
+      "phi": 31.06471783186214,
+      "rt_ratio": 0.9776276827710212,
+      "info_signal": 0.25736120343208313,
+      "n_confirmed": 5
+    }
+  ],
+  "elapsed": 0.5836880207061768
+}

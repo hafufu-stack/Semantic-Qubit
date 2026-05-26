@@ -1,0 +1,44 @@
+{
+  "phase": "Q84",
+  "name": "QRAM Photonic Circuit Compilation",
+  "d_model": 1536,
+  "rank_90": "498",
+  "rank_95": "610",
+  "rank_99": "792",
+  "designs": {
+    "90%": {
+      "rank": "498",
+      "n_mzi": "123753",
+      "n_phase_shifters": "498",
+      "total_components": "124251",
+      "chip_area_mm2": 1242.51,
+      "max_loss_dB": 49.800000000000004,
+      "latency_ps": 1162.0000000000002,
+      "data_rate_GHz": 0.8605851979345953
+    },
+    "95%": {
+      "rank": "610",
+      "n_mzi": "185745",
+      "n_phase_shifters": "610",
+      "total_components": "186355",
+      "chip_area_mm2": 1863.55,
+      "max_loss_dB": 61.0,
+      "latency_ps": 1423.3333333333335,
+      "data_rate_GHz": 0.7025761124121779
+    },
+    "99%": {
+      "rank": "792",
+      "n_mzi": "313236",
+      "n_phase_shifters": "792",
+      "total_components": "314028",
+      "chip_area_mm2": 3140.28,
+      "max_loss_dB": 79.2,
+      "latency_ps": 1848.0,
+      "data_rate_GHz": 0.5411255411255411
+    }
+  },
+  "photonic_latency_ps": 1423.3333333333335,
+  "photonic_data_rate_GHz": 0.7025761124121779,
+  "speedup_vs_physical_qram": 702.576112412178,
+  "elapsed": 4.015317440032959
+}

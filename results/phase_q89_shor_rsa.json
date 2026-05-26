@@ -1,0 +1,135 @@
+{
+  "phase": "Q89",
+  "name": "Shor's Algorithm & RSA Singularity",
+  "success_rate": 0.8,
+  "max_bits_factored": 9,
+  "params_rsa2048_B": 28953.748090239395,
+  "params_rsa4096_B": 102101.4844628512,
+  "factoring_results": [
+    {
+      "N": 15,
+      "n_bits": 4,
+      "factors_found": [
+        "3",
+        "5"
+      ],
+      "true_factors": [
+        3,
+        5
+      ],
+      "correct": true
+    },
+    {
+      "N": 21,
+      "n_bits": 5,
+      "factors_found": [
+        "3",
+        "7"
+      ],
+      "true_factors": [
+        3,
+        7
+      ],
+      "correct": true
+    },
+    {
+      "N": 35,
+      "n_bits": 6,
+      "factors_found": [
+        "5",
+        "7"
+      ],
+      "true_factors": [
+        5,
+        7
+      ],
+      "correct": true
+    },
+    {
+      "N": 77,
+      "n_bits": 7,
+      "factors_found": [
+        "11",
+        "7"
+      ],
+      "true_factors": [
+        11,
+        7
+      ],
+      "correct": true
+    },
+    {
+      "N": 143,
+      "n_bits": 8,
+      "factors_found": [
+        "11",
+        "13"
+      ],
+      "true_factors": [
+        11,
+        13
+      ],
+      "correct": true
+    },
+    {
+      "N": 221,
+      "n_bits": 8,
+      "factors_found": [
+        "17",
+        "13"
+      ],
+      "true_factors": [
+        17,
+        13
+      ],
+      "correct": true
+    },
+    {
+      "N": 323,
+      "n_bits": 9,
+      "factors_found": [
+        "17",
+        "19"
+      ],
+      "true_factors": [
+        17,
+        19
+      ],
+      "correct": true
+    },
+    {
+      "N": 437,
+      "n_bits": 9,
+      "factors_found": [
+        "19",
+        "23"
+      ],
+      "true_factors": [
+        19,
+        23
+      ],
+      "correct": true
+    },
+    {
+      "N": 667,
+      "n_bits": 10,
+      "factors_found": [],
+      "true_factors": [
+        29,
+        23
+      ],
+      "correct": false
+    },
+    {
+      "N": 899,
+      "n_bits": 10,
+      "factors_found": [],
+      "true_factors": [
+        29,
+        31
+      ],
+      "correct": false
+    }
+  ],
+  "elapsed": 302.5091030597687
+}

@@ -1,0 +1,206 @@
+{
+  "phase": "Q108",
+  "name": "Semantic Hawking Radiation",
+  "ref_entropy": 2.179314374923706,
+  "event_horizon_layer": 0,
+  "peak_delta_entropy": 0.02485036849975586,
+  "temperatures": [
+    {
+      "layer": 0,
+      "output_entropy": 2.204164743423462,
+      "delta_entropy": 0.02485036849975586,
+      "hawking_temp": 0.000856909258612271,
+      "remaining_layers": 28
+    },
+    {
+      "layer": 1,
+      "output_entropy": 2.1950180530548096,
+      "delta_entropy": 0.015703678131103516,
+      "hawking_temp": 0.0005608456475394112,
+      "remaining_layers": 27
+    },
+    {
+      "layer": 2,
+      "output_entropy": 2.1866202354431152,
+      "delta_entropy": 0.00730586051940918,
+      "hawking_temp": 0.0002705874266447844,
+      "remaining_layers": 26
+    },
+    {
+      "layer": 3,
+      "output_entropy": 2.186821460723877,
+      "delta_entropy": 0.0075070858001708984,
+      "hawking_temp": 0.0002887340692373422,
+      "remaining_layers": 25
+    },
+    {
+      "layer": 4,
+      "output_entropy": 2.1900475025177,
+      "delta_entropy": 0.01073312759399414,
+      "hawking_temp": 0.00042932510375976563,
+      "remaining_layers": 24
+    },
+    {
+      "layer": 5,
+      "output_entropy": 2.179363965988159,
+      "delta_entropy": 4.9591064453125e-05,
+      "hawking_temp": 2.0662943522135415e-06,
+      "remaining_layers": 23
+    },
+    {
+      "layer": 6,
+      "output_entropy": 2.1851842403411865,
+      "delta_entropy": 0.005869865417480469,
+      "hawking_temp": 0.0002552115398904552,
+      "remaining_layers": 22
+    },
+    {
+      "layer": 7,
+      "output_entropy": 2.1789958477020264,
+      "delta_entropy": -0.0003185272216796875,
+      "hawking_temp": -1.4478510076349432e-05,
+      "remaining_layers": 21
+    },
+    {
+      "layer": 8,
+      "output_entropy": 2.177354097366333,
+      "delta_entropy": -0.001960277557373047,
+      "hawking_temp": -9.334655035109747e-05,
+      "remaining_layers": 20
+    },
+    {
+      "layer": 9,
+      "output_entropy": 2.185281991958618,
+      "delta_entropy": 0.005967617034912109,
+      "hawking_temp": 0.00029838085174560547,
+      "remaining_layers": 19
+    },
+    {
+      "layer": 10,
+      "output_entropy": 2.1725494861602783,
+      "delta_entropy": -0.006764888763427734,
+      "hawking_temp": -0.00035604677702251236,
+      "remaining_layers": 18
+    },
+    {
+      "layer": 11,
+      "output_entropy": 2.1790249347686768,
+      "delta_entropy": -0.0002894401550292969,
+      "hawking_temp": -1.6080008612738715e-05,
+      "remaining_layers": 17
+    },
+    {
+      "layer": 12,
+      "output_entropy": 2.1795501708984375,
+      "delta_entropy": 0.0002357959747314453,
+      "hawking_temp": 1.3870351454790901e-05,
+      "remaining_layers": 16
+    },
+    {
+      "layer": 13,
+      "output_entropy": 2.1680307388305664,
+      "delta_entropy": -0.011283636093139648,
+      "hawking_temp": -0.000705227255821228,
+      "remaining_layers": 15
+    },
+    {
+      "layer": 14,
+      "output_entropy": 2.1807851791381836,
+      "delta_entropy": 0.001470804214477539,
+      "hawking_temp": 9.80536142985026e-05,
+      "remaining_layers": 14
+    },
+    {
+      "layer": 15,
+      "output_entropy": 2.174926280975342,
+      "delta_entropy": -0.004388093948364258,
+      "hawking_temp": -0.0003134352820260184,
+      "remaining_layers": 13
+    },
+    {
+      "layer": 16,
+      "output_entropy": 2.1774702072143555,
+      "delta_entropy": -0.001844167709350586,
+      "hawking_temp": -0.0001418590545654297,
+      "remaining_layers": 12
+    },
+    {
+      "layer": 17,
+      "output_entropy": 2.1831815242767334,
+      "delta_entropy": 0.0038671493530273438,
+      "hawking_temp": 0.000322262446085612,
+      "remaining_layers": 11
+    },
+    {
+      "layer": 18,
+      "output_entropy": 2.1804065704345703,
+      "delta_entropy": 0.0010921955108642578,
+      "hawking_temp": 9.92905009876598e-05,
+      "remaining_layers": 10
+    },
+    {
+      "layer": 19,
+      "output_entropy": 2.1892731189727783,
+      "delta_entropy": 0.009958744049072266,
+      "hawking_temp": 0.0009958744049072266,
+      "remaining_layers": 9
+    },
+    {
+      "layer": 20,
+      "output_entropy": 2.180846929550171,
+      "delta_entropy": 0.0015325546264648438,
+      "hawking_temp": 0.00017028384738498263,
+      "remaining_layers": 8
+    },
+    {
+      "layer": 21,
+      "output_entropy": 2.1747801303863525,
+      "delta_entropy": -0.004534244537353516,
+      "hawking_temp": -0.0005667805671691895,
+      "remaining_layers": 7
+    },
+    {
+      "layer": 22,
+      "output_entropy": 2.1831729412078857,
+      "delta_entropy": 0.0038585662841796875,
+      "hawking_temp": 0.0005512237548828125,
+      "remaining_layers": 6
+    },
+    {
+      "layer": 23,
+      "output_entropy": 2.1852779388427734,
+      "delta_entropy": 0.005963563919067383,
+      "hawking_temp": 0.0009939273198445637,
+      "remaining_layers": 5
+    },
+    {
+      "layer": 24,
+      "output_entropy": 2.172260046005249,
+      "delta_entropy": -0.007054328918457031,
+      "hawking_temp": -0.0014108657836914063,
+      "remaining_layers": 4
+    },
+    {
+      "layer": 25,
+      "output_entropy": 2.172893762588501,
+      "delta_entropy": -0.006420612335205078,
+      "hawking_temp": -0.0016051530838012695,
+      "remaining_layers": 3
+    },
+    {
+      "layer": 26,
+      "output_entropy": 2.1826841831207275,
+      "delta_entropy": 0.0033698081970214844,
+      "hawking_temp": 0.0011232693990071614,
+      "remaining_layers": 2
+    },
+    {
+      "layer": 27,
+      "output_entropy": 2.1815288066864014,
+      "delta_entropy": 0.0022144317626953125,
+      "hawking_temp": 0.0011072158813476562,
+      "remaining_layers": 1
+    }
+  ],
+  "elapsed": 4.6155548095703125
+}

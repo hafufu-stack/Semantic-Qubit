@@ -1,0 +1,106 @@
+{
+  "phase": "Q91",
+  "name": "ER=EPR Wormhole Teleportation",
+  "pos_alice": 1,
+  "pos_bob": 11,
+  "seq_len": 13,
+  "survival_ratio": 12.444254702627273,
+  "wormhole_detected": true,
+  "teleportation_data": [
+    {
+      "noise_scale": 0.0,
+      "output_diff": 12.205777168273926,
+      "fidelity": 0.9999289512634277,
+      "snr": 12.205777168273926
+    },
+    {
+      "noise_scale": 0.01,
+      "output_diff": 11.501459121704102,
+      "fidelity": 0.9998986721038818,
+      "snr": 1150.14599609375
+    },
+    {
+      "noise_scale": 0.05,
+      "output_diff": 10.724566459655762,
+      "fidelity": 0.9999008178710938,
+      "snr": 214.4913330078125
+    },
+    {
+      "noise_scale": 0.1,
+      "output_diff": 16.81409454345703,
+      "fidelity": 0.9999502897262573,
+      "snr": 168.1409454345703
+    },
+    {
+      "noise_scale": 0.5,
+      "output_diff": 38.86088562011719,
+      "fidelity": 0.9996157288551331,
+      "snr": 77.72177124023438
+    },
+    {
+      "noise_scale": 1.0,
+      "output_diff": 84.00656127929688,
+      "fidelity": 0.9988779425621033,
+      "snr": 84.00656127929688
+    },
+    {
+      "noise_scale": 2.0,
+      "output_diff": 151.8917999267578,
+      "fidelity": 0.989747166633606,
+      "snr": 75.9458999633789
+    }
+  ],
+  "mutual_info_data": [
+    {
+      "layer": 0,
+      "mutual_info": 0.020372134306678894,
+      "correlation": 0.19981336374094572
+    },
+    {
+      "layer": 3,
+      "mutual_info": 0.002741194169931656,
+      "correlation": 0.07394178504033322
+    },
+    {
+      "layer": 6,
+      "mutual_info": 0.0009959057413745833,
+      "correlation": 0.0446075020890603
+    },
+    {
+      "layer": 9,
+      "mutual_info": 0.0008011158311616351,
+      "correlation": 0.04001185917232665
+    },
+    {
+      "layer": 12,
+      "mutual_info": 0.0008079804903550284,
+      "correlation": 0.040182783860525366
+    },
+    {
+      "layer": 15,
+      "mutual_info": 0.0009596222925656722,
+      "correlation": 0.04378817320845416
+    },
+    {
+      "layer": 18,
+      "mutual_info": 0.0018305271172338782,
+      "correlation": 0.06045130971544897
+    },
+    {
+      "layer": 21,
+      "mutual_info": 0.002579787959423653,
+      "correlation": 0.07173763496163403
+    },
+    {
+      "layer": 24,
+      "mutual_info": 0.007815070734940545,
+      "correlation": 0.12453362935511893
+    },
+    {
+      "layer": 27,
+      "mutual_info": 0.12689492976226505,
+      "correlation": 0.4734397286681056
+    }
+  ],
+  "elapsed": 6.260858058929443
+}

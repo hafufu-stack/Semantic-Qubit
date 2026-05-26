@@ -1,0 +1,34 @@
+{
+  "phase": "Q86",
+  "name": "Berry Phase & Topological Protection",
+  "berry_phases": [
+    {
+      "layer": 7,
+      "name": "Early",
+      "berry_phase_rad": "0.2942",
+      "berry_phase_pi": "0.0937",
+      "nearest_quantum": 0.0,
+      "is_quantized": "True"
+    },
+    {
+      "layer": 14,
+      "name": "Middle",
+      "berry_phase_rad": 0.21875,
+      "berry_phase_pi": 0.06963028760270422,
+      "nearest_quantum": 0.0,
+      "is_quantized": "True"
+    },
+    {
+      "layer": 21,
+      "name": "Late",
+      "berry_phase_rad": "0.4138",
+      "berry_phase_pi": "0.1317",
+      "nearest_quantum": 0.0,
+      "is_quantized": "False"
+    }
+  ],
+  "n_quantized": 2,
+  "n_total": 3,
+  "mean_berry_phase_pi": 0.09834437321131807,
+  "elapsed": 7.2413740158081055
+}

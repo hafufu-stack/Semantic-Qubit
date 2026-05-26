@@ -1,0 +1,889 @@
+{
+  "phase": "Q93",
+  "name": "Entanglement Entropy Scaling (Area vs Volume)",
+  "scaling_data": {
+    "0": [
+      {
+        "subsystem_size": 1,
+        "mean_entropy": 0.0,
+        "std_entropy": 0.0
+      },
+      {
+        "subsystem_size": 2,
+        "mean_entropy": 0.6076664129892985,
+        "std_entropy": 0.006929126312772796
+      },
+      {
+        "subsystem_size": 3,
+        "mean_entropy": 0.9831081628799438,
+        "std_entropy": 0.034832677451832564
+      },
+      {
+        "subsystem_size": 4,
+        "mean_entropy": 1.2329095999399822,
+        "std_entropy": 0.031356625743193735
+      },
+      {
+        "subsystem_size": 5,
+        "mean_entropy": 1.4421339829762776,
+        "std_entropy": 0.03794177529143759
+      },
+      {
+        "subsystem_size": 6,
+        "mean_entropy": 1.5935537815093994,
+        "std_entropy": 0.009829195307700218
+      },
+      {
+        "subsystem_size": 7,
+        "mean_entropy": 1.7440105676651,
+        "std_entropy": 0.006863301028638682
+      },
+      {
+        "subsystem_size": 8,
+        "mean_entropy": 1.8731026649475098,
+        "std_entropy": 0.009626675308002814
+      },
+      {
+        "subsystem_size": 9,
+        "mean_entropy": 1.9825944900512695,
+        "std_entropy": 0.007368056001458123
+      },
+      {
+        "subsystem_size": 10,
+        "mean_entropy": 2.066801150639852,
+        "std_entropy": 0.014273705619466313
+      },
+      {
+        "subsystem_size": 11,
+        "mean_entropy": 2.1563679377237954,
+        "std_entropy": 0.012177358879372708
+      },
+      {
+        "subsystem_size": 12,
+        "mean_entropy": 2.238176186879476,
+        "std_entropy": 0.00558871946712177
+      },
+      {
+        "subsystem_size": 13,
+        "mean_entropy": 2.2958315213521323,
+        "std_entropy": 0.026345786451267623
+      },
+      {
+        "subsystem_size": 14,
+        "mean_entropy": 2.3624293009440103,
+        "std_entropy": 0.030099993166313198
+      },
+      {
+        "subsystem_size": 15,
+        "mean_entropy": 2.4299964110056558,
+        "std_entropy": 0.0270028016560668
+      },
+      {
+        "subsystem_size": 16,
+        "mean_entropy": 2.4862708250681558,
+        "std_entropy": 0.026753481554830302
+      },
+      {
+        "subsystem_size": 17,
+        "mean_entropy": 2.541201194127401,
+        "std_entropy": 0.032719526146709164
+      },
+      {
+        "subsystem_size": 18,
+        "mean_entropy": 2.5925671259562173,
+        "std_entropy": 0.0314783707316703
+      },
+      {
+        "subsystem_size": 19,
+        "mean_entropy": 2.639289061228434,
+        "std_entropy": 0.026416669346665474
+      },
+      {
+        "subsystem_size": 20,
+        "mean_entropy": 2.6858816941579184,
+        "std_entropy": 0.028366765603709165
+      },
+      {
+        "subsystem_size": 21,
+        "mean_entropy": 2.7325886885325112,
+        "std_entropy": 0.03482513197672342
+      },
+      {
+        "subsystem_size": 22,
+        "mean_entropy": 2.769141674041748,
+        "std_entropy": 0.0332700950469671
+      },
+      {
+        "subsystem_size": 23,
+        "mean_entropy": 2.8131001790364585,
+        "std_entropy": 0.03939753444462632
+      },
+      {
+        "subsystem_size": 24,
+        "mean_entropy": 2.845032056172689,
+        "std_entropy": 0.037318594305259
+      },
+      {
+        "subsystem_size": 25,
+        "mean_entropy": 2.8792964617411294,
+        "std_entropy": 0.034106426128034745
+      },
+      {
+        "subsystem_size": 26,
+        "mean_entropy": 2.9166422684987388,
+        "std_entropy": 0.03416878974333066
+      },
+      {
+        "subsystem_size": 27,
+        "mean_entropy": 2.9443668524424234,
+        "std_entropy": 0.03572551875078759
+      },
+      {
+        "subsystem_size": 28,
+        "mean_entropy": 3.0006426572799683,
+        "std_entropy": 0.018315434455871582
+      },
+      {
+        "subsystem_size": 29,
+        "mean_entropy": 3.029973030090332,
+        "std_entropy": 0.017435550689697266
+      },
+      {
+        "subsystem_size": 30,
+        "mean_entropy": 3.059720993041992,
+        "std_entropy": 0.01664447784423828
+      },
+      {
+        "subsystem_size": 31,
+        "mean_entropy": 3.0825024843215942,
+        "std_entropy": 0.022551417350769043
+      },
+      {
+        "subsystem_size": 32,
+        "mean_entropy": 3.110503911972046,
+        "std_entropy": 0.020062685012817383
+      },
+      {
+        "subsystem_size": 33,
+        "mean_entropy": 3.1333240270614624,
+        "std_entropy": 0.01687490940093994
+      },
+      {
+        "subsystem_size": 34,
+        "mean_entropy": 3.171797752380371,
+        "std_entropy": 0.0
+      }
+    ],
+    "7": [
+      {
+        "subsystem_size": 1,
+        "mean_entropy": 0.0,
+        "std_entropy": 0.0
+      },
+      {
+        "subsystem_size": 2,
+        "mean_entropy": 0.0003028692347773661,
+        "std_entropy": 9.067152033295666e-06
+      },
+      {
+        "subsystem_size": 3,
+        "mean_entropy": 0.0005432443576864898,
+        "std_entropy": 9.680991149380396e-06
+      },
+      {
+        "subsystem_size": 4,
+        "mean_entropy": 0.0007585964437263707,
+        "std_entropy": 1.66772732755282e-05
+      },
+      {
+        "subsystem_size": 5,
+        "mean_entropy": 0.001013926734837393,
+        "std_entropy": 3.3649250731691725e-05
+      },
+      {
+        "subsystem_size": 6,
+        "mean_entropy": 0.0012105441419407725,
+        "std_entropy": 7.181397918831776e-05
+      },
+      {
+        "subsystem_size": 7,
+        "mean_entropy": 0.0014124141695598762,
+        "std_entropy": 6.3632538610766e-05
+      },
+      {
+        "subsystem_size": 8,
+        "mean_entropy": 0.001608347985893488,
+        "std_entropy": 5.867732339415872e-05
+      },
+      {
+        "subsystem_size": 9,
+        "mean_entropy": 0.0017685794349138935,
+        "std_entropy": 5.1545951236186745e-05
+      },
+      {
+        "subsystem_size": 10,
+        "mean_entropy": 0.0019607502423847714,
+        "std_entropy": 8.3769149241315e-05
+      },
+      {
+        "subsystem_size": 11,
+        "mean_entropy": 0.0021289999907215438,
+        "std_entropy": 9.98079466176602e-05
+      },
+      {
+        "subsystem_size": 12,
+        "mean_entropy": 0.0023169574172546468,
+        "std_entropy": 0.00011846422108362169
+      },
+      {
+        "subsystem_size": 13,
+        "mean_entropy": 0.0025130208426465592,
+        "std_entropy": 0.00013539142628146564
+      },
+      {
+        "subsystem_size": 14,
+        "mean_entropy": 0.002704484621062875,
+        "std_entropy": 0.00017141752363622508
+      },
+      {
+        "subsystem_size": 15,
+        "mean_entropy": 0.0029398882761597633,
+        "std_entropy": 0.00021891353299023164
+      },
+      {
+        "subsystem_size": 16,
+        "mean_entropy": 0.003133878189449509,
+        "std_entropy": 0.0002370741198713215
+      },
+      {
+        "subsystem_size": 17,
+        "mean_entropy": 0.003303715648750464,
+        "std_entropy": 0.00023260848478902235
+      },
+      {
+        "subsystem_size": 18,
+        "mean_entropy": 0.0034886177939673266,
+        "std_entropy": 0.00025741010617858786
+      },
+      {
+        "subsystem_size": 19,
+        "mean_entropy": 0.0036644870415329933,
+        "std_entropy": 0.00027956866512507866
+      },
+      {
+        "subsystem_size": 20,
+        "mean_entropy": 0.0038351810071617365,
+        "std_entropy": 0.00027278728433871005
+      },
+      {
+        "subsystem_size": 21,
+        "mean_entropy": 0.004034131842975815,
+        "std_entropy": 0.00031436870061110096
+      },
+      {
+        "subsystem_size": 22,
+        "mean_entropy": 0.00421915032590429,
+        "std_entropy": 0.00031943389996326514
+      },
+      {
+        "subsystem_size": 23,
+        "mean_entropy": 0.00441040222843488,
+        "std_entropy": 0.00030644267979516133
+      },
+      {
+        "subsystem_size": 24,
+        "mean_entropy": 0.004584238398820162,
+        "std_entropy": 0.00030815364789440813
+      },
+      {
+        "subsystem_size": 25,
+        "mean_entropy": 0.00477614626288414,
+        "std_entropy": 0.0003440330981463419
+      },
+      {
+        "subsystem_size": 26,
+        "mean_entropy": 0.004961081780493259,
+        "std_entropy": 0.0003842916959206551
+      },
+      {
+        "subsystem_size": 27,
+        "mean_entropy": 0.005159070715308189,
+        "std_entropy": 0.00043235113589335455
+      },
+      {
+        "subsystem_size": 28,
+        "mean_entropy": 0.005507938330993056,
+        "std_entropy": 0.0005283735226839781
+      },
+      {
+        "subsystem_size": 29,
+        "mean_entropy": 0.005711020901799202,
+        "std_entropy": 0.0005481205880641937
+      },
+      {
+        "subsystem_size": 30,
+        "mean_entropy": 0.0058720780070871115,
+        "std_entropy": 0.0005728376563638449
+      },
+      {
+        "subsystem_size": 31,
+        "mean_entropy": 0.00605314876884222,
+        "std_entropy": 0.0005661738105118275
+      },
+      {
+        "subsystem_size": 32,
+        "mean_entropy": 0.006269179284572601,
+        "std_entropy": 0.000584533903747797
+      },
+      {
+        "subsystem_size": 33,
+        "mean_entropy": 0.006442750105634332,
+        "std_entropy": 0.0005963009316474199
+      },
+      {
+        "subsystem_size": 34,
+        "mean_entropy": 0.006072549615055323,
+        "std_entropy": 0.0
+      }
+    ],
+    "14": [
+      {
+        "subsystem_size": 1,
+        "mean_entropy": 0.0,
+        "std_entropy": 0.0
+      },
+      {
+        "subsystem_size": 2,
+        "mean_entropy": 0.0004225452139507979,
+        "std_entropy": 2.157932041426349e-05
+      },
+      {
+        "subsystem_size": 3,
+        "mean_entropy": 0.000770757207646966,
+        "std_entropy": 1.8799750593045513e-05
+      },
+      {
+        "subsystem_size": 4,
+        "mean_entropy": 0.001077168465902408,
+        "std_entropy": 3.364527159930724e-05
+      },
+      {
+        "subsystem_size": 5,
+        "mean_entropy": 0.001456194984105726,
+        "std_entropy": 0.00012794142573537516
+      },
+      {
+        "subsystem_size": 6,
+        "mean_entropy": 0.0017577826123063762,
+        "std_entropy": 0.00015789467577595516
+      },
+      {
+        "subsystem_size": 7,
+        "mean_entropy": 0.00206877877159665,
+        "std_entropy": 0.00018698514372144336
+      },
+      {
+        "subsystem_size": 8,
+        "mean_entropy": 0.00235354450220863,
+        "std_entropy": 0.00016314562598685505
+      },
+      {
+        "subsystem_size": 9,
+        "mean_entropy": 0.002616552480806907,
+        "std_entropy": 0.0001626973362678169
+      },
+      {
+        "subsystem_size": 10,
+        "mean_entropy": 0.0028979890824606023,
+        "std_entropy": 0.0001685593129898872
+      },
+      {
+        "subsystem_size": 11,
+        "mean_entropy": 0.003156078513711691,
+        "std_entropy": 0.00019402399653913993
+      },
+      {
+        "subsystem_size": 12,
+        "mean_entropy": 0.0034211032713452974,
+        "std_entropy": 0.00019519358158349173
+      },
+      {
+        "subsystem_size": 13,
+        "mean_entropy": 0.0036997642212857804,
+        "std_entropy": 0.00021594734364152599
+      },
+      {
+        "subsystem_size": 14,
+        "mean_entropy": 0.003990998569255074,
+        "std_entropy": 0.0002281925700638158
+      },
+      {
+        "subsystem_size": 15,
+        "mean_entropy": 0.00431309004003803,
+        "std_entropy": 0.000264676725767386
+      },
+      {
+        "subsystem_size": 16,
+        "mean_entropy": 0.004585320129990578,
+        "std_entropy": 0.0002494444985729168
+      },
+      {
+        "subsystem_size": 17,
+        "mean_entropy": 0.004833399783819914,
+        "std_entropy": 0.00024844206628865775
+      },
+      {
+        "subsystem_size": 18,
+        "mean_entropy": 0.005110007089873155,
+        "std_entropy": 0.0002811937829609944
+      },
+      {
+        "subsystem_size": 19,
+        "mean_entropy": 0.005372863262891769,
+        "std_entropy": 0.0003192591906468064
+      },
+      {
+        "subsystem_size": 20,
+        "mean_entropy": 0.005622323757658402,
+        "std_entropy": 0.0003390003549760898
+      },
+      {
+        "subsystem_size": 21,
+        "mean_entropy": 0.005878524699558814,
+        "std_entropy": 0.00038676105819812373
+      },
+      {
+        "subsystem_size": 22,
+        "mean_entropy": 0.0061342050321400166,
+        "std_entropy": 0.0004029625731370739
+      },
+      {
+        "subsystem_size": 23,
+        "mean_entropy": 0.006416032090783119,
+        "std_entropy": 0.0004090423373923245
+      },
+      {
+        "subsystem_size": 24,
+        "mean_entropy": 0.006669059861451387,
+        "std_entropy": 0.00043750864306135213
+      },
+      {
+        "subsystem_size": 25,
+        "mean_entropy": 0.0069633595024545985,
+        "std_entropy": 0.00050634827262797
+      },
+      {
+        "subsystem_size": 26,
+        "mean_entropy": 0.007239714730530977,
+        "std_entropy": 0.0005827287708449933
+      },
+      {
+        "subsystem_size": 27,
+        "mean_entropy": 0.007490911521017551,
+        "std_entropy": 0.0006219355787397818
+      },
+      {
+        "subsystem_size": 28,
+        "mean_entropy": 0.008137151133269072,
+        "std_entropy": 0.0005723866634070873
+      },
+      {
+        "subsystem_size": 29,
+        "mean_entropy": 0.008391528856009245,
+        "std_entropy": 0.0005752523429691792
+      },
+      {
+        "subsystem_size": 30,
+        "mean_entropy": 0.008638907689601183,
+        "std_entropy": 0.0006050500087440014
+      },
+      {
+        "subsystem_size": 31,
+        "mean_entropy": 0.008894655853509903,
+        "std_entropy": 0.0006179176270961761
+      },
+      {
+        "subsystem_size": 32,
+        "mean_entropy": 0.009180961176753044,
+        "std_entropy": 0.0006691459566354752
+      },
+      {
+        "subsystem_size": 33,
+        "mean_entropy": 0.009408335667103529,
+        "std_entropy": 0.0007001706399023533
+      },
+      {
+        "subsystem_size": 34,
+        "mean_entropy": 0.009004319086670876,
+        "std_entropy": 0.0
+      }
+    ],
+    "21": [
+      {
+        "subsystem_size": 1,
+        "mean_entropy": 0.0,
+        "std_entropy": 0.0
+      },
+      {
+        "subsystem_size": 2,
+        "mean_entropy": 0.0012238853766272466,
+        "std_entropy": 0.0001189501479950703
+      },
+      {
+        "subsystem_size": 3,
+        "mean_entropy": 0.0021959200967103243,
+        "std_entropy": 9.51413662935356e-05
+      },
+      {
+        "subsystem_size": 4,
+        "mean_entropy": 0.0031778638561566672,
+        "std_entropy": 0.00011932104083147862
+      },
+      {
+        "subsystem_size": 5,
+        "mean_entropy": 0.004128735512495041,
+        "std_entropy": 0.0001318794622783404
+      },
+      {
+        "subsystem_size": 6,
+        "mean_entropy": 0.005062143628795941,
+        "std_entropy": 0.0001337502601457415
+      },
+      {
+        "subsystem_size": 7,
+        "mean_entropy": 0.006049849558621645,
+        "std_entropy": 0.0001313818274918153
+      },
+      {
+        "subsystem_size": 8,
+        "mean_entropy": 0.006978067414214213,
+        "std_entropy": 0.00017002030547032132
+      },
+      {
+        "subsystem_size": 9,
+        "mean_entropy": 0.007862999414404234,
+        "std_entropy": 0.00024568373695060857
+      },
+      {
+        "subsystem_size": 10,
+        "mean_entropy": 0.008745473809540272,
+        "std_entropy": 0.0003669297063694221
+      },
+      {
+        "subsystem_size": 11,
+        "mean_entropy": 0.009642593562602997,
+        "std_entropy": 0.0004765802806316256
+      },
+      {
+        "subsystem_size": 12,
+        "mean_entropy": 0.010554405550161997,
+        "std_entropy": 0.0006031653523619451
+      },
+      {
+        "subsystem_size": 13,
+        "mean_entropy": 0.011439686951537928,
+        "std_entropy": 0.0006996407534908024
+      },
+      {
+        "subsystem_size": 14,
+        "mean_entropy": 0.012413733328382174,
+        "std_entropy": 0.0006798666350569117
+      },
+      {
+        "subsystem_size": 15,
+        "mean_entropy": 0.01332356221973896,
+        "std_entropy": 0.0006835548161957438
+      },
+      {
+        "subsystem_size": 16,
+        "mean_entropy": 0.0141604191934069,
+        "std_entropy": 0.0007670424407885611
+      },
+      {
+        "subsystem_size": 17,
+        "mean_entropy": 0.014958748283485571,
+        "std_entropy": 0.0008605945854253299
+      },
+      {
+        "subsystem_size": 18,
+        "mean_entropy": 0.01575978131343921,
+        "std_entropy": 0.0009856587183895307
+      },
+      {
+        "subsystem_size": 19,
+        "mean_entropy": 0.016538077344497044,
+        "std_entropy": 0.001097967671246145
+      },
+      {
+        "subsystem_size": 20,
+        "mean_entropy": 0.01739860698580742,
+        "std_entropy": 0.0012368913895422693
+      },
+      {
+        "subsystem_size": 21,
+        "mean_entropy": 0.018183230732878048,
+        "std_entropy": 0.0013599131188905126
+      },
+      {
+        "subsystem_size": 22,
+        "mean_entropy": 0.019029219324390095,
+        "std_entropy": 0.00134049231039274
+      },
+      {
+        "subsystem_size": 23,
+        "mean_entropy": 0.019925835852821667,
+        "std_entropy": 0.001467984296785029
+      },
+      {
+        "subsystem_size": 24,
+        "mean_entropy": 0.020695083464185398,
+        "std_entropy": 0.0015227473115046633
+      },
+      {
+        "subsystem_size": 25,
+        "mean_entropy": 0.02158292755484581,
+        "std_entropy": 0.0016678384959606155
+      },
+      {
+        "subsystem_size": 26,
+        "mean_entropy": 0.022430047392845154,
+        "std_entropy": 0.0017410914385662074
+      },
+      {
+        "subsystem_size": 27,
+        "mean_entropy": 0.023217490563790005,
+        "std_entropy": 0.0017915196797017076
+      },
+      {
+        "subsystem_size": 28,
+        "mean_entropy": 0.024478727020323277,
+        "std_entropy": 0.0020721862092614174
+      },
+      {
+        "subsystem_size": 29,
+        "mean_entropy": 0.025366589426994324,
+        "std_entropy": 0.0019999276846647263
+      },
+      {
+        "subsystem_size": 30,
+        "mean_entropy": 0.026228735223412514,
+        "std_entropy": 0.0021381638944149017
+      },
+      {
+        "subsystem_size": 31,
+        "mean_entropy": 0.027119758538901806,
+        "std_entropy": 0.0021494077518582344
+      },
+      {
+        "subsystem_size": 32,
+        "mean_entropy": 0.02798242401331663,
+        "std_entropy": 0.0022165169939398766
+      },
+      {
+        "subsystem_size": 33,
+        "mean_entropy": 0.028705631382763386,
+        "std_entropy": 0.0022451793774962425
+      },
+      {
+        "subsystem_size": 34,
+        "mean_entropy": 0.02716742269694805,
+        "std_entropy": 0.0
+      }
+    ],
+    "27": [
+      {
+        "subsystem_size": 1,
+        "mean_entropy": 0.0,
+        "std_entropy": 0.0
+      },
+      {
+        "subsystem_size": 2,
+        "mean_entropy": 0.25726401557524997,
+        "std_entropy": 0.13919006290139144
+      },
+      {
+        "subsystem_size": 3,
+        "mean_entropy": 0.4329833636681239,
+        "std_entropy": 0.17968353053941288
+      },
+      {
+        "subsystem_size": 4,
+        "mean_entropy": 0.5371967951456705,
+        "std_entropy": 0.19725114781465722
+      },
+      {
+        "subsystem_size": 5,
+        "mean_entropy": 0.6224117974440256,
+        "std_entropy": 0.2029516158192416
+      },
+      {
+        "subsystem_size": 6,
+        "mean_entropy": 0.6929884652296702,
+        "std_entropy": 0.19573744939074264
+      },
+      {
+        "subsystem_size": 7,
+        "mean_entropy": 0.7545131047566732,
+        "std_entropy": 0.19639450683603774
+      },
+      {
+        "subsystem_size": 8,
+        "mean_entropy": 0.808042565981547,
+        "std_entropy": 0.1960464672639024
+      },
+      {
+        "subsystem_size": 9,
+        "mean_entropy": 0.8509123921394348,
+        "std_entropy": 0.18932888647935286
+      },
+      {
+        "subsystem_size": 10,
+        "mean_entropy": 0.897130032380422,
+        "std_entropy": 0.17589731866157365
+      },
+      {
+        "subsystem_size": 11,
+        "mean_entropy": 0.9393845200538635,
+        "std_entropy": 0.15321914476009615
+      },
+      {
+        "subsystem_size": 12,
+        "mean_entropy": 0.9750493367513021,
+        "std_entropy": 0.14091425442049912
+      },
+      {
+        "subsystem_size": 13,
+        "mean_entropy": 1.010038157304128,
+        "std_entropy": 0.13037082553950793
+      },
+      {
+        "subsystem_size": 14,
+        "mean_entropy": 1.0539811253547668,
+        "std_entropy": 0.1110867085670437
+      },
+      {
+        "subsystem_size": 15,
+        "mean_entropy": 1.0865147511164348,
+        "std_entropy": 0.11121431009912851
+      },
+      {
+        "subsystem_size": 16,
+        "mean_entropy": 1.1104543407758076,
+        "std_entropy": 0.1085003635747582
+      },
+      {
+        "subsystem_size": 17,
+        "mean_entropy": 1.1363128622372944,
+        "std_entropy": 0.1143584145746327
+      },
+      {
+        "subsystem_size": 18,
+        "mean_entropy": 1.1550788879394531,
+        "std_entropy": 0.11071077588041116
+      },
+      {
+        "subsystem_size": 19,
+        "mean_entropy": 1.1723664999008179,
+        "std_entropy": 0.10567546654781923
+      },
+      {
+        "subsystem_size": 20,
+        "mean_entropy": 1.1897608836491902,
+        "std_entropy": 0.09856827903418593
+      },
+      {
+        "subsystem_size": 21,
+        "mean_entropy": 1.204985499382019,
+        "std_entropy": 0.0927552249110631
+      },
+      {
+        "subsystem_size": 22,
+        "mean_entropy": 1.2194568316141765,
+        "std_entropy": 0.09197185750630023
+      },
+      {
+        "subsystem_size": 23,
+        "mean_entropy": 1.2407131592432659,
+        "std_entropy": 0.08554159116472049
+      },
+      {
+        "subsystem_size": 24,
+        "mean_entropy": 1.2557533582051594,
+        "std_entropy": 0.07750715969374711
+      },
+      {
+        "subsystem_size": 25,
+        "mean_entropy": 1.2729885975519817,
+        "std_entropy": 0.07262420014260569
+      },
+      {
+        "subsystem_size": 26,
+        "mean_entropy": 1.2872559626897175,
+        "std_entropy": 0.07197513675443978
+      },
+      {
+        "subsystem_size": 27,
+        "mean_entropy": 1.2987072467803955,
+        "std_entropy": 0.07236013253674356
+      },
+      {
+        "subsystem_size": 28,
+        "mean_entropy": 1.3292530179023743,
+        "std_entropy": 0.08592766523361206
+      },
+      {
+        "subsystem_size": 29,
+        "mean_entropy": 1.3407779335975647,
+        "std_entropy": 0.08444446325302124
+      },
+      {
+        "subsystem_size": 30,
+        "mean_entropy": 1.349210798740387,
+        "std_entropy": 0.0814698338508606
+      },
+      {
+        "subsystem_size": 31,
+        "mean_entropy": 1.3619324564933777,
+        "std_entropy": 0.08122628927230835
+      },
+      {
+        "subsystem_size": 32,
+        "mean_entropy": 1.3668356537818909,
+        "std_entropy": 0.07714813947677612
+      },
+      {
+        "subsystem_size": 33,
+        "mean_entropy": 1.3709668517112732,
+        "std_entropy": 0.07142013311386108
+      },
+      {
+        "subsystem_size": 34,
+        "mean_entropy": 1.4513773918151855,
+        "std_entropy": 0.0
+      }
+    ]
+  },
+  "fit_results": {
+    "0": {
+      "alpha": 2.889517661418354,
+      "law": "Volume law"
+    },
+    "7": {
+      "alpha": 2.5585458993242183,
+      "law": "Volume law"
+    },
+    "14": {
+      "alpha": 2.6071778751666557,
+      "law": "Volume law"
+    },
+    "21": {
+      "alpha": 2.7449877029501226,
+      "law": "Volume law"
+    },
+    "27": {
+      "alpha": 2.8112535728468098,
+      "law": "Volume law"
+    }
+  },
+  "elapsed": 6.050488233566284
+}

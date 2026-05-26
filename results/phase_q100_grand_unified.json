@@ -1,0 +1,32 @@
+{
+  "phase": "Q100",
+  "name": "Grand Unified Theory of Semantic Physics",
+  "n_confirmed": 5,
+  "total_properties": 5,
+  "synthesis": {
+    "superposition": {
+      "interference_strength": 0.21221978962421417,
+      "confirmed": "True"
+    },
+    "entanglement": {
+      "entropy": 0.006463204976171255,
+      "confirmed": true
+    },
+    "berry_phase": {
+      "total_phase": 0.011728954501450062,
+      "confirmed": true
+    },
+    "holographic": {
+      "bulk_entropy": 2.716282367706299,
+      "boundary_entropy": 0.9835751056671143,
+      "rt_ratio": 0.3621034091759249,
+      "confirmed": true
+    },
+    "consciousness": {
+      "phi": 51.041776673311,
+      "confirmed": true
+    }
+  },
+  "elapsed": 4.915306568145752,
+  "verdict": "THE S-QUBIT IS A QUANTUM OBJECT"
+}

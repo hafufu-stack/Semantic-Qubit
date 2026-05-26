@@ -1,0 +1,76 @@
+{
+  "phase": "Q104",
+  "name": "Semantic Gravity",
+  "gravity_ratio": 1.0178391673845615,
+  "mean_heavy_curvature": 40.369576908648014,
+  "mean_light_curvature": 39.662039153277874,
+  "heavy_results": {
+    "universe": {
+      "total_curvature": 40.05683237314224,
+      "path_length": 899.1630249023438
+    },
+    "consciousness": {
+      "total_curvature": 40.82004553079605,
+      "path_length": 881.9376220703125
+    },
+    "mathematics": {
+      "total_curvature": 40.09652829170227,
+      "path_length": 911.4642333984375
+    },
+    "gravity": {
+      "total_curvature": 40.669309973716736,
+      "path_length": 929.7281494140625
+    },
+    "democracy": {
+      "total_curvature": 40.29763704538345,
+      "path_length": 881.3394775390625
+    },
+    "evolution": {
+      "total_curvature": 40.570359230041504,
+      "path_length": 898.7151489257812
+    },
+    "intelligence": {
+      "total_curvature": 40.14165896177292,
+      "path_length": 893.1309204101562
+    },
+    "quantum": {
+      "total_curvature": 40.30424386262894,
+      "path_length": 915.1896362304688
+    }
+  },
+  "light_results": {
+    "the": {
+      "total_curvature": 39.65031141042709,
+      "path_length": 920.5216064453125
+    },
+    "a": {
+      "total_curvature": 39.748429358005524,
+      "path_length": 922.114501953125
+    },
+    "is": {
+      "total_curvature": 39.758129835128784,
+      "path_length": 920.005615234375
+    },
+    "of": {
+      "total_curvature": 39.549743592739105,
+      "path_length": 917.2252197265625
+    },
+    "and": {
+      "total_curvature": 39.80709254741669,
+      "path_length": 896.6954345703125
+    },
+    "to": {
+      "total_curvature": 39.63950961828232,
+      "path_length": 903.7186279296875
+    },
+    "in": {
+      "total_curvature": 39.667269349098206,
+      "path_length": 910.824951171875
+    },
+    "it": {
+      "total_curvature": 39.475827515125275,
+      "path_length": 926.3312377929688
+    }
+  },
+  "elapsed": 18.85921001434326
+}

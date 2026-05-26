@@ -1,0 +1,44 @@
+{
+  "phase": "Q96",
+  "name": "Quantum Zeno Effect",
+  "zeno_confirmed": false,
+  "zeno_data": [
+    {
+      "n_measurements": 0,
+      "output_diff": 343.9961242675781,
+      "label": "Free evolution"
+    },
+    {
+      "n_measurements": 1,
+      "output_diff": 343.9961242675781,
+      "label": "1 measurements"
+    },
+    {
+      "n_measurements": 2,
+      "output_diff": 658.2014770507812,
+      "label": "2 measurements"
+    },
+    {
+      "n_measurements": 4,
+      "output_diff": 1184.39453125,
+      "label": "4 measurements"
+    },
+    {
+      "n_measurements": 7,
+      "output_diff": 1023.2835083007812,
+      "label": "7 measurements"
+    },
+    {
+      "n_measurements": 14,
+      "output_diff": 2393.9306640625,
+      "label": "14 measurements"
+    },
+    {
+      "n_measurements": 27,
+      "output_diff": 2444.358642578125,
+      "label": "27 measurements"
+    }
+  ],
+  "free_diff": 343.9961242675781,
+  "elapsed": 3.6035373210906982
+}

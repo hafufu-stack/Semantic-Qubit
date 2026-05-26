@@ -1,0 +1,54 @@
+{
+  "phase": "Q105",
+  "name": "Quantum Advantage in NLP",
+  "n_quantum_wins": 4,
+  "total_tasks": 4,
+  "mean_advantage_pct": 16.79732096195221,
+  "tasks": [
+    {
+      "name": "Physics+Math",
+      "kl_classical": 1.264379858970642,
+      "kl_quantum": 0.8173823356628418,
+      "js_classical": 0.27268749475479126,
+      "js_quantum": 0.1529148519039154,
+      "top20_classical": 0.35,
+      "top20_quantum": 0.55,
+      "advantage_pct": 43.92304229736328,
+      "quantum_wins": "True"
+    },
+    {
+      "name": "Brain+Computer",
+      "kl_classical": 6.858447551727295,
+      "kl_quantum": 5.886476993560791,
+      "js_classical": 0.5785854458808899,
+      "js_quantum": 0.5457550287246704,
+      "top20_classical": 0.05,
+      "top20_quantum": 0.05,
+      "advantage_pct": 5.674255847930908,
+      "quantum_wins": "True"
+    },
+    {
+      "name": "Evolution+DNA",
+      "kl_classical": 7.136025428771973,
+      "kl_quantum": 5.4869160652160645,
+      "js_classical": 0.5098845958709717,
+      "js_quantum": 0.45853477716445923,
+      "top20_classical": 0.1,
+      "top20_quantum": 0.15,
+      "advantage_pct": 10.070870399475098,
+      "quantum_wins": "True"
+    },
+    {
+      "name": "Music+Emotion",
+      "kl_classical": 7.63657283782959,
+      "kl_quantum": 6.819326877593994,
+      "js_classical": 0.6244697570800781,
+      "js_quantum": 0.5775026679039001,
+      "top20_classical": 0.05,
+      "top20_quantum": 0.1,
+      "advantage_pct": 7.521115303039551,
+      "quantum_wins": "True"
+    }
+  ],
+  "elapsed": 3.153449058532715
+}

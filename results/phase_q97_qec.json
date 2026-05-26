@@ -1,0 +1,51 @@
+{
+  "phase": "Q97",
+  "name": "Quantum Error Correction",
+  "has_correction": false,
+  "mean_correction_ratio": 8.505768475127885,
+  "data": [
+    {
+      "error_strength": 0.1,
+      "mean_single_diff": 26.100704193115234,
+      "max_single_diff": 35.90889358520508,
+      "multi_diff": 0.0,
+      "correction_ratio": 6.659729916543996
+    },
+    {
+      "error_strength": 0.5,
+      "mean_single_diff": 135.46537235804968,
+      "max_single_diff": 205.77793884277344,
+      "multi_diff": 0.0,
+      "correction_ratio": 6.912938335242777
+    },
+    {
+      "error_strength": 1.0,
+      "mean_single_diff": 440.2008034842355,
+      "max_single_diff": 781.6979370117188,
+      "multi_diff": 0.0,
+      "correction_ratio": 11.231951592674971
+    },
+    {
+      "error_strength": 2.0,
+      "mean_single_diff": 1095.8211277553014,
+      "max_single_diff": 1919.7916259765625,
+      "multi_diff": 0.0,
+      "correction_ratio": 13.980221939366048
+    },
+    {
+      "error_strength": 5.0,
+      "mean_single_diff": 1387.1419067382812,
+      "max_single_diff": 1940.733154296875,
+      "multi_diff": 0.0,
+      "correction_ratio": 7.078728900704971
+    },
+    {
+      "error_strength": 10.0,
+      "mean_single_diff": 2026.6255754743304,
+      "max_single_diff": 2364.417236328125,
+      "multi_diff": 0.0,
+      "correction_ratio": 5.171040166234543
+    }
+  ],
+  "elapsed": 6.251900672912598
+}

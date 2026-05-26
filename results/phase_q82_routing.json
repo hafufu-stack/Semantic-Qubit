@@ -1,0 +1,11 @@
+{
+  "phase": "Q82",
+  "name": "Attention-Guided qLDPC Routing",
+  "grid_size": 8,
+  "n_atoms_placed": 5,
+  "routing_efficiency_optimized": 0.6570988253561989,
+  "routing_efficiency_random": 0.29105242217915317,
+  "improvement_factor": 2.257664857109365,
+  "n_attention_maps": 4,
+  "elapsed": 3.0292017459869385
+}

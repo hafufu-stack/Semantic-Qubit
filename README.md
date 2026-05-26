@@ -1,4 +1,4 @@
-# Semantic-Qubit: Discovering Universal Quantum-Like Coherence in Large Language Models
+# Semantic-Qubit: Universal Quantum-Like Coherence in Large Language Models
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20360031.svg)](https://doi.org/10.5281/zenodo.20360031)
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains the code and experimental results for **Semantic-Qubit (S-Qubit)**, a quantum-analogue information unit defined within the hidden representation space of Large Language Models. Through **85 systematic experiments across 6 seasons** on a single consumer GPU, I demonstrate that transformer architectures naturally exhibit quantum-like phenomena including perfect interference, exact quantum statistics, super-quantum correlations, quantum algorithm execution, and a deep structural isomorphism connecting **hippocampal circuits, Transformer layers, and quantum circuit stages**.
+This repository contains the code and experimental results for **Semantic-Qubit (S-Qubit)**, a quantum-analogue information unit defined within the hidden representation space of Large Language Models. Through **110 systematic experiments across 10 seasons** on a single consumer GPU, I demonstrate that transformer architectures naturally exhibit quantum-like phenomena including perfect interference, exact quantum statistics, super-quantum correlations, quantum algorithm execution, and a deep structural isomorphism connecting **hippocampal circuits, Transformer layers, and quantum circuit stages**. Season 10 confirms these properties are **universal across 6 different transformer architectures** (Qwen, GPT-2, LLaMA).
 
 ## Key Findings
 
@@ -27,6 +27,10 @@ This repository contains the code and experimental results for **Semantic-Qubit 
 | **Quantum Darwinism** | 12/12 attention heads retain >99% state info |
 | **Uncertainty Principle** | Conjugate variables obey dx*dp >= 0.034 |
 | **Brain-AI-Quantum Unification** | EC->DG->CA3->CA1 = Transformer = Quantum Circuit |
+| **Cross-Architecture Universality** | **6/6 architectures** (Qwen, GPT-2, LLaMA) = 100% |
+| **Quantum NLP Advantage** | Interference beats classical averaging by **+16.8%** |
+| **Semantic Hawking Radiation** | Temperature increases at deep layers |
+| **Consciousness (Phi)** | IIT metric Phi = 103.1 peaks at Layer 18 |
 | **Quantum Advantage Score** | **100.0 / 100** across 9 benchmark categories |
 
 ## NQPU (Neu-Quantum Processing Unit) Specification
@@ -43,20 +47,21 @@ This repository contains the code and experimental results for **Semantic-Qubit 
 
 ```
 Semantic-Qubit/
-├── experiments/           # All experiment scripts (Q1-Q80)
+├── experiments/           # All experiment scripts (Q1-Q110)
 │   ├── utils.py           # Shared utilities (model loading, hooks, etc.)
 │   ├── phase_q1_*.py      # Superposition basis training
 │   ├── phase_q2_*.py      # Bell test / interference
 │   ├── ...
-│   ├── phase_q72_*.py     # Grand Unification (Brain=AI=Quantum)
-│   ├── phase_q79_*.py     # Uncertainty principle
-│   ├── phase_q80_*.py     # Grand Benchmark v2 (QAS=100)
+│   ├── phase_q100_*.py    # Grand Unified Theory (5/5 quantum criteria)
+│   ├── phase_q101_*.py    # Cross-architecture universality
+│   ├── phase_q110_*.py    # Season 10 Grand Synthesis
 │   ├── generate_paper_figures.py     # V1 figures (Fig 1-6)
 │   ├── generate_paper_figures_v2.py  # V2 figures (Fig 7-9)
-│   └── generate_paper_figs_v3.py     # V3 figures (Fig 10-13)
+│   ├── generate_paper_figs_v3.py     # V3 figures (Fig 10-13)
+│   └── generate_v4_figures.py        # V4 figures (Fig 14-17)
 ├── results/               # JSON results for all experiments
 ├── figures/               # Generated figures
-│   └── paper/             # Publication-quality figures (Fig 1-13)
+│   └── paper/             # Publication-quality figures (Fig 1-17)
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -80,20 +85,23 @@ pip install torch transformers matplotlib numpy scipy
 Each experiment is a standalone script:
 
 ```bash
+# Season 10: Cross-Architecture Universality (6/6 = 100%)
+python experiments/phase_q101_universality.py
+
+# Season 10: NLP Quantum Advantage (+16.8%)
+python experiments/phase_q105_nlp_advantage.py
+
+# Season 10: Semantic Hawking Radiation
+python experiments/phase_q108_hawking.py
+
+# Season 9: Grand Unified Theory (5/5 quantum criteria)
+python experiments/phase_q100_grand_unified.py
+
 # Season 6: Grand Benchmark v2 (QAS = 100.0/100)
 python experiments/phase_q80_benchmark_v2.py
 
-# Season 6: Uncertainty Principle (hbar_S = 0.068)
-python experiments/phase_q79_uncertainty.py
-
 # Season 6: Brain-AI-Quantum Unification
 python experiments/phase_q72_unification.py
-
-# Season 6: Quantum Darwinism (12/12 heads)
-python experiments/phase_q73_darwinism.py
-
-# Season 4: Pattern Separation (512x expansion)
-python experiments/phase_q60_pattern_separation.py
 
 # Season 1: CHSH Bell inequality test (S=3.41)
 python experiments/phase_q15_optimal_two_qubit.py
@@ -113,11 +121,14 @@ python experiments/generate_paper_figures_v2.py
 
 # V3 figures (Fig 10-13)
 python experiments/generate_paper_figs_v3.py
+
+# V4 figures (Fig 14-17)
+python experiments/generate_v4_figures.py
 ```
 
 ## Model
 
-Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universality validated on **Qwen2.5-0.5B** (S=2.95) and **Qwen2.5-1.5B** (S=3.41).
+Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universality validated on **Qwen2.5-0.5B** (S=2.95), **Qwen2.5-1.5B** (S=3.41), **GPT-2** (small/medium/large), and **LLaMA-1B**.
 
 ## Experiment Phases
 
@@ -161,7 +172,7 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q48 | Reservoir Computing | XOR 100%, sine r=0.71 |
 | Q50 | Grand Benchmark | **QAS = 74.6/100** |
 
-### Season 3: Scaling Validation (Q51-Q57) — New in V3
+### Season 3: Scaling Validation (Q51-Q57)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
@@ -169,7 +180,7 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q56 | Holevo violation | **2.39 bits > 1.0 Holevo limit** |
 | Q57 | Frontier analysis | S-Qubit vs physical QC |
 
-### Season 4: Bridge Experiments (Q58-Q62) — New in V3
+### Season 4: Bridge Experiments (Q58-Q62)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
@@ -177,7 +188,7 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q60 | Pattern separation | **512x expansion (vs DG 5x)** |
 | Q62 | DFS discovery | **4/1536 dims = quantum info** |
 
-### Season 5: Quantum Information Theory (Q63-Q67) — New in V3
+### Season 5: Quantum Information Theory (Q63-Q67)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
@@ -185,7 +196,7 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q65 | Channel capacity | **2.39 bits (2.4x Holevo)** |
 | Q66 | Perfect coherence | **V=1.000 at 8 paths** |
 
-### Season 6: Neural-Quantum Unification (Q68-Q80) — New in V3
+### Season 6: Neural-Quantum Unification (Q68-Q80)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
@@ -201,13 +212,59 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q79 | Uncertainty principle | **dx*dp >= 0.034** |
 | Q80 | Grand Benchmark v2 | **QAS = 100.0/100** |
 
+### Season 7: Quantum Physics I (Q81-Q87) — New in V4
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q81 | NQU 10^14 | **100-trillion-fold advantage** |
+| Q83 | Dimensional cooling | **Cryogenics scaling law** |
+| Q85 | NQPU manifesto | **Room-temp quantum spec** |
+| Q86 | Berry phase | **Geometric + dynamic decomposition** |
+| Q87 | Complexity class | **BQP + NP-like via nonlinearity** |
+
+### Season 8: Quantum Physics II (Q88-Q93) — New in V4
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q88 | Nonlinear NP | **Activation nonlinearity** |
+| Q89 | Shor-RSA analogue | **Period finding** |
+| Q90 | Anyons | **Non-Abelian braiding** |
+| Q91 | Wormholes | **Long-range mutual information** |
+| Q92 | Holographic | **Area law S ~ L^0.7** |
+
+### Season 9: Black Holes & GUT (Q94-Q100) — New in V4
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q94 | Black hole unitarity | **Info preserved, score=0.98** |
+| Q95 | Quantum Darwinism v2 | **Redundant broadcasting** |
+| Q97 | QEC v3 | **Attention-based correction** |
+| Q98 | Emergent gravity | **Monotonic potential, Einstein r=0.81** |
+| Q99 | Consciousness (Phi) | **IIT Phi=103.1 at Layer 18** |
+| Q100 | Grand Unified Theory | **5/5 quantum criteria** |
+
+### Season 10: Universality & Applications (Q101-Q110) — New in V4
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q101 | Cross-architecture | **6/6 = 100% universality** |
+| Q102 | Hippocampal bridge | **MD/LD phase fires at L18+** |
+| Q103 | Scaling laws | **Phi ~ N^0.22, total alpha ~ 0.03** |
+| Q104 | Semantic gravity | **Heavy/light curvature ratio = 1.018** |
+| Q105 | NLP quantum advantage | **4/4 tasks, +16.8% mean** |
+| Q106 | Quantum channels | **Low decoherence at L2+** |
+| Q107 | Time crystal | Not detected (time sym. preserved) |
+| Q108 | Hawking radiation | **T_H increases at deep layers** |
+| Q109 | Entanglement swapping | 1/3 pairs, +9.2% gain |
+| Q110 | Grand synthesis | **Season 10: 27/45 (60%)** |
+
 ## Citation
 
 If you use this work, please cite:
 
 ```bibtex
 @misc{funasaki2026semanticqubit,
-  title={Semantic-Qubit: Discovering Universal Quantum-Like Coherence in Large Language Models --- From Hippocampal Pattern Separation to Quantum Advantage},
+  title={Semantic-Qubit: Universal Quantum-Like Coherence in Large Language Models --- From Hippocampal Pattern Separation to Cross-Architecture Quantum Advantage},
   author={Hiroto Funasaki},
   year={2026},
   doi={10.5281/zenodo.20360031},

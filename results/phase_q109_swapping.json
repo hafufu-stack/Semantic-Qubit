@@ -1,0 +1,43 @@
+{
+  "phase": "Q109",
+  "name": "Entanglement Swapping",
+  "n_swapped": 1,
+  "total_pairs": 3,
+  "mean_gain": 0.0058559809071084545,
+  "pairs": [
+    {
+      "name": "Music-Brain",
+      "ent_AB": 0.5293747782707214,
+      "ent_BC": 0.38796722888946533,
+      "ent_AC_direct": 0.478274405002594,
+      "ent_AB_mediated": 0.6588231325149536,
+      "ent_AC_swapped": 0.522254467010498,
+      "ent_AC_via_B": 0.4096119701862335,
+      "gain": 0.09195570897938798,
+      "swapping_detected": true
+    },
+    {
+      "name": "Ocean-Blood",
+      "ent_AB": 0.472917377948761,
+      "ent_BC": 0.6044737100601196,
+      "ent_AC_direct": 0.4675212800502777,
+      "ent_AB_mediated": 0.7033291459083557,
+      "ent_AC_swapped": 0.46236667037010193,
+      "ent_AC_via_B": 0.5949092507362366,
+      "gain": -0.011025401193543338,
+      "swapping_detected": false
+    },
+    {
+      "name": "Star-Cell",
+      "ent_AB": 0.5058556795120239,
+      "ent_BC": 0.6944581270217896,
+      "ent_AC_direct": 0.6339859366416931,
+      "ent_AB_mediated": 0.9067931771278381,
+      "ent_AC_swapped": 0.5938150882720947,
+      "ent_AC_via_B": 0.7281354665756226,
+      "gain": -0.06336236506451928,
+      "swapping_detected": false
+    }
+  ],
+  "elapsed": 4.609877109527588
+}
