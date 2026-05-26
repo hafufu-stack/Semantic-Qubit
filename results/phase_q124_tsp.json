@@ -1,0 +1,88 @@
+{
+  "phase": "Q124",
+  "name": "Semantic Quantum Supremacy - TSP",
+  "problems": [
+    {
+      "n_cities": 4,
+      "exact_cost": 189.4,
+      "nn_cost": 207.02,
+      "sqbit_cost": 189.4,
+      "nn_ratio": 1.093,
+      "sqbit_ratio": 1.0,
+      "bf_time_ms": 0.02,
+      "nn_time_ms": 0.011,
+      "sqbit_time_ms": 51.29
+    },
+    {
+      "n_cities": 5,
+      "exact_cost": 212.61,
+      "nn_cost": 215.95,
+      "sqbit_cost": 212.61,
+      "nn_ratio": 1.0157,
+      "sqbit_ratio": 1.0,
+      "bf_time_ms": 0.05,
+      "nn_time_ms": 0.012,
+      "sqbit_time_ms": 48.91
+    },
+    {
+      "n_cities": 6,
+      "exact_cost": 260.41,
+      "nn_cost": 271.51,
+      "sqbit_cost": 260.41,
+      "nn_ratio": 1.0426,
+      "sqbit_ratio": 1.0,
+      "bf_time_ms": 0.24,
+      "nn_time_ms": 0.012,
+      "sqbit_time_ms": 56.6
+    },
+    {
+      "n_cities": 7,
+      "exact_cost": 214.0,
+      "nn_cost": 239.65,
+      "sqbit_cost": 236.16,
+      "nn_ratio": 1.1198,
+      "sqbit_ratio": 1.1036,
+      "bf_time_ms": 1.52,
+      "nn_time_ms": 0.015,
+      "sqbit_time_ms": 52.59
+    },
+    {
+      "n_cities": 8,
+      "exact_cost": 245.4,
+      "nn_cost": 259.68,
+      "sqbit_cost": 252.07,
+      "nn_ratio": 1.0582,
+      "sqbit_ratio": 1.0272,
+      "bf_time_ms": 11.52,
+      "nn_time_ms": 0.018,
+      "sqbit_time_ms": 57.57
+    },
+    {
+      "n_cities": 9,
+      "exact_cost": 249.23,
+      "nn_cost": 249.23,
+      "sqbit_cost": 249.23,
+      "nn_ratio": 1.0,
+      "sqbit_ratio": 1.0,
+      "bf_time_ms": 94.2,
+      "nn_time_ms": 0.025,
+      "sqbit_time_ms": 56.2
+    },
+    {
+      "n_cities": 10,
+      "exact_cost": 302.93,
+      "nn_cost": 334.47,
+      "sqbit_cost": 302.93,
+      "nn_ratio": 1.1041,
+      "sqbit_ratio": 1.0,
+      "bf_time_ms": 921.29,
+      "nn_time_ms": 0.028,
+      "sqbit_time_ms": 56.69
+    }
+  ],
+  "mean_sqbit_ratio": 1.0187,
+  "mean_nn_ratio": 1.0619,
+  "sqbit_beats_nn": 6,
+  "max_speedup": 16.3,
+  "elapsed": 2.99
+}

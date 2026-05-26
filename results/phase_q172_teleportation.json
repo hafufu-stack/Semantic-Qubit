@@ -1,0 +1,52 @@
+{
+  "phase": "Q172",
+  "name": "Quantum Teleportation Protocol",
+  "scenarios": [
+    {
+      "scenario": "Physics",
+      "teleportation_fidelity": 0.8501,
+      "direct_fidelity": 0.8501,
+      "unrelated_fidelity": 0.7559,
+      "random_fidelity": 0.0214,
+      "entanglement_strength": 0.9635,
+      "alpha": 0.8572,
+      "advantage_vs_random": 39.76
+    },
+    {
+      "scenario": "Chemistry",
+      "teleportation_fidelity": 0.9546,
+      "direct_fidelity": 0.9546,
+      "unrelated_fidelity": 0.8333,
+      "random_fidelity": 0.018,
+      "entanglement_strength": 0.8979,
+      "alpha": 0.8974,
+      "advantage_vs_random": 53.17
+    },
+    {
+      "scenario": "Code",
+      "teleportation_fidelity": 0.6462,
+      "direct_fidelity": 0.6462,
+      "unrelated_fidelity": 0.5856,
+      "random_fidelity": 0.0191,
+      "entanglement_strength": 0.9319,
+      "alpha": 0.6536,
+      "advantage_vs_random": 33.91
+    },
+    {
+      "scenario": "Literature",
+      "teleportation_fidelity": 0.9065,
+      "direct_fidelity": 0.9065,
+      "unrelated_fidelity": 0.889,
+      "random_fidelity": 0.0176,
+      "entanglement_strength": 0.9592,
+      "alpha": 0.9064,
+      "advantage_vs_random": 51.4
+    }
+  ],
+  "summary": {
+    "avg_fidelity": 0.8393,
+    "avg_random": 0.019,
+    "avg_advantage": 44.56
+  },
+  "elapsed": 2.64
+}

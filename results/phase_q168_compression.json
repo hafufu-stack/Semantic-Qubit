@@ -1,0 +1,77 @@
+{
+  "phase": "Q168",
+  "name": "Wavefunction ZIP Compression",
+  "methods": [
+    {
+      "prompt_type": "H2",
+      "original_bytes": 6144,
+      "raw_zlib_pct": 64.32,
+      "q8_zlib_pct": 14.73,
+      "delta_zlib_pct": 16.16,
+      "delta_xor_zlib_pct": 16.21,
+      "q4_zlib_pct": 2.07,
+      "fidelity_q8": 0.998384,
+      "fidelity_delta": 0.998384,
+      "entropy_raw": 3.955,
+      "entropy_delta": 4.558
+    },
+    {
+      "prompt_type": "Entanglement",
+      "original_bytes": 6144,
+      "raw_zlib_pct": 64.73,
+      "q8_zlib_pct": 13.51,
+      "delta_zlib_pct": 15.02,
+      "delta_xor_zlib_pct": 15.04,
+      "q4_zlib_pct": 1.5,
+      "fidelity_q8": 0.99802,
+      "fidelity_delta": 0.99802,
+      "entropy_raw": 3.42,
+      "entropy_delta": 4.05
+    },
+    {
+      "prompt_type": "Cat",
+      "original_bytes": 6144,
+      "raw_zlib_pct": 64.37,
+      "q8_zlib_pct": 14.21,
+      "delta_zlib_pct": 15.56,
+      "delta_xor_zlib_pct": 15.62,
+      "q4_zlib_pct": 4.02,
+      "fidelity_q8": 0.998042,
+      "fidelity_delta": 0.998042,
+      "entropy_raw": 3.714,
+      "entropy_delta": 4.333
+    },
+    {
+      "prompt_type": "Code",
+      "original_bytes": 6144,
+      "raw_zlib_pct": 64.06,
+      "q8_zlib_pct": 14.79,
+      "delta_zlib_pct": 16.15,
+      "delta_xor_zlib_pct": 16.28,
+      "q4_zlib_pct": 5.11,
+      "fidelity_q8": 0.998314,
+      "fidelity_delta": 0.998314,
+      "entropy_raw": 4.068,
+      "entropy_delta": 4.653
+    },
+    {
+      "prompt_type": "SYK",
+      "original_bytes": 6144,
+      "raw_zlib_pct": 64.44,
+      "q8_zlib_pct": 13.57,
+      "delta_zlib_pct": 14.97,
+      "delta_xor_zlib_pct": 15.02,
+      "q4_zlib_pct": 1.97,
+      "fidelity_q8": 0.997895,
+      "fidelity_delta": 0.997895,
+      "entropy_raw": 3.454,
+      "entropy_delta": 4.078
+    }
+  ],
+  "summary": {
+    "best_avg_compression": 2.93,
+    "delta_avg_compression": 15.57,
+    "avg_fidelity": 0.998131
+  },
+  "elapsed": 3.57
+}

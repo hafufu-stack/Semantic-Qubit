@@ -1,0 +1,256 @@
+{
+  "phase": "Q123",
+  "name": "Semantic Topological Protection",
+  "prompts": [
+    {
+      "prompt": "The speed of light is",
+      "clean_token": " approximately",
+      "clean_prob": 0.2832,
+      "winding_number": -7.1497,
+      "critical_noise": 0.01,
+      "winding_threshold": 0.01,
+      "noise_results": [
+        {
+          "noise_level": 0.0,
+          "state_fidelity": 1.0,
+          "prob_original_token": 0.283203,
+          "token_preserved": "True",
+          "winding_clean": -7.1497,
+          "winding_noisy": -7.1497,
+          "winding_preserved": "True"
+        },
+        {
+          "noise_level": 0.01,
+          "state_fidelity": 0.970835,
+          "prob_original_token": 0.241943,
+          "token_preserved": "False",
+          "winding_clean": -7.1497,
+          "winding_noisy": -9.0937,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.05,
+          "state_fidelity": 0.087188,
+          "prob_original_token": 0.000104,
+          "token_preserved": "False",
+          "winding_clean": -7.1497,
+          "winding_noisy": -12.1895,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.1,
+          "state_fidelity": 0.064057,
+          "prob_original_token": 2e-06,
+          "token_preserved": "False",
+          "winding_clean": -7.1497,
+          "winding_noisy": -4.9816,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.2,
+          "state_fidelity": 0.018902,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": -7.1497,
+          "winding_noisy": -7.421,
+          "winding_preserved": "True"
+        },
+        {
+          "noise_level": 0.5,
+          "state_fidelity": -0.07537,
+          "prob_original_token": 1.7e-05,
+          "token_preserved": "False",
+          "winding_clean": -7.1497,
+          "winding_noisy": -22.0931,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 1.0,
+          "state_fidelity": 0.010279,
+          "prob_original_token": 1e-06,
+          "token_preserved": "False",
+          "winding_clean": -7.1497,
+          "winding_noisy": 4.4631,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 2.0,
+          "state_fidelity": 0.006494,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": -7.1497,
+          "winding_noisy": 13.6209,
+          "winding_preserved": "False"
+        }
+      ]
+    },
+    {
+      "prompt": "Water freezes at zero",
+      "clean_token": " degrees",
+      "clean_prob": 0.9263,
+      "winding_number": 6.9331,
+      "critical_noise": 0.05,
+      "winding_threshold": 0.01,
+      "noise_results": [
+        {
+          "noise_level": 0.0,
+          "state_fidelity": 1.0,
+          "prob_original_token": 0.92627,
+          "token_preserved": "True",
+          "winding_clean": 6.9331,
+          "winding_noisy": 6.9331,
+          "winding_preserved": "True"
+        },
+        {
+          "noise_level": 0.01,
+          "state_fidelity": 0.724921,
+          "prob_original_token": 0.814941,
+          "token_preserved": "True",
+          "winding_clean": 6.9331,
+          "winding_noisy": -1.9678,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.05,
+          "state_fidelity": 0.008346,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": 6.9331,
+          "winding_noisy": 12.9255,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.1,
+          "state_fidelity": 0.024056,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": 6.9331,
+          "winding_noisy": 4.058,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.2,
+          "state_fidelity": 0.009357,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": 6.9331,
+          "winding_noisy": -9.2879,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.5,
+          "state_fidelity": -0.035937,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": 6.9331,
+          "winding_noisy": 0.4289,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 1.0,
+          "state_fidelity": 0.014404,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": 6.9331,
+          "winding_noisy": 2.73,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 2.0,
+          "state_fidelity": 0.036225,
+          "prob_original_token": 9e-06,
+          "token_preserved": "False",
+          "winding_clean": 6.9331,
+          "winding_noisy": 12.407,
+          "winding_preserved": "False"
+        }
+      ]
+    },
+    {
+      "prompt": "The sun rises in the",
+      "clean_token": " east",
+      "clean_prob": 0.8525,
+      "winding_number": 11.7016,
+      "critical_noise": 0.05,
+      "winding_threshold": 0.01,
+      "noise_results": [
+        {
+          "noise_level": 0.0,
+          "state_fidelity": 1.0,
+          "prob_original_token": 0.852539,
+          "token_preserved": "True",
+          "winding_clean": 11.7016,
+          "winding_noisy": 11.7016,
+          "winding_preserved": "True"
+        },
+        {
+          "noise_level": 0.01,
+          "state_fidelity": 0.959811,
+          "prob_original_token": 0.896973,
+          "token_preserved": "True",
+          "winding_clean": 11.7016,
+          "winding_noisy": 16.8291,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.05,
+          "state_fidelity": 0.169999,
+          "prob_original_token": 7e-06,
+          "token_preserved": "False",
+          "winding_clean": 11.7016,
+          "winding_noisy": 6.6109,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.1,
+          "state_fidelity": 0.033656,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": 11.7016,
+          "winding_noisy": 24.4581,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.2,
+          "state_fidelity": -0.029578,
+          "prob_original_token": 1e-06,
+          "token_preserved": "False",
+          "winding_clean": 11.7016,
+          "winding_noisy": -15.0752,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 0.5,
+          "state_fidelity": 0.006763,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": 11.7016,
+          "winding_noisy": 11.5409,
+          "winding_preserved": "True"
+        },
+        {
+          "noise_level": 1.0,
+          "state_fidelity": 0.000587,
+          "prob_original_token": 3e-06,
+          "token_preserved": "False",
+          "winding_clean": 11.7016,
+          "winding_noisy": 1.3186,
+          "winding_preserved": "False"
+        },
+        {
+          "noise_level": 2.0,
+          "state_fidelity": 0.009191,
+          "prob_original_token": 0.0,
+          "token_preserved": "False",
+          "winding_clean": 11.7016,
+          "winding_noisy": 4.9108,
+          "winding_preserved": "False"
+        }
+      ]
+    }
+  ],
+  "mean_critical_noise": 0.0367,
+  "mean_winding_threshold": 0.01,
+  "topological_protection": "False",
+  "elapsed": 3.62
+}

@@ -1,0 +1,73 @@
+{
+  "phase": "Q158",
+  "name": "Topology Boundary (Local to All-to-All)",
+  "n_qubits": 8,
+  "topology_sweep": [
+    {
+      "k": 1,
+      "connectivity_pct": 25.0,
+      "n_connections": 7,
+      "random_error": 0.0027,
+      "llm_error": 0.0,
+      "advantage": 2.66
+    },
+    {
+      "k": 2,
+      "connectivity_pct": 46.4,
+      "n_connections": 13,
+      "random_error": 0.0065,
+      "llm_error": 0.0013,
+      "advantage": 4.81
+    },
+    {
+      "k": 3,
+      "connectivity_pct": 64.3,
+      "n_connections": 18,
+      "random_error": 6.6678,
+      "llm_error": 9.856,
+      "advantage": 0.68
+    },
+    {
+      "k": 4,
+      "connectivity_pct": 78.6,
+      "n_connections": 22,
+      "random_error": 0.4812,
+      "llm_error": 0.8142,
+      "advantage": 0.59
+    },
+    {
+      "k": 5,
+      "connectivity_pct": 89.3,
+      "n_connections": 25,
+      "random_error": 0.2589,
+      "llm_error": 0.1353,
+      "advantage": 1.91
+    },
+    {
+      "k": 6,
+      "connectivity_pct": 96.4,
+      "n_connections": 27,
+      "random_error": 4.4304,
+      "llm_error": 6.0642,
+      "advantage": 0.73
+    },
+    {
+      "k": 7,
+      "connectivity_pct": 100.0,
+      "n_connections": 28,
+      "random_error": 7.987,
+      "llm_error": 2.5264,
+      "advantage": 3.16
+    },
+    {
+      "k": 8,
+      "connectivity_pct": 100.0,
+      "n_connections": 28,
+      "random_error": 7.987,
+      "llm_error": 2.5264,
+      "advantage": 3.16
+    }
+  ],
+  "transition_k": 1,
+  "elapsed": 5.74
+}

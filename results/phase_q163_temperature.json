@@ -1,0 +1,92 @@
+{
+  "phase": "Q163",
+  "name": "Temperature-Decoherence Mapping",
+  "data": [
+    {
+      "temperature": 0.01,
+      "purity": 1.0,
+      "entropy": 0.0,
+      "max_prob": 1.0,
+      "participation_ratio": 1.0,
+      "decoherence": 0.0
+    },
+    {
+      "temperature": 0.05,
+      "purity": 0.990237,
+      "entropy": 0.0447,
+      "max_prob": 0.995095,
+      "participation_ratio": 1.01,
+      "decoherence": 0.009763
+    },
+    {
+      "temperature": 0.1,
+      "purity": 0.877259,
+      "entropy": 0.3505,
+      "max_prob": 0.934321,
+      "participation_ratio": 1.14,
+      "decoherence": 0.122741
+    },
+    {
+      "temperature": 0.2,
+      "purity": 0.659222,
+      "entropy": 0.7971,
+      "max_prob": 0.784809,
+      "participation_ratio": 1.52,
+      "decoherence": 0.340778
+    },
+    {
+      "temperature": 0.5,
+      "purity": 0.440832,
+      "entropy": 1.407,
+      "max_prob": 0.56741,
+      "participation_ratio": 2.27,
+      "decoherence": 0.559168
+    },
+    {
+      "temperature": 1.0,
+      "purity": 0.240027,
+      "entropy": 2.876,
+      "max_prob": 0.369045,
+      "participation_ratio": 4.17,
+      "decoherence": 0.759973
+    },
+    {
+      "temperature": 2.0,
+      "purity": 0.05208,
+      "entropy": 5.1612,
+      "max_prob": 0.138635,
+      "participation_ratio": 19.2,
+      "decoherence": 0.94792
+    },
+    {
+      "temperature": 5.0,
+      "purity": 0.018117,
+      "entropy": 5.9085,
+      "max_prob": 0.04212,
+      "participation_ratio": 55.2,
+      "decoherence": 0.981883
+    },
+    {
+      "temperature": 10.0,
+      "purity": 0.016088,
+      "entropy": 5.9807,
+      "max_prob": 0.026031,
+      "participation_ratio": 62.16,
+      "decoherence": 0.983912
+    },
+    {
+      "temperature": 50.0,
+      "purity": 0.01564,
+      "entropy": 5.9993,
+      "max_prob": 0.017339,
+      "participation_ratio": 63.94,
+      "decoherence": 0.98436
+    }
+  ],
+  "fit": {
+    "alpha": 1.5466,
+    "beta": 0.9698,
+    "r2": 0.9924
+  },
+  "elapsed": 1.93
+}

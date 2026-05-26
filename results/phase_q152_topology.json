@@ -1,0 +1,267 @@
+{
+  "phase": "Q152",
+  "name": "Attention Head Topology (Weight Analysis)",
+  "summary": {
+    "total_heads": 336,
+    "global_pct": 36.9,
+    "local_pct": 36.9,
+    "median_rank": 81.12,
+    "median_entropy": 3.5629,
+    "head_dim": 128
+  },
+  "layer_summaries": [
+    {
+      "layer": 0,
+      "avg_rank": 76.42,
+      "avg_entropy": 2.9403,
+      "avg_sparsity": 0.0977,
+      "avg_v_rank": 126.64,
+      "n_global": 2,
+      "n_heads": 12
+    },
+    {
+      "layer": 1,
+      "avg_rank": 80.27,
+      "avg_entropy": 3.7274,
+      "avg_sparsity": 0.1322,
+      "avg_v_rank": 126.58,
+      "n_global": 6,
+      "n_heads": 12
+    },
+    {
+      "layer": 2,
+      "avg_rank": 85.38,
+      "avg_entropy": 3.7044,
+      "avg_sparsity": 0.1963,
+      "avg_v_rank": 126.73,
+      "n_global": 8,
+      "n_heads": 12
+    },
+    {
+      "layer": 3,
+      "avg_rank": 85.93,
+      "avg_entropy": 3.685,
+      "avg_sparsity": 0.1814,
+      "avg_v_rank": 126.82,
+      "n_global": 8,
+      "n_heads": 12
+    },
+    {
+      "layer": 4,
+      "avg_rank": 87.58,
+      "avg_entropy": 3.8304,
+      "avg_sparsity": 0.21,
+      "avg_v_rank": 127.05,
+      "n_global": 9,
+      "n_heads": 12
+    },
+    {
+      "layer": 5,
+      "avg_rank": 83.88,
+      "avg_entropy": 3.1723,
+      "avg_sparsity": 0.2551,
+      "avg_v_rank": 126.63,
+      "n_global": 5,
+      "n_heads": 12
+    },
+    {
+      "layer": 6,
+      "avg_rank": 77.23,
+      "avg_entropy": 2.9386,
+      "avg_sparsity": 0.2319,
+      "avg_v_rank": 125.87,
+      "n_global": 4,
+      "n_heads": 12
+    },
+    {
+      "layer": 7,
+      "avg_rank": 80.64,
+      "avg_entropy": 3.3078,
+      "avg_sparsity": 0.2293,
+      "avg_v_rank": 126.51,
+      "n_global": 6,
+      "n_heads": 12
+    },
+    {
+      "layer": 8,
+      "avg_rank": 78.32,
+      "avg_entropy": 2.9793,
+      "avg_sparsity": 0.2571,
+      "avg_v_rank": 127.05,
+      "n_global": 5,
+      "n_heads": 12
+    },
+    {
+      "layer": 9,
+      "avg_rank": 86.52,
+      "avg_entropy": 3.0189,
+      "avg_sparsity": 0.2443,
+      "avg_v_rank": 126.33,
+      "n_global": 5,
+      "n_heads": 12
+    },
+    {
+      "layer": 10,
+      "avg_rank": 80.25,
+      "avg_entropy": 3.3833,
+      "avg_sparsity": 0.2324,
+      "avg_v_rank": 127.47,
+      "n_global": 6,
+      "n_heads": 12
+    },
+    {
+      "layer": 11,
+      "avg_rank": 81.97,
+      "avg_entropy": 3.2234,
+      "avg_sparsity": 0.2536,
+      "avg_v_rank": 126.9,
+      "n_global": 4,
+      "n_heads": 12
+    },
+    {
+      "layer": 12,
+      "avg_rank": 78.33,
+      "avg_entropy": 3.317,
+      "avg_sparsity": 0.2888,
+      "avg_v_rank": 126.67,
+      "n_global": 4,
+      "n_heads": 12
+    },
+    {
+      "layer": 13,
+      "avg_rank": 86.42,
+      "avg_entropy": 3.7368,
+      "avg_sparsity": 0.2164,
+      "avg_v_rank": 126.69,
+      "n_global": 8,
+      "n_heads": 12
+    },
+    {
+      "layer": 14,
+      "avg_rank": 74.92,
+      "avg_entropy": 2.9821,
+      "avg_sparsity": 0.3555,
+      "avg_v_rank": 125.93,
+      "n_global": 1,
+      "n_heads": 12
+    },
+    {
+      "layer": 15,
+      "avg_rank": 76.87,
+      "avg_entropy": 3.3498,
+      "avg_sparsity": 0.2306,
+      "avg_v_rank": 127.31,
+      "n_global": 1,
+      "n_heads": 12
+    },
+    {
+      "layer": 16,
+      "avg_rank": 75.25,
+      "avg_entropy": 3.011,
+      "avg_sparsity": 0.3263,
+      "avg_v_rank": 126.68,
+      "n_global": 1,
+      "n_heads": 12
+    },
+    {
+      "layer": 17,
+      "avg_rank": 75.33,
+      "avg_entropy": 2.8836,
+      "avg_sparsity": 0.3744,
+      "avg_v_rank": 125.96,
+      "n_global": 3,
+      "n_heads": 12
+    },
+    {
+      "layer": 18,
+      "avg_rank": 83.23,
+      "avg_entropy": 3.4831,
+      "avg_sparsity": 0.323,
+      "avg_v_rank": 126.63,
+      "n_global": 6,
+      "n_heads": 12
+    },
+    {
+      "layer": 19,
+      "avg_rank": 76.66,
+      "avg_entropy": 3.3576,
+      "avg_sparsity": 0.3822,
+      "avg_v_rank": 126.04,
+      "n_global": 3,
+      "n_heads": 12
+    },
+    {
+      "layer": 20,
+      "avg_rank": 82.08,
+      "avg_entropy": 3.5807,
+      "avg_sparsity": 0.3587,
+      "avg_v_rank": 126.65,
+      "n_global": 7,
+      "n_heads": 12
+    },
+    {
+      "layer": 21,
+      "avg_rank": 81.11,
+      "avg_entropy": 3.7886,
+      "avg_sparsity": 0.3877,
+      "avg_v_rank": 125.47,
+      "n_global": 6,
+      "n_heads": 12
+    },
+    {
+      "layer": 22,
+      "avg_rank": 81.89,
+      "avg_entropy": 3.6893,
+      "avg_sparsity": 0.2617,
+      "avg_v_rank": 126.44,
+      "n_global": 7,
+      "n_heads": 12
+    },
+    {
+      "layer": 23,
+      "avg_rank": 73.64,
+      "avg_entropy": 3.2664,
+      "avg_sparsity": 0.3525,
+      "avg_v_rank": 125.45,
+      "n_global": 2,
+      "n_heads": 12
+    },
+    {
+      "layer": 24,
+      "avg_rank": 79.68,
+      "avg_entropy": 3.8636,
+      "avg_sparsity": 0.3109,
+      "avg_v_rank": 126.27,
+      "n_global": 3,
+      "n_heads": 12
+    },
+    {
+      "layer": 25,
+      "avg_rank": 73.12,
+      "avg_entropy": 3.5189,
+      "avg_sparsity": 0.3373,
+      "avg_v_rank": 126.02,
+      "n_global": 1,
+      "n_heads": 12
+    },
+    {
+      "layer": 26,
+      "avg_rank": 73.37,
+      "avg_entropy": 3.2068,
+      "avg_sparsity": 0.3845,
+      "avg_v_rank": 126.3,
+      "n_global": 2,
+      "n_heads": 12
+    },
+    {
+      "layer": 27,
+      "avg_rank": 69.48,
+      "avg_entropy": 3.2203,
+      "avg_sparsity": 0.4372,
+      "avg_v_rank": 126.35,
+      "n_global": 1,
+      "n_heads": 12
+    }
+  ],
+  "elapsed": 6.65
+}

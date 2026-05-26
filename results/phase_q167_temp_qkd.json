@@ -1,0 +1,73 @@
+{
+  "phase": "Q167",
+  "name": "Chaotic Temperature QKD",
+  "squbit_dim": 1536,
+  "correct_temperature": 1.0,
+  "results": [
+    {
+      "delta_T": 0.0,
+      "T_test": 1.0,
+      "match_rate_pct": 100.0,
+      "bit_error_rate": 0.0,
+      "fidelity": 0.00975
+    },
+    {
+      "delta_T": 1e-06,
+      "T_test": 1.000001,
+      "match_rate_pct": 0.46,
+      "bit_error_rate": 50.12,
+      "fidelity": 0.002033
+    },
+    {
+      "delta_T": 1e-05,
+      "T_test": 1.00001,
+      "match_rate_pct": 0.52,
+      "bit_error_rate": 50.07,
+      "fidelity": 0.000245
+    },
+    {
+      "delta_T": 0.0001,
+      "T_test": 1.0001,
+      "match_rate_pct": 0.07,
+      "bit_error_rate": 49.87,
+      "fidelity": 0.001305
+    },
+    {
+      "delta_T": 0.001,
+      "T_test": 1.001,
+      "match_rate_pct": 0.2,
+      "bit_error_rate": 49.88,
+      "fidelity": 0.00023
+    },
+    {
+      "delta_T": 0.01,
+      "T_test": 1.01,
+      "match_rate_pct": 0.52,
+      "bit_error_rate": 49.97,
+      "fidelity": 1.9e-05
+    },
+    {
+      "delta_T": 0.1,
+      "T_test": 1.1,
+      "match_rate_pct": 0.2,
+      "bit_error_rate": 49.48,
+      "fidelity": 0.002527
+    },
+    {
+      "delta_T": 0.5,
+      "T_test": 1.5,
+      "match_rate_pct": 0.39,
+      "bit_error_rate": 49.95,
+      "fidelity": 0.000863
+    },
+    {
+      "delta_T": 1.0,
+      "T_test": 2.0,
+      "match_rate_pct": 0.52,
+      "bit_error_rate": 49.89,
+      "fidelity": 0.003372
+    }
+  ],
+  "collapse_threshold": 1e-06,
+  "elapsed": 2.28
+}

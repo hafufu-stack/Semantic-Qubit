@@ -1,0 +1,122 @@
+{
+  "phase": "Q143",
+  "name": "Integrated Information Theory (Phi)",
+  "tasks": [
+    {
+      "category": "simple",
+      "task": "Color fact",
+      "prompt": "The sky is",
+      "phi": 4.3467,
+      "transfer_entropy": 0.134759,
+      "mean_layer_entropy": 1.1327,
+      "mean_cross_mi": 0.5232,
+      "output_entropy": 3.9957
+    },
+    {
+      "category": "simple",
+      "task": "Counting",
+      "prompt": "One two three",
+      "phi": 4.2441,
+      "transfer_entropy": 0.111771,
+      "mean_layer_entropy": 1.1606,
+      "mean_cross_mi": 0.3763,
+      "output_entropy": 2.0615
+    },
+    {
+      "category": "simple",
+      "task": "Greeting",
+      "prompt": "Hello world",
+      "phi": 5.6847,
+      "transfer_entropy": 0.108997,
+      "mean_layer_entropy": 1.1458,
+      "mean_cross_mi": 0.4057,
+      "output_entropy": 4.198
+    },
+    {
+      "category": "complex",
+      "task": "Philosophy",
+      "prompt": "The philosophical implications of consci",
+      "phi": 4.3557,
+      "transfer_entropy": 0.109971,
+      "mean_layer_entropy": 1.1311,
+      "mean_cross_mi": 0.4061,
+      "output_entropy": 3.4376
+    },
+    {
+      "category": "complex",
+      "task": "QM description",
+      "prompt": "In quantum mechanics the wave function",
+      "phi": 4.6245,
+      "transfer_entropy": 0.138503,
+      "mean_layer_entropy": 1.0827,
+      "mean_cross_mi": 0.3753,
+      "output_entropy": 3.1258
+    },
+    {
+      "category": "complex",
+      "task": "Info theory",
+      "prompt": "The relationship between entropy and inf",
+      "phi": 4.6844,
+      "transfer_entropy": 0.104208,
+      "mean_layer_entropy": 1.0872,
+      "mean_cross_mi": 0.3757,
+      "output_entropy": 2.6776
+    },
+    {
+      "category": "quantum",
+      "task": "GBS (Q136)",
+      "prompt": "Gaussian boson sampling interference pat",
+      "phi": 5.0882,
+      "transfer_entropy": 0.136455,
+      "mean_layer_entropy": 0.9898,
+      "mean_cross_mi": 0.3891,
+      "output_entropy": 6.715
+    },
+    {
+      "category": "quantum",
+      "task": "LQCD (Q138)",
+      "prompt": "SU(3) gauge theory vacuum energy confine",
+      "phi": 4.298,
+      "transfer_entropy": 0.134764,
+      "mean_layer_entropy": 0.9886,
+      "mean_cross_mi": 0.3857,
+      "output_entropy": 6.2419
+    },
+    {
+      "category": "quantum",
+      "task": "Hubbard (Q140)",
+      "prompt": "Hubbard model d-wave superconducting gro",
+      "phi": 3.6644,
+      "transfer_entropy": 0.143712,
+      "mean_layer_entropy": 1.0043,
+      "mean_cross_mi": 0.3684,
+      "output_entropy": 6.7853
+    },
+    {
+      "category": "quantum",
+      "task": "SYK (Q141)",
+      "prompt": "Black hole scrambling Sachdev-Ye-Kitaev:",
+      "phi": 4.7494,
+      "transfer_entropy": 0.122043,
+      "mean_layer_entropy": 1.0291,
+      "mean_cross_mi": 0.3484,
+      "output_entropy": 6.7971
+    },
+    {
+      "category": "quantum",
+      "task": "Anyon (Q142)",
+      "prompt": "Topological anyon braiding non-Abelian s",
+      "phi": 4.0265,
+      "transfer_entropy": 0.136132,
+      "mean_layer_entropy": 0.9919,
+      "mean_cross_mi": 0.373,
+      "output_entropy": 6.3997
+    }
+  ],
+  "summary": {
+    "simple_phi": 4.7585,
+    "complex_phi": 4.5549,
+    "quantum_phi": 4.3653
+  },
+  "elapsed": 2.5
+}

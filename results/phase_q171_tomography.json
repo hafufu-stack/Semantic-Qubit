@@ -1,0 +1,59 @@
+{
+  "phase": "Q171",
+  "name": "Quantum State Tomography",
+  "tomography": [
+    {
+      "label": "quantum",
+      "purity": 0.38525,
+      "vn_entropy": 2.2177,
+      "rank": 15,
+      "participation_ratio": 2.6,
+      "avg_entanglement_entropy": 3.1243,
+      "max_entanglement_entropy": 3.2587,
+      "n_schmidt_coeffs": 15,
+      "schmidt_entropy": 3.2587,
+      "max_possible_entropy": 8.0
+    },
+    {
+      "label": "classical",
+      "purity": 0.34015,
+      "vn_entropy": 2.3723,
+      "rank": 15,
+      "participation_ratio": 2.94,
+      "avg_entanglement_entropy": 3.2019,
+      "max_entanglement_entropy": 3.2924,
+      "n_schmidt_coeffs": 15,
+      "schmidt_entropy": 3.2587,
+      "max_possible_entropy": 8.0
+    },
+    {
+      "label": "code",
+      "purity": 0.37575,
+      "vn_entropy": 2.2136,
+      "rank": 15,
+      "participation_ratio": 2.66,
+      "avg_entanglement_entropy": 3.1715,
+      "max_entanglement_entropy": 3.355,
+      "n_schmidt_coeffs": 16,
+      "schmidt_entropy": 3.355,
+      "max_possible_entropy": 8.0
+    },
+    {
+      "label": "chemistry",
+      "purity": 0.399284,
+      "vn_entropy": 2.1579,
+      "rank": 15,
+      "participation_ratio": 2.5,
+      "avg_entanglement_entropy": 3.1198,
+      "max_entanglement_entropy": 3.2587,
+      "n_schmidt_coeffs": 15,
+      "schmidt_entropy": 3.2587,
+      "max_possible_entropy": 8.0
+    }
+  ],
+  "summary": {
+    "avg_purity": 0.375109,
+    "avg_entanglement": 3.1544
+  },
+  "elapsed": 3.65
+}

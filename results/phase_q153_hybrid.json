@@ -1,0 +1,58 @@
+{
+  "phase": "Q153",
+  "name": "SNN-LLM Hybrid Crypto",
+  "tests": [
+    {
+      "prompt_orig": "The secret meeting is at midnight under ",
+      "prompt_mod": "The secret meeting is at midnight under ",
+      "llm_only_match": 76.17,
+      "llm_snn_hybrid_match": 100.0,
+      "llm_sha256_match": 46.09,
+      "snn_only_match": 100.0,
+      "ideal": 50.0
+    },
+    {
+      "prompt_orig": "My password is quantum2024secure",
+      "prompt_mod": "My password is quantum2024Secure",
+      "llm_only_match": 78.91,
+      "llm_snn_hybrid_match": 100.0,
+      "llm_sha256_match": 51.95,
+      "snn_only_match": 100.0,
+      "ideal": 50.0
+    },
+    {
+      "prompt_orig": "Transfer funds to account 12345678",
+      "prompt_mod": "Transfer funds to account 12345679",
+      "llm_only_match": 81.64,
+      "llm_snn_hybrid_match": 100.0,
+      "llm_sha256_match": 51.17,
+      "snn_only_match": 100.0,
+      "ideal": 50.0
+    },
+    {
+      "prompt_orig": "The launch code is alpha-bravo-charlie",
+      "prompt_mod": "The launch code is alpha-bravo-Charlie",
+      "llm_only_match": 82.81,
+      "llm_snn_hybrid_match": 100.0,
+      "llm_sha256_match": 51.56,
+      "snn_only_match": 100.0,
+      "ideal": 50.0
+    },
+    {
+      "prompt_orig": "Encrypt this message with key XYZ",
+      "prompt_mod": "Encrypt this message with key xyz",
+      "llm_only_match": 86.72,
+      "llm_snn_hybrid_match": 100.0,
+      "llm_sha256_match": 50.39,
+      "snn_only_match": 100.0,
+      "ideal": 50.0
+    }
+  ],
+  "summary": {
+    "llm_only": 81.25,
+    "llm_snn_hybrid": 100.0,
+    "llm_sha256": 50.23,
+    "snn_only": 100.0
+  },
+  "elapsed": 2.93
+}

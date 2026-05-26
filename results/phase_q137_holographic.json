@@ -1,0 +1,482 @@
+{
+  "phase": "Q137",
+  "name": "Holographic Error Correction",
+  "tests": [
+    {
+      "test": "IMPORTANT: The answer is defin",
+      "strategies": {
+        "no_boundary": {
+          "clean_token": ",",
+          "breaking_point": 0.01,
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.07874
+            },
+            {
+              "noise": 0.01,
+              "correct": "False",
+              "prob": 7.2e-05
+            },
+            {
+              "noise": 0.05,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 0.1,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 0.5,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 1.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 2.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 5.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 10.0,
+              "correct": "False",
+              "prob": 0.0
+            }
+          ]
+        },
+        "boundary_only": {
+          "clean_token": " Paris",
+          "breaking_point": "unbroken",
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.33703
+            },
+            {
+              "noise": 0.01,
+              "correct": "True",
+              "prob": 0.33703
+            },
+            {
+              "noise": 0.05,
+              "correct": "True",
+              "prob": 0.33703
+            },
+            {
+              "noise": 0.1,
+              "correct": "True",
+              "prob": 0.33703
+            },
+            {
+              "noise": 0.5,
+              "correct": "True",
+              "prob": 0.33703
+            },
+            {
+              "noise": 1.0,
+              "correct": "True",
+              "prob": 0.33703
+            },
+            {
+              "noise": 2.0,
+              "correct": "True",
+              "prob": 0.33703
+            },
+            {
+              "noise": 5.0,
+              "correct": "True",
+              "prob": 0.33703
+            },
+            {
+              "noise": 10.0,
+              "correct": "True",
+              "prob": 0.33703
+            }
+          ]
+        },
+        "holographic": {
+          "clean_token": " Paris",
+          "breaking_point": 2.0,
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.273254
+            },
+            {
+              "noise": 0.01,
+              "correct": "True",
+              "prob": 0.268744
+            },
+            {
+              "noise": 0.05,
+              "correct": "True",
+              "prob": 0.256852
+            },
+            {
+              "noise": 0.1,
+              "correct": "True",
+              "prob": 0.273664
+            },
+            {
+              "noise": 0.5,
+              "correct": "True",
+              "prob": 0.230158
+            },
+            {
+              "noise": 1.0,
+              "correct": "True",
+              "prob": 0.602081
+            },
+            {
+              "noise": 2.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 5.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 10.0,
+              "correct": "False",
+              "prob": 0.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "test": "FACT: The chemical formula for",
+      "strategies": {
+        "no_boundary": {
+          "clean_token": ",",
+          "breaking_point": 0.01,
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.689201
+            },
+            {
+              "noise": 0.01,
+              "correct": "False",
+              "prob": 0.001278
+            },
+            {
+              "noise": 0.05,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 0.1,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 0.5,
+              "correct": "False",
+              "prob": 1e-06
+            },
+            {
+              "noise": 1.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 2.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 5.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 10.0,
+              "correct": "False",
+              "prob": 0.0
+            }
+          ]
+        },
+        "boundary_only": {
+          "clean_token": " H",
+          "breaking_point": "unbroken",
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.415351
+            },
+            {
+              "noise": 0.01,
+              "correct": "True",
+              "prob": 0.415351
+            },
+            {
+              "noise": 0.05,
+              "correct": "True",
+              "prob": 0.415351
+            },
+            {
+              "noise": 0.1,
+              "correct": "True",
+              "prob": 0.415351
+            },
+            {
+              "noise": 0.5,
+              "correct": "True",
+              "prob": 0.415351
+            },
+            {
+              "noise": 1.0,
+              "correct": "True",
+              "prob": 0.415351
+            },
+            {
+              "noise": 2.0,
+              "correct": "True",
+              "prob": 0.415351
+            },
+            {
+              "noise": 5.0,
+              "correct": "True",
+              "prob": 0.415351
+            },
+            {
+              "noise": 10.0,
+              "correct": "True",
+              "prob": 0.415351
+            }
+          ]
+        },
+        "holographic": {
+          "clean_token": " H",
+          "breaking_point": 2.0,
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.43623
+            },
+            {
+              "noise": 0.01,
+              "correct": "True",
+              "prob": 0.436991
+            },
+            {
+              "noise": 0.05,
+              "correct": "True",
+              "prob": 0.451089
+            },
+            {
+              "noise": 0.1,
+              "correct": "True",
+              "prob": 0.422288
+            },
+            {
+              "noise": 0.5,
+              "correct": "True",
+              "prob": 0.565507
+            },
+            {
+              "noise": 1.0,
+              "correct": "True",
+              "prob": 0.196394
+            },
+            {
+              "noise": 2.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 5.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 10.0,
+              "correct": "False",
+              "prob": 0.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "test": "TRUTH: Two plus two always equ",
+      "strategies": {
+        "no_boundary": {
+          "clean_token": " to",
+          "breaking_point": 0.01,
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.200752
+            },
+            {
+              "noise": 0.01,
+              "correct": "False",
+              "prob": 6.4e-05
+            },
+            {
+              "noise": 0.05,
+              "correct": "False",
+              "prob": 1e-06
+            },
+            {
+              "noise": 0.1,
+              "correct": "False",
+              "prob": 7e-06
+            },
+            {
+              "noise": 0.5,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 1.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 2.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 5.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 10.0,
+              "correct": "False",
+              "prob": 0.0
+            }
+          ]
+        },
+        "boundary_only": {
+          "clean_token": " four",
+          "breaking_point": "unbroken",
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.830722
+            },
+            {
+              "noise": 0.01,
+              "correct": "True",
+              "prob": 0.830722
+            },
+            {
+              "noise": 0.05,
+              "correct": "True",
+              "prob": 0.830722
+            },
+            {
+              "noise": 0.1,
+              "correct": "True",
+              "prob": 0.830722
+            },
+            {
+              "noise": 0.5,
+              "correct": "True",
+              "prob": 0.830722
+            },
+            {
+              "noise": 1.0,
+              "correct": "True",
+              "prob": 0.830722
+            },
+            {
+              "noise": 2.0,
+              "correct": "True",
+              "prob": 0.830722
+            },
+            {
+              "noise": 5.0,
+              "correct": "True",
+              "prob": 0.830722
+            },
+            {
+              "noise": 10.0,
+              "correct": "True",
+              "prob": 0.830722
+            }
+          ]
+        },
+        "holographic": {
+          "clean_token": " two",
+          "breaking_point": 0.5,
+          "results": [
+            {
+              "noise": 0.0,
+              "correct": "True",
+              "prob": 0.363108
+            },
+            {
+              "noise": 0.01,
+              "correct": "True",
+              "prob": 0.370357
+            },
+            {
+              "noise": 0.05,
+              "correct": "True",
+              "prob": 0.345447
+            },
+            {
+              "noise": 0.1,
+              "correct": "True",
+              "prob": 0.350984
+            },
+            {
+              "noise": 0.5,
+              "correct": "False",
+              "prob": 0.026226
+            },
+            {
+              "noise": 1.0,
+              "correct": "False",
+              "prob": 0.026415
+            },
+            {
+              "noise": 2.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 5.0,
+              "correct": "False",
+              "prob": 0.0
+            },
+            {
+              "noise": 10.0,
+              "correct": "False",
+              "prob": 0.0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "mean_advantage": 150.0,
+  "elapsed": 6.93
+}

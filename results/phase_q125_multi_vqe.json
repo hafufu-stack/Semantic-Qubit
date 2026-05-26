@@ -1,0 +1,49 @@
+{
+  "phase": "Q125",
+  "name": "Multi-Molecule VQE",
+  "molecules": [
+    {
+      "molecule": "H2",
+      "n_qubits": 2,
+      "hilbert_dim": 4,
+      "exact_energy": -1.635492,
+      "sqbit_energy": -1.635085,
+      "error_mha": 0.41,
+      "chemical_accuracy": "True",
+      "time_s": 0.4
+    },
+    {
+      "molecule": "LiH",
+      "n_qubits": 4,
+      "hilbert_dim": 16,
+      "exact_energy": -0.983053,
+      "sqbit_energy": -0.814411,
+      "error_mha": 168.64,
+      "chemical_accuracy": "False",
+      "time_s": 0.08
+    },
+    {
+      "molecule": "BeH2",
+      "n_qubits": 6,
+      "hilbert_dim": 64,
+      "exact_energy": -0.487035,
+      "sqbit_energy": -0.342703,
+      "error_mha": 144.33,
+      "chemical_accuracy": "False",
+      "time_s": 0.08
+    },
+    {
+      "molecule": "H2O",
+      "n_qubits": 8,
+      "hilbert_dim": 256,
+      "exact_energy": -0.960089,
+      "sqbit_energy": -0.484241,
+      "error_mha": 475.85,
+      "chemical_accuracy": "False",
+      "time_s": 0.13
+    }
+  ],
+  "n_chemical_accuracy": 1,
+  "mean_error_mha": 197.31,
+  "elapsed": 3.16
+}

@@ -1,0 +1,71 @@
+{
+  "phase": "Q129",
+  "name": "S-Qubit Tensor Networks (Multi-Molecule VQE)",
+  "molecules": [
+    {
+      "molecule": "H2",
+      "n_qubits": 2,
+      "hilbert_dim": 4,
+      "exact_energy": -1.835503,
+      "sqbit_energy": -1.835502,
+      "error_mha": 0.0,
+      "chemical_accuracy": "True",
+      "time_s": 0.63
+    },
+    {
+      "molecule": "LiH",
+      "n_qubits": 4,
+      "hilbert_dim": 16,
+      "exact_energy": -0.983053,
+      "sqbit_energy": -0.98013,
+      "error_mha": 2.92,
+      "chemical_accuracy": "False",
+      "time_s": 0.4
+    },
+    {
+      "molecule": "BeH2",
+      "n_qubits": 6,
+      "hilbert_dim": 64,
+      "exact_energy": -0.487035,
+      "sqbit_energy": -0.425923,
+      "error_mha": 61.11,
+      "chemical_accuracy": "False",
+      "time_s": 0.36
+    },
+    {
+      "molecule": "H2O",
+      "n_qubits": 8,
+      "hilbert_dim": 256,
+      "exact_energy": -0.960089,
+      "sqbit_energy": -0.665744,
+      "error_mha": 294.34,
+      "chemical_accuracy": "False",
+      "time_s": 0.51
+    }
+  ],
+  "n_chemical_accuracy": 1,
+  "mean_error_mha": 89.59,
+  "q125_comparison": {
+    "H2": {
+      "q125_error": 0.41,
+      "q129_error": 0.0,
+      "improvement": 410.0
+    },
+    "LiH": {
+      "q125_error": 168.64,
+      "q129_error": 2.92,
+      "improvement": 57.8
+    },
+    "BeH2": {
+      "q125_error": 144.33,
+      "q129_error": 61.11,
+      "improvement": 2.4
+    },
+    "H2O": {
+      "q125_error": 475.85,
+      "q129_error": 294.34,
+      "improvement": 1.6
+    }
+  },
+  "elapsed": 4.0
+}

@@ -1,0 +1,115 @@
+{
+  "phase": "Q175",
+  "name": "Quantum Phase Transition",
+  "noise_sweep": [
+    {
+      "noise_fraction": 0.0,
+      "avg_error_mha": 4.2051,
+      "avg_fidelity": 1.0
+    },
+    {
+      "noise_fraction": 0.05,
+      "avg_error_mha": 4.7787,
+      "avg_fidelity": 0.9793
+    },
+    {
+      "noise_fraction": 0.1,
+      "avg_error_mha": 9.449,
+      "avg_fidelity": 0.8927
+    },
+    {
+      "noise_fraction": 0.15,
+      "avg_error_mha": 6.2427,
+      "avg_fidelity": 0.6383
+    },
+    {
+      "noise_fraction": 0.2,
+      "avg_error_mha": 3.7505,
+      "avg_fidelity": 0.8888
+    },
+    {
+      "noise_fraction": 0.25,
+      "avg_error_mha": 18.6987,
+      "avg_fidelity": 0.7298
+    },
+    {
+      "noise_fraction": 0.3,
+      "avg_error_mha": 8.0022,
+      "avg_fidelity": 0.7127
+    },
+    {
+      "noise_fraction": 0.35,
+      "avg_error_mha": 6.9986,
+      "avg_fidelity": 0.7917
+    },
+    {
+      "noise_fraction": 0.4,
+      "avg_error_mha": 5.5678,
+      "avg_fidelity": 0.554
+    },
+    {
+      "noise_fraction": 0.45,
+      "avg_error_mha": 7.4962,
+      "avg_fidelity": 0.416
+    },
+    {
+      "noise_fraction": 0.5,
+      "avg_error_mha": 15.7846,
+      "avg_fidelity": 0.589
+    },
+    {
+      "noise_fraction": 0.55,
+      "avg_error_mha": 3.2762,
+      "avg_fidelity": 0.3541
+    },
+    {
+      "noise_fraction": 0.6,
+      "avg_error_mha": 6.3632,
+      "avg_fidelity": 0.4688
+    },
+    {
+      "noise_fraction": 0.65,
+      "avg_error_mha": 7.4986,
+      "avg_fidelity": 0.1733
+    },
+    {
+      "noise_fraction": 0.7,
+      "avg_error_mha": 7.5021,
+      "avg_fidelity": 0.2835
+    },
+    {
+      "noise_fraction": 0.75,
+      "avg_error_mha": 8.6277,
+      "avg_fidelity": 0.3949
+    },
+    {
+      "noise_fraction": 0.8,
+      "avg_error_mha": 6.2455,
+      "avg_fidelity": 0.3924
+    },
+    {
+      "noise_fraction": 0.85,
+      "avg_error_mha": 3.3578,
+      "avg_fidelity": 0.0754
+    },
+    {
+      "noise_fraction": 0.9,
+      "avg_error_mha": 3.3594,
+      "avg_fidelity": 0.3521
+    },
+    {
+      "noise_fraction": 0.95,
+      "avg_error_mha": 13.9843,
+      "avg_fidelity": 0.1495
+    },
+    {
+      "noise_fraction": 1.0,
+      "avg_error_mha": 9999.0,
+      "avg_fidelity": 0.0
+    }
+  ],
+  "random_baseline_mha": 9.6524,
+  "critical_noise": 0.25,
+  "peak_susceptibility_noise": 1.0,
+  "elapsed": 2.61
+}

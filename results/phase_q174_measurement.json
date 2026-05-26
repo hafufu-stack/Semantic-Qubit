@@ -1,0 +1,120 @@
+{
+  "phase": "Q174",
+  "name": "Token Sampling as Quantum Measurement",
+  "measurements": [
+    {
+      "temperature": 0.01,
+      "entropy": NaN,
+      "max_prob": 0.981934,
+      "effective_states": NaN,
+      "E_sampled": -1.0657,
+      "E_std": 0.3928,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 2
+    },
+    {
+      "temperature": 0.1,
+      "entropy": NaN,
+      "max_prob": 0.56543,
+      "effective_states": NaN,
+      "E_sampled": 0.023,
+      "E_std": 1.3572,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 4
+    },
+    {
+      "temperature": 0.3,
+      "entropy": NaN,
+      "max_prob": 0.293701,
+      "effective_states": NaN,
+      "E_sampled": 0.2803,
+      "E_std": 1.1378,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 11
+    },
+    {
+      "temperature": 0.5,
+      "entropy": NaN,
+      "max_prob": 0.192017,
+      "effective_states": NaN,
+      "E_sampled": 0.1809,
+      "E_std": 1.0063,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 20
+    },
+    {
+      "temperature": 0.7,
+      "entropy": NaN,
+      "max_prob": 0.133423,
+      "effective_states": NaN,
+      "E_sampled": 0.2647,
+      "E_std": 1.2293,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 28
+    },
+    {
+      "temperature": 1.0,
+      "entropy": NaN,
+      "max_prob": 0.071106,
+      "effective_states": NaN,
+      "E_sampled": 0.1949,
+      "E_std": 1.2689,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 54
+    },
+    {
+      "temperature": 1.5,
+      "entropy": NaN,
+      "max_prob": 0.018234,
+      "effective_states": NaN,
+      "E_sampled": -0.0073,
+      "E_std": 1.4512,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 90
+    },
+    {
+      "temperature": 2.0,
+      "entropy": NaN,
+      "max_prob": 0.004974,
+      "effective_states": NaN,
+      "E_sampled": -0.0176,
+      "E_std": 1.4487,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 98
+    },
+    {
+      "temperature": 5.0,
+      "entropy": 11.6797,
+      "max_prob": 0.000143,
+      "effective_states": 118147.3,
+      "E_sampled": -0.0879,
+      "E_std": 1.49,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 98
+    },
+    {
+      "temperature": 10.0,
+      "entropy": 11.8672,
+      "max_prob": 3.3e-05,
+      "effective_states": 142512.9,
+      "E_sampled": 0.1956,
+      "E_std": 1.3764,
+      "E_hidden": -0.559,
+      "E_exact": -4.3775,
+      "n_unique_tokens": 97
+    }
+  ],
+  "born_rule_correlation": 0.1169,
+  "exact_energy": -4.3775,
+  "hidden_energy": -0.559,
+  "elapsed": 2.12
+}

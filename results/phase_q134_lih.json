@@ -1,0 +1,42 @@
+{
+  "phase": "Q134",
+  "name": "LiH Chemical Accuracy (Final Push)",
+  "molecule": "LiH",
+  "n_qubits": 4,
+  "exact_energy": -0.983053,
+  "sqbit_energy": -0.983053,
+  "error_mha": 0.0,
+  "chemical_accuracy": "True",
+  "fidelity": 1.0,
+  "n_basis_vectors": 78400,
+  "n_prompts": 12,
+  "convergence": [
+    [
+      "single_basis",
+      82.5417
+    ],
+    [
+      "pairwise",
+      33.8782
+    ],
+    [
+      "triple",
+      33.8782
+    ],
+    [
+      "quadruple",
+      33.8782
+    ],
+    [
+      "grad_descent",
+      0.0
+    ],
+    [
+      "greedy",
+      0.0
+    ]
+  ],
+  "q129_error": 2.92,
+  "improvement": 2920.0,
+  "elapsed": 4.19
+}

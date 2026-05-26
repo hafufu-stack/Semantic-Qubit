@@ -1,0 +1,209 @@
+{
+  "phase": "Q170",
+  "name": "H2 Potential Energy Surface",
+  "pes_data": [
+    {
+      "bond_length": 0.3,
+      "exact_energy": -1.131017,
+      "vqe_energy": -1.131017,
+      "random_energy": -0.763088,
+      "error_mha": 0.0
+    },
+    {
+      "bond_length": 0.4,
+      "exact_energy": -1.097094,
+      "vqe_energy": -1.097094,
+      "random_energy": -0.738061,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 0.5,
+      "exact_energy": -1.065641,
+      "vqe_energy": -1.065641,
+      "random_energy": -0.762851,
+      "error_mha": 0.0002
+    },
+    {
+      "bond_length": 0.6,
+      "exact_energy": -1.03645,
+      "vqe_energy": -1.03645,
+      "random_energy": -0.724135,
+      "error_mha": 0.0002
+    },
+    {
+      "bond_length": 0.7,
+      "exact_energy": -1.00933,
+      "vqe_energy": -1.00933,
+      "random_energy": -0.809941,
+      "error_mha": 0.0002
+    },
+    {
+      "bond_length": 0.8,
+      "exact_energy": -0.984107,
+      "vqe_energy": -0.984108,
+      "random_energy": -0.734446,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 0.9,
+      "exact_energy": -0.960624,
+      "vqe_energy": -0.960624,
+      "random_energy": -0.702256,
+      "error_mha": 0.0002
+    },
+    {
+      "bond_length": 1.0,
+      "exact_energy": -0.938734,
+      "vqe_energy": -0.938735,
+      "random_energy": -0.716655,
+      "error_mha": 0.0002
+    },
+    {
+      "bond_length": 1.1,
+      "exact_energy": -0.918306,
+      "vqe_energy": -0.918306,
+      "random_energy": -0.634428,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 1.2,
+      "exact_energy": -0.899219,
+      "vqe_energy": -0.899219,
+      "random_energy": -0.649219,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 1.3,
+      "exact_energy": -0.881362,
+      "vqe_energy": -0.881363,
+      "random_energy": -0.687853,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 1.4,
+      "exact_energy": -0.864636,
+      "vqe_energy": -0.864636,
+      "random_energy": -0.666091,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 1.5,
+      "exact_energy": -0.848948,
+      "vqe_energy": -0.848948,
+      "random_energy": -0.624265,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 1.6,
+      "exact_energy": -0.834215,
+      "vqe_energy": -0.834215,
+      "random_energy": -0.626677,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 1.7,
+      "exact_energy": -0.82036,
+      "vqe_energy": -0.82036,
+      "random_energy": -0.536258,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 1.8,
+      "exact_energy": -0.807314,
+      "vqe_energy": -0.807314,
+      "random_energy": -0.585374,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 1.9,
+      "exact_energy": -0.795014,
+      "vqe_energy": -0.795014,
+      "random_energy": -0.597655,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 2.0,
+      "exact_energy": -0.783402,
+      "vqe_energy": -0.783402,
+      "random_energy": -0.612898,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 2.1,
+      "exact_energy": -0.772426,
+      "vqe_energy": -0.772426,
+      "random_energy": -0.622437,
+      "error_mha": 0.0
+    },
+    {
+      "bond_length": 2.2,
+      "exact_energy": -0.762037,
+      "vqe_energy": -0.762037,
+      "random_energy": -0.593359,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 2.3,
+      "exact_energy": -0.752191,
+      "vqe_energy": -0.752191,
+      "random_energy": -0.601393,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 2.4,
+      "exact_energy": -0.74285,
+      "vqe_energy": -0.74285,
+      "random_energy": -0.606067,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 2.5,
+      "exact_energy": -0.733976,
+      "vqe_energy": -0.733976,
+      "random_energy": -0.588423,
+      "error_mha": 0.0002
+    },
+    {
+      "bond_length": 2.6,
+      "exact_energy": -0.725536,
+      "vqe_energy": -0.725536,
+      "random_energy": -0.587334,
+      "error_mha": 0.0001
+    },
+    {
+      "bond_length": 2.7,
+      "exact_energy": -0.717501,
+      "vqe_energy": -0.717501,
+      "random_energy": -0.629077,
+      "error_mha": 0.0
+    },
+    {
+      "bond_length": 2.8,
+      "exact_energy": -0.709842,
+      "vqe_energy": -0.709842,
+      "random_energy": -0.600319,
+      "error_mha": 0.0
+    },
+    {
+      "bond_length": 2.9,
+      "exact_energy": -0.702535,
+      "vqe_energy": -0.702535,
+      "random_energy": -0.556539,
+      "error_mha": 0.0002
+    },
+    {
+      "bond_length": 3.0,
+      "exact_energy": -0.695555,
+      "vqe_energy": -0.695556,
+      "random_energy": -0.580109,
+      "error_mha": 0.0002
+    }
+  ],
+  "summary": {
+    "avg_error_mha": 0.0001,
+    "max_error_mha": 0.0002,
+    "eq_bond_exact": 0.3,
+    "eq_bond_vqe": 0.3
+  },
+  "elapsed": 678.14
+}

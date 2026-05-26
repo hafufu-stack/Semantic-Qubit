@@ -1,0 +1,261 @@
+{
+  "phase": "Q149",
+  "name": "Semantic Avalanche Effect",
+  "char_avalanche": [
+    {
+      "variant": "original",
+      "cosine_sim": 1.0,
+      "hamming_diff": 0.0,
+      "l2_distance": 0.0,
+      "sign_match": 100.0
+    },
+    {
+      "variant": "+period",
+      "cosine_sim": 0.742372,
+      "hamming_diff": 0.2556,
+      "l2_distance": 142.97,
+      "sign_match": 68.49
+    },
+    {
+      "variant": "+space",
+      "cosine_sim": 0.814936,
+      "hamming_diff": 0.273,
+      "l2_distance": 123.46,
+      "sign_match": 66.28
+    },
+    {
+      "variant": "cap T->t",
+      "cosine_sim": 0.988909,
+      "hamming_diff": 0.2005,
+      "l2_distance": 32.46,
+      "sign_match": 89.78
+    },
+    {
+      "variant": "key->Key",
+      "cosine_sim": 0.996045,
+      "hamming_diff": 0.1934,
+      "l2_distance": 18.93,
+      "sign_match": 93.03
+    },
+    {
+      "variant": "state->State",
+      "cosine_sim": 0.957298,
+      "hamming_diff": 0.2302,
+      "l2_distance": 61.58,
+      "sign_match": 82.81
+    },
+    {
+      "variant": "quantum->Quantum",
+      "cosine_sim": 0.988828,
+      "hamming_diff": 0.2037,
+      "l2_distance": 32.6,
+      "sign_match": 88.41
+    },
+    {
+      "variant": "hidden->Hidden",
+      "cosine_sim": 0.9835,
+      "hamming_diff": 0.2049,
+      "l2_distance": 38.53,
+      "sign_match": 87.76
+    }
+  ],
+  "semantic_equivalence": [
+    {
+      "prompt1": "The cat sat on the mat",
+      "prompt2": "The feline sat on the mat",
+      "cosine_sim": 0.9613,
+      "hamming_diff": 0.2196,
+      "sign_match": 83.46
+    },
+    {
+      "prompt1": "Water freezes at zero degrees",
+      "prompt2": "H2O solidifies at 0 celsius",
+      "cosine_sim": 0.8092,
+      "hamming_diff": 0.2684,
+      "sign_match": 65.3
+    },
+    {
+      "prompt1": "The dog chased the ball",
+      "prompt2": "The puppy ran after the sphere",
+      "cosine_sim": 0.9318,
+      "hamming_diff": 0.2379,
+      "sign_match": 74.87
+    },
+    {
+      "prompt1": "I love programming",
+      "prompt2": "I enjoy coding",
+      "cosine_sim": 0.982,
+      "hamming_diff": 0.2201,
+      "sign_match": 82.75
+    },
+    {
+      "prompt1": "The sun rises in the east",
+      "prompt2": "Solar ascent occurs eastward",
+      "cosine_sim": 0.8396,
+      "hamming_diff": 0.2624,
+      "sign_match": 62.63
+    }
+  ],
+  "layer_propagation": [
+    {
+      "layer": 0,
+      "cosine_sim": 0.3066,
+      "hamming_diff": 0.1718
+    },
+    {
+      "layer": 1,
+      "cosine_sim": 0.6614,
+      "hamming_diff": 0.2048
+    },
+    {
+      "layer": 2,
+      "cosine_sim": 0.6671,
+      "hamming_diff": 0.2055
+    },
+    {
+      "layer": 3,
+      "cosine_sim": 0.6221,
+      "hamming_diff": 0.2077
+    },
+    {
+      "layer": 4,
+      "cosine_sim": 0.6152,
+      "hamming_diff": 0.2107
+    },
+    {
+      "layer": 5,
+      "cosine_sim": 0.6655,
+      "hamming_diff": 0.2127
+    },
+    {
+      "layer": 6,
+      "cosine_sim": 0.732,
+      "hamming_diff": 0.2119
+    },
+    {
+      "layer": 7,
+      "cosine_sim": 0.7097,
+      "hamming_diff": 0.2074
+    },
+    {
+      "layer": 8,
+      "cosine_sim": 0.719,
+      "hamming_diff": 0.211
+    },
+    {
+      "layer": 9,
+      "cosine_sim": 0.7193,
+      "hamming_diff": 0.2113
+    },
+    {
+      "layer": 10,
+      "cosine_sim": 0.7781,
+      "hamming_diff": 0.2138
+    },
+    {
+      "layer": 11,
+      "cosine_sim": 0.7699,
+      "hamming_diff": 0.2117
+    },
+    {
+      "layer": 12,
+      "cosine_sim": 0.7517,
+      "hamming_diff": 0.2157
+    },
+    {
+      "layer": 13,
+      "cosine_sim": 0.7551,
+      "hamming_diff": 0.2138
+    },
+    {
+      "layer": 14,
+      "cosine_sim": 0.7812,
+      "hamming_diff": 0.2185
+    },
+    {
+      "layer": 15,
+      "cosine_sim": 0.7969,
+      "hamming_diff": 0.2172
+    },
+    {
+      "layer": 16,
+      "cosine_sim": 0.8267,
+      "hamming_diff": 0.2189
+    },
+    {
+      "layer": 17,
+      "cosine_sim": 0.8186,
+      "hamming_diff": 0.2144
+    },
+    {
+      "layer": 18,
+      "cosine_sim": 0.8264,
+      "hamming_diff": 0.2163
+    },
+    {
+      "layer": 19,
+      "cosine_sim": 0.8472,
+      "hamming_diff": 0.216
+    },
+    {
+      "layer": 20,
+      "cosine_sim": 0.8475,
+      "hamming_diff": 0.2171
+    },
+    {
+      "layer": 21,
+      "cosine_sim": 0.8541,
+      "hamming_diff": 0.2197
+    },
+    {
+      "layer": 22,
+      "cosine_sim": 0.8585,
+      "hamming_diff": 0.2252
+    },
+    {
+      "layer": 23,
+      "cosine_sim": 0.8891,
+      "hamming_diff": 0.2299
+    },
+    {
+      "layer": 24,
+      "cosine_sim": 0.8986,
+      "hamming_diff": 0.2368
+    },
+    {
+      "layer": 25,
+      "cosine_sim": 0.9213,
+      "hamming_diff": 0.2408
+    },
+    {
+      "layer": 26,
+      "cosine_sim": 0.9307,
+      "hamming_diff": 0.2449
+    },
+    {
+      "layer": 27,
+      "cosine_sim": 0.9414,
+      "hamming_diff": 0.2477
+    },
+    {
+      "layer": 28,
+      "cosine_sim": 0.9706,
+      "hamming_diff": 0.2264
+    }
+  ],
+  "snn_comparison": {
+    "snn_temp_0001": {
+      "match_rate": 0.4,
+      "description": "T diff = 0.0001"
+    },
+    "llm_char_change": {
+      "match_rate": 82.37,
+      "description": "Single char change"
+    },
+    "llm_semantic_equiv": {
+      "match_rate": 73.8,
+      "description": "Semantic equivalent"
+    }
+  },
+  "elapsed": 3.02
+}

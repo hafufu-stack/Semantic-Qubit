@@ -1,0 +1,49 @@
+{
+  "phase": "Q159",
+  "name": "Model Scaling Law",
+  "models": [
+    {
+      "model_size": "0.5B",
+      "n_layers": 24,
+      "hidden_size": 896,
+      "results": [
+        {
+          "n_qubits": 6,
+          "random_error": 0.0001,
+          "llm_error": 0.0,
+          "advantage": 0.09,
+          "n_basis": 32
+        },
+        {
+          "n_qubits": 8,
+          "random_error": 2.265,
+          "llm_error": 3.4446,
+          "advantage": 0.66,
+          "n_basis": 24
+        }
+      ]
+    },
+    {
+      "model_size": "1.5B",
+      "n_layers": 28,
+      "hidden_size": 1536,
+      "results": [
+        {
+          "n_qubits": 6,
+          "random_error": 0.0001,
+          "llm_error": 0.0,
+          "advantage": 0.09,
+          "n_basis": 28
+        },
+        {
+          "n_qubits": 8,
+          "random_error": 2.265,
+          "llm_error": 1.4761,
+          "advantage": 1.53,
+          "n_basis": 28
+        }
+      ]
+    }
+  ],
+  "elapsed": 5.14
+}

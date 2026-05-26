@@ -1,0 +1,926 @@
+{
+  "phase": "Q160",
+  "name": "Information Paradox",
+  "prompts": [
+    {
+      "prompt": "The hydrogen atom has one electron",
+      "category": "science",
+      "preservation_index": 0.0298,
+      "scramble_layer": 1,
+      "final_cos": 0.0701,
+      "recovery_curve": [
+        {
+          "layer": 0,
+          "cos_with_input": 1.0,
+          "effective_dim": 689,
+          "norm": 0.98
+        },
+        {
+          "layer": 1,
+          "cos_with_input": 0.049,
+          "effective_dim": 442,
+          "norm": 21.07
+        },
+        {
+          "layer": 2,
+          "cos_with_input": 0.0375,
+          "effective_dim": 394,
+          "norm": 26.17
+        },
+        {
+          "layer": 3,
+          "cos_with_input": 0.0222,
+          "effective_dim": 571,
+          "norm": 39.32
+        },
+        {
+          "layer": 4,
+          "cos_with_input": 0.0262,
+          "effective_dim": 523,
+          "norm": 41.58
+        },
+        {
+          "layer": 5,
+          "cos_with_input": 0.0191,
+          "effective_dim": 536,
+          "norm": 46.26
+        },
+        {
+          "layer": 6,
+          "cos_with_input": 0.0077,
+          "effective_dim": 525,
+          "norm": 44.25
+        },
+        {
+          "layer": 7,
+          "cos_with_input": 0.0171,
+          "effective_dim": 542,
+          "norm": 48.96
+        },
+        {
+          "layer": 8,
+          "cos_with_input": 0.0118,
+          "effective_dim": 512,
+          "norm": 50.09
+        },
+        {
+          "layer": 9,
+          "cos_with_input": -0.0025,
+          "effective_dim": 495,
+          "norm": 52.9
+        },
+        {
+          "layer": 10,
+          "cos_with_input": 0.0053,
+          "effective_dim": 413,
+          "norm": 58.62
+        },
+        {
+          "layer": 11,
+          "cos_with_input": -0.0038,
+          "effective_dim": 382,
+          "norm": 57.99
+        },
+        {
+          "layer": 12,
+          "cos_with_input": -0.0046,
+          "effective_dim": 334,
+          "norm": 60.47
+        },
+        {
+          "layer": 13,
+          "cos_with_input": -0.0008,
+          "effective_dim": 307,
+          "norm": 57.23
+        },
+        {
+          "layer": 14,
+          "cos_with_input": 0.001,
+          "effective_dim": 295,
+          "norm": 57.49
+        },
+        {
+          "layer": 15,
+          "cos_with_input": -0.0035,
+          "effective_dim": 256,
+          "norm": 60.73
+        },
+        {
+          "layer": 16,
+          "cos_with_input": -0.0048,
+          "effective_dim": 233,
+          "norm": 64.96
+        },
+        {
+          "layer": 17,
+          "cos_with_input": -0.0081,
+          "effective_dim": 237,
+          "norm": 64.89
+        },
+        {
+          "layer": 18,
+          "cos_with_input": -0.0125,
+          "effective_dim": 248,
+          "norm": 71.51
+        },
+        {
+          "layer": 19,
+          "cos_with_input": -0.0039,
+          "effective_dim": 283,
+          "norm": 74.8
+        },
+        {
+          "layer": 20,
+          "cos_with_input": -0.0027,
+          "effective_dim": 263,
+          "norm": 88.43
+        },
+        {
+          "layer": 21,
+          "cos_with_input": 0.0063,
+          "effective_dim": 323,
+          "norm": 98.31
+        },
+        {
+          "layer": 22,
+          "cos_with_input": 0.0028,
+          "effective_dim": 342,
+          "norm": 114.27
+        },
+        {
+          "layer": 23,
+          "cos_with_input": 0.0172,
+          "effective_dim": 324,
+          "norm": 134.56
+        },
+        {
+          "layer": 24,
+          "cos_with_input": 0.0388,
+          "effective_dim": 429,
+          "norm": 161.56
+        },
+        {
+          "layer": 25,
+          "cos_with_input": 0.0211,
+          "effective_dim": 422,
+          "norm": 206.48
+        },
+        {
+          "layer": 26,
+          "cos_with_input": 0.0451,
+          "effective_dim": 458,
+          "norm": 233.94
+        },
+        {
+          "layer": 27,
+          "cos_with_input": 0.0176,
+          "effective_dim": 375,
+          "norm": 291.58
+        },
+        {
+          "layer": 28,
+          "cos_with_input": 0.0701,
+          "effective_dim": 235,
+          "norm": 183.0
+        }
+      ]
+    },
+    {
+      "prompt": "The cat sat on the warm mat",
+      "category": "common",
+      "preservation_index": 0.0694,
+      "scramble_layer": 1,
+      "final_cos": 0.0587,
+      "recovery_curve": [
+        {
+          "layer": 0,
+          "cos_with_input": 1.0,
+          "effective_dim": 675,
+          "norm": 1.08
+        },
+        {
+          "layer": 1,
+          "cos_with_input": 0.0892,
+          "effective_dim": 530,
+          "norm": 20.59
+        },
+        {
+          "layer": 2,
+          "cos_with_input": 0.1116,
+          "effective_dim": 568,
+          "norm": 28.88
+        },
+        {
+          "layer": 3,
+          "cos_with_input": 0.1007,
+          "effective_dim": 572,
+          "norm": 34.73
+        },
+        {
+          "layer": 4,
+          "cos_with_input": 0.1136,
+          "effective_dim": 539,
+          "norm": 36.72
+        },
+        {
+          "layer": 5,
+          "cos_with_input": 0.1043,
+          "effective_dim": 605,
+          "norm": 45.54
+        },
+        {
+          "layer": 6,
+          "cos_with_input": 0.08,
+          "effective_dim": 599,
+          "norm": 46.46
+        },
+        {
+          "layer": 7,
+          "cos_with_input": 0.0663,
+          "effective_dim": 555,
+          "norm": 45.91
+        },
+        {
+          "layer": 8,
+          "cos_with_input": 0.0682,
+          "effective_dim": 547,
+          "norm": 46.35
+        },
+        {
+          "layer": 9,
+          "cos_with_input": 0.0411,
+          "effective_dim": 503,
+          "norm": 49.35
+        },
+        {
+          "layer": 10,
+          "cos_with_input": 0.0475,
+          "effective_dim": 452,
+          "norm": 54.86
+        },
+        {
+          "layer": 11,
+          "cos_with_input": 0.0563,
+          "effective_dim": 403,
+          "norm": 56.84
+        },
+        {
+          "layer": 12,
+          "cos_with_input": 0.053,
+          "effective_dim": 448,
+          "norm": 56.67
+        },
+        {
+          "layer": 13,
+          "cos_with_input": 0.0393,
+          "effective_dim": 428,
+          "norm": 53.57
+        },
+        {
+          "layer": 14,
+          "cos_with_input": 0.0297,
+          "effective_dim": 431,
+          "norm": 55.81
+        },
+        {
+          "layer": 15,
+          "cos_with_input": 0.0307,
+          "effective_dim": 363,
+          "norm": 63.87
+        },
+        {
+          "layer": 16,
+          "cos_with_input": 0.0369,
+          "effective_dim": 292,
+          "norm": 67.38
+        },
+        {
+          "layer": 17,
+          "cos_with_input": 0.0241,
+          "effective_dim": 325,
+          "norm": 62.18
+        },
+        {
+          "layer": 18,
+          "cos_with_input": 0.0266,
+          "effective_dim": 320,
+          "norm": 66.66
+        },
+        {
+          "layer": 19,
+          "cos_with_input": 0.0409,
+          "effective_dim": 321,
+          "norm": 72.55
+        },
+        {
+          "layer": 20,
+          "cos_with_input": 0.03,
+          "effective_dim": 298,
+          "norm": 84.08
+        },
+        {
+          "layer": 21,
+          "cos_with_input": 0.0472,
+          "effective_dim": 335,
+          "norm": 92.21
+        },
+        {
+          "layer": 22,
+          "cos_with_input": 0.0338,
+          "effective_dim": 334,
+          "norm": 109.59
+        },
+        {
+          "layer": 23,
+          "cos_with_input": 0.0332,
+          "effective_dim": 330,
+          "norm": 132.8
+        },
+        {
+          "layer": 24,
+          "cos_with_input": 0.0304,
+          "effective_dim": 346,
+          "norm": 156.16
+        },
+        {
+          "layer": 25,
+          "cos_with_input": 0.0239,
+          "effective_dim": 307,
+          "norm": 198.63
+        },
+        {
+          "layer": 26,
+          "cos_with_input": 0.026,
+          "effective_dim": 301,
+          "norm": 222.7
+        },
+        {
+          "layer": 27,
+          "cos_with_input": 0.0306,
+          "effective_dim": 269,
+          "norm": 269.18
+        },
+        {
+          "layer": 28,
+          "cos_with_input": 0.0587,
+          "effective_dim": 195,
+          "norm": 167.49
+        }
+      ]
+    },
+    {
+      "prompt": "Tokyo tower stands tall in Minato",
+      "category": "geography",
+      "preservation_index": -0.0032,
+      "scramble_layer": 1,
+      "final_cos": 0.0101,
+      "recovery_curve": [
+        {
+          "layer": 0,
+          "cos_with_input": 1.0,
+          "effective_dim": 702,
+          "norm": 1.12
+        },
+        {
+          "layer": 1,
+          "cos_with_input": 0.0254,
+          "effective_dim": 538,
+          "norm": 21.63
+        },
+        {
+          "layer": 2,
+          "cos_with_input": -0.0084,
+          "effective_dim": 511,
+          "norm": 27.03
+        },
+        {
+          "layer": 3,
+          "cos_with_input": -0.0144,
+          "effective_dim": 615,
+          "norm": 40.07
+        },
+        {
+          "layer": 4,
+          "cos_with_input": -0.0178,
+          "effective_dim": 642,
+          "norm": 48.31
+        },
+        {
+          "layer": 5,
+          "cos_with_input": -0.0009,
+          "effective_dim": 602,
+          "norm": 56.21
+        },
+        {
+          "layer": 6,
+          "cos_with_input": -0.0163,
+          "effective_dim": 636,
+          "norm": 53.94
+        },
+        {
+          "layer": 7,
+          "cos_with_input": 0.0023,
+          "effective_dim": 595,
+          "norm": 59.73
+        },
+        {
+          "layer": 8,
+          "cos_with_input": -0.0103,
+          "effective_dim": 548,
+          "norm": 62.26
+        },
+        {
+          "layer": 9,
+          "cos_with_input": -0.0124,
+          "effective_dim": 465,
+          "norm": 64.38
+        },
+        {
+          "layer": 10,
+          "cos_with_input": -0.0167,
+          "effective_dim": 397,
+          "norm": 63.4
+        },
+        {
+          "layer": 11,
+          "cos_with_input": -0.0133,
+          "effective_dim": 373,
+          "norm": 59.75
+        },
+        {
+          "layer": 12,
+          "cos_with_input": -0.0263,
+          "effective_dim": 329,
+          "norm": 63.36
+        },
+        {
+          "layer": 13,
+          "cos_with_input": -0.0227,
+          "effective_dim": 317,
+          "norm": 62.8
+        },
+        {
+          "layer": 14,
+          "cos_with_input": -0.0347,
+          "effective_dim": 303,
+          "norm": 64.1
+        },
+        {
+          "layer": 15,
+          "cos_with_input": -0.0401,
+          "effective_dim": 270,
+          "norm": 66.39
+        },
+        {
+          "layer": 16,
+          "cos_with_input": -0.0359,
+          "effective_dim": 251,
+          "norm": 69.93
+        },
+        {
+          "layer": 17,
+          "cos_with_input": -0.0352,
+          "effective_dim": 287,
+          "norm": 68.94
+        },
+        {
+          "layer": 18,
+          "cos_with_input": -0.043,
+          "effective_dim": 307,
+          "norm": 71.72
+        },
+        {
+          "layer": 19,
+          "cos_with_input": -0.0456,
+          "effective_dim": 330,
+          "norm": 74.9
+        },
+        {
+          "layer": 20,
+          "cos_with_input": -0.0338,
+          "effective_dim": 307,
+          "norm": 90.02
+        },
+        {
+          "layer": 21,
+          "cos_with_input": -0.0273,
+          "effective_dim": 323,
+          "norm": 98.26
+        },
+        {
+          "layer": 22,
+          "cos_with_input": -0.0276,
+          "effective_dim": 355,
+          "norm": 115.39
+        },
+        {
+          "layer": 23,
+          "cos_with_input": -0.0231,
+          "effective_dim": 423,
+          "norm": 136.71
+        },
+        {
+          "layer": 24,
+          "cos_with_input": -0.0241,
+          "effective_dim": 553,
+          "norm": 170.88
+        },
+        {
+          "layer": 25,
+          "cos_with_input": -0.0336,
+          "effective_dim": 543,
+          "norm": 207.76
+        },
+        {
+          "layer": 26,
+          "cos_with_input": -0.0325,
+          "effective_dim": 556,
+          "norm": 234.36
+        },
+        {
+          "layer": 27,
+          "cos_with_input": -0.0255,
+          "effective_dim": 480,
+          "norm": 286.55
+        },
+        {
+          "layer": 28,
+          "cos_with_input": 0.0101,
+          "effective_dim": 410,
+          "norm": 151.94
+        }
+      ]
+    },
+    {
+      "prompt": "def fibonacci(n): return n if n < 2",
+      "category": "code",
+      "preservation_index": 0.0721,
+      "scramble_layer": 1,
+      "final_cos": 0.0861,
+      "recovery_curve": [
+        {
+          "layer": 0,
+          "cos_with_input": 1.0,
+          "effective_dim": 731,
+          "norm": 1.08
+        },
+        {
+          "layer": 1,
+          "cos_with_input": 0.0161,
+          "effective_dim": 454,
+          "norm": 17.33
+        },
+        {
+          "layer": 2,
+          "cos_with_input": 0.0224,
+          "effective_dim": 424,
+          "norm": 21.92
+        },
+        {
+          "layer": 3,
+          "cos_with_input": 0.0099,
+          "effective_dim": 355,
+          "norm": 24.04
+        },
+        {
+          "layer": 4,
+          "cos_with_input": 0.0007,
+          "effective_dim": 558,
+          "norm": 32.51
+        },
+        {
+          "layer": 5,
+          "cos_with_input": 0.0049,
+          "effective_dim": 538,
+          "norm": 37.65
+        },
+        {
+          "layer": 6,
+          "cos_with_input": 0.0265,
+          "effective_dim": 458,
+          "norm": 37.43
+        },
+        {
+          "layer": 7,
+          "cos_with_input": 0.0276,
+          "effective_dim": 474,
+          "norm": 40.33
+        },
+        {
+          "layer": 8,
+          "cos_with_input": 0.0144,
+          "effective_dim": 462,
+          "norm": 43.3
+        },
+        {
+          "layer": 9,
+          "cos_with_input": 0.0135,
+          "effective_dim": 442,
+          "norm": 42.98
+        },
+        {
+          "layer": 10,
+          "cos_with_input": 0.0164,
+          "effective_dim": 489,
+          "norm": 46.95
+        },
+        {
+          "layer": 11,
+          "cos_with_input": 0.0455,
+          "effective_dim": 444,
+          "norm": 50.85
+        },
+        {
+          "layer": 12,
+          "cos_with_input": 0.0433,
+          "effective_dim": 519,
+          "norm": 52.66
+        },
+        {
+          "layer": 13,
+          "cos_with_input": 0.0294,
+          "effective_dim": 525,
+          "norm": 57.21
+        },
+        {
+          "layer": 14,
+          "cos_with_input": 0.0309,
+          "effective_dim": 533,
+          "norm": 57.57
+        },
+        {
+          "layer": 15,
+          "cos_with_input": 0.0425,
+          "effective_dim": 451,
+          "norm": 61.62
+        },
+        {
+          "layer": 16,
+          "cos_with_input": 0.0581,
+          "effective_dim": 438,
+          "norm": 66.09
+        },
+        {
+          "layer": 17,
+          "cos_with_input": 0.0589,
+          "effective_dim": 464,
+          "norm": 62.09
+        },
+        {
+          "layer": 18,
+          "cos_with_input": 0.0634,
+          "effective_dim": 473,
+          "norm": 64.2
+        },
+        {
+          "layer": 19,
+          "cos_with_input": 0.0568,
+          "effective_dim": 448,
+          "norm": 70.07
+        },
+        {
+          "layer": 20,
+          "cos_with_input": 0.0717,
+          "effective_dim": 487,
+          "norm": 77.71
+        },
+        {
+          "layer": 21,
+          "cos_with_input": 0.0726,
+          "effective_dim": 545,
+          "norm": 83.02
+        },
+        {
+          "layer": 22,
+          "cos_with_input": 0.0714,
+          "effective_dim": 503,
+          "norm": 95.41
+        },
+        {
+          "layer": 23,
+          "cos_with_input": 0.115,
+          "effective_dim": 453,
+          "norm": 118.28
+        },
+        {
+          "layer": 24,
+          "cos_with_input": 0.1342,
+          "effective_dim": 414,
+          "norm": 141.06
+        },
+        {
+          "layer": 25,
+          "cos_with_input": 0.1278,
+          "effective_dim": 352,
+          "norm": 195.35
+        },
+        {
+          "layer": 26,
+          "cos_with_input": 0.129,
+          "effective_dim": 362,
+          "norm": 203.25
+        },
+        {
+          "layer": 27,
+          "cos_with_input": 0.1718,
+          "effective_dim": 299,
+          "norm": 262.69
+        },
+        {
+          "layer": 28,
+          "cos_with_input": 0.0861,
+          "effective_dim": 262,
+          "norm": 134.27
+        }
+      ]
+    },
+    {
+      "prompt": "The quick brown fox jumps over",
+      "category": "pangram",
+      "preservation_index": 0.0397,
+      "scramble_layer": 1,
+      "final_cos": 0.0669,
+      "recovery_curve": [
+        {
+          "layer": 0,
+          "cos_with_input": 1.0,
+          "effective_dim": 736,
+          "norm": 0.99
+        },
+        {
+          "layer": 1,
+          "cos_with_input": 0.0713,
+          "effective_dim": 585,
+          "norm": 21.27
+        },
+        {
+          "layer": 2,
+          "cos_with_input": 0.0563,
+          "effective_dim": 527,
+          "norm": 24.85
+        },
+        {
+          "layer": 3,
+          "cos_with_input": 0.0681,
+          "effective_dim": 514,
+          "norm": 28.81
+        },
+        {
+          "layer": 4,
+          "cos_with_input": 0.0418,
+          "effective_dim": 552,
+          "norm": 34.06
+        },
+        {
+          "layer": 5,
+          "cos_with_input": 0.0044,
+          "effective_dim": 596,
+          "norm": 45.01
+        },
+        {
+          "layer": 6,
+          "cos_with_input": -0.0044,
+          "effective_dim": 601,
+          "norm": 48.84
+        },
+        {
+          "layer": 7,
+          "cos_with_input": -0.0068,
+          "effective_dim": 605,
+          "norm": 48.71
+        },
+        {
+          "layer": 8,
+          "cos_with_input": 0.0191,
+          "effective_dim": 582,
+          "norm": 55.59
+        },
+        {
+          "layer": 9,
+          "cos_with_input": 0.0237,
+          "effective_dim": 539,
+          "norm": 52.49
+        },
+        {
+          "layer": 10,
+          "cos_with_input": 0.0308,
+          "effective_dim": 536,
+          "norm": 57.67
+        },
+        {
+          "layer": 11,
+          "cos_with_input": 0.0139,
+          "effective_dim": 477,
+          "norm": 58.84
+        },
+        {
+          "layer": 12,
+          "cos_with_input": 0.0173,
+          "effective_dim": 442,
+          "norm": 55.29
+        },
+        {
+          "layer": 13,
+          "cos_with_input": 0.0194,
+          "effective_dim": 416,
+          "norm": 55.11
+        },
+        {
+          "layer": 14,
+          "cos_with_input": 0.0119,
+          "effective_dim": 406,
+          "norm": 57.59
+        },
+        {
+          "layer": 15,
+          "cos_with_input": 0.0138,
+          "effective_dim": 379,
+          "norm": 59.57
+        },
+        {
+          "layer": 16,
+          "cos_with_input": 0.0096,
+          "effective_dim": 351,
+          "norm": 63.5
+        },
+        {
+          "layer": 17,
+          "cos_with_input": 0.0106,
+          "effective_dim": 394,
+          "norm": 63.33
+        },
+        {
+          "layer": 18,
+          "cos_with_input": 0.0236,
+          "effective_dim": 407,
+          "norm": 67.68
+        },
+        {
+          "layer": 19,
+          "cos_with_input": 0.0132,
+          "effective_dim": 405,
+          "norm": 75.35
+        },
+        {
+          "layer": 20,
+          "cos_with_input": 0.0001,
+          "effective_dim": 413,
+          "norm": 79.27
+        },
+        {
+          "layer": 21,
+          "cos_with_input": 0.0142,
+          "effective_dim": 468,
+          "norm": 81.57
+        },
+        {
+          "layer": 22,
+          "cos_with_input": 0.0084,
+          "effective_dim": 479,
+          "norm": 99.68
+        },
+        {
+          "layer": 23,
+          "cos_with_input": 0.0078,
+          "effective_dim": 492,
+          "norm": 121.18
+        },
+        {
+          "layer": 24,
+          "cos_with_input": 0.0234,
+          "effective_dim": 518,
+          "norm": 147.54
+        },
+        {
+          "layer": 25,
+          "cos_with_input": 0.0267,
+          "effective_dim": 458,
+          "norm": 188.37
+        },
+        {
+          "layer": 26,
+          "cos_with_input": 0.025,
+          "effective_dim": 456,
+          "norm": 206.51
+        },
+        {
+          "layer": 27,
+          "cos_with_input": 0.0344,
+          "effective_dim": 350,
+          "norm": 271.17
+        },
+        {
+          "layer": 28,
+          "cos_with_input": 0.0669,
+          "effective_dim": 219,
+          "norm": 167.54
+        }
+      ]
+    }
+  ],
+  "cross_similarity": 0.6505,
+  "avg_preservation": 0.0416,
+  "avg_scramble_layer": 1.0,
+  "verdict": "DISSIPATIVE (classical)",
+  "elapsed": 2.01
+}

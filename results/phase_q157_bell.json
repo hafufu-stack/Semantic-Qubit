@@ -1,0 +1,236 @@
+{
+  "phase": "Q157",
+  "name": "Semantic Bell Inequality (CHSH)",
+  "classical_limit": 2.0,
+  "quantum_limit": 2.83,
+  "results": [
+    {
+      "pair": "The electron orbits the nucleu | The proton attracts the electr",
+      "type": "entangled",
+      "best_S": 0.5918,
+      "best_layer": 28,
+      "violates_classical": false,
+      "layer_results": [
+        {
+          "layer": 0,
+          "S": 0.001
+        },
+        {
+          "layer": 4,
+          "S": 0.0133
+        },
+        {
+          "layer": 8,
+          "S": 0.0393
+        },
+        {
+          "layer": 12,
+          "S": 0.0697
+        },
+        {
+          "layer": 16,
+          "S": 0.1025
+        },
+        {
+          "layer": 20,
+          "S": 0.2068
+        },
+        {
+          "layer": 24,
+          "S": 0.265
+        },
+        {
+          "layer": 28,
+          "S": 0.5918
+        }
+      ]
+    },
+    {
+      "pair": "Quantum state A is spin up alo | Quantum state B is spin down a",
+      "type": "entangled",
+      "best_S": 0.5622,
+      "best_layer": 28,
+      "violates_classical": false,
+      "layer_results": [
+        {
+          "layer": 0,
+          "S": 0.0005
+        },
+        {
+          "layer": 4,
+          "S": 0.0056
+        },
+        {
+          "layer": 8,
+          "S": 0.0301
+        },
+        {
+          "layer": 12,
+          "S": 0.081
+        },
+        {
+          "layer": 16,
+          "S": 0.1851
+        },
+        {
+          "layer": 20,
+          "S": 0.1807
+        },
+        {
+          "layer": 24,
+          "S": 0.1859
+        },
+        {
+          "layer": 28,
+          "S": 0.5622
+        }
+      ]
+    },
+    {
+      "pair": "Alice measures her particle in | Bob measures his particle in t",
+      "type": "entangled",
+      "best_S": 0.7248,
+      "best_layer": 28,
+      "violates_classical": false,
+      "layer_results": [
+        {
+          "layer": 0,
+          "S": 0.0002
+        },
+        {
+          "layer": 4,
+          "S": 0.107
+        },
+        {
+          "layer": 8,
+          "S": 0.1152
+        },
+        {
+          "layer": 12,
+          "S": 0.1776
+        },
+        {
+          "layer": 16,
+          "S": 0.2938
+        },
+        {
+          "layer": 20,
+          "S": 0.3303
+        },
+        {
+          "layer": 24,
+          "S": 0.5676
+        },
+        {
+          "layer": 28,
+          "S": 0.7248
+        }
+      ]
+    },
+    {
+      "pair": "The left half of the wormhole  | The right half of the wormhole",
+      "type": "entangled",
+      "best_S": 0.6574,
+      "best_layer": 28,
+      "violates_classical": false,
+      "layer_results": [
+        {
+          "layer": 0,
+          "S": 0.0002
+        },
+        {
+          "layer": 4,
+          "S": 0.1425
+        },
+        {
+          "layer": 8,
+          "S": 0.2478
+        },
+        {
+          "layer": 12,
+          "S": 0.2494
+        },
+        {
+          "layer": 16,
+          "S": 0.3687
+        },
+        {
+          "layer": 20,
+          "S": 0.3032
+        },
+        {
+          "layer": 24,
+          "S": 0.618
+        },
+        {
+          "layer": 28,
+          "S": 0.6574
+        }
+      ]
+    },
+    {
+      "pair": "Energy is conserved when the s | Momentum is conserved when the",
+      "type": "entangled",
+      "best_S": 0.5262,
+      "best_layer": 28,
+      "violates_classical": false,
+      "layer_results": [
+        {
+          "layer": 0,
+          "S": 0.0041
+        },
+        {
+          "layer": 4,
+          "S": 0.076
+        },
+        {
+          "layer": 8,
+          "S": 0.136
+        },
+        {
+          "layer": 12,
+          "S": 0.1742
+        },
+        {
+          "layer": 16,
+          "S": 0.1953
+        },
+        {
+          "layer": 20,
+          "S": 0.2639
+        },
+        {
+          "layer": 24,
+          "S": 0.2565
+        },
+        {
+          "layer": 28,
+          "S": 0.5262
+        }
+      ]
+    },
+    {
+      "pair": "The weather is sunny today | I like chocolate ice cream",
+      "type": "separable",
+      "best_S": 0.394,
+      "violates_classical": false
+    },
+    {
+      "pair": "Python programming language | Mount Everest is tall",
+      "type": "separable",
+      "best_S": 0.4508,
+      "violates_classical": false
+    },
+    {
+      "pair": "Tokyo is the capital of Japan | Bananas are yellow fruit",
+      "type": "separable",
+      "best_S": 0.4332,
+      "violates_classical": false
+    }
+  ],
+  "random_baseline": {
+    "mean_S": 0.0015,
+    "max_S": 0.0063
+  },
+  "elapsed": 7.53
+}

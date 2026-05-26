@@ -1,0 +1,91 @@
+{
+  "phase": "Q140",
+  "name": "Fermionic Sign Problem (Hubbard Model)",
+  "configs": [
+    {
+      "lattice": "2x1",
+      "U_over_t": 0.0,
+      "description": "Free electrons (U=0)",
+      "n_qubits": 4,
+      "dim": 16,
+      "exact_energy": -2.0,
+      "sqbit_energy": -2.0,
+      "error_mha": 0.0,
+      "fidelity": 1.0,
+      "gap": 1.0,
+      "double_occupancy": 0.25,
+      "time_s": 0.88
+    },
+    {
+      "lattice": "2x1",
+      "U_over_t": 2.0,
+      "description": "Weak coupling (U/t=2)",
+      "n_qubits": 4,
+      "dim": 16,
+      "exact_energy": -1.236068,
+      "sqbit_energy": -1.236068,
+      "error_mha": 0.0,
+      "fidelity": 1.0,
+      "gap": 0.236068,
+      "double_occupancy": 0.138197,
+      "time_s": 0.45
+    },
+    {
+      "lattice": "2x1",
+      "U_over_t": 4.0,
+      "description": "Intermediate (U/t=4)",
+      "n_qubits": 4,
+      "dim": 16,
+      "exact_energy": -1.0,
+      "sqbit_energy": -1.0,
+      "error_mha": 0.0,
+      "fidelity": 0.926906,
+      "gap": 0.0,
+      "double_occupancy": 0.0,
+      "time_s": 0.42
+    },
+    {
+      "lattice": "2x1",
+      "U_over_t": 8.0,
+      "description": "Strong coupling / Mott (U/t=8)",
+      "n_qubits": 4,
+      "dim": 16,
+      "exact_energy": -1.0,
+      "sqbit_energy": -1.0,
+      "error_mha": 0.0,
+      "fidelity": 0.778385,
+      "gap": 0.0,
+      "double_occupancy": 0.0,
+      "time_s": 0.43
+    },
+    {
+      "lattice": "2x2",
+      "U_over_t": 4.0,
+      "description": "2x2 lattice (U/t=4)",
+      "n_qubits": 8,
+      "dim": 256,
+      "exact_energy": -3.418551,
+      "sqbit_energy": -3.418551,
+      "error_mha": 0.0,
+      "fidelity": 1.0,
+      "gap": 0.666393,
+      "double_occupancy": 0.019859,
+      "time_s": 3.09
+    },
+    {
+      "lattice": "3x2",
+      "U_over_t": 4.0,
+      "description": "3x2 lattice (U/t=4, d-wave regime)",
+      "n_qubits": 10,
+      "dim": 1024,
+      "exact_energy": -4.497944,
+      "sqbit_energy": -4.497944,
+      "error_mha": 0.0,
+      "fidelity": 1.0,
+      "gap": 0.237071,
+      "double_occupancy": 0.025934,
+      "time_s": 76.52
+    }
+  ],
+  "elapsed": 84.28
+}

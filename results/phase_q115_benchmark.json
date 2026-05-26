@@ -1,0 +1,57 @@
+{
+  "phase": "Q115",
+  "name": "Real-World Quantum Benchmark",
+  "clustering": {
+    "classical_accuracy": 1.0,
+    "quantum_accuracy": 0.2,
+    "quantum_advantage": -0.8
+  },
+  "analogy": {
+    "quantum_wins": 1,
+    "total": 5,
+    "results": [
+      {
+        "analogy": "king:man::woman:?",
+        "expected": "queen",
+        "classical_cos": 0.992,
+        "quantum_cos": -0.9721,
+        "quantum_wins": false
+      },
+      {
+        "analogy": "Paris:France::Japan:?",
+        "expected": "Tokyo",
+        "classical_cos": 0.9904,
+        "quantum_cos": -0.2364,
+        "quantum_wins": false
+      },
+      {
+        "analogy": "big:small::hot:?",
+        "expected": "cold",
+        "classical_cos": 0.9816,
+        "quantum_cos": -0.9562,
+        "quantum_wins": false
+      },
+      {
+        "analogy": "doctor:hospital::teacher:?",
+        "expected": "school",
+        "classical_cos": 0.9654,
+        "quantum_cos": -0.4782,
+        "quantum_wins": false
+      },
+      {
+        "analogy": "day:night::summer:?",
+        "expected": "winter",
+        "classical_cos": 0.9729,
+        "quantum_cos": 0.9778,
+        "quantum_wins": true
+      }
+    ]
+  },
+  "zero_shot": {
+    "classical_accuracy": 0.5,
+    "quantum_accuracy": 0.0,
+    "quantum_advantage": -0.5
+  },
+  "overall_quantum_advantage": -0.5333,
+  "elapsed": 4.63
+}

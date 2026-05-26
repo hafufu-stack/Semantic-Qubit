@@ -1,0 +1,65 @@
+{
+  "phase": "Q156",
+  "name": "Chaos-Attention Rosetta Stone",
+  "llm_dynamics": [
+    {
+      "prompt_type": "Chaos-related",
+      "prompt": "The chaotic dynamics of the system evolv",
+      "lyapunov": 3.189,
+      "chaos": "chaotic",
+      "entropy": 1.1006,
+      "autocorr_lag1": 0.8977,
+      "avg_layer_distance": 34.8461,
+      "avg_cos_sim": 0.8912
+    },
+    {
+      "prompt_type": "SNN-related",
+      "prompt": "Spiking neural network membrane potentia",
+      "lyapunov": 3.2478,
+      "chaos": "chaotic",
+      "entropy": 0.7911,
+      "autocorr_lag1": 0.8954,
+      "avg_layer_distance": 37.9906,
+      "avg_cos_sim": 0.8934
+    },
+    {
+      "prompt_type": "SYK-related",
+      "prompt": "Quantum scrambling in the SYK model at h",
+      "lyapunov": 3.2922,
+      "chaos": "chaotic",
+      "entropy": 0.5685,
+      "autocorr_lag1": 0.8895,
+      "avg_layer_distance": 37.4442,
+      "avg_cos_sim": 0.8779
+    },
+    {
+      "prompt_type": "Static/boring",
+      "prompt": "The cat sat quietly on the mat doing not",
+      "lyapunov": 3.3023,
+      "chaos": "chaotic",
+      "entropy": 0.3978,
+      "autocorr_lag1": 0.8824,
+      "avg_layer_distance": 36.3834,
+      "avg_cos_sim": 0.8613
+    },
+    {
+      "prompt_type": "Generic",
+      "prompt": "Hello world this is a simple test senten",
+      "lyapunov": 3.2259,
+      "chaos": "chaotic",
+      "entropy": 0.4293,
+      "autocorr_lag1": 0.901,
+      "avg_layer_distance": 35.3512,
+      "avg_cos_sim": 0.8865
+    }
+  ],
+  "snn_comparison": {
+    "snn_lyapunov": 25.98,
+    "snn_entropy": 7.998,
+    "snn_autocorr": 0.008,
+    "llm_avg_lyapunov": 3.2514,
+    "llm_avg_entropy": 0.6575,
+    "llm_avg_autocorr": 0.8932
+  },
+  "elapsed": 2.0
+}

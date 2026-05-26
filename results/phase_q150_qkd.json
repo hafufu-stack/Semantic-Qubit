@@ -1,0 +1,46 @@
+{
+  "phase": "Q150",
+  "name": "Semantic Quantum Key Distribution",
+  "qkd_tests": [
+    {
+      "secret": "The meeting point is under the old oak t",
+      "alice_bob_match": 100.0,
+      "alice_eve_match": 81.64,
+      "alice_rand_match": 71.88,
+      "key_entropy": 0.9996,
+      "hash_alice": "79cb58c3af503905",
+      "hash_bob": "79cb58c3af503905",
+      "hash_eve": "07646dd78a68f45a",
+      "hashes_match": true
+    },
+    {
+      "secret": "Quantum entanglement key: alpha-7-bravo-",
+      "alice_bob_match": 100.0,
+      "alice_eve_match": 81.25,
+      "alice_rand_match": 59.38,
+      "key_entropy": 0.9996,
+      "hash_alice": "66de0883b3a1e85d",
+      "hash_bob": "66de0883b3a1e85d",
+      "hash_eve": "c384d20b74198983",
+      "hashes_match": true
+    },
+    {
+      "secret": "My grandmother's maiden name was Sakura ",
+      "alice_bob_match": 100.0,
+      "alice_eve_match": 89.45,
+      "alice_rand_match": 57.81,
+      "key_entropy": 0.9996,
+      "hash_alice": "a8ad848281f58c5f",
+      "hash_bob": "a8ad848281f58c5f",
+      "hash_eve": "665084bd3d256202",
+      "hashes_match": true
+    }
+  ],
+  "keyspace": {
+    "n_prompts": 20,
+    "avg_similarity": 61.34,
+    "min_similarity": 48.05,
+    "max_similarity": 89.84
+  },
+  "elapsed": 2.9
+}

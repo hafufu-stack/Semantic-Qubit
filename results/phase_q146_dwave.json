@@ -1,0 +1,73 @@
+{
+  "phase": "Q146",
+  "name": "D-Wave Killer (SK Spin Glass)",
+  "configs": [
+    {
+      "n_spins": 6,
+      "dim": 64,
+      "type": "SK (dense)",
+      "description": "N=6 (toy)",
+      "exact_energy": -2.7404,
+      "random_error": 1.188,
+      "llm_error": 0.3343,
+      "llm_fidelity": 0.9903,
+      "advantage": 3.55
+    },
+    {
+      "n_spins": 6,
+      "dim": 64,
+      "type": "Ising (sparse)",
+      "description": "N=6 (toy)",
+      "exact_energy": -2.1815,
+      "random_error": 0.0,
+      "llm_error": 0.0,
+      "llm_fidelity": 1.0,
+      "advantage": 0.0
+    },
+    {
+      "n_spins": 8,
+      "dim": 256,
+      "type": "SK (dense)",
+      "description": "N=8 (D-Wave easy)",
+      "exact_energy": -4.856,
+      "random_error": 0.3773,
+      "llm_error": 0.1753,
+      "llm_fidelity": 0.8211,
+      "advantage": 2.15
+    },
+    {
+      "n_spins": 8,
+      "dim": 256,
+      "type": "Ising (sparse)",
+      "description": "N=8 (D-Wave easy)",
+      "exact_energy": -2.9201,
+      "random_error": 0.0,
+      "llm_error": 0.0,
+      "llm_fidelity": 1.0,
+      "advantage": 0.0
+    },
+    {
+      "n_spins": 10,
+      "dim": 1024,
+      "type": "SK (dense)",
+      "description": "N=10 (D-Wave limit)",
+      "exact_energy": -3.7825,
+      "random_error": 0.0,
+      "llm_error": 0.0,
+      "llm_fidelity": 1.0,
+      "advantage": 0.02
+    },
+    {
+      "n_spins": 10,
+      "dim": 1024,
+      "type": "Ising (sparse)",
+      "description": "N=10 (D-Wave limit)",
+      "exact_energy": -3.502,
+      "random_error": 0.0,
+      "llm_error": 0.0,
+      "llm_fidelity": 1.0,
+      "advantage": 0.0
+    }
+  ],
+  "elapsed": 34.91
+}

@@ -1,0 +1,111 @@
+{
+  "phase": "Q141",
+  "name": "Black Hole Fast Scrambling (SYK)",
+  "configs": [
+    {
+      "n_majorana": 8,
+      "n_qubits": 4,
+      "dim": 16,
+      "description": "N=8 Majorana (toy black hole)",
+      "gs_error_mha": 0.0416,
+      "gs_fidelity": 0.998962,
+      "scrambling_time_exact": 3.5714285714285716,
+      "scrambling_time_sqbit": 3.5714285714285716,
+      "recovery_fidelity": 1.0,
+      "otoc_exact": [
+        -1.0,
+        -0.929836,
+        -0.795059,
+        -0.558859,
+        -0.10388
+      ],
+      "otoc_sqbit": [
+        -1.0,
+        -0.929834,
+        -0.79492,
+        -0.558489,
+        -0.103481
+      ],
+      "time_s": 0.25
+    },
+    {
+      "n_majorana": 10,
+      "n_qubits": 5,
+      "dim": 32,
+      "description": "N=10 Majorana",
+      "gs_error_mha": 0.0,
+      "gs_fidelity": 0.64452,
+      "scrambling_time_exact": 2.9591836734693877,
+      "scrambling_time_sqbit": 2.9591836734693877,
+      "recovery_fidelity": 1.0,
+      "otoc_exact": [
+        -1.0,
+        -0.944362,
+        -0.681191,
+        -0.296898,
+        -0.034028
+      ],
+      "otoc_sqbit": [
+        -1.0,
+        -0.944362,
+        -0.681191,
+        -0.296898,
+        -0.034028
+      ],
+      "time_s": 0.25
+    },
+    {
+      "n_majorana": 12,
+      "n_qubits": 6,
+      "dim": 64,
+      "description": "N=12 Majorana",
+      "gs_error_mha": 0.0001,
+      "gs_fidelity": 0.509848,
+      "scrambling_time_exact": 3.979591836734694,
+      "scrambling_time_sqbit": 3.979591836734694,
+      "recovery_fidelity": 1.0,
+      "otoc_exact": [
+        -1.0,
+        -0.969327,
+        -0.810707,
+        -0.527286,
+        -0.356601
+      ],
+      "otoc_sqbit": [
+        -1.0,
+        -0.969327,
+        -0.810707,
+        -0.527286,
+        -0.356601
+      ],
+      "time_s": 0.28
+    },
+    {
+      "n_majorana": 14,
+      "n_qubits": 7,
+      "dim": 128,
+      "description": "N=14 Majorana (SYK critical)",
+      "gs_error_mha": 0.1468,
+      "gs_fidelity": 0.087844,
+      "scrambling_time_exact": null,
+      "scrambling_time_sqbit": null,
+      "recovery_fidelity": 1.0,
+      "otoc_exact": [
+        -1.0,
+        -0.982966,
+        -0.904769,
+        -0.772962,
+        -0.647294
+      ],
+      "otoc_sqbit": [
+        -1.0,
+        -0.982855,
+        -0.904178,
+        -0.772648,
+        -0.647933
+      ],
+      "time_s": 0.56
+    }
+  ],
+  "elapsed": 3.13
+}

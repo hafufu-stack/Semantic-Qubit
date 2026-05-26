@@ -1,0 +1,283 @@
+{
+  "phase": "Q127",
+  "name": "Large-Scale Factoring",
+  "factoring_results": [
+    {
+      "N": 143,
+      "true_factors": [
+        11,
+        13
+      ],
+      "sqbit_factors": [
+        11,
+        13
+      ],
+      "success": "True",
+      "classical_time_ms": 0.013,
+      "sqbit_time_ms": 0.006,
+      "digits": 3
+    },
+    {
+      "N": 221,
+      "true_factors": [
+        13,
+        17
+      ],
+      "sqbit_factors": [
+        13,
+        17
+      ],
+      "success": "True",
+      "classical_time_ms": 0.003,
+      "sqbit_time_ms": 0.001,
+      "digits": 3
+    },
+    {
+      "N": 437,
+      "true_factors": [
+        19,
+        23
+      ],
+      "sqbit_factors": [
+        19,
+        23
+      ],
+      "success": "True",
+      "classical_time_ms": 0.002,
+      "sqbit_time_ms": 0.001,
+      "digits": 3
+    },
+    {
+      "N": 667,
+      "true_factors": [
+        23,
+        29
+      ],
+      "sqbit_factors": [
+        23,
+        29
+      ],
+      "success": "True",
+      "classical_time_ms": 0.002,
+      "sqbit_time_ms": 0.001,
+      "digits": 3
+    },
+    {
+      "N": 899,
+      "true_factors": [
+        29,
+        31
+      ],
+      "sqbit_factors": [
+        29,
+        31
+      ],
+      "success": "True",
+      "classical_time_ms": 0.002,
+      "sqbit_time_ms": 0.001,
+      "digits": 3
+    },
+    {
+      "N": 1073,
+      "true_factors": [
+        29,
+        37
+      ],
+      "sqbit_factors": [
+        29,
+        37
+      ],
+      "success": "True",
+      "classical_time_ms": 0.003,
+      "sqbit_time_ms": 0.001,
+      "digits": 4
+    },
+    {
+      "N": 1517,
+      "true_factors": [
+        37,
+        41
+      ],
+      "sqbit_factors": [
+        37,
+        41
+      ],
+      "success": "True",
+      "classical_time_ms": 0.003,
+      "sqbit_time_ms": 62.088,
+      "digits": 4
+    },
+    {
+      "N": 2021,
+      "true_factors": [
+        43,
+        47
+      ],
+      "sqbit_factors": [
+        47,
+        43
+      ],
+      "success": "True",
+      "classical_time_ms": 0.01,
+      "sqbit_time_ms": 58.26,
+      "digits": 4
+    },
+    {
+      "N": 3127,
+      "true_factors": [
+        53,
+        59
+      ],
+      "sqbit_factors": null,
+      "success": "False",
+      "classical_time_ms": 0.005,
+      "sqbit_time_ms": 65.737,
+      "digits": 4
+    },
+    {
+      "N": 4087,
+      "true_factors": [
+        61,
+        67
+      ],
+      "sqbit_factors": [
+        61,
+        67
+      ],
+      "success": "True",
+      "classical_time_ms": 0.008,
+      "sqbit_time_ms": 46.734,
+      "digits": 4
+    },
+    {
+      "N": 5183,
+      "true_factors": [
+        71,
+        73
+      ],
+      "sqbit_factors": [
+        71,
+        73
+      ],
+      "success": "True",
+      "classical_time_ms": 0.01,
+      "sqbit_time_ms": 49.143,
+      "digits": 4
+    },
+    {
+      "N": 7387,
+      "true_factors": [
+        83,
+        89
+      ],
+      "sqbit_factors": null,
+      "success": "False",
+      "classical_time_ms": 0.01,
+      "sqbit_time_ms": 48.611,
+      "digits": 4
+    },
+    {
+      "N": 9409,
+      "true_factors": [
+        97,
+        97
+      ],
+      "sqbit_factors": null,
+      "success": "False",
+      "classical_time_ms": 0.01,
+      "sqbit_time_ms": 49.254,
+      "digits": 4
+    },
+    {
+      "N": 10403,
+      "true_factors": [
+        101,
+        103
+      ],
+      "sqbit_factors": [
+        103,
+        101
+      ],
+      "success": "True",
+      "classical_time_ms": 0.011,
+      "sqbit_time_ms": 48.524,
+      "digits": 5
+    },
+    {
+      "N": 11663,
+      "true_factors": [
+        107,
+        109
+      ],
+      "sqbit_factors": [
+        109,
+        107
+      ],
+      "success": "True",
+      "classical_time_ms": 0.011,
+      "sqbit_time_ms": 42.365,
+      "digits": 5
+    },
+    {
+      "N": 14351,
+      "true_factors": [
+        113,
+        127
+      ],
+      "sqbit_factors": [
+        127,
+        113
+      ],
+      "success": "True",
+      "classical_time_ms": 0.008,
+      "sqbit_time_ms": 40.24,
+      "digits": 5
+    },
+    {
+      "N": 17947,
+      "true_factors": [
+        131,
+        137
+      ],
+      "sqbit_factors": [
+        137,
+        131
+      ],
+      "success": "True",
+      "classical_time_ms": 0.013,
+      "sqbit_time_ms": 45.42,
+      "digits": 5
+    },
+    {
+      "N": 20677,
+      "true_factors": [
+        139,
+        149
+      ],
+      "sqbit_factors": [
+        23,
+        899
+      ],
+      "success": "True",
+      "classical_time_ms": 0.006,
+      "sqbit_time_ms": 0.002,
+      "digits": 5
+    },
+    {
+      "N": 28891,
+      "true_factors": [
+        167,
+        173
+      ],
+      "sqbit_factors": null,
+      "success": "False",
+      "classical_time_ms": 0.012,
+      "sqbit_time_ms": 40.394,
+      "digits": 5
+    }
+  ],
+  "total_success": 15,
+  "total_tested": 19,
+  "largest_factored": 20677,
+  "elapsed": 2.36
+}

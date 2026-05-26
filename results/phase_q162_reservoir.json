@@ -1,0 +1,17 @@
+{
+  "phase": "Q162",
+  "name": "LLM Quantum Reservoir Computer",
+  "energy_prediction": {
+    "train_r2": 0.9999,
+    "test_r2": 0.2081,
+    "random_r2": -51.5776,
+    "best_lambda": 0.1
+  },
+  "state_prediction": {
+    "avg_fidelity": 0.144,
+    "random_fidelity": 0.0156
+  },
+  "n_train": 30,
+  "n_test": 10,
+  "elapsed": 5.33
+}

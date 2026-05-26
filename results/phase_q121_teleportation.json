@@ -1,0 +1,292 @@
+{
+  "phase": "Q121",
+  "name": "Quantum Teleportation Protocol",
+  "messages": [
+    {
+      "message": "The capital of France is Paris",
+      "teleportations": [
+        {
+          "src_layer": 2,
+          "dst_layer": 26,
+          "distance": 24,
+          "fidelity": 0.424445,
+          "classical_fidelity": 0.424445,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 5,
+          "dst_layer": 14,
+          "distance": 9,
+          "fidelity": 0.738409,
+          "classical_fidelity": 0.738409,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 14,
+          "dst_layer": 27,
+          "distance": 13,
+          "fidelity": 0.115434,
+          "classical_fidelity": 0.115434,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 3,
+          "dst_layer": 10,
+          "distance": 7,
+          "fidelity": 0.736904,
+          "classical_fidelity": 0.736904,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 1,
+          "dst_layer": 27,
+          "distance": 26,
+          "fidelity": 0.07215,
+          "classical_fidelity": 0.07215,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        }
+      ]
+    },
+    {
+      "message": "Water boils at 100 degrees",
+      "teleportations": [
+        {
+          "src_layer": 2,
+          "dst_layer": 26,
+          "distance": 24,
+          "fidelity": 0.246807,
+          "classical_fidelity": 0.246807,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 5,
+          "dst_layer": 14,
+          "distance": 9,
+          "fidelity": 0.601007,
+          "classical_fidelity": 0.601007,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 14,
+          "dst_layer": 27,
+          "distance": 13,
+          "fidelity": 0.156434,
+          "classical_fidelity": 0.156434,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 3,
+          "dst_layer": 10,
+          "distance": 7,
+          "fidelity": 0.584037,
+          "classical_fidelity": 0.584037,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 1,
+          "dst_layer": 27,
+          "distance": 26,
+          "fidelity": 0.121018,
+          "classical_fidelity": 0.121018,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        }
+      ]
+    },
+    {
+      "message": "Pi equals 3.14159",
+      "teleportations": [
+        {
+          "src_layer": 2,
+          "dst_layer": 26,
+          "distance": 24,
+          "fidelity": 0.21749,
+          "classical_fidelity": 0.21749,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 5,
+          "dst_layer": 14,
+          "distance": 9,
+          "fidelity": 0.481248,
+          "classical_fidelity": 0.481248,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 14,
+          "dst_layer": 27,
+          "distance": 13,
+          "fidelity": 0.060109,
+          "classical_fidelity": 0.060109,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 3,
+          "dst_layer": 10,
+          "distance": 7,
+          "fidelity": 0.506726,
+          "classical_fidelity": 0.506726,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 1,
+          "dst_layer": 27,
+          "distance": 26,
+          "fidelity": 0.004478,
+          "classical_fidelity": 0.004478,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        }
+      ]
+    },
+    {
+      "message": "Gravity pulls objects toward Earth",
+      "teleportations": [
+        {
+          "src_layer": 2,
+          "dst_layer": 26,
+          "distance": 24,
+          "fidelity": 0.383214,
+          "classical_fidelity": 0.383214,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 5,
+          "dst_layer": 14,
+          "distance": 9,
+          "fidelity": 0.705178,
+          "classical_fidelity": 0.705178,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 14,
+          "dst_layer": 27,
+          "distance": 13,
+          "fidelity": 0.131439,
+          "classical_fidelity": 0.131439,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 3,
+          "dst_layer": 10,
+          "distance": 7,
+          "fidelity": 0.682751,
+          "classical_fidelity": 0.682751,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 1,
+          "dst_layer": 27,
+          "distance": 26,
+          "fidelity": 0.039731,
+          "classical_fidelity": 0.039731,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        }
+      ]
+    },
+    {
+      "message": "DNA carries genetic information",
+      "teleportations": [
+        {
+          "src_layer": 2,
+          "dst_layer": 26,
+          "distance": 24,
+          "fidelity": 0.409727,
+          "classical_fidelity": 0.409727,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 5,
+          "dst_layer": 14,
+          "distance": 9,
+          "fidelity": 0.737976,
+          "classical_fidelity": 0.737976,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 14,
+          "dst_layer": 27,
+          "distance": 13,
+          "fidelity": 0.178517,
+          "classical_fidelity": 0.178517,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 3,
+          "dst_layer": 10,
+          "distance": 7,
+          "fidelity": 0.662089,
+          "classical_fidelity": 0.662089,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        },
+        {
+          "src_layer": 1,
+          "dst_layer": 27,
+          "distance": 26,
+          "fidelity": 0.142127,
+          "classical_fidelity": 0.142127,
+          "advantage": 0.0,
+          "phase_correction": 0.0
+        }
+      ]
+    }
+  ],
+  "distance_fidelity": [
+    {
+      "distance": 7,
+      "mean_fidelity": 0.6345,
+      "mean_advantage": 0.0,
+      "n_samples": 5
+    },
+    {
+      "distance": 9,
+      "mean_fidelity": 0.6528,
+      "mean_advantage": 0.0,
+      "n_samples": 5
+    },
+    {
+      "distance": 13,
+      "mean_fidelity": 0.1284,
+      "mean_advantage": 0.0,
+      "n_samples": 5
+    },
+    {
+      "distance": 24,
+      "mean_fidelity": 0.3363,
+      "mean_advantage": 0.0,
+      "n_samples": 5
+    },
+    {
+      "distance": 26,
+      "mean_fidelity": 0.0759,
+      "mean_advantage": 0.0,
+      "n_samples": 5
+    }
+  ],
+  "mean_fidelity": 0.3656,
+  "mean_advantage": 0.0,
+  "teleportation_success_rate": 0.36,
+  "elapsed": 1.98
+}

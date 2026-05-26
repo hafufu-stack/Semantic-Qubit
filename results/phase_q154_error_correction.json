@@ -1,0 +1,106 @@
+{
+  "phase": "Q154",
+  "name": "LLM Quantum Error Correction",
+  "knockout_results": [
+    {
+      "config": "1 head (layer 0)",
+      "n_heads_knocked": 1,
+      "pct_knocked": 0.3,
+      "avg_similarity": 0.999534,
+      "per_prompt": [
+        0.9994,
+        0.9996,
+        0.9996
+      ]
+    },
+    {
+      "config": "1 head (mid)",
+      "n_heads_knocked": 1,
+      "pct_knocked": 0.3,
+      "avg_similarity": 0.999992,
+      "per_prompt": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "config": "1 head (last)",
+      "n_heads_knocked": 1,
+      "pct_knocked": 0.3,
+      "avg_similarity": 0.999685,
+      "per_prompt": [
+        0.9996,
+        0.9997,
+        0.9998
+      ]
+    },
+    {
+      "config": "3 heads (layer 0)",
+      "n_heads_knocked": 3,
+      "pct_knocked": 0.89,
+      "avg_similarity": 0.996265,
+      "per_prompt": [
+        0.9969,
+        0.9959,
+        0.9959
+      ]
+    },
+    {
+      "config": "6 heads (layer 0)",
+      "n_heads_knocked": 6,
+      "pct_knocked": 1.79,
+      "avg_similarity": 0.895117,
+      "per_prompt": [
+        0.8107,
+        0.9238,
+        0.9509
+      ]
+    },
+    {
+      "config": "All heads (layer 0)",
+      "n_heads_knocked": 12,
+      "pct_knocked": 3.57,
+      "avg_similarity": 0.394203,
+      "per_prompt": [
+        0.0308,
+        0.787,
+        0.3648
+      ]
+    },
+    {
+      "config": "1 head per layer",
+      "n_heads_knocked": 28,
+      "pct_knocked": 8.33,
+      "avg_similarity": 0.986881,
+      "per_prompt": [
+        0.9836,
+        0.9907,
+        0.9864
+      ]
+    },
+    {
+      "config": "3 heads per layer",
+      "n_heads_knocked": 84,
+      "pct_knocked": 25.0,
+      "avg_similarity": 0.963774,
+      "per_prompt": [
+        0.9651,
+        0.9644,
+        0.9618
+      ]
+    },
+    {
+      "config": "6 heads per layer",
+      "n_heads_knocked": 168,
+      "pct_knocked": 50.0,
+      "avg_similarity": 0.290732,
+      "per_prompt": [
+        0.0157,
+        0.4411,
+        0.4154
+      ]
+    }
+  ],
+  "elapsed": 4.16
+}

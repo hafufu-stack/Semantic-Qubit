@@ -1,0 +1,100 @@
+{
+  "phase": "Q130",
+  "name": "Quantum Portfolio Optimization",
+  "problems": [
+    {
+      "n_stocks": 10,
+      "k_select": 3,
+      "n_combinations": 120,
+      "bf_score": 0.00283681,
+      "rand_score": 0.00283681,
+      "sqbit_score": 0.00283681,
+      "sq_vs_optimal": 1.0,
+      "sq_vs_random_pct": 0.0,
+      "bf_time_ms": 1.02,
+      "sqbit_time_ms": 144.98,
+      "bf_feasible": "True"
+    },
+    {
+      "n_stocks": 15,
+      "k_select": 3,
+      "n_combinations": 455,
+      "bf_score": 0.00309487,
+      "rand_score": 0.00309487,
+      "sqbit_score": 0.00309487,
+      "sq_vs_optimal": 1.0,
+      "sq_vs_random_pct": 0.0,
+      "bf_time_ms": 2.63,
+      "sqbit_time_ms": 97.59,
+      "bf_feasible": "True"
+    },
+    {
+      "n_stocks": 20,
+      "k_select": 5,
+      "n_combinations": 15504,
+      "bf_score": 0.00312472,
+      "rand_score": 0.00296085,
+      "sqbit_score": 0.00312472,
+      "sq_vs_optimal": 1.0,
+      "sq_vs_random_pct": 5.53,
+      "bf_time_ms": 127.98,
+      "sqbit_time_ms": 114.36,
+      "bf_feasible": "True"
+    },
+    {
+      "n_stocks": 25,
+      "k_select": 6,
+      "n_combinations": 177100,
+      "bf_score": "N/A",
+      "rand_score": 0.00278764,
+      "sqbit_score": 0.00296045,
+      "sq_vs_optimal": "N/A",
+      "sq_vs_random_pct": 6.2,
+      "bf_time_ms": "N/A",
+      "sqbit_time_ms": 109.64,
+      "bf_feasible": "False"
+    },
+    {
+      "n_stocks": 30,
+      "k_select": 7,
+      "n_combinations": 2035800,
+      "bf_score": "N/A",
+      "rand_score": 0.00164584,
+      "sqbit_score": 0.00188708,
+      "sq_vs_optimal": "N/A",
+      "sq_vs_random_pct": 14.66,
+      "bf_time_ms": "N/A",
+      "sqbit_time_ms": 172.46,
+      "bf_feasible": "False"
+    },
+    {
+      "n_stocks": 40,
+      "k_select": 10,
+      "n_combinations": 847660528,
+      "bf_score": "N/A",
+      "rand_score": 0.00159236,
+      "sqbit_score": 0.00191543,
+      "sq_vs_optimal": "N/A",
+      "sq_vs_random_pct": 20.29,
+      "bf_time_ms": "N/A",
+      "sqbit_time_ms": 354.66,
+      "bf_feasible": "False"
+    },
+    {
+      "n_stocks": 50,
+      "k_select": 12,
+      "n_combinations": 121399651100,
+      "bf_score": "N/A",
+      "rand_score": 0.0030555,
+      "sqbit_score": 0.00355788,
+      "sq_vs_optimal": "N/A",
+      "sq_vs_random_pct": 16.44,
+      "bf_time_ms": "N/A",
+      "sqbit_time_ms": 269.77,
+      "bf_feasible": "False"
+    }
+  ],
+  "sqbit_wins_vs_random": 5,
+  "bf_infeasible": 4,
+  "elapsed": 3.16
+}

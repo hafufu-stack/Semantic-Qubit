@@ -1,0 +1,35 @@
+{
+  "phase": "Q161",
+  "name": "Embedding Space VQE",
+  "exact_energy": -0.999022,
+  "seed_error_mha": 399.8552,
+  "optimized_error_mha": 0.0002,
+  "projected_error_mha": 399.8552,
+  "projected_prompt": "Chemical bond ground state energy:",
+  "random_mean_mha": 392.103,
+  "improvement_factor": 399855.16,
+  "multi_start": [
+    {
+      "prompt": "Chemical bond ground state ene",
+      "final_error": 0.01
+    },
+    {
+      "prompt": "Hydrogen molecule wavefunction",
+      "final_error": 0.02
+    },
+    {
+      "prompt": "Quantum chemistry calculation:",
+      "final_error": 0.0
+    },
+    {
+      "prompt": "The cat sat on the mat:",
+      "final_error": 0.0
+    },
+    {
+      "prompt": "Hello world program:",
+      "final_error": 0.03
+    }
+  ],
+  "n_steps": 200,
+  "elapsed": 80.45
+}

@@ -1,0 +1,428 @@
+{
+  "phase": "Q132",
+  "name": "Attention-qLDPC Error Correction",
+  "prompt": "The capital of France is",
+  "clean_prediction": " Paris",
+  "strategies": {
+    "last_token_only": [
+      {
+        "noise": 0.0,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "noise": 0.001,
+        "correct": "True",
+        "prob_correct": 0.188393,
+        "attn_shift": 0.015787,
+        "recovery_gain": 0.021085,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.005,
+        "correct": "False",
+        "prob_correct": 0.002179,
+        "attn_shift": 0.395004,
+        "recovery_gain": 0.355577,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.01,
+        "correct": "False",
+        "prob_correct": 1e-06,
+        "attn_shift": 0.661139,
+        "recovery_gain": 0.328721,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.05,
+        "correct": "False",
+        "prob_correct": 5e-06,
+        "attn_shift": 0.839746,
+        "recovery_gain": -0.095846,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.1,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.872768,
+        "recovery_gain": -0.072286,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.2,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.883185,
+        "recovery_gain": -0.036084,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.5,
+        "correct": "False",
+        "prob_correct": 1.9e-05,
+        "attn_shift": 0.904274,
+        "recovery_gain": -0.01617,
+        "layer_recovery": null
+      },
+      {
+        "noise": 1.0,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.910172,
+        "recovery_gain": -0.115477,
+        "layer_recovery": null
+      }
+    ],
+    "single_mid_layer": [
+      {
+        "noise": 0.0,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "noise": 0.001,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.005,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.01,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.05,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.1,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.2,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.5,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": null
+      },
+      {
+        "noise": 1.0,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": null
+      }
+    ],
+    "all_tokens": [
+      {
+        "noise": 0.0,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "noise": 0.001,
+        "correct": "True",
+        "prob_correct": 0.305272,
+        "attn_shift": 0.017286,
+        "recovery_gain": 0.022331,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.005,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.470996,
+        "recovery_gain": 0.293806,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.01,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.761554,
+        "recovery_gain": 0.038797,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.05,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.832774,
+        "recovery_gain": -0.024049,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.1,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.905097,
+        "recovery_gain": 0.111215,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.2,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.875737,
+        "recovery_gain": -0.007394,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.5,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.891171,
+        "recovery_gain": 0.013269,
+        "layer_recovery": null
+      },
+      {
+        "noise": 1.0,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.911821,
+        "recovery_gain": -0.027138,
+        "layer_recovery": null
+      }
+    ],
+    "all_except_last": [
+      {
+        "noise": 0.0,
+        "correct": "True",
+        "prob_correct": 0.275127,
+        "attn_shift": 0.0,
+        "recovery_gain": -0.0,
+        "layer_recovery": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "noise": 0.001,
+        "correct": "True",
+        "prob_correct": 0.276237,
+        "attn_shift": 0.002022,
+        "recovery_gain": 0.002572,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.005,
+        "correct": "False",
+        "prob_correct": 8e-05,
+        "attn_shift": 0.12825,
+        "recovery_gain": 0.121641,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.01,
+        "correct": "False",
+        "prob_correct": 4.8e-05,
+        "attn_shift": 0.21091,
+        "recovery_gain": 0.178443,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.05,
+        "correct": "False",
+        "prob_correct": 1e-06,
+        "attn_shift": 0.267383,
+        "recovery_gain": 0.215259,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.1,
+        "correct": "False",
+        "prob_correct": 1e-06,
+        "attn_shift": 0.259936,
+        "recovery_gain": 0.127898,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.2,
+        "correct": "False",
+        "prob_correct": 3e-06,
+        "attn_shift": 0.306417,
+        "recovery_gain": 0.180338,
+        "layer_recovery": null
+      },
+      {
+        "noise": 0.5,
+        "correct": "False",
+        "prob_correct": 1e-06,
+        "attn_shift": 0.343796,
+        "recovery_gain": 0.099208,
+        "layer_recovery": null
+      },
+      {
+        "noise": 1.0,
+        "correct": "False",
+        "prob_correct": 0.0,
+        "attn_shift": 0.551529,
+        "recovery_gain": -0.508938,
+        "layer_recovery": null
+      }
+    ]
+  },
+  "mechanism": "Deep residual connections + layer normalization",
+  "last_token_correct": 2,
+  "all_except_last_correct": 2,
+  "elapsed": 3.76
+}

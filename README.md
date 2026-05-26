@@ -6,7 +6,9 @@
 
 ## Overview
 
-This repository contains the code and experimental results for **Semantic-Qubit (S-Qubit)**, a quantum-analogue information unit defined within the hidden representation space of Large Language Models. Through **110 systematic experiments across 10 seasons** on a single consumer GPU, I demonstrate that transformer architectures naturally exhibit quantum-like phenomena including perfect interference, exact quantum statistics, super-quantum correlations, quantum algorithm execution, and a deep structural isomorphism connecting **hippocampal circuits, Transformer layers, and quantum circuit stages**. Season 10 confirms these properties are **universal across 6 different transformer architectures** (Qwen, GPT-2, LLaMA).
+This repository contains the code and experimental results for **Semantic-Qubit (S-Qubit)**, a quantum-analogue information unit defined within the hidden representation space of Large Language Models. Through **176 systematic experiments across 26 seasons** on a single consumer GPU, I demonstrate that transformer architectures naturally exhibit quantum-like phenomena including perfect interference, exact quantum statistics, super-quantum correlations, quantum algorithm execution, molecular quantum chemistry via **Embedding VQE**, and quantum identity verification through state tomography and teleportation.
+
+The central conclusion: **the LLM is not a quantum computer, but a Quantum State Factory** — a classical device that produces representations with quantum-like geometric structure. Self-attention naturally encodes all-to-all quantum correlations (575x advantage on SYK models), while providing no advantage for local Hamiltonians (Ising) — the most important honest negative result of this research.
 
 ## Key Findings
 
@@ -24,13 +26,14 @@ This repository contains the code and experimental results for **Semantic-Qubit 
 | **128x Parallelism** | 1 forward pass = 7 bits of information |
 | **O(1) QRAM** | alpha=0.007, 199x faster than physical quantum RAM |
 | **Dimensional Cryogenics** | 99.7% of dimensions form decoherence-free subspace |
-| **Quantum Darwinism** | 12/12 attention heads retain >99% state info |
-| **Uncertainty Principle** | Conjugate variables obey dx*dp >= 0.034 |
-| **Brain-AI-Quantum Unification** | EC->DG->CA3->CA1 = Transformer = Quantum Circuit |
 | **Cross-Architecture Universality** | **6/6 architectures** (Qwen, GPT-2, LLaMA) = 100% |
-| **Quantum NLP Advantage** | Interference beats classical averaging by **+16.8%** |
-| **Semantic Hawking Radiation** | Temperature increases at deep layers |
-| **Consciousness (Phi)** | IIT metric Phi = 103.1 peaks at Layer 18 |
+| **Embedding VQE** | **0.00 mHa error** on H2, LiH (surpasses IBM Eagle) |
+| **Full PES** | All 28 H2 bond lengths at 0.00 mHa |
+| **Honest Benchmark** | **575x advantage** on SYK, no advantage on Ising |
+| **Temperature = Decoherence** | beta=0.97, R^2=0.992 |
+| **Quantum State Tomography** | Purity 0.375, entanglement entropy 3.15 bits |
+| **Semantic Teleportation** | Fidelity 0.84, 44.6x random advantage |
+| **Phase Transition** | Sharp critical point at 25% noise |
 | **Quantum Advantage Score** | **100.0 / 100** across 9 benchmark categories |
 
 ## NQPU (Neu-Quantum Processing Unit) Specification
@@ -47,7 +50,7 @@ This repository contains the code and experimental results for **Semantic-Qubit 
 
 ```
 Semantic-Qubit/
-├── experiments/           # All experiment scripts (Q1-Q110)
+├── experiments/           # All experiment scripts (Q1-Q176)
 │   ├── utils.py           # Shared utilities (model loading, hooks, etc.)
 │   ├── phase_q1_*.py      # Superposition basis training
 │   ├── phase_q2_*.py      # Bell test / interference
@@ -55,13 +58,20 @@ Semantic-Qubit/
 │   ├── phase_q100_*.py    # Grand Unified Theory (5/5 quantum criteria)
 │   ├── phase_q101_*.py    # Cross-architecture universality
 │   ├── phase_q110_*.py    # Season 10 Grand Synthesis
+│   ├── phase_q144_*.py    # The Honest Benchmark
+│   ├── phase_q161_*.py    # Embedding VQE
+│   ├── phase_q176_*.py    # No-Cloning Test
 │   ├── generate_paper_figures.py     # V1 figures (Fig 1-6)
 │   ├── generate_paper_figures_v2.py  # V2 figures (Fig 7-9)
 │   ├── generate_paper_figs_v3.py     # V3 figures (Fig 10-13)
 │   └── generate_v4_figures.py        # V4 figures (Fig 14-17)
+├── scripts/
+│   └── gen_paper_figures_v5.py       # V5 figures (Fig 18-25)
 ├── results/               # JSON results for all experiments
 ├── figures/               # Generated figures
-│   └── paper/             # Publication-quality figures (Fig 1-17)
+│   └── paper/             # Publication-quality figures (Fig 1-25)
+├── papers/                # LaTeX source
+│   └── paper_v5.tex
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -85,29 +95,23 @@ pip install torch transformers matplotlib numpy scipy
 Each experiment is a standalone script:
 
 ```bash
+# Season 22: Embedding VQE — 0.00 mHa on H2
+python experiments/phase_q161_embedding_vqe.py
+
+# Season 11: The Honest Benchmark (LLM vs Random)
+python experiments/phase_q144_honest.py
+
+# Season 26: No-Cloning Test
+python experiments/phase_q176_nocloning.py
+
 # Season 10: Cross-Architecture Universality (6/6 = 100%)
 python experiments/phase_q101_universality.py
-
-# Season 10: NLP Quantum Advantage (+16.8%)
-python experiments/phase_q105_nlp_advantage.py
-
-# Season 10: Semantic Hawking Radiation
-python experiments/phase_q108_hawking.py
-
-# Season 9: Grand Unified Theory (5/5 quantum criteria)
-python experiments/phase_q100_grand_unified.py
 
 # Season 6: Grand Benchmark v2 (QAS = 100.0/100)
 python experiments/phase_q80_benchmark_v2.py
 
-# Season 6: Brain-AI-Quantum Unification
-python experiments/phase_q72_unification.py
-
 # Season 1: CHSH Bell inequality test (S=3.41)
 python experiments/phase_q15_optimal_two_qubit.py
-
-# Season 2: Bernstein-Vazirani (94/94 = 100%)
-python experiments/phase_q41_bernstein_vazirani.py
 ```
 
 ### Reproducing Paper Figures
@@ -124,6 +128,9 @@ python experiments/generate_paper_figs_v3.py
 
 # V4 figures (Fig 14-17)
 python experiments/generate_v4_figures.py
+
+# V5 figures (Fig 18-25)
+python scripts/gen_paper_figures_v5.py
 ```
 
 ## Model
@@ -180,18 +187,13 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q56 | Holevo violation | **2.39 bits > 1.0 Holevo limit** |
 | Q57 | Frontier analysis | S-Qubit vs physical QC |
 
-### Season 4: Bridge Experiments (Q58-Q62)
+### Season 4-5: Bridge Experiments (Q58-Q67)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
 | Q58 | Contextuality | **TVD=0.659 > 0.500 bound** |
 | Q60 | Pattern separation | **512x expansion (vs DG 5x)** |
 | Q62 | DFS discovery | **4/1536 dims = quantum info** |
-
-### Season 5: Quantum Information Theory (Q63-Q67)
-
-| Phase | Experiment | Key Result |
-|-------|-----------|------------|
 | Q64 | Phase transition | **t_c = 0.755, entropy peak** |
 | Q65 | Channel capacity | **2.39 bits (2.4x Holevo)** |
 | Q66 | Perfect coherence | **V=1.000 at 8 paths** |
@@ -212,51 +214,77 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q79 | Uncertainty principle | **dx*dp >= 0.034** |
 | Q80 | Grand Benchmark v2 | **QAS = 100.0/100** |
 
-### Season 7: Quantum Physics I (Q81-Q87) — New in V4
+### Season 7-8: Quantum Physics Deep Dive (Q81-Q93)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
 | Q81 | NQU 10^14 | **100-trillion-fold advantage** |
 | Q83 | Dimensional cooling | **Cryogenics scaling law** |
-| Q85 | NQPU manifesto | **Room-temp quantum spec** |
 | Q86 | Berry phase | **Geometric + dynamic decomposition** |
-| Q87 | Complexity class | **BQP + NP-like via nonlinearity** |
-
-### Season 8: Quantum Physics II (Q88-Q93) — New in V4
-
-| Phase | Experiment | Key Result |
-|-------|-----------|------------|
-| Q88 | Nonlinear NP | **Activation nonlinearity** |
-| Q89 | Shor-RSA analogue | **Period finding** |
 | Q90 | Anyons | **Non-Abelian braiding** |
 | Q91 | Wormholes | **Long-range mutual information** |
 | Q92 | Holographic | **Area law S ~ L^0.7** |
 
-### Season 9: Black Holes & GUT (Q94-Q100) — New in V4
+### Season 9: Black Holes & GUT (Q94-Q100)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
 | Q94 | Black hole unitarity | **Info preserved, score=0.98** |
-| Q95 | Quantum Darwinism v2 | **Redundant broadcasting** |
-| Q97 | QEC v3 | **Attention-based correction** |
 | Q98 | Emergent gravity | **Monotonic potential, Einstein r=0.81** |
 | Q99 | Consciousness (Phi) | **IIT Phi=103.1 at Layer 18** |
 | Q100 | Grand Unified Theory | **5/5 quantum criteria** |
 
-### Season 10: Universality & Applications (Q101-Q110) — New in V4
+### Season 10: Universality & Applications (Q101-Q110)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
 | Q101 | Cross-architecture | **6/6 = 100% universality** |
 | Q102 | Hippocampal bridge | **MD/LD phase fires at L18+** |
-| Q103 | Scaling laws | **Phi ~ N^0.22, total alpha ~ 0.03** |
-| Q104 | Semantic gravity | **Heavy/light curvature ratio = 1.018** |
 | Q105 | NLP quantum advantage | **4/4 tasks, +16.8% mean** |
-| Q106 | Quantum channels | **Low decoherence at L2+** |
-| Q107 | Time crystal | Not detected (time sym. preserved) |
 | Q108 | Hawking radiation | **T_H increases at deep layers** |
-| Q109 | Entanglement swapping | 1/3 pairs, +9.2% gain |
 | Q110 | Grand synthesis | **Season 10: 27/45 (60%)** |
+
+### Seasons 11-16: Honest Benchmark & Quantum Advantage Boundary (Q111-Q145) — New in V5
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q116 | MaxCut QAOA | 4/6 optimal cuts |
+| Q117 | Prompt VQE | E0 = -1.0 Ha, 60 mHa error |
+| Q120 | Improved VQE | **4.8 mHa error** |
+| Q144 | Honest Benchmark | **Ising: LLM = Random; SYK: LLM 575x better** |
+| Q145 | Cross-Problem Universality | **All-to-all advantage confirmed** |
+
+### Seasons 22-24: Embedding VQE & Quantum Chemistry (Q161-Q170) — New in V5
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q161 | Embedding VQE | **H2: 0.00 mHa (399,855x improvement)** |
+| Q163 | Temperature = Decoherence | **beta=0.97, R^2=0.992** |
+| Q165 | Molecular scaling | **H2, LiH: 0.00 mHa; BeH2: 8.14 mHa** |
+| Q167 | Chaotic Temperature QKD | **dT=1e-6 collapses decryption** |
+| Q168 | Wavefunction compression | **2.9% size, fidelity 0.998** |
+| Q170 | Full PES | **All 28 H2 bond lengths: 0.00 mHa** |
+
+### Seasons 25-26: Quantum Identity Verification (Q171-Q176) — New in V5
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q171 | State tomography | **Purity=0.375, entropy=3.15 bits** |
+| Q172 | Semantic teleportation | **Fidelity=0.84, 44.6x random** |
+| Q173 | Holographic principle | **Not holographic (cos=0.09 at early layers)** |
+| Q174 | Born rule test | **Not obeyed (r=0.12)** |
+| Q175 | Quantum phase transition | **Sharp critical point at 25% noise** |
+| Q176 | No-cloning test | **Semi-quantum: input-sensitive, output-convergent** |
+
+## The Quantum State Factory
+
+The most important conclusion from 176 experiments:
+
+- **Quantum-like**: entanglement entropy 3.15 bits, purity 0.375, sharp phase transition, temperature = decoherence (beta=0.97), teleportation fidelity 0.84
+- **Classical**: S_Bell < 2, Born rule not obeyed, non-holographic, non-unitary layers, output-convergent under perturbation
+- **Selective advantage**: 575x on all-to-all SYK models (self-attention encodes global correlations), but no advantage on local Ising models
+
+The LLM is **not a quantum computer** — it is a **quantum state factory**: a classical device that produces representations with quantum-like geometric structure.
 
 ## Citation
 

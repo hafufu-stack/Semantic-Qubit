@@ -1,0 +1,363 @@
+{
+  "phase": "Q111",
+  "name": "Non-Linear Quantum Search (PostBQP)",
+  "subset_sum_results": [
+    {
+      "N": 4,
+      "target": 162,
+      "cos_full": -0.003296,
+      "cos_linear": 0.010594,
+      "nonlinear_advantage": 0.3111
+    },
+    {
+      "N": 8,
+      "target": 346,
+      "cos_full": -0.009951,
+      "cos_linear": 0.019802,
+      "nonlinear_advantage": 0.5025
+    },
+    {
+      "N": 16,
+      "target": 361,
+      "cos_full": -0.011754,
+      "cos_linear": -0.003919,
+      "nonlinear_advantage": 2.9993
+    },
+    {
+      "N": 32,
+      "target": 1167,
+      "cos_full": -0.006161,
+      "cos_linear": 0.002233,
+      "nonlinear_advantage": 2.7593
+    },
+    {
+      "N": 64,
+      "target": 1438,
+      "cos_full": -0.011133,
+      "cos_linear": -0.015494,
+      "nonlinear_advantage": 0.7185
+    }
+  ],
+  "graph_coloring_results": [
+    {
+      "n_nodes": 3,
+      "n_edges": 2,
+      "shallow_coherence": 0.1074,
+      "deep_coherence": 0.1512,
+      "nonlinear_gain": 1.4078,
+      "layer_profile": [
+        {
+          "layer": 0,
+          "coherence": 0.1365,
+          "norm": 14.27
+        },
+        {
+          "layer": 2,
+          "coherence": 0.0906,
+          "norm": 23.75
+        },
+        {
+          "layer": 4,
+          "coherence": 0.0951,
+          "norm": 33.6
+        },
+        {
+          "layer": 6,
+          "coherence": 0.0817,
+          "norm": 37.42
+        },
+        {
+          "layer": 8,
+          "coherence": 0.1378,
+          "norm": 40.72
+        },
+        {
+          "layer": 10,
+          "coherence": 0.1804,
+          "norm": 50.61
+        },
+        {
+          "layer": 12,
+          "coherence": 0.3144,
+          "norm": 48.74
+        },
+        {
+          "layer": 14,
+          "coherence": 0.27,
+          "norm": 52.51
+        },
+        {
+          "layer": 16,
+          "coherence": 0.2532,
+          "norm": 58.82
+        },
+        {
+          "layer": 18,
+          "coherence": 0.262,
+          "norm": 68.32
+        },
+        {
+          "layer": 20,
+          "coherence": 0.1642,
+          "norm": 82.04
+        },
+        {
+          "layer": 22,
+          "coherence": 0.133,
+          "norm": 123.67
+        },
+        {
+          "layer": 24,
+          "coherence": 0.1967,
+          "norm": 180.91
+        },
+        {
+          "layer": 26,
+          "coherence": 0.1239,
+          "norm": 288.68
+        }
+      ]
+    },
+    {
+      "n_nodes": 5,
+      "n_edges": 5,
+      "shallow_coherence": 0.1059,
+      "deep_coherence": 0.1119,
+      "nonlinear_gain": 1.0563,
+      "layer_profile": [
+        {
+          "layer": 0,
+          "coherence": 0.1335,
+          "norm": 14.29
+        },
+        {
+          "layer": 2,
+          "coherence": 0.0916,
+          "norm": 23.72
+        },
+        {
+          "layer": 4,
+          "coherence": 0.0926,
+          "norm": 33.47
+        },
+        {
+          "layer": 6,
+          "coherence": 0.0696,
+          "norm": 37.21
+        },
+        {
+          "layer": 8,
+          "coherence": 0.1473,
+          "norm": 40.86
+        },
+        {
+          "layer": 10,
+          "coherence": 0.1657,
+          "norm": 50.12
+        },
+        {
+          "layer": 12,
+          "coherence": 0.3081,
+          "norm": 48.06
+        },
+        {
+          "layer": 14,
+          "coherence": 0.2802,
+          "norm": 52.55
+        },
+        {
+          "layer": 16,
+          "coherence": 0.2408,
+          "norm": 58.46
+        },
+        {
+          "layer": 18,
+          "coherence": 0.2144,
+          "norm": 68.66
+        },
+        {
+          "layer": 20,
+          "coherence": 0.1238,
+          "norm": 83.18
+        },
+        {
+          "layer": 22,
+          "coherence": 0.0794,
+          "norm": 123.75
+        },
+        {
+          "layer": 24,
+          "coherence": 0.0942,
+          "norm": 183.99
+        },
+        {
+          "layer": 26,
+          "coherence": 0.162,
+          "norm": 288.3
+        }
+      ]
+    },
+    {
+      "n_nodes": 8,
+      "n_edges": 10,
+      "shallow_coherence": 0.1022,
+      "deep_coherence": 0.1225,
+      "nonlinear_gain": 1.199,
+      "layer_profile": [
+        {
+          "layer": 0,
+          "coherence": 0.1346,
+          "norm": 14.29
+        },
+        {
+          "layer": 2,
+          "coherence": 0.0872,
+          "norm": 23.58
+        },
+        {
+          "layer": 4,
+          "coherence": 0.0847,
+          "norm": 33.23
+        },
+        {
+          "layer": 6,
+          "coherence": 0.0719,
+          "norm": 37.36
+        },
+        {
+          "layer": 8,
+          "coherence": 0.1681,
+          "norm": 40.92
+        },
+        {
+          "layer": 10,
+          "coherence": 0.16,
+          "norm": 50.15
+        },
+        {
+          "layer": 12,
+          "coherence": 0.304,
+          "norm": 47.81
+        },
+        {
+          "layer": 14,
+          "coherence": 0.2828,
+          "norm": 52.6
+        },
+        {
+          "layer": 16,
+          "coherence": 0.2482,
+          "norm": 58.1
+        },
+        {
+          "layer": 18,
+          "coherence": 0.2121,
+          "norm": 68.88
+        },
+        {
+          "layer": 20,
+          "coherence": 0.1483,
+          "norm": 83.31
+        },
+        {
+          "layer": 22,
+          "coherence": 0.0769,
+          "norm": 124.05
+        },
+        {
+          "layer": 24,
+          "coherence": 0.1019,
+          "norm": 185.26
+        },
+        {
+          "layer": 26,
+          "coherence": 0.1887,
+          "norm": 288.94
+        }
+      ]
+    },
+    {
+      "n_nodes": 12,
+      "n_edges": 35,
+      "shallow_coherence": 0.0881,
+      "deep_coherence": 0.1168,
+      "nonlinear_gain": 1.3249,
+      "layer_profile": [
+        {
+          "layer": 0,
+          "coherence": 0.1311,
+          "norm": 14.31
+        },
+        {
+          "layer": 2,
+          "coherence": 0.0917,
+          "norm": 23.5
+        },
+        {
+          "layer": 4,
+          "coherence": 0.0416,
+          "norm": 33.01
+        },
+        {
+          "layer": 6,
+          "coherence": 0.0911,
+          "norm": 37.16
+        },
+        {
+          "layer": 8,
+          "coherence": 0.1658,
+          "norm": 40.59
+        },
+        {
+          "layer": 10,
+          "coherence": 0.1689,
+          "norm": 50.28
+        },
+        {
+          "layer": 12,
+          "coherence": 0.2969,
+          "norm": 47.76
+        },
+        {
+          "layer": 14,
+          "coherence": 0.3101,
+          "norm": 52.82
+        },
+        {
+          "layer": 16,
+          "coherence": 0.2576,
+          "norm": 58.24
+        },
+        {
+          "layer": 18,
+          "coherence": 0.1871,
+          "norm": 68.93
+        },
+        {
+          "layer": 20,
+          "coherence": 0.1689,
+          "norm": 84.16
+        },
+        {
+          "layer": 22,
+          "coherence": 0.0618,
+          "norm": 125.22
+        },
+        {
+          "layer": 24,
+          "coherence": 0.0849,
+          "norm": 186.61
+        },
+        {
+          "layer": 26,
+          "coherence": 0.2036,
+          "norm": 289.67
+        }
+      ]
+    }
+  ],
+  "scaling_exponent": 0.4872,
+  "mean_nonlinear_advantage": 1.4581,
+  "is_postbqp": "True",
+  "elapsed": 5.22
+}

@@ -1,0 +1,122 @@
+{
+  "phase": "Q147",
+  "name": "Sycamore Hacker (Wormhole Teleportation)",
+  "google_comparison": "Google Nature 2022: 9 qubits, fidelity ~0.71",
+  "configs": [
+    {
+      "n_qubits_per_side": 3,
+      "total_qubits": 6,
+      "dim_per_side": 8,
+      "description": "Google-lite (3+3=6 qubits)",
+      "standard_teleport": [
+        {
+          "message": "|0>",
+          "best_fidelity": 0.004586,
+          "optimal_time": 1.626
+        },
+        {
+          "message": "|1>",
+          "best_fidelity": 0.093113,
+          "optimal_time": 1.474
+        },
+        {
+          "message": "|+>",
+          "best_fidelity": 0.028872,
+          "optimal_time": 1.626
+        }
+      ],
+      "llm_teleport": [
+        {
+          "message": "|0>",
+          "llm_fidelity": 0.007685
+        },
+        {
+          "message": "|1>",
+          "llm_fidelity": 0.149045
+        },
+        {
+          "message": "|+>",
+          "llm_fidelity": 0.087456
+        }
+      ],
+      "google_fidelity": 0.71
+    },
+    {
+      "n_qubits_per_side": 4,
+      "total_qubits": 8,
+      "dim_per_side": 16,
+      "description": "Google-match (4+4=8 qubits)",
+      "standard_teleport": [
+        {
+          "message": "|0>",
+          "best_fidelity": 0.015472,
+          "optimal_time": 0.1
+        },
+        {
+          "message": "|1>",
+          "best_fidelity": 0.017984,
+          "optimal_time": 2.389
+        },
+        {
+          "message": "|+>",
+          "best_fidelity": 0.032199,
+          "optimal_time": 3.0
+        }
+      ],
+      "llm_teleport": [
+        {
+          "message": "|0>",
+          "llm_fidelity": 0.016132
+        },
+        {
+          "message": "|1>",
+          "llm_fidelity": 0.019498
+        },
+        {
+          "message": "|+>",
+          "llm_fidelity": 0.033551
+        }
+      ],
+      "google_fidelity": 0.71
+    },
+    {
+      "n_qubits_per_side": 5,
+      "total_qubits": 10,
+      "dim_per_side": 32,
+      "description": "Beyond Google (5+5=10 qubits)",
+      "standard_teleport": [
+        {
+          "message": "|0>",
+          "best_fidelity": 5e-06,
+          "optimal_time": 2.847
+        },
+        {
+          "message": "|1>",
+          "best_fidelity": 0.000784,
+          "optimal_time": 1.321
+        },
+        {
+          "message": "|+>",
+          "best_fidelity": 0.000395,
+          "optimal_time": 1.474
+        }
+      ],
+      "llm_teleport": [
+        {
+          "message": "|0>",
+          "llm_fidelity": 3e-05
+        },
+        {
+          "message": "|1>",
+          "llm_fidelity": 0.0008
+        },
+        {
+          "message": "|+>",
+          "llm_fidelity": 0.000536
+        }
+      ],
+      "google_fidelity": 0.71
+    }
+  ],
+  "elapsed": 2.7
+}

@@ -1,0 +1,60 @@
+{
+  "phase": "Q164",
+  "name": "Cross-Lingual Quantum States",
+  "results": [
+    {
+      "concept": "quantum_ground_state",
+      "errors": {
+        "en": 4.2709,
+        "ja": 3.9406,
+        "zh": 4.0362
+      },
+      "cross_sims": {
+        "en-ja": 0.1047,
+        "en-zh": 0.2497,
+        "ja-zh": 0.5109
+      }
+    },
+    {
+      "concept": "hydrogen_atom",
+      "errors": {
+        "en": 6.8599,
+        "ja": 6.9349,
+        "zh": 4.3141
+      },
+      "cross_sims": {
+        "en-ja": 0.0979,
+        "en-zh": 0.1527,
+        "ja-zh": 0.4257
+      }
+    },
+    {
+      "concept": "chemical_bond",
+      "errors": {
+        "en": 4.5116,
+        "ja": 4.3009,
+        "zh": 1.7856
+      },
+      "cross_sims": {
+        "en-ja": -0.062,
+        "en-zh": 0.0026,
+        "ja-zh": 0.3788
+      }
+    },
+    {
+      "concept": "everyday",
+      "errors": {
+        "en": 10.4164,
+        "ja": 6.8122,
+        "zh": 12.2935
+      },
+      "cross_sims": {
+        "en-ja": -0.09,
+        "en-zh": 0.173,
+        "ja-zh": 0.3265
+      }
+    }
+  ],
+  "random_mean": 6.4444,
+  "elapsed": 5.85
+}

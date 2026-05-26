@@ -1,0 +1,256 @@
+{
+  "phase": "Q113",
+  "name": "Semantic Bose-Einstein Condensation",
+  "n_bec_detected": 0,
+  "n_total": 3,
+  "mean_critical_temperature": 1.75,
+  "condensation_data": [
+    {
+      "prompt": "The universe is vast and infinite, containing gala",
+      "n_tokens": 16,
+      "critical_temperature": 1.75,
+      "bec_detected": "False",
+      "low_t_condensation": 0.119907,
+      "high_t_condensation": 0.119907,
+      "temperature_sweep": [
+        {
+          "temperature": 2.0,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.08551,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        },
+        {
+          "temperature": 1.5,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.252197,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        },
+        {
+          "temperature": 1.0,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.521973,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        },
+        {
+          "temperature": 0.7,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.695801,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        },
+        {
+          "temperature": 0.5,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.804199,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        },
+        {
+          "temperature": 0.3,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.898926,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        },
+        {
+          "temperature": 0.1,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.955078,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        },
+        {
+          "temperature": 0.05,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.96875,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        },
+        {
+          "temperature": 0.01,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.96875,
+          "mean_similarity": 0.826079,
+          "effective_dim": 8.34,
+          "condensation_ratio": 0.119907
+        }
+      ]
+    },
+    {
+      "prompt": "Mathematics includes algebra, geometry, calculus, ",
+      "n_tokens": 14,
+      "critical_temperature": 1.75,
+      "bec_detected": "False",
+      "low_t_condensation": 0.13199,
+      "high_t_condensation": 0.13199,
+      "temperature_sweep": [
+        {
+          "temperature": 2.0,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.081299,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        },
+        {
+          "temperature": 1.5,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.293701,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        },
+        {
+          "temperature": 1.0,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.523926,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        },
+        {
+          "temperature": 0.7,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.642578,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        },
+        {
+          "temperature": 0.5,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.719238,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        },
+        {
+          "temperature": 0.3,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.795898,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        },
+        {
+          "temperature": 0.1,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.900391,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        },
+        {
+          "temperature": 0.05,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.929199,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        },
+        {
+          "temperature": 0.01,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.955566,
+          "mean_similarity": 0.814368,
+          "effective_dim": 7.58,
+          "condensation_ratio": 0.13199
+        }
+      ]
+    },
+    {
+      "prompt": "Music encompasses melody, harmony, rhythm, dynamic",
+      "n_tokens": 13,
+      "critical_temperature": 1.75,
+      "bec_detected": "False",
+      "low_t_condensation": 0.121208,
+      "high_t_condensation": 0.121208,
+      "temperature_sweep": [
+        {
+          "temperature": 2.0,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.140137,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        },
+        {
+          "temperature": 1.5,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.409424,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        },
+        {
+          "temperature": 1.0,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.680664,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        },
+        {
+          "temperature": 0.7,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.807129,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        },
+        {
+          "temperature": 0.5,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.88916,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        },
+        {
+          "temperature": 0.3,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.963867,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        },
+        {
+          "temperature": 0.1,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 0.999512,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        },
+        {
+          "temperature": 0.05,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 1.0,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        },
+        {
+          "temperature": 0.01,
+          "mean_entropy": NaN,
+          "ground_state_fraction": 1.0,
+          "mean_similarity": 0.684671,
+          "effective_dim": 8.25,
+          "condensation_ratio": 0.121208
+        }
+      ]
+    }
+  ],
+  "elapsed": 5.51
+}

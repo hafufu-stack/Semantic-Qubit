@@ -1,0 +1,223 @@
+{
+  "phase": "Q112",
+  "name": "Dentate-Resonance Memory",
+  "ld_period": 1,
+  "md_period": 5,
+  "resonance_layers": [
+    21,
+    25,
+    26
+  ],
+  "retrieval_results": [
+    {
+      "name": "Scientific Fact",
+      "baseline_prob": 0.00011349,
+      "strategy_scores": {
+        "uniform": 0.00011349,
+        "ld_only": 0.00011349,
+        "md_only": 0.00011349,
+        "resonance": 0.00011349
+      },
+      "resonance_gain": 1.0,
+      "best_strategy": "uniform"
+    },
+    {
+      "name": "Historical Date",
+      "baseline_prob": 5.48e-06,
+      "strategy_scores": {
+        "uniform": 5.48e-06,
+        "ld_only": 5.48e-06,
+        "md_only": 5.48e-06,
+        "resonance": 5.48e-06
+      },
+      "resonance_gain": 1.0,
+      "best_strategy": "uniform"
+    },
+    {
+      "name": "Numerical Recall",
+      "baseline_prob": 0.00049019,
+      "strategy_scores": {
+        "uniform": 0.00049019,
+        "ld_only": 0.00049019,
+        "md_only": 0.00049019,
+        "resonance": 0.00049019
+      },
+      "resonance_gain": 1.0,
+      "best_strategy": "uniform"
+    }
+  ],
+  "phase_alignment": [
+    {
+      "layer": 0,
+      "cosine": 0.1101,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 1,
+      "cosine": 0.1681,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 2,
+      "cosine": 0.1872,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 3,
+      "cosine": 0.1411,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 4,
+      "cosine": 0.1987,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 5,
+      "cosine": 0.2342,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 6,
+      "cosine": 0.2756,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 7,
+      "cosine": 0.2453,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 8,
+      "cosine": 0.2486,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 9,
+      "cosine": 0.3277,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 10,
+      "cosine": 0.3242,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 11,
+      "cosine": 0.2861,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 12,
+      "cosine": 0.2746,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 13,
+      "cosine": 0.291,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 14,
+      "cosine": 0.3637,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 15,
+      "cosine": 0.4456,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 16,
+      "cosine": 0.4141,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 17,
+      "cosine": 0.4745,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 18,
+      "cosine": 0.4896,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 19,
+      "cosine": 0.4811,
+      "in_resonance": false,
+      "dg_firing": false
+    },
+    {
+      "layer": 20,
+      "cosine": 0.5159,
+      "in_resonance": false,
+      "dg_firing": true
+    },
+    {
+      "layer": 21,
+      "cosine": 0.5306,
+      "in_resonance": true,
+      "dg_firing": true
+    },
+    {
+      "layer": 22,
+      "cosine": 0.6207,
+      "in_resonance": false,
+      "dg_firing": true
+    },
+    {
+      "layer": 23,
+      "cosine": 0.6662,
+      "in_resonance": false,
+      "dg_firing": true
+    },
+    {
+      "layer": 24,
+      "cosine": 0.734,
+      "in_resonance": false,
+      "dg_firing": true
+    },
+    {
+      "layer": 25,
+      "cosine": 0.7674,
+      "in_resonance": true,
+      "dg_firing": true
+    },
+    {
+      "layer": 26,
+      "cosine": 0.8158,
+      "in_resonance": true,
+      "dg_firing": true
+    },
+    {
+      "layer": 27,
+      "cosine": 0.8598,
+      "in_resonance": false,
+      "dg_firing": true
+    }
+  ],
+  "n_firing": 8,
+  "n_resonance_firing": 3,
+  "resonance_win_count": 0,
+  "elapsed": 3.26
+}

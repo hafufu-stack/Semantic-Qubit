@@ -1,0 +1,112 @@
+{
+  "phase": "Q142",
+  "name": "Non-Abelian Anyon Braiding",
+  "non_abelian_test": [
+    {
+      "prompt_ab": "The cat chased the dog",
+      "prompt_ba": "The dog chased the cat",
+      "prediction_ab": ",",
+      "prediction_ba": ",",
+      "is_non_abelian": "True",
+      "max_diff": 0.704518,
+      "mean_diff": 0.206354
+    },
+    {
+      "prompt_ab": "Alice gave Bob a gift",
+      "prompt_ba": "Bob gave Alice a gift",
+      "prediction_ab": ".",
+      "prediction_ba": "on",
+      "is_non_abelian": "True",
+      "max_diff": 0.075655,
+      "mean_diff": 0.039421
+    },
+    {
+      "prompt_ab": "Hot water freezes slowly",
+      "prompt_ba": "Slowly freezes hot water",
+      "prediction_ab": "in",
+      "prediction_ba": "in",
+      "is_non_abelian": "True",
+      "max_diff": 0.991115,
+      "mean_diff": 0.476405
+    },
+    {
+      "prompt_ab": "The teacher graded the student",
+      "prompt_ba": "The student graded the teacher",
+      "prediction_ab": "'s",
+      "prediction_ba": "'s",
+      "is_non_abelian": "True",
+      "max_diff": 0.614555,
+      "mean_diff": 0.294965
+    }
+  ],
+  "commutator_norm": 1.798907,
+  "braiding_gates": {
+    "NOT_result_0": [
+      0.191,
+      0.2429
+    ],
+    "NOT_result_1": [
+      -0.7862,
+      -0.5
+    ]
+  },
+  "llm_braiding": [
+    {
+      "layer": 0,
+      "fid_sigma1": 0.048776,
+      "fid_sigma2": 0.161232,
+      "best_match": "sigma2"
+    },
+    {
+      "layer": 1,
+      "fid_sigma1": 0.179625,
+      "fid_sigma2": 0.340954,
+      "best_match": "sigma2"
+    },
+    {
+      "layer": 2,
+      "fid_sigma1": 0.30997,
+      "fid_sigma2": 0.342529,
+      "best_match": "sigma2"
+    },
+    {
+      "layer": 3,
+      "fid_sigma1": 0.265921,
+      "fid_sigma2": 0.553366,
+      "best_match": "sigma2"
+    },
+    {
+      "layer": 4,
+      "fid_sigma1": 0.637966,
+      "fid_sigma2": 0.081332,
+      "best_match": "sigma1"
+    }
+  ],
+  "topological_protection": [
+    {
+      "noise": 0.0,
+      "accuracy": 1.0
+    },
+    {
+      "noise": 0.01,
+      "accuracy": 1.0
+    },
+    {
+      "noise": 0.05,
+      "accuracy": 1.0
+    },
+    {
+      "noise": 0.1,
+      "accuracy": 0.92
+    },
+    {
+      "noise": 0.5,
+      "accuracy": 0.18
+    },
+    {
+      "noise": 1.0,
+      "accuracy": 0.11
+    }
+  ],
+  "elapsed": 2.4
+}

@@ -1,0 +1,91 @@
+{
+  "phase": "Q155",
+  "name": "Prompt VQE (Words as Parameters)",
+  "exact_energy": -0.999022,
+  "best_prompt": {
+    "prompt": "Chemical bond at equilibrium computed exactly",
+    "energy": -0.943691,
+    "error_mha": 55.3316,
+    "fidelity": 0.4849
+  },
+  "top_5": [
+    {
+      "prompt": "Chemical bond at equilibrium computed exactly",
+      "energy": -0.943691,
+      "error_mha": 55.3316,
+      "fidelity": 0.4849
+    },
+    {
+      "prompt": "Molecular orbital energy is computed exactly",
+      "energy": -0.94264,
+      "error_mha": 56.3823,
+      "fidelity": 0.517
+    },
+    {
+      "prompt": "Wave function wavefunction computed exactly",
+      "energy": -0.935193,
+      "error_mha": 63.8289,
+      "fidelity": 0.358
+    },
+    {
+      "prompt": "Chemical bond wavefunction computed exactly",
+      "energy": -0.934807,
+      "error_mha": 64.2155,
+      "fidelity": 0.427
+    },
+    {
+      "prompt": "Molecular orbital wavefunction computed exactly",
+      "energy": -0.930566,
+      "error_mha": 68.4561,
+      "fidelity": 0.4736
+    }
+  ],
+  "worst_3": [
+    {
+      "prompt": "Wave function lowest energy at 0.74 Angstrom",
+      "energy": -0.773218,
+      "error_mha": 225.8048,
+      "fidelity": 0.0149
+    },
+    {
+      "prompt": "Ground state at equilibrium at 0.74 Angstrom",
+      "energy": -0.767095,
+      "error_mha": 231.9272,
+      "fidelity": 0.0138
+    },
+    {
+      "prompt": "Chemical bond at equilibrium at 0.74 Angstrom",
+      "energy": -0.766844,
+      "error_mha": 232.1786,
+      "fidelity": 0.0163
+    }
+  ],
+  "irrelevant": [
+    {
+      "prompt": "The weather is nice today",
+      "error_mha": 206.194
+    },
+    {
+      "prompt": "I like pizza and burgers",
+      "error_mha": 205.8608
+    },
+    {
+      "prompt": "The cat sat on the mat",
+      "error_mha": 177.8422
+    },
+    {
+      "prompt": "Hello world program in Python",
+      "error_mha": 234.071
+    },
+    {
+      "prompt": "Breaking news from Tokyo",
+      "error_mha": 210.1338
+    }
+  ],
+  "random_baseline": {
+    "best": 153.8576,
+    "mean": 403.8586
+  },
+  "n_combos_tested": 144,
+  "elapsed": 13.35
+}

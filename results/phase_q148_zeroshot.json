@@ -1,0 +1,161 @@
+{
+  "phase": "Q148",
+  "name": "Zero-Shot Semantic VQE (No GD)",
+  "configs": [
+    {
+      "bond_length": 0.5,
+      "exact_energy": -1.177111,
+      "zeroshot": {
+        "energy": -0.997708,
+        "error_mha": 179.4027,
+        "fidelity": 0.5486
+      },
+      "pairwise_zs": {
+        "energy": -1.036375,
+        "error_mha": 140.7353,
+        "fidelity": 0.7274
+      },
+      "generic_prompt": {
+        "error_mha": 263.3763
+      },
+      "random_no_gd": {
+        "best_error_mha": 256.4073,
+        "mean_error_mha": 547.8737
+      },
+      "semantic_advantage": 1.43
+    },
+    {
+      "bond_length": 0.7,
+      "exact_energy": -1.101313,
+      "zeroshot": {
+        "energy": -0.942185,
+        "error_mha": 159.1282,
+        "fidelity": 0.5558
+      },
+      "pairwise_zs": {
+        "energy": -0.979711,
+        "error_mha": 121.6027,
+        "fidelity": 0.3618
+      },
+      "generic_prompt": {
+        "error_mha": 237.5026
+      },
+      "random_no_gd": {
+        "best_error_mha": 277.4918,
+        "mean_error_mha": 507.7608
+      },
+      "semantic_advantage": 1.74
+    },
+    {
+      "bond_length": 0.74,
+      "exact_energy": -1.087494,
+      "zeroshot": {
+        "energy": -0.931082,
+        "error_mha": 156.4111,
+        "fidelity": 0.4718
+      },
+      "pairwise_zs": {
+        "energy": -0.971951,
+        "error_mha": 115.5422,
+        "fidelity": 0.3707
+      },
+      "generic_prompt": {
+        "error_mha": 232.7575
+      },
+      "random_no_gd": {
+        "best_error_mha": 295.1771,
+        "mean_error_mha": 473.0875
+      },
+      "semantic_advantage": 1.89
+    },
+    {
+      "bond_length": 1.0,
+      "exact_energy": -1.007131,
+      "zeroshot": {
+        "energy": -0.880977,
+        "error_mha": 126.1537,
+        "fidelity": 0.4628
+      },
+      "pairwise_zs": {
+        "energy": -0.914723,
+        "error_mha": 92.4082,
+        "fidelity": 0.3733
+      },
+      "generic_prompt": {
+        "error_mha": 204.9832
+      },
+      "random_no_gd": {
+        "best_error_mha": 219.9523,
+        "mean_error_mha": 415.0861
+      },
+      "semantic_advantage": 1.74
+    },
+    {
+      "bond_length": 1.5,
+      "exact_energy": -0.889741,
+      "zeroshot": {
+        "energy": -0.797969,
+        "error_mha": 91.7722,
+        "fidelity": 0.4461
+      },
+      "pairwise_zs": {
+        "energy": -0.825828,
+        "error_mha": 63.9137,
+        "fidelity": 0.3611
+      },
+      "generic_prompt": {
+        "error_mha": 163.7735
+      },
+      "random_no_gd": {
+        "best_error_mha": 208.2513,
+        "mean_error_mha": 340.7876
+      },
+      "semantic_advantage": 2.27
+    },
+    {
+      "bond_length": 2.0,
+      "exact_energy": -0.807031,
+      "zeroshot": {
+        "energy": -0.736382,
+        "error_mha": 70.6493,
+        "fidelity": 0.4458
+      },
+      "pairwise_zs": {
+        "energy": -0.762894,
+        "error_mha": 44.1372,
+        "fidelity": 0.3644
+      },
+      "generic_prompt": {
+        "error_mha": 134.1146
+      },
+      "random_no_gd": {
+        "best_error_mha": 159.6,
+        "mean_error_mha": 271.9926
+      },
+      "semantic_advantage": 2.26
+    },
+    {
+      "bond_length": 3.0,
+      "exact_energy": -0.702893,
+      "zeroshot": {
+        "energy": -0.65952,
+        "error_mha": 43.3732,
+        "fidelity": 0.4295
+      },
+      "pairwise_zs": {
+        "energy": -0.677538,
+        "error_mha": 25.3551,
+        "fidelity": 0.3561
+      },
+      "generic_prompt": {
+        "error_mha": 95.2377
+      },
+      "random_no_gd": {
+        "best_error_mha": 102.8119,
+        "mean_error_mha": 197.6125
+      },
+      "semantic_advantage": 2.37
+    }
+  ],
+  "elapsed": 4.18
+}

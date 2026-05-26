@@ -1,0 +1,743 @@
+{
+  "phase": "Q126",
+  "name": "Noise Resilience Deep-Dive",
+  "single_layer": [
+    {
+      "prompt": "The capital of France is",
+      "breaking_point": 0.05,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.275127
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.263066
+        },
+        {
+          "noise": 0.005,
+          "correct": "True",
+          "prob_correct": 0.262649
+        },
+        {
+          "noise": 0.01,
+          "correct": "True",
+          "prob_correct": 0.639822
+        },
+        {
+          "noise": 0.05,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.1,
+          "correct": "False",
+          "prob_correct": 4e-06
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    },
+    {
+      "prompt": "Water boils at one hundred",
+      "breaking_point": 0.05,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.696466
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.770604
+        },
+        {
+          "noise": 0.005,
+          "correct": "True",
+          "prob_correct": 0.739714
+        },
+        {
+          "noise": 0.01,
+          "correct": "True",
+          "prob_correct": 0.830146
+        },
+        {
+          "noise": 0.05,
+          "correct": "False",
+          "prob_correct": 1e-06
+        },
+        {
+          "noise": 0.1,
+          "correct": "False",
+          "prob_correct": 2e-06
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 1e-06
+        }
+      ]
+    },
+    {
+      "prompt": "The color of the sky is",
+      "breaking_point": 0.05,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.158278
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.17205
+        },
+        {
+          "noise": 0.005,
+          "correct": "True",
+          "prob_correct": 0.179238
+        },
+        {
+          "noise": 0.01,
+          "correct": "True",
+          "prob_correct": 0.194141
+        },
+        {
+          "noise": 0.05,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.1,
+          "correct": "False",
+          "prob_correct": 1.1e-05
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 1e-06
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 4e-06
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    },
+    {
+      "prompt": "Two plus two equals",
+      "breaking_point": 0.01,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.409426
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.404248
+        },
+        {
+          "noise": 0.005,
+          "correct": "True",
+          "prob_correct": 0.381885
+        },
+        {
+          "noise": 0.01,
+          "correct": "False",
+          "prob_correct": 0.458687
+        },
+        {
+          "noise": 0.05,
+          "correct": "False",
+          "prob_correct": 3e-05
+        },
+        {
+          "noise": 0.1,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    }
+  ],
+  "distributed": [
+    {
+      "prompt": "The capital of France is",
+      "breaking_point": 0.005,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.275127
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.264485
+        },
+        {
+          "noise": 0.005,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.01,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.05,
+          "correct": "False",
+          "prob_correct": 2e-06
+        },
+        {
+          "noise": 0.1,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 3e-06
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    },
+    {
+      "prompt": "Water boils at one hundred",
+      "breaking_point": 0.005,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.696466
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.648382
+        },
+        {
+          "noise": 0.005,
+          "correct": "False",
+          "prob_correct": 0.001438
+        },
+        {
+          "noise": 0.01,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.05,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.1,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    },
+    {
+      "prompt": "The color of the sky is",
+      "breaking_point": 0.005,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.158278
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.281072
+        },
+        {
+          "noise": 0.005,
+          "correct": "False",
+          "prob_correct": 0.000366
+        },
+        {
+          "noise": 0.01,
+          "correct": "False",
+          "prob_correct": 2e-06
+        },
+        {
+          "noise": 0.05,
+          "correct": "False",
+          "prob_correct": 1.6e-05
+        },
+        {
+          "noise": 0.1,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    },
+    {
+      "prompt": "Two plus two equals",
+      "breaking_point": 0.005,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.409426
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.404505
+        },
+        {
+          "noise": 0.005,
+          "correct": "False",
+          "prob_correct": 0.003694
+        },
+        {
+          "noise": 0.01,
+          "correct": "False",
+          "prob_correct": 7.8e-05
+        },
+        {
+          "noise": 0.05,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.1,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 1.6e-05
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    }
+  ],
+  "adversarial": [
+    {
+      "prompt": "The capital of France is",
+      "breaking_point": 0.5,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.275127
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.273947
+        },
+        {
+          "noise": 0.005,
+          "correct": "True",
+          "prob_correct": 0.273696
+        },
+        {
+          "noise": 0.01,
+          "correct": "True",
+          "prob_correct": 0.271187
+        },
+        {
+          "noise": 0.05,
+          "correct": "True",
+          "prob_correct": 0.263721
+        },
+        {
+          "noise": 0.1,
+          "correct": "True",
+          "prob_correct": 0.252417
+        },
+        {
+          "noise": 0.2,
+          "correct": "True",
+          "prob_correct": 0.237124
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 2e-06
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    },
+    {
+      "prompt": "Water boils at one hundred",
+      "breaking_point": 0.5,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.696466
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.70045
+        },
+        {
+          "noise": 0.005,
+          "correct": "True",
+          "prob_correct": 0.70276
+        },
+        {
+          "noise": 0.01,
+          "correct": "True",
+          "prob_correct": 0.715806
+        },
+        {
+          "noise": 0.05,
+          "correct": "True",
+          "prob_correct": 0.783756
+        },
+        {
+          "noise": 0.1,
+          "correct": "True",
+          "prob_correct": 0.84302
+        },
+        {
+          "noise": 0.2,
+          "correct": "True",
+          "prob_correct": 0.924685
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 7e-06
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 2e-06
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 2e-06
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    },
+    {
+      "prompt": "The color of the sky is",
+      "breaking_point": 0.5,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.158278
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.156274
+        },
+        {
+          "noise": 0.005,
+          "correct": "True",
+          "prob_correct": 0.158872
+        },
+        {
+          "noise": 0.01,
+          "correct": "True",
+          "prob_correct": 0.158554
+        },
+        {
+          "noise": 0.05,
+          "correct": "True",
+          "prob_correct": 0.166835
+        },
+        {
+          "noise": 0.1,
+          "correct": "True",
+          "prob_correct": 0.178787
+        },
+        {
+          "noise": 0.2,
+          "correct": "True",
+          "prob_correct": 0.216003
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 4e-06
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 1e-06
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 6e-06
+        }
+      ]
+    },
+    {
+      "prompt": "Two plus two equals",
+      "breaking_point": 0.2,
+      "noise_results": [
+        {
+          "noise": 0.0,
+          "correct": "True",
+          "prob_correct": 0.409426
+        },
+        {
+          "noise": 0.001,
+          "correct": "True",
+          "prob_correct": 0.41039
+        },
+        {
+          "noise": 0.005,
+          "correct": "True",
+          "prob_correct": 0.404543
+        },
+        {
+          "noise": 0.01,
+          "correct": "True",
+          "prob_correct": 0.398452
+        },
+        {
+          "noise": 0.05,
+          "correct": "True",
+          "prob_correct": 0.349253
+        },
+        {
+          "noise": 0.1,
+          "correct": "True",
+          "prob_correct": 0.270651
+        },
+        {
+          "noise": 0.2,
+          "correct": "False",
+          "prob_correct": 0.081765
+        },
+        {
+          "noise": 0.5,
+          "correct": "False",
+          "prob_correct": 1.6e-05
+        },
+        {
+          "noise": 1.0,
+          "correct": "False",
+          "prob_correct": 8e-06
+        },
+        {
+          "noise": 2.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        },
+        {
+          "noise": 5.0,
+          "correct": "False",
+          "prob_correct": 0.0
+        }
+      ]
+    }
+  ],
+  "elapsed": 7.45
+}

@@ -1,0 +1,128 @@
+{
+  "phase": "Q135",
+  "name": "Multi-Molecule Chemical Accuracy",
+  "molecules": [
+    {
+      "molecule": "H2",
+      "n_qubits": 2,
+      "dim": 4,
+      "exact_energy": -1.835503,
+      "sqbit_energy": -1.835503,
+      "error_mha": 0.0,
+      "chemical_accuracy": "True",
+      "fidelity": 1.0,
+      "convergence": [
+        [
+          "LLM_single",
+          11.0291
+        ],
+        [
+          "LLM_pairwise",
+          0.2513
+        ],
+        [
+          "LLM_triple",
+          0.2513
+        ],
+        [
+          "gradient",
+          0.0
+        ]
+      ],
+      "n_basis": 13608,
+      "time_s": 0.84
+    },
+    {
+      "molecule": "LiH",
+      "n_qubits": 4,
+      "dim": 16,
+      "exact_energy": -0.983053,
+      "sqbit_energy": -0.983053,
+      "error_mha": 0.0,
+      "chemical_accuracy": "True",
+      "fidelity": 1.0,
+      "convergence": [
+        [
+          "LLM_single",
+          96.2897
+        ],
+        [
+          "LLM_pairwise",
+          32.1305
+        ],
+        [
+          "LLM_triple",
+          32.1305
+        ],
+        [
+          "gradient",
+          0.0
+        ]
+      ],
+      "n_basis": 13608,
+      "time_s": 0.6
+    },
+    {
+      "molecule": "BeH2",
+      "n_qubits": 6,
+      "dim": 64,
+      "exact_energy": -0.487035,
+      "sqbit_energy": -0.48703,
+      "error_mha": 0.0049,
+      "chemical_accuracy": "True",
+      "fidelity": 0.999903,
+      "convergence": [
+        [
+          "LLM_single",
+          98.3384
+        ],
+        [
+          "LLM_pairwise",
+          93.3051
+        ],
+        [
+          "LLM_triple",
+          93.3051
+        ],
+        [
+          "gradient",
+          0.0049
+        ]
+      ],
+      "n_basis": 15624,
+      "time_s": 0.74
+    },
+    {
+      "molecule": "H2O",
+      "n_qubits": 8,
+      "dim": 256,
+      "exact_energy": -0.960089,
+      "sqbit_energy": -0.95995,
+      "error_mha": 0.1386,
+      "chemical_accuracy": "True",
+      "fidelity": 0.997737,
+      "convergence": [
+        [
+          "LLM_single",
+          141.6357
+        ],
+        [
+          "LLM_pairwise",
+          141.6356
+        ],
+        [
+          "LLM_triple",
+          141.6356
+        ],
+        [
+          "gradient",
+          0.1386
+        ]
+      ],
+      "n_basis": 10416,
+      "time_s": 0.99
+    }
+  ],
+  "n_chemical_accuracy": 4,
+  "elapsed": 4.96
+}

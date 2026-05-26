@@ -1,0 +1,75 @@
+{
+  "phase": "Q139",
+  "name": "Time-Crystal Transformer",
+  "max_steps": 2000,
+  "max_effective_depth": 56000,
+  "physical_qc_limit": 50,
+  "depth_advantage": "1120x",
+  "norm_stability_cv": 0.098638,
+  "mean_drift_per_step": 0.55592,
+  "final_coherence": 0.191173,
+  "is_time_crystal": "False",
+  "checkpoints": {
+    "10": {
+      "step": 10,
+      "effective_depth": 280,
+      "norm": 198.3326,
+      "coherence_initial": 0.910506,
+      "drift": 0.089494,
+      "logit_entropy": 4.2624,
+      "periodicity": 0.8027,
+      "mean_step_drift": 0.226584
+    },
+    "50": {
+      "step": 50,
+      "effective_depth": 1400,
+      "norm": 165.8109,
+      "coherence_initial": 0.56885,
+      "drift": 0.43115,
+      "logit_entropy": 0.0269,
+      "periodicity": 0.766,
+      "mean_step_drift": 0.260125
+    },
+    "100": {
+      "step": 100,
+      "effective_depth": 2800,
+      "norm": 175.0389,
+      "coherence_initial": 0.927847,
+      "drift": 0.072153,
+      "logit_entropy": 0.1174,
+      "periodicity": 0.7262,
+      "mean_step_drift": 0.300031
+    },
+    "500": {
+      "step": 500,
+      "effective_depth": 14000,
+      "norm": 157.3316,
+      "coherence_initial": 0.304174,
+      "drift": 0.695826,
+      "logit_entropy": 0.0022,
+      "periodicity": 0.643,
+      "mean_step_drift": 0.522483
+    },
+    "1000": {
+      "step": 1000,
+      "effective_depth": 28000,
+      "norm": 153.6423,
+      "coherence_initial": 0.852769,
+      "drift": 0.147231,
+      "logit_entropy": 0.0083,
+      "periodicity": 0.6069,
+      "mean_step_drift": 0.580252
+    },
+    "2000": {
+      "step": 2000,
+      "effective_depth": 56000,
+      "norm": 154.186,
+      "coherence_initial": 0.191173,
+      "drift": 0.808827,
+      "logit_entropy": 0.0012,
+      "periodicity": 0.5302,
+      "mean_step_drift": 0.633458
+    }
+  },
+  "elapsed": 81.64
+}

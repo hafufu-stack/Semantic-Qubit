@@ -1,0 +1,215 @@
+{
+  "phase": "Q144",
+  "name": "The Honest Benchmark (LLM vs Random)",
+  "configs": [
+    {
+      "dim": 4,
+      "exact_energy": -1.902873,
+      "random": {
+        "mean_error_mha": 0.0,
+        "mean_fidelity": 1.0,
+        "mean_steps": 340,
+        "success_rate": 1.0
+      },
+      "llm": {
+        "init_error_mha": 15.2287,
+        "final_error_mha": 0.0,
+        "fidelity": 1.0,
+        "conv_steps": 177,
+        "n_basis": 49
+      },
+      "matched_random": {
+        "mean_error_mha": 0.0,
+        "mean_steps": 233,
+        "success_rate": 1.0
+      },
+      "advantage": {
+        "error_ratio": 0.05,
+        "speed_ratio": 1.93
+      }
+    },
+    {
+      "dim": 8,
+      "exact_energy": -3.173099,
+      "random": {
+        "mean_error_mha": 0.0,
+        "mean_fidelity": 1.0,
+        "mean_steps": 275,
+        "success_rate": 1.0
+      },
+      "llm": {
+        "init_error_mha": 840.6862,
+        "final_error_mha": 0.0,
+        "fidelity": 1.0,
+        "conv_steps": 207,
+        "n_basis": 49
+      },
+      "matched_random": {
+        "mean_error_mha": 0.0,
+        "mean_steps": 258,
+        "success_rate": 1.0
+      },
+      "advantage": {
+        "error_ratio": 0.09,
+        "speed_ratio": 1.33
+      }
+    },
+    {
+      "dim": 16,
+      "exact_energy": -5.326149,
+      "random": {
+        "mean_error_mha": 0.0,
+        "mean_fidelity": 1.0,
+        "mean_steps": 208,
+        "success_rate": 1.0
+      },
+      "llm": {
+        "init_error_mha": 2030.1873,
+        "final_error_mha": 0.0,
+        "fidelity": 1.0,
+        "conv_steps": 197,
+        "n_basis": 49
+      },
+      "matched_random": {
+        "mean_error_mha": 0.0,
+        "mean_steps": 227,
+        "success_rate": 1.0
+      },
+      "advantage": {
+        "error_ratio": 0.08,
+        "speed_ratio": 1.06
+      }
+    },
+    {
+      "dim": 32,
+      "exact_energy": -7.739024,
+      "random": {
+        "mean_error_mha": 0.0,
+        "mean_fidelity": 1.0,
+        "mean_steps": 226,
+        "success_rate": 1.0
+      },
+      "llm": {
+        "init_error_mha": 5413.1056,
+        "final_error_mha": 0.0,
+        "fidelity": 1.0,
+        "conv_steps": 267,
+        "n_basis": 49
+      },
+      "matched_random": {
+        "mean_error_mha": 0.0,
+        "mean_steps": 277,
+        "success_rate": 1.0
+      },
+      "advantage": {
+        "error_ratio": 0.13,
+        "speed_ratio": 0.85
+      }
+    },
+    {
+      "dim": 64,
+      "exact_energy": -11.172975,
+      "random": {
+        "mean_error_mha": 0.0,
+        "mean_fidelity": 1.0,
+        "mean_steps": 236,
+        "success_rate": 1.0
+      },
+      "llm": {
+        "init_error_mha": 9222.7733,
+        "final_error_mha": 0.0,
+        "fidelity": 1.0,
+        "conv_steps": 366,
+        "n_basis": 49
+      },
+      "matched_random": {
+        "mean_error_mha": 0.0,
+        "mean_steps": 287,
+        "success_rate": 1.0
+      },
+      "advantage": {
+        "error_ratio": 0.39,
+        "speed_ratio": 0.65
+      }
+    },
+    {
+      "dim": 128,
+      "exact_energy": -15.976621,
+      "random": {
+        "mean_error_mha": 0.0,
+        "mean_fidelity": 1.0,
+        "mean_steps": 697,
+        "success_rate": 1.0
+      },
+      "llm": {
+        "init_error_mha": 12855.8401,
+        "final_error_mha": 0.0,
+        "fidelity": 1.0,
+        "conv_steps": 575,
+        "n_basis": 28
+      },
+      "matched_random": {
+        "mean_error_mha": 0.0,
+        "mean_steps": 893,
+        "success_rate": 1.0
+      },
+      "advantage": {
+        "error_ratio": 1.2,
+        "speed_ratio": 1.21
+      }
+    },
+    {
+      "dim": 256,
+      "exact_energy": -22.941558,
+      "random": {
+        "mean_error_mha": 0.0,
+        "mean_fidelity": 1.0,
+        "mean_steps": 266,
+        "success_rate": 1.0
+      },
+      "llm": {
+        "init_error_mha": 18396.7734,
+        "final_error_mha": 0.0,
+        "fidelity": 1.0,
+        "conv_steps": 231,
+        "n_basis": 28
+      },
+      "matched_random": {
+        "mean_error_mha": 0.0,
+        "mean_steps": 255,
+        "success_rate": 1.0
+      },
+      "advantage": {
+        "error_ratio": 0.99,
+        "speed_ratio": 1.15
+      }
+    },
+    {
+      "dim": 512,
+      "exact_energy": -31.889031,
+      "random": {
+        "mean_error_mha": 0.0,
+        "mean_fidelity": 1.0,
+        "mean_steps": 339,
+        "success_rate": 1.0
+      },
+      "llm": {
+        "init_error_mha": 30192.7991,
+        "final_error_mha": 0.0,
+        "fidelity": 1.0,
+        "conv_steps": 534,
+        "n_basis": 21
+      },
+      "matched_random": {
+        "mean_error_mha": 0.0,
+        "mean_steps": 403,
+        "success_rate": 1.0
+      },
+      "advantage": {
+        "error_ratio": 1.17,
+        "speed_ratio": 0.63
+      }
+    }
+  ],
+  "elapsed": 14.76
+}

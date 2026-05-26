@@ -1,0 +1,100 @@
+{
+  "phase": "Q128",
+  "name": "Large-Scale TSP",
+  "problems": [
+    {
+      "n_cities": 8,
+      "bf_cost": 245.4,
+      "bf_complete": "True",
+      "nn_cost": 259.68,
+      "sqbit_cost": 245.4,
+      "sq_ratio": 1.0,
+      "nn_ratio": 1.0582,
+      "bf_time_s": 0.012,
+      "nn_time_ms": 0.023,
+      "sqbit_time_ms": 82.22,
+      "sqbit_beats_nn": "True"
+    },
+    {
+      "n_cities": 10,
+      "bf_cost": 302.93,
+      "bf_complete": "True",
+      "nn_cost": 334.47,
+      "sqbit_cost": 302.93,
+      "sq_ratio": 1.0,
+      "nn_ratio": 1.1041,
+      "bf_time_s": 0.854,
+      "nn_time_ms": 0.04,
+      "sqbit_time_ms": 67.02,
+      "sqbit_beats_nn": "True"
+    },
+    {
+      "n_cities": 12,
+      "bf_cost": 344.25,
+      "bf_complete": "False",
+      "nn_cost": 345.11,
+      "sqbit_cost": 345.11,
+      "sq_ratio": 1.0,
+      "nn_ratio": 1.0,
+      "bf_time_s": 5.0,
+      "nn_time_ms": 0.042,
+      "sqbit_time_ms": 70.09,
+      "sqbit_beats_nn": "False"
+    },
+    {
+      "n_cities": 14,
+      "bf_cost": "N/A",
+      "bf_complete": "False",
+      "nn_cost": 367.72,
+      "sqbit_cost": 309.84,
+      "sq_ratio": 0.8426,
+      "nn_ratio": 1.0,
+      "bf_time_s": "N/A",
+      "nn_time_ms": 0.021,
+      "sqbit_time_ms": 73.96,
+      "sqbit_beats_nn": "True"
+    },
+    {
+      "n_cities": 16,
+      "bf_cost": "N/A",
+      "bf_complete": "False",
+      "nn_cost": 443.68,
+      "sqbit_cost": 395.02,
+      "sq_ratio": 0.8903,
+      "nn_ratio": 1.0,
+      "bf_time_s": "N/A",
+      "nn_time_ms": 0.128,
+      "sqbit_time_ms": 92.26,
+      "sqbit_beats_nn": "True"
+    },
+    {
+      "n_cities": 18,
+      "bf_cost": "N/A",
+      "bf_complete": "False",
+      "nn_cost": 469.01,
+      "sqbit_cost": 387.73,
+      "sq_ratio": 0.8267,
+      "nn_ratio": 1.0,
+      "bf_time_s": "N/A",
+      "nn_time_ms": 0.037,
+      "sqbit_time_ms": 69.54,
+      "sqbit_beats_nn": "True"
+    },
+    {
+      "n_cities": 20,
+      "bf_cost": "N/A",
+      "bf_complete": "False",
+      "nn_cost": 466.16,
+      "sqbit_cost": 447.12,
+      "sq_ratio": 0.9591,
+      "nn_ratio": 1.0,
+      "bf_time_s": "N/A",
+      "nn_time_ms": 0.033,
+      "sqbit_time_ms": 88.1,
+      "sqbit_beats_nn": "True"
+    }
+  ],
+  "sqbit_wins_vs_nn": 6,
+  "bf_infeasible": 5,
+  "elapsed": 8.16
+}

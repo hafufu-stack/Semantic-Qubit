@@ -1,0 +1,160 @@
+{
+  "phase": "Q118",
+  "name": "LLM Shor's Emulator (Integer Factorization)",
+  "factoring_results": [
+    {
+      "N": 15,
+      "classical_factors": [
+        3,
+        5
+      ],
+      "sqbit_factors": [
+        3,
+        5
+      ],
+      "success": "True",
+      "classical_time_ms": 0.068,
+      "sqbit_time_ms": 59.206,
+      "speedup": 0.0
+    },
+    {
+      "N": 21,
+      "classical_factors": [
+        3,
+        7
+      ],
+      "sqbit_factors": [
+        3,
+        7
+      ],
+      "success": "True",
+      "classical_time_ms": 0.028,
+      "sqbit_time_ms": 38.53,
+      "speedup": 0.0
+    },
+    {
+      "N": 35,
+      "classical_factors": [
+        7,
+        5
+      ],
+      "sqbit_factors": [
+        5,
+        7
+      ],
+      "success": "True",
+      "classical_time_ms": 0.025,
+      "sqbit_time_ms": 39.965,
+      "speedup": 0.0
+    },
+    {
+      "N": 51,
+      "classical_factors": [
+        3,
+        17
+      ],
+      "sqbit_factors": [
+        3,
+        17
+      ],
+      "success": "True",
+      "classical_time_ms": 0.03,
+      "sqbit_time_ms": 33.806,
+      "speedup": 0.0
+    },
+    {
+      "N": 77,
+      "classical_factors": [
+        11,
+        7
+      ],
+      "sqbit_factors": [
+        7,
+        11
+      ],
+      "success": "True",
+      "classical_time_ms": 0.03,
+      "sqbit_time_ms": 40.756,
+      "speedup": 0.0
+    },
+    {
+      "N": 91,
+      "classical_factors": [
+        7,
+        13
+      ],
+      "sqbit_factors": [
+        13,
+        7
+      ],
+      "success": "True",
+      "classical_time_ms": 0.029,
+      "sqbit_time_ms": 43.472,
+      "speedup": 0.0
+    },
+    {
+      "N": 143,
+      "classical_factors": [
+        11,
+        13
+      ],
+      "sqbit_factors": [
+        13,
+        11
+      ],
+      "success": "True",
+      "classical_time_ms": 0.034,
+      "sqbit_time_ms": 82.605,
+      "speedup": 0.0
+    },
+    {
+      "N": 221,
+      "classical_factors": [
+        13,
+        17
+      ],
+      "sqbit_factors": [
+        13,
+        17
+      ],
+      "success": "True",
+      "classical_time_ms": 0.043,
+      "sqbit_time_ms": 68.725,
+      "speedup": 0.0
+    },
+    {
+      "N": 323,
+      "classical_factors": [
+        19,
+        17
+      ],
+      "sqbit_factors": [
+        17,
+        19
+      ],
+      "success": "True",
+      "classical_time_ms": 0.033,
+      "sqbit_time_ms": 62.394,
+      "speedup": 0.0
+    },
+    {
+      "N": 437,
+      "classical_factors": [
+        23,
+        19
+      ],
+      "sqbit_factors": [
+        19,
+        23
+      ],
+      "success": "True",
+      "classical_time_ms": 0.044,
+      "sqbit_time_ms": 72.023,
+      "speedup": 0.0
+    }
+  ],
+  "success_rate": 1.0,
+  "largest_factored": 437,
+  "mean_sqbit_time_ms": 54.15,
+  "elapsed": 2.08
+}
