@@ -1,0 +1,90 @@
+{
+  "phase": "Q182",
+  "name": "Excited State VQE",
+  "molecule": "H2",
+  "n_states": 6,
+  "states": [
+    {
+      "state": 0,
+      "E_vqe": -0.999022,
+      "E_exact": -0.999022,
+      "error_mHa": 0.0,
+      "fidelity": 1.0,
+      "overlaps_with_prev": []
+    },
+    {
+      "state": 1,
+      "E_vqe": -0.955834,
+      "E_exact": -0.955835,
+      "error_mHa": 0.0,
+      "fidelity": 0.999987,
+      "overlaps_with_prev": [
+        2.1e-05
+      ]
+    },
+    {
+      "state": 2,
+      "E_vqe": -0.777586,
+      "E_exact": -0.932523,
+      "error_mHa": 154.94,
+      "fidelity": 0.280578,
+      "overlaps_with_prev": [
+        0.000177,
+        0.001102
+      ]
+    },
+    {
+      "state": 3,
+      "E_vqe": -0.875435,
+      "E_exact": -0.821879,
+      "error_mHa": 53.56,
+      "fidelity": 0.002902,
+      "overlaps_with_prev": [
+        0.000208,
+        0.002154,
+        0.002372
+      ]
+    },
+    {
+      "state": 4,
+      "E_vqe": -0.708,
+      "E_exact": -0.767744,
+      "error_mHa": 59.74,
+      "fidelity": 0.015993,
+      "overlaps_with_prev": [
+        0.001653,
+        0.000614,
+        0.000741,
+        0.000568
+      ]
+    },
+    {
+      "state": 5,
+      "E_vqe": -0.793398,
+      "E_exact": -0.71556,
+      "error_mHa": 77.84,
+      "fidelity": 0.061485,
+      "overlaps_with_prev": [
+        3e-05,
+        2.4e-05,
+        0.000111,
+        8.1e-05,
+        0.00032
+      ]
+    }
+  ],
+  "exact_spectrum": [
+    -0.999022,
+    -0.955835,
+    -0.932523,
+    -0.821879,
+    -0.767744,
+    -0.71556
+  ],
+  "summary": {
+    "chem_accuracy_count": 2,
+    "sub_10mHa_count": 2,
+    "avg_fidelity": 0.3935
+  },
+  "elapsed": 199.86
+}

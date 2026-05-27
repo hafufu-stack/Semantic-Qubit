@@ -1,0 +1,81 @@
+{
+  "phase": "Q185",
+  "name": "Entanglement Surgery",
+  "target_head": 11,
+  "control_head": 0,
+  "experiments": {
+    "baseline": {
+      "error_mHa": 0.0
+    },
+    "ablate_head11": {
+      "error_mHa": 0.0
+    },
+    "ablate_head0": {
+      "error_mHa": 999.02
+    },
+    "ablate_head11_deep": {
+      "error_mHa": 0.0
+    },
+    "boost_head11_2x": {
+      "error_mHa": 0.09
+    },
+    "boost_head11_3x": {
+      "error_mHa": 75.99
+    }
+  },
+  "causal_analysis": {
+    "h11_vs_h0_impact_ratio": 0.0,
+    "verdict": "NO DIFFERENTIAL CAUSATION (both heads similar impact)"
+  },
+  "convergence": {
+    "baseline": [
+      -0.599167,
+      -0.971168,
+      -0.996016,
+      -0.997981,
+      -0.998934,
+      -0.999013,
+      -0.999022,
+      -0.999022,
+      -0.999022,
+      -0.999022
+    ],
+    "ablate_h11": [
+      -0.56297,
+      -0.94896,
+      -0.963622,
+      -0.974509,
+      -0.989205,
+      -0.996491,
+      -0.998861,
+      -0.999003,
+      -0.999021,
+      -0.999022
+    ],
+    "ablate_h0": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "boost_h11": [
+      -0.655605,
+      -0.956147,
+      -0.968804,
+      -0.998095,
+      -0.998831,
+      -0.998913,
+      -0.998923,
+      -0.998925,
+      -0.998926,
+      -0.998927
+    ]
+  },
+  "elapsed": 224.11
+}

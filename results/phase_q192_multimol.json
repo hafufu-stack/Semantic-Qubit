@@ -1,0 +1,399 @@
+{
+  "phase": "Q192",
+  "name": "Multi-Molecule VQE",
+  "molecules": {
+    "H2": {
+      "electrons": 2,
+      "pes": [
+        {
+          "r": 0.4,
+          "E_exact": -1.038743,
+          "E_vqe": -1.038743,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 0.55,
+          "E_exact": -1.034375,
+          "E_vqe": -1.034375,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 0.7,
+          "E_exact": -1.029879,
+          "E_vqe": -1.029879,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 0.85,
+          "E_exact": -1.025282,
+          "E_vqe": -1.025282,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.0,
+          "E_exact": -1.020608,
+          "E_vqe": -1.020608,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.15,
+          "E_exact": -1.015879,
+          "E_vqe": -1.015879,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.3,
+          "E_exact": -1.011113,
+          "E_vqe": -1.011113,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.45,
+          "E_exact": -1.006329,
+          "E_vqe": -1.006324,
+          "error_mHa": 0.01,
+          "chem_acc": true
+        },
+        {
+          "r": 1.6,
+          "E_exact": -1.001543,
+          "E_vqe": -1.001543,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.75,
+          "E_exact": -0.996767,
+          "E_vqe": -0.996767,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.9,
+          "E_exact": -0.992014,
+          "E_vqe": -0.992014,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.05,
+          "E_exact": -0.987295,
+          "E_vqe": -0.987296,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.2,
+          "E_exact": -0.98262,
+          "E_vqe": -0.98262,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.35,
+          "E_exact": -0.977996,
+          "E_vqe": -0.977996,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.5,
+          "E_exact": -0.973432,
+          "E_vqe": -0.973432,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        }
+      ],
+      "summary": {
+        "chem_accuracy": "15/15",
+        "chem_accuracy_pct": 100.0,
+        "avg_error_mHa": 0.0,
+        "max_error_mHa": 0.01
+      }
+    },
+    "HeH+": {
+      "electrons": 2,
+      "pes": [
+        {
+          "r": 0.5,
+          "E_exact": -2.718355,
+          "E_vqe": -2.718355,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 0.727,
+          "E_exact": -2.753478,
+          "E_vqe": -2.753478,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 0.955,
+          "E_exact": -2.781021,
+          "E_vqe": -2.781021,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.182,
+          "E_exact": -2.802387,
+          "E_vqe": -2.802387,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.409,
+          "E_exact": -2.818734,
+          "E_vqe": -2.818734,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.636,
+          "E_exact": -2.831016,
+          "E_vqe": -2.831016,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.864,
+          "E_exact": -2.84002,
+          "E_vqe": -2.84002,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.091,
+          "E_exact": -2.846391,
+          "E_vqe": -2.846391,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.318,
+          "E_exact": -2.85066,
+          "E_vqe": -2.850661,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.545,
+          "E_exact": -2.853262,
+          "E_vqe": -2.853262,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.773,
+          "E_exact": -2.854552,
+          "E_vqe": -2.854552,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 3.0,
+          "E_exact": -2.854819,
+          "E_vqe": -2.854819,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        }
+      ],
+      "summary": {
+        "chem_accuracy": "12/12",
+        "chem_accuracy_pct": 100.0,
+        "avg_error_mHa": 0.0,
+        "max_error_mHa": 0.0
+      }
+    },
+    "LiH": {
+      "electrons": 4,
+      "pes": [
+        {
+          "r": 0.8,
+          "E_exact": -7.445929,
+          "E_vqe": -7.44593,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.045,
+          "E_exact": -7.460662,
+          "E_vqe": -7.460663,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.291,
+          "E_exact": -7.473054,
+          "E_vqe": -7.473055,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.536,
+          "E_exact": -7.48341,
+          "E_vqe": -7.483409,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.782,
+          "E_exact": -7.491998,
+          "E_vqe": -7.492,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.027,
+          "E_exact": -7.49906,
+          "E_vqe": -7.499061,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.273,
+          "E_exact": -7.504805,
+          "E_vqe": -7.504806,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.518,
+          "E_exact": -7.509419,
+          "E_vqe": -7.509419,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.764,
+          "E_exact": -7.513066,
+          "E_vqe": -7.513066,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 3.009,
+          "E_exact": -7.515889,
+          "E_vqe": -7.515889,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 3.255,
+          "E_exact": -7.518014,
+          "E_vqe": -7.518013,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 3.5,
+          "E_exact": -7.519551,
+          "E_vqe": -7.519551,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        }
+      ],
+      "summary": {
+        "chem_accuracy": "12/12",
+        "chem_accuracy_pct": 100.0,
+        "avg_error_mHa": 0.0,
+        "max_error_mHa": 0.0
+      }
+    },
+    "BeH2": {
+      "electrons": 6,
+      "pes": [
+        {
+          "r": 0.8,
+          "E_exact": -14.970385,
+          "E_vqe": -14.970197,
+          "error_mHa": 0.19,
+          "chem_acc": true
+        },
+        {
+          "r": 1.044,
+          "E_exact": -14.968269,
+          "E_vqe": -14.96827,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.289,
+          "E_exact": -14.967632,
+          "E_vqe": -14.96763,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.533,
+          "E_exact": -14.968039,
+          "E_vqe": -14.968039,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 1.778,
+          "E_exact": -14.969152,
+          "E_vqe": -14.969073,
+          "error_mHa": 0.08,
+          "chem_acc": true
+        },
+        {
+          "r": 2.022,
+          "E_exact": -14.970718,
+          "E_vqe": -14.970719,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.267,
+          "E_exact": -14.972555,
+          "E_vqe": -14.972554,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.511,
+          "E_exact": -14.974531,
+          "E_vqe": -14.974531,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 2.756,
+          "E_exact": -14.976556,
+          "E_vqe": -14.976557,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        },
+        {
+          "r": 3.0,
+          "E_exact": -14.978565,
+          "E_vqe": -14.978564,
+          "error_mHa": 0.0,
+          "chem_acc": true
+        }
+      ],
+      "summary": {
+        "chem_accuracy": "10/10",
+        "chem_accuracy_pct": 100.0,
+        "avg_error_mHa": 0.03,
+        "max_error_mHa": 0.19
+      }
+    }
+  },
+  "summary": {
+    "overall_chem_accuracy": 100.0,
+    "total_points": 49,
+    "verdict": "EXCELLENT: 100.0% chemical accuracy across 4 molecules"
+  },
+  "elapsed": 1193.24
+}

@@ -1,0 +1,38 @@
+{
+  "phase": "Q189",
+  "name": "Quantum Teleportation Protocol",
+  "tasks": [
+    {
+      "name": "Capital",
+      "p_source_correct": 0.9971,
+      "p_teleported": 0.0159,
+      "p_direct": 0.0158,
+      "p_baseline": 0.0,
+      "fidelity": 0.1353,
+      "kl_divergence": 4.13
+    },
+    {
+      "name": "Color",
+      "p_source_correct": 0.998,
+      "p_teleported": 0.284,
+      "p_direct": 0.2956,
+      "p_baseline": 0.0,
+      "fidelity": 0.5419,
+      "kl_divergence": 1.256
+    },
+    {
+      "name": "Animal",
+      "p_source_correct": 0.9981,
+      "p_teleported": 0.9887,
+      "p_direct": 0.9891,
+      "p_baseline": 0.0,
+      "fidelity": 0.9969,
+      "kl_divergence": 0.008
+    }
+  ],
+  "summary": {
+    "avg_fidelity": 0.558,
+    "verdict": "PARTIAL TELEPORTATION: avg fidelity=0.5580"
+  },
+  "elapsed": 29.33
+}

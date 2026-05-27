@@ -1,0 +1,180 @@
+{
+  "phase": "Q183",
+  "name": "Quantum Advantage Quantification",
+  "pes": {
+    "bond_lengths": [
+      0.3,
+      0.44,
+      0.58,
+      0.73,
+      0.87,
+      1.01,
+      1.15,
+      1.29,
+      1.44,
+      1.58,
+      1.72,
+      1.86,
+      2.01,
+      2.15,
+      2.29,
+      2.43,
+      2.57,
+      2.72,
+      2.86,
+      3.0
+    ],
+    "exact_energies": [
+      -1.131017,
+      -1.083562,
+      -1.040916,
+      -1.002515,
+      -0.967861,
+      -0.936517,
+      -0.9081,
+      -0.882273,
+      -0.85874,
+      -0.837241,
+      -0.817548,
+      -0.799463,
+      -0.782809,
+      -0.767434,
+      -0.753203,
+      -0.739999,
+      -0.727717,
+      -0.716267,
+      -0.70557,
+      -0.695555
+    ],
+    "vqe_energies": [
+      -1.131017,
+      -1.083562,
+      -1.040916,
+      -1.002515,
+      -0.967861,
+      -0.936518,
+      -0.9081,
+      -0.882273,
+      -0.85874,
+      -0.837241,
+      -0.817548,
+      -0.799463,
+      -0.782809,
+      -0.767434,
+      -0.753202,
+      -0.739993,
+      -0.727717,
+      -0.716258,
+      -0.704898,
+      -0.695556
+    ],
+    "errors_mHa": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.01,
+      0.0,
+      0.01,
+      0.67,
+      0.0
+    ],
+    "convergence_steps": [
+      64,
+      75,
+      120,
+      72,
+      64,
+      66,
+      83,
+      93,
+      114,
+      58,
+      55,
+      94,
+      54,
+      80,
+      110,
+      124,
+      71,
+      138,
+      176,
+      51
+    ]
+  },
+  "comparison": {
+    "IBM Eagle (2023)": {
+      "method": "Hardware VQE + Error Mitigation",
+      "qubits": 127,
+      "H2_error_mHa": 15.0,
+      "noise": "Yes (T1~300us)",
+      "cost": "$1.6/sec cloud"
+    },
+    "Google Sycamore (2020)": {
+      "method": "VQE with noise mitigation",
+      "qubits": 12,
+      "H2_error_mHa": 2.0,
+      "noise": "Yes (T1~20us)",
+      "cost": "Private lab"
+    },
+    "IonQ Aria (2023)": {
+      "method": "Trapped ion VQE",
+      "qubits": 25,
+      "H2_error_mHa": 5.0,
+      "noise": "Yes (ion trap)",
+      "cost": "$0.30/shot"
+    },
+    "Qiskit Simulator (ideal)": {
+      "method": "Statevector simulation",
+      "qubits": 4,
+      "H2_error_mHa": 0.0,
+      "noise": "No (classical)",
+      "cost": "$0 (CPU)"
+    },
+    "LLM Embedding VQE (ours)": {
+      "method": "Gradient descent in embedding space",
+      "qubits": 4,
+      "H2_error_mHa": 0.0,
+      "noise": "No (semantic space)",
+      "cost": "$0 (local GPU)"
+    }
+  },
+  "noise_robustness": [
+    {
+      "noise_level": 0.0,
+      "avg_error_mHa": 0.0
+    },
+    {
+      "noise_level": 0.001,
+      "avg_error_mHa": 0.0
+    },
+    {
+      "noise_level": 0.005,
+      "avg_error_mHa": 0.03
+    },
+    {
+      "noise_level": 0.01,
+      "avg_error_mHa": 0.12
+    },
+    {
+      "noise_level": 0.05,
+      "avg_error_mHa": 0.86
+    },
+    {
+      "noise_level": 0.1,
+      "avg_error_mHa": 2.29
+    }
+  ],
+  "elapsed": 865.91
+}

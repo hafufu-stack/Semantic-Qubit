@@ -1,0 +1,739 @@
+{
+  "phase": "Q199",
+  "name": "Quantum Entanglement Distillation",
+  "hidden_size": 1536,
+  "distillation": {
+    "0.0": {
+      "layers": [
+        {
+          "layer": 9,
+          "cosine_purity": 1.0,
+          "noisy_norm": 94.7093,
+          "clean_norm": 94.7093
+        },
+        {
+          "layer": 10,
+          "cosine_purity": 1.0,
+          "noisy_norm": 104.1854,
+          "clean_norm": 104.1854
+        },
+        {
+          "layer": 11,
+          "cosine_purity": 1.0,
+          "noisy_norm": 104.1857,
+          "clean_norm": 104.1857
+        },
+        {
+          "layer": 12,
+          "cosine_purity": 1.0,
+          "noisy_norm": 99.8058,
+          "clean_norm": 99.8058
+        },
+        {
+          "layer": 13,
+          "cosine_purity": 1.0,
+          "noisy_norm": 98.4957,
+          "clean_norm": 98.4957
+        },
+        {
+          "layer": 14,
+          "cosine_purity": 1.0,
+          "noisy_norm": 94.2628,
+          "clean_norm": 94.2628
+        },
+        {
+          "layer": 15,
+          "cosine_purity": 1.0,
+          "noisy_norm": 82.8047,
+          "clean_norm": 82.8047
+        },
+        {
+          "layer": 16,
+          "cosine_purity": 1.0,
+          "noisy_norm": 83.3577,
+          "clean_norm": 83.3577
+        },
+        {
+          "layer": 17,
+          "cosine_purity": 1.0,
+          "noisy_norm": 82.2822,
+          "clean_norm": 82.2822
+        },
+        {
+          "layer": 18,
+          "cosine_purity": 1.0,
+          "noisy_norm": 79.8141,
+          "clean_norm": 79.8141
+        },
+        {
+          "layer": 19,
+          "cosine_purity": 1.0,
+          "noisy_norm": 66.2996,
+          "clean_norm": 66.2996
+        },
+        {
+          "layer": 20,
+          "cosine_purity": 1.0,
+          "noisy_norm": 68.4555,
+          "clean_norm": 68.4555
+        },
+        {
+          "layer": 21,
+          "cosine_purity": 1.0,
+          "noisy_norm": 67.7629,
+          "clean_norm": 67.7629
+        },
+        {
+          "layer": 22,
+          "cosine_purity": 1.0,
+          "noisy_norm": 69.0412,
+          "clean_norm": 69.0412
+        },
+        {
+          "layer": 23,
+          "cosine_purity": 1.0,
+          "noisy_norm": 89.3457,
+          "clean_norm": 89.3457
+        },
+        {
+          "layer": 24,
+          "cosine_purity": 1.0,
+          "noisy_norm": 125.611,
+          "clean_norm": 125.611
+        },
+        {
+          "layer": 25,
+          "cosine_purity": 1.0,
+          "noisy_norm": 148.7569,
+          "clean_norm": 148.7569
+        },
+        {
+          "layer": 26,
+          "cosine_purity": 1.0,
+          "noisy_norm": 227.7243,
+          "clean_norm": 227.7243
+        },
+        {
+          "layer": 27,
+          "cosine_purity": 1.0,
+          "noisy_norm": 169.6519,
+          "clean_norm": 169.6519
+        }
+      ],
+      "initial_purity": 1.0,
+      "final_purity": 1.0,
+      "distillation_ratio": 1.0
+    },
+    "0.1": {
+      "layers": [
+        {
+          "layer": 9,
+          "cosine_purity": 0.59,
+          "noisy_norm": 88.6054,
+          "clean_norm": 94.7093
+        },
+        {
+          "layer": 10,
+          "cosine_purity": 0.5342,
+          "noisy_norm": 99.406,
+          "clean_norm": 104.1854
+        },
+        {
+          "layer": 11,
+          "cosine_purity": 0.4798,
+          "noisy_norm": 108.7856,
+          "clean_norm": 104.1857
+        },
+        {
+          "layer": 12,
+          "cosine_purity": 0.4263,
+          "noisy_norm": 113.0021,
+          "clean_norm": 99.8058
+        },
+        {
+          "layer": 13,
+          "cosine_purity": 0.4051,
+          "noisy_norm": 111.5137,
+          "clean_norm": 98.4957
+        },
+        {
+          "layer": 14,
+          "cosine_purity": 0.4004,
+          "noisy_norm": 104.9222,
+          "clean_norm": 94.2628
+        },
+        {
+          "layer": 15,
+          "cosine_purity": 0.3632,
+          "noisy_norm": 97.5382,
+          "clean_norm": 82.8047
+        },
+        {
+          "layer": 16,
+          "cosine_purity": 0.3475,
+          "noisy_norm": 90.0123,
+          "clean_norm": 83.3577
+        },
+        {
+          "layer": 17,
+          "cosine_purity": 0.4583,
+          "noisy_norm": 88.1532,
+          "clean_norm": 82.2822
+        },
+        {
+          "layer": 18,
+          "cosine_purity": 0.5097,
+          "noisy_norm": 88.2628,
+          "clean_norm": 79.8141
+        },
+        {
+          "layer": 19,
+          "cosine_purity": 0.4469,
+          "noisy_norm": 79.7109,
+          "clean_norm": 66.2996
+        },
+        {
+          "layer": 20,
+          "cosine_purity": 0.5405,
+          "noisy_norm": 83.7736,
+          "clean_norm": 68.4555
+        },
+        {
+          "layer": 21,
+          "cosine_purity": 0.5428,
+          "noisy_norm": 82.889,
+          "clean_norm": 67.7629
+        },
+        {
+          "layer": 22,
+          "cosine_purity": 0.4502,
+          "noisy_norm": 80.7668,
+          "clean_norm": 69.0412
+        },
+        {
+          "layer": 23,
+          "cosine_purity": 0.5476,
+          "noisy_norm": 97.8219,
+          "clean_norm": 89.3457
+        },
+        {
+          "layer": 24,
+          "cosine_purity": 0.6458,
+          "noisy_norm": 144.089,
+          "clean_norm": 125.611
+        },
+        {
+          "layer": 25,
+          "cosine_purity": 0.7157,
+          "noisy_norm": 166.9241,
+          "clean_norm": 148.7569
+        },
+        {
+          "layer": 26,
+          "cosine_purity": 0.8348,
+          "noisy_norm": 248.7692,
+          "clean_norm": 227.7243
+        },
+        {
+          "layer": 27,
+          "cosine_purity": 0.597,
+          "noisy_norm": 209.7402,
+          "clean_norm": 169.6519
+        }
+      ],
+      "initial_purity": 0.59,
+      "final_purity": 0.597,
+      "distillation_ratio": 1.0119
+    },
+    "0.3": {
+      "layers": [
+        {
+          "layer": 9,
+          "cosine_purity": 0.3635,
+          "noisy_norm": 86.9983,
+          "clean_norm": 94.7093
+        },
+        {
+          "layer": 10,
+          "cosine_purity": 0.3284,
+          "noisy_norm": 89.1458,
+          "clean_norm": 104.1854
+        },
+        {
+          "layer": 11,
+          "cosine_purity": 0.2866,
+          "noisy_norm": 100.4868,
+          "clean_norm": 104.1857
+        },
+        {
+          "layer": 12,
+          "cosine_purity": 0.2631,
+          "noisy_norm": 102.212,
+          "clean_norm": 99.8058
+        },
+        {
+          "layer": 13,
+          "cosine_purity": 0.2654,
+          "noisy_norm": 103.7719,
+          "clean_norm": 98.4957
+        },
+        {
+          "layer": 14,
+          "cosine_purity": 0.2907,
+          "noisy_norm": 98.7176,
+          "clean_norm": 94.2628
+        },
+        {
+          "layer": 15,
+          "cosine_purity": 0.281,
+          "noisy_norm": 89.6956,
+          "clean_norm": 82.8047
+        },
+        {
+          "layer": 16,
+          "cosine_purity": 0.3084,
+          "noisy_norm": 86.629,
+          "clean_norm": 83.3577
+        },
+        {
+          "layer": 17,
+          "cosine_purity": 0.3635,
+          "noisy_norm": 86.7966,
+          "clean_norm": 82.2822
+        },
+        {
+          "layer": 18,
+          "cosine_purity": 0.412,
+          "noisy_norm": 85.5474,
+          "clean_norm": 79.8141
+        },
+        {
+          "layer": 19,
+          "cosine_purity": 0.3376,
+          "noisy_norm": 77.3066,
+          "clean_norm": 66.2996
+        },
+        {
+          "layer": 20,
+          "cosine_purity": 0.4438,
+          "noisy_norm": 81.5427,
+          "clean_norm": 68.4555
+        },
+        {
+          "layer": 21,
+          "cosine_purity": 0.4386,
+          "noisy_norm": 78.9777,
+          "clean_norm": 67.7629
+        },
+        {
+          "layer": 22,
+          "cosine_purity": 0.3929,
+          "noisy_norm": 78.4394,
+          "clean_norm": 69.0412
+        },
+        {
+          "layer": 23,
+          "cosine_purity": 0.5112,
+          "noisy_norm": 94.1349,
+          "clean_norm": 89.3457
+        },
+        {
+          "layer": 24,
+          "cosine_purity": 0.6088,
+          "noisy_norm": 134.3387,
+          "clean_norm": 125.611
+        },
+        {
+          "layer": 25,
+          "cosine_purity": 0.6745,
+          "noisy_norm": 156.7301,
+          "clean_norm": 148.7569
+        },
+        {
+          "layer": 26,
+          "cosine_purity": 0.8145,
+          "noisy_norm": 233.0947,
+          "clean_norm": 227.7243
+        },
+        {
+          "layer": 27,
+          "cosine_purity": 0.5617,
+          "noisy_norm": 210.0744,
+          "clean_norm": 169.6519
+        }
+      ],
+      "initial_purity": 0.3635,
+      "final_purity": 0.5617,
+      "distillation_ratio": 1.5453
+    },
+    "0.5": {
+      "layers": [
+        {
+          "layer": 9,
+          "cosine_purity": 0.3147,
+          "noisy_norm": 87.874,
+          "clean_norm": 94.7093
+        },
+        {
+          "layer": 10,
+          "cosine_purity": 0.2908,
+          "noisy_norm": 87.197,
+          "clean_norm": 104.1854
+        },
+        {
+          "layer": 11,
+          "cosine_purity": 0.2468,
+          "noisy_norm": 96.9114,
+          "clean_norm": 104.1857
+        },
+        {
+          "layer": 12,
+          "cosine_purity": 0.2312,
+          "noisy_norm": 98.7213,
+          "clean_norm": 99.8058
+        },
+        {
+          "layer": 13,
+          "cosine_purity": 0.2396,
+          "noisy_norm": 100.6099,
+          "clean_norm": 98.4957
+        },
+        {
+          "layer": 14,
+          "cosine_purity": 0.2617,
+          "noisy_norm": 96.9991,
+          "clean_norm": 94.2628
+        },
+        {
+          "layer": 15,
+          "cosine_purity": 0.265,
+          "noisy_norm": 88.3792,
+          "clean_norm": 82.8047
+        },
+        {
+          "layer": 16,
+          "cosine_purity": 0.3021,
+          "noisy_norm": 87.038,
+          "clean_norm": 83.3577
+        },
+        {
+          "layer": 17,
+          "cosine_purity": 0.346,
+          "noisy_norm": 86.0677,
+          "clean_norm": 82.2822
+        },
+        {
+          "layer": 18,
+          "cosine_purity": 0.4063,
+          "noisy_norm": 85.1784,
+          "clean_norm": 79.8141
+        },
+        {
+          "layer": 19,
+          "cosine_purity": 0.3312,
+          "noisy_norm": 76.8169,
+          "clean_norm": 66.2996
+        },
+        {
+          "layer": 20,
+          "cosine_purity": 0.4532,
+          "noisy_norm": 82.2317,
+          "clean_norm": 68.4555
+        },
+        {
+          "layer": 21,
+          "cosine_purity": 0.4475,
+          "noisy_norm": 80.4004,
+          "clean_norm": 67.7629
+        },
+        {
+          "layer": 22,
+          "cosine_purity": 0.3769,
+          "noisy_norm": 76.1411,
+          "clean_norm": 69.0412
+        },
+        {
+          "layer": 23,
+          "cosine_purity": 0.461,
+          "noisy_norm": 89.6425,
+          "clean_norm": 89.3457
+        },
+        {
+          "layer": 24,
+          "cosine_purity": 0.5906,
+          "noisy_norm": 127.6737,
+          "clean_norm": 125.611
+        },
+        {
+          "layer": 25,
+          "cosine_purity": 0.651,
+          "noisy_norm": 155.4814,
+          "clean_norm": 148.7569
+        },
+        {
+          "layer": 26,
+          "cosine_purity": 0.7989,
+          "noisy_norm": 238.1369,
+          "clean_norm": 227.7243
+        },
+        {
+          "layer": 27,
+          "cosine_purity": 0.576,
+          "noisy_norm": 223.5848,
+          "clean_norm": 169.6519
+        }
+      ],
+      "initial_purity": 0.3147,
+      "final_purity": 0.576,
+      "distillation_ratio": 1.8303
+    },
+    "0.7": {
+      "layers": [
+        {
+          "layer": 9,
+          "cosine_purity": 0.2943,
+          "noisy_norm": 88.4316,
+          "clean_norm": 94.7093
+        },
+        {
+          "layer": 10,
+          "cosine_purity": 0.2761,
+          "noisy_norm": 86.6269,
+          "clean_norm": 104.1854
+        },
+        {
+          "layer": 11,
+          "cosine_purity": 0.2309,
+          "noisy_norm": 95.2778,
+          "clean_norm": 104.1857
+        },
+        {
+          "layer": 12,
+          "cosine_purity": 0.2177,
+          "noisy_norm": 96.929,
+          "clean_norm": 99.8058
+        },
+        {
+          "layer": 13,
+          "cosine_purity": 0.2287,
+          "noisy_norm": 98.5306,
+          "clean_norm": 98.4957
+        },
+        {
+          "layer": 14,
+          "cosine_purity": 0.2491,
+          "noisy_norm": 95.5126,
+          "clean_norm": 94.2628
+        },
+        {
+          "layer": 15,
+          "cosine_purity": 0.2576,
+          "noisy_norm": 87.3316,
+          "clean_norm": 82.8047
+        },
+        {
+          "layer": 16,
+          "cosine_purity": 0.2986,
+          "noisy_norm": 86.8017,
+          "clean_norm": 83.3577
+        },
+        {
+          "layer": 17,
+          "cosine_purity": 0.3375,
+          "noisy_norm": 85.3418,
+          "clean_norm": 82.2822
+        },
+        {
+          "layer": 18,
+          "cosine_purity": 0.402,
+          "noisy_norm": 84.59,
+          "clean_norm": 79.8141
+        },
+        {
+          "layer": 19,
+          "cosine_purity": 0.3283,
+          "noisy_norm": 76.7629,
+          "clean_norm": 66.2996
+        },
+        {
+          "layer": 20,
+          "cosine_purity": 0.4595,
+          "noisy_norm": 82.5544,
+          "clean_norm": 68.4555
+        },
+        {
+          "layer": 21,
+          "cosine_purity": 0.4538,
+          "noisy_norm": 80.8395,
+          "clean_norm": 67.7629
+        },
+        {
+          "layer": 22,
+          "cosine_purity": 0.368,
+          "noisy_norm": 75.3986,
+          "clean_norm": 69.0412
+        },
+        {
+          "layer": 23,
+          "cosine_purity": 0.439,
+          "noisy_norm": 88.5123,
+          "clean_norm": 89.3457
+        },
+        {
+          "layer": 24,
+          "cosine_purity": 0.5757,
+          "noisy_norm": 125.4613,
+          "clean_norm": 125.611
+        },
+        {
+          "layer": 25,
+          "cosine_purity": 0.6376,
+          "noisy_norm": 156.3213,
+          "clean_norm": 148.7569
+        },
+        {
+          "layer": 26,
+          "cosine_purity": 0.7928,
+          "noisy_norm": 243.1168,
+          "clean_norm": 227.7243
+        },
+        {
+          "layer": 27,
+          "cosine_purity": 0.5818,
+          "noisy_norm": 240.0316,
+          "clean_norm": 169.6519
+        }
+      ],
+      "initial_purity": 0.2943,
+      "final_purity": 0.5818,
+      "distillation_ratio": 1.9769
+    },
+    "0.9": {
+      "layers": [
+        {
+          "layer": 9,
+          "cosine_purity": 0.2832,
+          "noisy_norm": 88.833,
+          "clean_norm": 94.7093
+        },
+        {
+          "layer": 10,
+          "cosine_purity": 0.2685,
+          "noisy_norm": 86.454,
+          "clean_norm": 104.1854
+        },
+        {
+          "layer": 11,
+          "cosine_purity": 0.2229,
+          "noisy_norm": 94.4306,
+          "clean_norm": 104.1857
+        },
+        {
+          "layer": 12,
+          "cosine_purity": 0.2105,
+          "noisy_norm": 95.9227,
+          "clean_norm": 99.8058
+        },
+        {
+          "layer": 13,
+          "cosine_purity": 0.223,
+          "noisy_norm": 97.2596,
+          "clean_norm": 98.4957
+        },
+        {
+          "layer": 14,
+          "cosine_purity": 0.2427,
+          "noisy_norm": 94.5244,
+          "clean_norm": 94.2628
+        },
+        {
+          "layer": 15,
+          "cosine_purity": 0.2536,
+          "noisy_norm": 86.6617,
+          "clean_norm": 82.8047
+        },
+        {
+          "layer": 16,
+          "cosine_purity": 0.2967,
+          "noisy_norm": 86.5241,
+          "clean_norm": 83.3577
+        },
+        {
+          "layer": 17,
+          "cosine_purity": 0.3332,
+          "noisy_norm": 84.7931,
+          "clean_norm": 82.2822
+        },
+        {
+          "layer": 18,
+          "cosine_purity": 0.3996,
+          "noisy_norm": 84.078,
+          "clean_norm": 79.8141
+        },
+        {
+          "layer": 19,
+          "cosine_purity": 0.3268,
+          "noisy_norm": 76.542,
+          "clean_norm": 66.2996
+        },
+        {
+          "layer": 20,
+          "cosine_purity": 0.4627,
+          "noisy_norm": 82.3674,
+          "clean_norm": 68.4555
+        },
+        {
+          "layer": 21,
+          "cosine_purity": 0.457,
+          "noisy_norm": 80.5122,
+          "clean_norm": 67.7629
+        },
+        {
+          "layer": 22,
+          "cosine_purity": 0.3663,
+          "noisy_norm": 74.6587,
+          "clean_norm": 69.0412
+        },
+        {
+          "layer": 23,
+          "cosine_purity": 0.436,
+          "noisy_norm": 87.7718,
+          "clean_norm": 89.3457
+        },
+        {
+          "layer": 24,
+          "cosine_purity": 0.5718,
+          "noisy_norm": 124.647,
+          "clean_norm": 125.611
+        },
+        {
+          "layer": 25,
+          "cosine_purity": 0.6336,
+          "noisy_norm": 156.2422,
+          "clean_norm": 148.7569
+        },
+        {
+          "layer": 26,
+          "cosine_purity": 0.7909,
+          "noisy_norm": 243.8224,
+          "clean_norm": 227.7243
+        },
+        {
+          "layer": 27,
+          "cosine_purity": 0.5848,
+          "noisy_norm": 244.9285,
+          "clean_norm": 169.6519
+        }
+      ],
+      "initial_purity": 0.2832,
+      "final_purity": 0.5848,
+      "distillation_ratio": 2.065
+    }
+  },
+  "summary": {
+    "n_distilled": 5,
+    "avg_distillation_ratio": 1.5716,
+    "verdict": "STRONG DISTILLATION: 5/6 noise levels purified (avg 1.57x)"
+  },
+  "elapsed": 25.46
+}

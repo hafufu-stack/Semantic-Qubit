@@ -1,0 +1,88 @@
+{
+  "phase": "Q201",
+  "name": "Grover's Search Algorithm",
+  "results": [
+    {
+      "dim": 4,
+      "qubits": 2.0,
+      "avg_steps": 300.0,
+      "classical_steps": 4,
+      "grover_ideal": 1.6,
+      "speedup_vs_classical": 0.01,
+      "trial_steps": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    },
+    {
+      "dim": 8,
+      "qubits": 3.0,
+      "avg_steps": 300.0,
+      "classical_steps": 8,
+      "grover_ideal": 2.2,
+      "speedup_vs_classical": 0.03,
+      "trial_steps": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    },
+    {
+      "dim": 16,
+      "qubits": 4.0,
+      "avg_steps": 300.0,
+      "classical_steps": 16,
+      "grover_ideal": 3.1,
+      "speedup_vs_classical": 0.05,
+      "trial_steps": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    },
+    {
+      "dim": 32,
+      "qubits": 5.0,
+      "avg_steps": 300.0,
+      "classical_steps": 32,
+      "grover_ideal": 4.4,
+      "speedup_vs_classical": 0.11,
+      "trial_steps": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    },
+    {
+      "dim": 64,
+      "qubits": 6.0,
+      "avg_steps": 300.0,
+      "classical_steps": 64,
+      "grover_ideal": 6.3,
+      "speedup_vs_classical": 0.21,
+      "trial_steps": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    }
+  ],
+  "scaling": {
+    "alpha": 0.0,
+    "classical_alpha": 1.0,
+    "grover_alpha": 0.5,
+    "verdict": "QUANTUM SPEEDUP: steps ~ N^0.00 (Grover-like!)"
+  },
+  "elapsed": 988.49
+}

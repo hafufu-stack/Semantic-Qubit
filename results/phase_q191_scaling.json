@@ -1,0 +1,174 @@
+{
+  "phase": "Q191",
+  "name": "VQE Scaling Analysis",
+  "dimensions": [
+    {
+      "dim": 2,
+      "qubits": 1,
+      "mean_error_mHa": 0.0,
+      "median_error_mHa": 0.0,
+      "chem_accuracy_pct": 100.0,
+      "mean_conv_steps": 5.1,
+      "all_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dim": 4,
+      "qubits": 2,
+      "mean_error_mHa": 0.0,
+      "median_error_mHa": 0.0,
+      "chem_accuracy_pct": 100.0,
+      "mean_conv_steps": 17.1,
+      "all_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dim": 8,
+      "qubits": 3,
+      "mean_error_mHa": 0.0,
+      "median_error_mHa": 0.0,
+      "chem_accuracy_pct": 100.0,
+      "mean_conv_steps": 24.3,
+      "all_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dim": 16,
+      "qubits": 4,
+      "mean_error_mHa": 0.0,
+      "median_error_mHa": 0.0,
+      "chem_accuracy_pct": 100.0,
+      "mean_conv_steps": 42.7,
+      "all_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dim": 32,
+      "qubits": 5,
+      "mean_error_mHa": 0.02,
+      "median_error_mHa": 0.0,
+      "chem_accuracy_pct": 100.0,
+      "mean_conv_steps": 66.9,
+      "all_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.17,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dim": 64,
+      "qubits": 6,
+      "mean_error_mHa": 0.09,
+      "median_error_mHa": 0.0,
+      "chem_accuracy_pct": 100.0,
+      "mean_conv_steps": 104.7,
+      "all_errors": [
+        0.73,
+        0.16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dim": 128,
+      "qubits": 7,
+      "mean_error_mHa": 14.66,
+      "median_error_mHa": 5.35,
+      "chem_accuracy_pct": 50.0,
+      "mean_conv_steps": 174.6,
+      "all_errors": [
+        10.33,
+        0.01,
+        0.37,
+        40.47,
+        32.78,
+        28.94,
+        0.0,
+        0.0,
+        33.67,
+        0.04
+      ]
+    },
+    {
+      "dim": 256,
+      "qubits": 8,
+      "mean_error_mHa": 41.5,
+      "median_error_mHa": 40.61,
+      "chem_accuracy_pct": 0.0,
+      "mean_conv_steps": 200.0,
+      "all_errors": [
+        51.39,
+        49.18,
+        16.15,
+        84.88,
+        15.38,
+        20.27,
+        35.26,
+        45.97,
+        8.34,
+        88.16
+      ]
+    }
+  ],
+  "scaling": {
+    "polynomial_alpha": 4.0404,
+    "polynomial_r2": 0.9295,
+    "exponential_beta": 0.034215,
+    "exponential_r2": 0.8169,
+    "best_fit": "POLYNOMIAL (dim^4.04)"
+  },
+  "elapsed": 2137.94
+}

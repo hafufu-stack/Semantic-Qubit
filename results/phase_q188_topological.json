@@ -1,0 +1,162 @@
+{
+  "phase": "Q188",
+  "name": "Topological Insulator Discovery",
+  "model": "Haldane honeycomb",
+  "test_points": [
+    {
+      "label": "Topological (C=1)",
+      "phi": 1.5708,
+      "M": 0.0,
+      "chern_exact": -1.0,
+      "expected_C": 1,
+      "band_gap": 6.0,
+      "vqe_error_mHa": 0.04,
+      "exact_energies": [
+        -3.0,
+        -2.5568,
+        -1.5362,
+        -1.2096,
+        -1.562,
+        -1.5158,
+        -1.5362,
+        -1.3646
+      ],
+      "vqe_energies": [
+        -3.0,
+        -2.5567,
+        -1.5361,
+        -1.2096,
+        -1.562,
+        -1.5158,
+        -1.5362,
+        -1.3645
+      ]
+    },
+    {
+      "label": "Trivial (C=0)",
+      "phi": 1.5708,
+      "M": 5.0,
+      "chern_exact": 0.0,
+      "expected_C": 0,
+      "band_gap": 11.6619,
+      "vqe_error_mHa": 0.06,
+      "exact_energies": [
+        -5.831,
+        -5.5265,
+        -4.6217,
+        -3.7922,
+        -3.9294,
+        -4.8683,
+        -5.7758,
+        -5.861
+      ],
+      "vqe_energies": [
+        -5.8309,
+        -5.5264,
+        -4.6216,
+        -3.7922,
+        -3.9294,
+        -4.8683,
+        -5.7757,
+        -5.861
+      ]
+    },
+    {
+      "label": "Time-reversal (C=0)",
+      "phi": 0.0,
+      "M": 0.0,
+      "chern_exact": -0.0,
+      "expected_C": 0,
+      "band_gap": 6.0,
+      "vqe_error_mHa": 0.02,
+      "exact_energies": [
+        -1.2,
+        -1.3467,
+        -1.4142,
+        -0.8072,
+        -1.6,
+        -1.572,
+        -1.4142,
+        -1.5003
+      ],
+      "vqe_energies": [
+        -1.2,
+        -1.3466,
+        -1.4142,
+        -0.8072,
+        -1.6,
+        -1.572,
+        -1.4142,
+        -1.5003
+      ]
+    },
+    {
+      "label": "Topological (C=1)",
+      "phi": 1.5708,
+      "M": -0.0,
+      "chern_exact": -1.0,
+      "expected_C": 1,
+      "band_gap": 6.0,
+      "vqe_error_mHa": 0.04,
+      "exact_energies": [
+        -3.0,
+        -2.5568,
+        -1.5362,
+        -1.2096,
+        -1.562,
+        -1.5158,
+        -1.5362,
+        -1.3646
+      ],
+      "vqe_energies": [
+        -3.0,
+        -2.5567,
+        -1.5361,
+        -1.2096,
+        -1.562,
+        -1.5158,
+        -1.5362,
+        -1.3645
+      ]
+    },
+    {
+      "label": "Near boundary",
+      "phi": 2.3562,
+      "M": 0.5,
+      "chern_exact": -1.0,
+      "expected_C": 1,
+      "band_gap": 6.0828,
+      "vqe_error_mHa": 21.37,
+      "exact_energies": [
+        -4.3142,
+        -3.4451,
+        -1.4162,
+        0.1705,
+        -0.6347,
+        -1.4224,
+        -1.6895,
+        -1.2823
+      ],
+      "vqe_energies": [
+        -4.3141,
+        -3.445,
+        -1.416,
+        0.0,
+        -0.6347,
+        -1.4224,
+        -1.6895,
+        -1.2823
+      ]
+    }
+  ],
+  "phase_diagram_shape": [
+    12,
+    12
+  ],
+  "summary": {
+    "classification_accuracy": 40.0,
+    "avg_vqe_error_mHa": 4.31,
+    "verdict": "PARTIAL: 2/5 topological phases identified"
+  },
+  "elapsed": 397.01
+}

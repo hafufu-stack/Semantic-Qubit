@@ -1,0 +1,63 @@
+{
+  "phase": "Q196",
+  "name": "Quantum Protein Folding",
+  "proteins": [
+    {
+      "name": "4-mer",
+      "sequence": "HPHP",
+      "length": 4,
+      "E_exact": -0.4476,
+      "E_vqe": -0.4476,
+      "error_mHa": 0.0,
+      "fidelity": 1.0,
+      "chem_acc": 1
+    },
+    {
+      "name": "6-mer",
+      "sequence": "HHPPHH",
+      "length": 6,
+      "E_exact": -2.0137,
+      "E_vqe": -2.0137,
+      "error_mHa": 0.0,
+      "fidelity": 1.0,
+      "chem_acc": 1
+    },
+    {
+      "name": "8-mer",
+      "sequence": "HPPHPPHP",
+      "length": 8,
+      "E_exact": -1.0513,
+      "E_vqe": -1.0513,
+      "error_mHa": 0.0,
+      "fidelity": 1.0,
+      "chem_acc": 1
+    },
+    {
+      "name": "10-mer",
+      "sequence": "HHPPHHPPHH",
+      "length": 10,
+      "E_exact": -2.0137,
+      "E_vqe": -2.0137,
+      "error_mHa": 0.0,
+      "fidelity": 1.0,
+      "chem_acc": 1
+    },
+    {
+      "name": "10-mer-v2",
+      "sequence": "HPHPPHHPHP",
+      "length": 10,
+      "E_exact": -1.0344,
+      "E_vqe": -1.0344,
+      "error_mHa": 0.0,
+      "fidelity": 1.0,
+      "chem_acc": 1
+    }
+  ],
+  "summary": {
+    "chem_accuracy": "5/5",
+    "avg_fidelity": 1.0,
+    "avg_error_mHa": 0.0,
+    "verdict": "PERFECT: All 5 protein folds at chemical accuracy"
+  },
+  "elapsed": 204.26
+}

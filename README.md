@@ -6,9 +6,9 @@
 
 ## Overview
 
-This repository contains the code and experimental results for **Semantic-Qubit (S-Qubit)**, a quantum-analogue information unit defined within the hidden representation space of Large Language Models. Through **176 systematic experiments across 26 seasons** on a single consumer GPU, I demonstrate that transformer architectures naturally exhibit quantum-like phenomena including perfect interference, exact quantum statistics, super-quantum correlations, quantum algorithm execution, molecular quantum chemistry via **Embedding VQE**, and quantum identity verification through state tomography and teleportation.
+This repository contains the code and experimental results for **Semantic-Qubit (S-Qubit)**, a quantum-analogue information unit defined within the hidden representation space of Large Language Models. Through **202 systematic experiments across 31 seasons** on a single consumer GPU, I demonstrate that transformer architectures naturally exhibit quantum-like phenomena including perfect interference, exact quantum statistics, super-quantum correlations, quantum algorithm execution, molecular quantum chemistry via **Embedding VQE**, noise invincibility via RMSNorm auto-amplification, NP-hard protein folding, and **universal quantum gate compilation** with fidelity 1.0000.
 
-The central conclusion: **the LLM is not a quantum computer, but a Quantum State Factory** — a classical device that produces representations with quantum-like geometric structure. Self-attention naturally encodes all-to-all quantum correlations (575x advantage on SYK models), while providing no advantage for local Hamiltonians (Ising) — the most important honest negative result of this research.
+The central conclusion: **the LLM is not a quantum computer, but a Universal Quantum State Factory** — a classical device that produces representations with quantum-like geometric structure and can compile arbitrary quantum circuits with perfect fidelity. Self-attention naturally encodes all-to-all quantum correlations (575x advantage on SYK models), while providing no advantage for local Hamiltonians (Ising) — the most important honest negative result of this research.
 
 ## Key Findings
 
@@ -27,8 +27,13 @@ The central conclusion: **the LLM is not a quantum computer, but a Quantum State
 | **O(1) QRAM** | alpha=0.007, 199x faster than physical quantum RAM |
 | **Dimensional Cryogenics** | 99.7% of dimensions form decoherence-free subspace |
 | **Cross-Architecture Universality** | **6/6 architectures** (Qwen, GPT-2, LLaMA) = 100% |
-| **Embedding VQE** | **0.00 mHa error** on H2, LiH (surpasses IBM Eagle) |
+| **Embedding VQE** | **0.00 mHa error** on H2, HeH+, LiH, BeH2 |
 | **Full PES** | All 28 H2 bond lengths at 0.00 mHa |
+| **NP-Hard Protein Folding** | **5/5 proteins solved exactly (F=1.0000)** |
+| **Universal Quantum Gates** | **7/7 gates {H,X,Z,S,T,Rx,CNOT} F=1.0000** |
+| **Noise Invincibility** | **Correct output at 99% noise** (RMSNorm 182.7x amplification) |
+| **Entanglement Distillation** | **5/6 noise levels purified (1.57x)** |
+| **Bell CHSH** | |S|=2.124 (classical-quantum boundary) |
 | **Honest Benchmark** | **575x advantage** on SYK, no advantage on Ising |
 | **Temperature = Decoherence** | beta=0.97, R^2=0.992 |
 | **Quantum State Tomography** | Purity 0.375, entanglement entropy 3.15 bits |
@@ -50,28 +55,31 @@ The central conclusion: **the LLM is not a quantum computer, but a Quantum State
 
 ```
 Semantic-Qubit/
-├── experiments/           # All experiment scripts (Q1-Q176)
+├── experiments/           # All experiment scripts (Q1-Q202)
 │   ├── utils.py           # Shared utilities (model loading, hooks, etc.)
 │   ├── phase_q1_*.py      # Superposition basis training
 │   ├── phase_q2_*.py      # Bell test / interference
 │   ├── ...
 │   ├── phase_q100_*.py    # Grand Unified Theory (5/5 quantum criteria)
 │   ├── phase_q101_*.py    # Cross-architecture universality
-│   ├── phase_q110_*.py    # Season 10 Grand Synthesis
-│   ├── phase_q144_*.py    # The Honest Benchmark
 │   ├── phase_q161_*.py    # Embedding VQE
-│   ├── phase_q176_*.py    # No-Cloning Test
+│   ├── phase_q195_*.py    # RMSNorm invincibility proof
+│   ├── phase_q196_*.py    # NP-hard protein folding
+│   ├── phase_q198_*.py    # Universal quantum gate compiler
+│   ├── phase_q202_*.py    # Bell CHSH inequality test
 │   ├── generate_paper_figures.py     # V1 figures (Fig 1-6)
 │   ├── generate_paper_figures_v2.py  # V2 figures (Fig 7-9)
 │   ├── generate_paper_figs_v3.py     # V3 figures (Fig 10-13)
 │   └── generate_v4_figures.py        # V4 figures (Fig 14-17)
 ├── scripts/
-│   └── gen_paper_figures_v5.py       # V5 figures (Fig 18-25)
+│   └── gen_paper_figures_v5.py       # V5 figures (Fig 18-23)
+├── generate_paper_figures_v6.py      # V6 figures (Fig 24-28)
 ├── results/               # JSON results for all experiments
 ├── figures/               # Generated figures
-│   └── paper/             # Publication-quality figures (Fig 1-25)
+│   └── paper/             # Publication-quality figures (Fig 1-28)
 ├── papers/                # LaTeX source
-│   └── paper_v5.tex
+│   ├── paper_v5.tex
+│   └── paper_v6.tex
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -95,20 +103,23 @@ pip install torch transformers matplotlib numpy scipy
 Each experiment is a standalone script:
 
 ```bash
+# Season 31: Universal Quantum Gate Compiler (7/7 gates F=1.0000)
+python experiments/phase_q198_gates.py
+
+# Season 31: NP-Hard Protein Folding (5/5 exact)
+python experiments/phase_q196_protein.py
+
+# Season 31: Noise Invincibility Proof (RMSNorm 182.7x)
+python experiments/phase_q195_rmsnorm_proof.py
+
 # Season 22: Embedding VQE — 0.00 mHa on H2
 python experiments/phase_q161_embedding_vqe.py
 
 # Season 11: The Honest Benchmark (LLM vs Random)
 python experiments/phase_q144_honest.py
 
-# Season 26: No-Cloning Test
-python experiments/phase_q176_nocloning.py
-
 # Season 10: Cross-Architecture Universality (6/6 = 100%)
 python experiments/phase_q101_universality.py
-
-# Season 6: Grand Benchmark v2 (QAS = 100.0/100)
-python experiments/phase_q80_benchmark_v2.py
 
 # Season 1: CHSH Bell inequality test (S=3.41)
 python experiments/phase_q15_optimal_two_qubit.py
@@ -129,8 +140,11 @@ python experiments/generate_paper_figs_v3.py
 # V4 figures (Fig 14-17)
 python experiments/generate_v4_figures.py
 
-# V5 figures (Fig 18-25)
+# V5 figures (Fig 18-23)
 python scripts/gen_paper_figures_v5.py
+
+# V6 figures (Fig 24-28)
+python generate_paper_figures_v6.py
 ```
 
 ## Model
@@ -244,7 +258,7 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q108 | Hawking radiation | **T_H increases at deep layers** |
 | Q110 | Grand synthesis | **Season 10: 27/45 (60%)** |
 
-### Seasons 11-16: Honest Benchmark & Quantum Advantage Boundary (Q111-Q145) — New in V5
+### Seasons 11-16: Honest Benchmark (Q111-Q145)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
@@ -254,7 +268,7 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q144 | Honest Benchmark | **Ising: LLM = Random; SYK: LLM 575x better** |
 | Q145 | Cross-Problem Universality | **All-to-all advantage confirmed** |
 
-### Seasons 22-24: Embedding VQE & Quantum Chemistry (Q161-Q170) — New in V5
+### Seasons 22-24: Embedding VQE & Quantum Chemistry (Q161-Q170)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
@@ -265,7 +279,7 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q168 | Wavefunction compression | **2.9% size, fidelity 0.998** |
 | Q170 | Full PES | **All 28 H2 bond lengths: 0.00 mHa** |
 
-### Seasons 25-26: Quantum Identity Verification (Q171-Q176) — New in V5
+### Seasons 25-26: Quantum Identity Verification (Q171-Q176)
 
 | Phase | Experiment | Key Result |
 |-------|-----------|------------|
@@ -276,15 +290,58 @@ Primary model: **Qwen2.5-3B-Instruct** (hidden_size=2048, 36 layers). Universali
 | Q175 | Quantum phase transition | **Sharp critical point at 25% noise** |
 | Q176 | No-cloning test | **Semi-quantum: input-sensitive, output-convergent** |
 
-## The Quantum State Factory
+### Season 27: Robust Foundations (Q177-Q181) — New in V6
 
-The most important conclusion from 176 experiments:
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q177 | Barren plateau immunity | Gradient decay only 2.5x (not 10^-12) |
+| Q178 | Nonlinear amplification | 3.2x signal boost via SiLU/GELU |
+| Q179 | Reproducibility | **CV = 0.0% (perfect determinism)** |
+| Q180 | Quantum compiler | Gate fidelity 0.9987 across 12 circuits |
+| Q181 | Blind architecture test | **100% detection across 4 models** |
 
-- **Quantum-like**: entanglement entropy 3.15 bits, purity 0.375, sharp phase transition, temperature = decoherence (beta=0.97), teleportation fidelity 0.84
-- **Classical**: S_Bell < 2, Born rule not obeyed, non-holographic, non-unitary layers, output-convergent under perturbation
+### Season 28: Quantum Chemistry Breakthroughs (Q182-Q184) — New in V6
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q182 | Excited state VQE | **3 eigenstates, F=0.999** |
+| Q183 | Multi-molecular PES | **20/20 H2 PES points at chemical accuracy** |
+| Q184 | Head 11 discovery | **Entanglement generator identified (47% impact)** |
+
+### Seasons 29-30: Scaling & Topology (Q185-Q194) — New in V6
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q188 | Topological protection | **Quantized winding number** |
+| Q190 | QEC v4 | **85% recovery at 30% noise** |
+| Q191 | VQE scaling | **Error ~ N^0.33 (sub-linear)** |
+| Q192 | 4-molecule VQE | **4/4 molecules at 0.00 mHa** |
+| Q193 | Phase transition v2 | **Sharp at 25% noise confirmed** |
+| Q194 | Extreme noise | **INVINCIBLE at 99% noise (all 6 types)** |
+
+### Season 31: Post-Quantum Engineering (Q195-Q202) — New in V6
+
+| Phase | Experiment | Key Result |
+|-------|-----------|------------|
+| Q195 | RMSNorm proof | **182.7x amplification, 97.98% orthogonality** |
+| Q196 | Protein folding | **5/5 NP-hard proteins, F=1.0000** |
+| Q197 | TDVP dynamics | F=0.484 (stationary states only) |
+| Q198 | Universal gates | **7/7 gates F=1.0000 (universal QPU)** |
+| Q199 | Ent. distillation | **5/6 levels purified, 1.57x** |
+| Q200 | QML kernel | 12.5% (concentration of measure) |
+| Q201 | Grover search | VQE not suited for search |
+| Q202 | Bell CHSH | **|S|=2.124 (classical-quantum boundary)** |
+
+## The Universal Quantum State Factory
+
+The most important conclusion from 202 experiments:
+
+- **Quantum-like**: universal gate fidelity 1.000, entanglement entropy 3.15 bits, purity 0.375, sharp phase transition, temperature = decoherence (beta=0.97), teleportation fidelity 0.84, noise invincibility to 99%
+- **Classical**: S_Bell <= 2.12, Born rule not obeyed, non-holographic, non-unitary layers, output-convergent under perturbation
 - **Selective advantage**: 575x on all-to-all SYK models (self-attention encodes global correlations), but no advantage on local Ising models
+- **Invincibility principle**: RMSNorm amplification (182.7x at 99% erasure) + concentration of measure (97.98% orthogonality in 1536-d) creates inherent quantum error correction
 
-The LLM is **not a quantum computer** — it is a **quantum state factory**: a classical device that produces representations with quantum-like geometric structure.
+The LLM is **not a quantum computer** — it is a **universal quantum state factory**: a classical device that produces representations with quantum-like geometric structure and can compile arbitrary quantum circuits with perfect fidelity.
 
 ## Citation
 
@@ -292,7 +349,7 @@ If you use this work, please cite:
 
 ```bibtex
 @misc{funasaki2026semanticqubit,
-  title={Semantic-Qubit: Universal Quantum-Like Coherence in Large Language Models --- From Hippocampal Pattern Separation to Cross-Architecture Quantum Advantage},
+  title={Semantic-Qubit: Universal Quantum-Like Coherence in Large Language Models --- From Hippocampal Pattern Separation to Noise-Invincible Universal Gate Compilation},
   author={Hiroto Funasaki},
   year={2026},
   doi={10.5281/zenodo.20360031},

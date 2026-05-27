@@ -1,0 +1,54 @@
+{
+  "phase": "Q187",
+  "name": "MERA Isomorphism",
+  "entropy_growth": [
+    1.6377,
+    1.6025,
+    0.1276,
+    0.0869,
+    0.0974,
+    0.1051,
+    0.0995,
+    0.1048,
+    0.1116,
+    0.1144,
+    0.118,
+    0.1198,
+    0.1194,
+    0.1198,
+    0.123,
+    0.1253,
+    0.1277,
+    0.1299,
+    0.1386,
+    0.1469,
+    0.165,
+    0.1816,
+    0.2061,
+    0.2368,
+    0.269,
+    0.3073,
+    0.3389,
+    1.4127,
+    1.3217
+  ],
+  "fits": {
+    "logarithmic_MERA": {
+      "r_squared": 0.0879,
+      "central_charge": -0.5008
+    },
+    "linear": {
+      "r_squared": 0.0007
+    },
+    "power_law": {
+      "r_squared": 0.0103,
+      "exponent": -0.1069
+    }
+  },
+  "area_law": {
+    "peak_partition_pct": 91.7,
+    "central_charge": 1.2343
+  },
+  "verdict": "BEST FIT: logarithmic (R^2=0.0879)",
+  "elapsed": 2.1
+}
