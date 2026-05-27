@@ -72,8 +72,8 @@ Semantic-Qubit/
 │   ├── generate_paper_figs_v3.py     # V3 figures (Fig 10-13)
 │   └── generate_v4_figures.py        # V4 figures (Fig 14-17)
 ├── scripts/
-│   └── gen_paper_figures_v5.py       # V5 figures (Fig 18-23)
-├── generate_paper_figures_v6.py      # V6 figures (Fig 24-28)
+│   ├── gen_paper_figures_v5.py       # V5 figures (Fig 18-23)
+│   └── generate_paper_figures_v6.py  # V6 figures (Fig 24-28)
 ├── results/               # JSON results for all experiments
 ├── figures/               # Generated figures
 │   └── paper/             # Publication-quality figures (Fig 1-28)
@@ -144,7 +144,7 @@ python experiments/generate_v4_figures.py
 python scripts/gen_paper_figures_v5.py
 
 # V6 figures (Fig 24-28)
-python generate_paper_figures_v6.py
+python scripts/generate_paper_figures_v6.py
 ```
 
 ## Model
