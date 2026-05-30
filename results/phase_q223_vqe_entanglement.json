@@ -1,0 +1,399 @@
+{
+  "phase": "Q223",
+  "name": "Entanglement During VQE",
+  "dimensions": [
+    {
+      "dim": 4,
+      "trajectory": [
+        {
+          "step": 0,
+          "energy_error_mHa": 453.4934,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 10,
+          "energy_error_mHa": 3.2381,
+          "negativity": 0.242539,
+          "log_negativity": 0.57054
+        },
+        {
+          "step": 20,
+          "energy_error_mHa": 0.9618,
+          "negativity": 0.241478,
+          "log_negativity": 0.568475
+        },
+        {
+          "step": 30,
+          "energy_error_mHa": 0.0841,
+          "negativity": 0.227751,
+          "log_negativity": 0.541517
+        },
+        {
+          "step": 40,
+          "energy_error_mHa": 0.0751,
+          "negativity": 0.216334,
+          "log_negativity": 0.518704
+        },
+        {
+          "step": 50,
+          "energy_error_mHa": 0.0166,
+          "negativity": 0.221182,
+          "log_negativity": 0.528436
+        },
+        {
+          "step": 60,
+          "energy_error_mHa": 0.0124,
+          "negativity": 0.224008,
+          "log_negativity": 0.534078
+        },
+        {
+          "step": 70,
+          "energy_error_mHa": 0.0027,
+          "negativity": 0.223641,
+          "log_negativity": 0.533346
+        },
+        {
+          "step": 80,
+          "energy_error_mHa": 0.0006,
+          "negativity": 0.222759,
+          "log_negativity": 0.531586
+        },
+        {
+          "step": 90,
+          "energy_error_mHa": 0.0002,
+          "negativity": 0.222961,
+          "log_negativity": 0.531989
+        },
+        {
+          "step": 100,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.22349,
+          "log_negativity": 0.533044
+        },
+        {
+          "step": 110,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.223514,
+          "log_negativity": 0.533094
+        },
+        {
+          "step": 120,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.223315,
+          "log_negativity": 0.532696
+        },
+        {
+          "step": 130,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.223308,
+          "log_negativity": 0.532681
+        },
+        {
+          "step": 140,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.223377,
+          "log_negativity": 0.53282
+        },
+        {
+          "step": 150,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.22339,
+          "log_negativity": 0.532846
+        },
+        {
+          "step": 160,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.223376,
+          "log_negativity": 0.532817
+        },
+        {
+          "step": 170,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.223382,
+          "log_negativity": 0.53283
+        },
+        {
+          "step": 180,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.223389,
+          "log_negativity": 0.532844
+        },
+        {
+          "step": 190,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.223385,
+          "log_negativity": 0.532835
+        }
+      ],
+      "entanglement_trend": 0.00276999,
+      "ent_error_correlation": -0.9919,
+      "final_error": 0.0,
+      "final_negativity": 0.223385
+    },
+    {
+      "dim": 8,
+      "trajectory": [
+        {
+          "step": 0,
+          "energy_error_mHa": 1242.945,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 10,
+          "energy_error_mHa": 22.7522,
+          "negativity": 0.168168,
+          "log_negativity": 0.418283
+        },
+        {
+          "step": 20,
+          "energy_error_mHa": 9.5139,
+          "negativity": 0.159933,
+          "log_negativity": 0.400392
+        },
+        {
+          "step": 30,
+          "energy_error_mHa": 1.8432,
+          "negativity": 0.111492,
+          "log_negativity": 0.290407
+        },
+        {
+          "step": 40,
+          "energy_error_mHa": 0.6111,
+          "negativity": 0.121657,
+          "log_negativity": 0.314191
+        },
+        {
+          "step": 50,
+          "energy_error_mHa": 0.239,
+          "negativity": 0.128664,
+          "log_negativity": 0.33036
+        },
+        {
+          "step": 60,
+          "energy_error_mHa": 0.0778,
+          "negativity": 0.123113,
+          "log_negativity": 0.317565
+        },
+        {
+          "step": 70,
+          "energy_error_mHa": 0.0168,
+          "negativity": 0.123751,
+          "log_negativity": 0.319042
+        },
+        {
+          "step": 80,
+          "energy_error_mHa": 0.0095,
+          "negativity": 0.125841,
+          "log_negativity": 0.323867
+        },
+        {
+          "step": 90,
+          "energy_error_mHa": 0.0017,
+          "negativity": 0.124199,
+          "log_negativity": 0.320079
+        },
+        {
+          "step": 100,
+          "energy_error_mHa": 0.0014,
+          "negativity": 0.124413,
+          "log_negativity": 0.320572
+        },
+        {
+          "step": 110,
+          "energy_error_mHa": 0.0004,
+          "negativity": 0.124717,
+          "log_negativity": 0.321276
+        },
+        {
+          "step": 120,
+          "energy_error_mHa": 0.0001,
+          "negativity": 0.124756,
+          "log_negativity": 0.321364
+        },
+        {
+          "step": 130,
+          "energy_error_mHa": 0.0001,
+          "negativity": 0.124611,
+          "log_negativity": 0.321029
+        },
+        {
+          "step": 140,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.124577,
+          "log_negativity": 0.320951
+        },
+        {
+          "step": 150,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.124588,
+          "log_negativity": 0.320978
+        },
+        {
+          "step": 160,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.124616,
+          "log_negativity": 0.321042
+        },
+        {
+          "step": 170,
+          "energy_error_mHa": 0.0001,
+          "negativity": 0.124626,
+          "log_negativity": 0.321065
+        },
+        {
+          "step": 180,
+          "energy_error_mHa": 0.0001,
+          "negativity": 0.124621,
+          "log_negativity": 0.321054
+        },
+        {
+          "step": 190,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.124617,
+          "log_negativity": 0.321044
+        }
+      ],
+      "entanglement_trend": 0.00095958,
+      "ent_error_correlation": -0.9054,
+      "final_error": 0.0,
+      "final_negativity": 0.124617
+    },
+    {
+      "dim": 16,
+      "trajectory": [
+        {
+          "step": 0,
+          "energy_error_mHa": 1308.8474,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 10,
+          "energy_error_mHa": 363.9276,
+          "negativity": 0.27085,
+          "log_negativity": 0.624522
+        },
+        {
+          "step": 20,
+          "energy_error_mHa": 101.7544,
+          "negativity": 0.186295,
+          "log_negativity": 0.4569
+        },
+        {
+          "step": 30,
+          "energy_error_mHa": 3.9788,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 40,
+          "energy_error_mHa": 2.1422,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 50,
+          "energy_error_mHa": 0.6487,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 60,
+          "energy_error_mHa": 0.237,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 70,
+          "energy_error_mHa": 0.1116,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 80,
+          "energy_error_mHa": 0.0273,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 90,
+          "energy_error_mHa": 0.01,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 100,
+          "energy_error_mHa": 0.0033,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 110,
+          "energy_error_mHa": 0.0007,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 120,
+          "energy_error_mHa": 0.0007,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 130,
+          "energy_error_mHa": 0.0005,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 140,
+          "energy_error_mHa": 0.0001,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 150,
+          "energy_error_mHa": 0.0002,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 160,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 170,
+          "energy_error_mHa": 0.0001,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 180,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.0,
+          "log_negativity": 0
+        },
+        {
+          "step": 190,
+          "energy_error_mHa": 0.0,
+          "negativity": 0.0,
+          "log_negativity": 0
+        }
+      ],
+      "entanglement_trend": -0.00556306,
+      "ent_error_correlation": 0.1887,
+      "final_error": 0.0,
+      "final_negativity": 0.0
+    }
+  ],
+  "summary": {
+    "avg_correlation": -0.5695,
+    "n_growing": 2,
+    "verdict": "RESOURCE: entanglement anti-correlated with error (r=-0.57), 2/3 growing"
+  },
+  "elapsed": 54.72
+}

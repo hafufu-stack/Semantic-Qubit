@@ -1,0 +1,582 @@
+{
+  "phase": "Q227",
+  "name": "Quantum Coherence",
+  "prompts": [
+    {
+      "prompt": "quantum superposition of states",
+      "layers": [
+        {
+          "layer": 0,
+          "l1_coherence": 3.5364,
+          "relative_entropy": 1.1211,
+          "normalized": 0.5052
+        },
+        {
+          "layer": 2,
+          "l1_coherence": 4.2792,
+          "relative_entropy": 1.2838,
+          "normalized": 0.6113
+        },
+        {
+          "layer": 4,
+          "l1_coherence": 3.7037,
+          "relative_entropy": 1.1834,
+          "normalized": 0.5291
+        },
+        {
+          "layer": 6,
+          "l1_coherence": 4.1255,
+          "relative_entropy": 1.227,
+          "normalized": 0.5894
+        },
+        {
+          "layer": 8,
+          "l1_coherence": 3.0462,
+          "relative_entropy": 0.9293,
+          "normalized": 0.4352
+        },
+        {
+          "layer": 10,
+          "l1_coherence": 3.3521,
+          "relative_entropy": 1.1574,
+          "normalized": 0.4789
+        },
+        {
+          "layer": 12,
+          "l1_coherence": 2.4195,
+          "relative_entropy": 0.9321,
+          "normalized": 0.3456
+        },
+        {
+          "layer": 14,
+          "l1_coherence": 2.7513,
+          "relative_entropy": 0.9695,
+          "normalized": 0.393
+        },
+        {
+          "layer": 16,
+          "l1_coherence": 2.5001,
+          "relative_entropy": 0.8924,
+          "normalized": 0.3572
+        },
+        {
+          "layer": 18,
+          "l1_coherence": 2.9071,
+          "relative_entropy": 0.9801,
+          "normalized": 0.4153
+        },
+        {
+          "layer": 20,
+          "l1_coherence": 3.7612,
+          "relative_entropy": 1.0966,
+          "normalized": 0.5373
+        },
+        {
+          "layer": 22,
+          "l1_coherence": 2.8735,
+          "relative_entropy": 0.9696,
+          "normalized": 0.4105
+        },
+        {
+          "layer": 24,
+          "l1_coherence": 3.6093,
+          "relative_entropy": 1.1608,
+          "normalized": 0.5156
+        },
+        {
+          "layer": 26,
+          "l1_coherence": 2.9627,
+          "relative_entropy": 1.1069,
+          "normalized": 0.4232
+        },
+        {
+          "layer": 28,
+          "l1_coherence": 2.6721,
+          "relative_entropy": 0.9395,
+          "normalized": 0.3817
+        }
+      ]
+    },
+    {
+      "prompt": "classical deterministic outcome",
+      "layers": [
+        {
+          "layer": 0,
+          "l1_coherence": 3.2827,
+          "relative_entropy": 1.1158,
+          "normalized": 0.469
+        },
+        {
+          "layer": 2,
+          "l1_coherence": 3.665,
+          "relative_entropy": 1.0978,
+          "normalized": 0.5236
+        },
+        {
+          "layer": 4,
+          "l1_coherence": 3.4001,
+          "relative_entropy": 1.1181,
+          "normalized": 0.4857
+        },
+        {
+          "layer": 6,
+          "l1_coherence": 3.1177,
+          "relative_entropy": 1.0721,
+          "normalized": 0.4454
+        },
+        {
+          "layer": 8,
+          "l1_coherence": 2.2687,
+          "relative_entropy": 0.7635,
+          "normalized": 0.3241
+        },
+        {
+          "layer": 10,
+          "l1_coherence": 2.7291,
+          "relative_entropy": 0.9144,
+          "normalized": 0.3899
+        },
+        {
+          "layer": 12,
+          "l1_coherence": 3.5152,
+          "relative_entropy": 1.1918,
+          "normalized": 0.5022
+        },
+        {
+          "layer": 14,
+          "l1_coherence": 2.9157,
+          "relative_entropy": 0.9662,
+          "normalized": 0.4165
+        },
+        {
+          "layer": 16,
+          "l1_coherence": 3.727,
+          "relative_entropy": 1.1744,
+          "normalized": 0.5324
+        },
+        {
+          "layer": 18,
+          "l1_coherence": 2.7036,
+          "relative_entropy": 0.8111,
+          "normalized": 0.3862
+        },
+        {
+          "layer": 20,
+          "l1_coherence": 2.8296,
+          "relative_entropy": 1.0331,
+          "normalized": 0.4042
+        },
+        {
+          "layer": 22,
+          "l1_coherence": 2.7364,
+          "relative_entropy": 0.84,
+          "normalized": 0.3909
+        },
+        {
+          "layer": 24,
+          "l1_coherence": 4.3335,
+          "relative_entropy": 1.3016,
+          "normalized": 0.6191
+        },
+        {
+          "layer": 26,
+          "l1_coherence": 3.5369,
+          "relative_entropy": 1.065,
+          "normalized": 0.5053
+        },
+        {
+          "layer": 28,
+          "l1_coherence": 2.4098,
+          "relative_entropy": 0.8934,
+          "normalized": 0.3443
+        }
+      ]
+    },
+    {
+      "prompt": "Schrodinger cat alive and dead",
+      "layers": [
+        {
+          "layer": 0,
+          "l1_coherence": 3.1481,
+          "relative_entropy": 1.017,
+          "normalized": 0.4497
+        },
+        {
+          "layer": 2,
+          "l1_coherence": 2.4644,
+          "relative_entropy": 0.8748,
+          "normalized": 0.3521
+        },
+        {
+          "layer": 4,
+          "l1_coherence": 3.4754,
+          "relative_entropy": 1.055,
+          "normalized": 0.4965
+        },
+        {
+          "layer": 6,
+          "l1_coherence": 3.2878,
+          "relative_entropy": 0.9783,
+          "normalized": 0.4697
+        },
+        {
+          "layer": 8,
+          "l1_coherence": 3.341,
+          "relative_entropy": 1.1381,
+          "normalized": 0.4773
+        },
+        {
+          "layer": 10,
+          "l1_coherence": 3.658,
+          "relative_entropy": 1.1481,
+          "normalized": 0.5226
+        },
+        {
+          "layer": 12,
+          "l1_coherence": 3.1596,
+          "relative_entropy": 1.0109,
+          "normalized": 0.4514
+        },
+        {
+          "layer": 14,
+          "l1_coherence": 3.0809,
+          "relative_entropy": 1.0692,
+          "normalized": 0.4401
+        },
+        {
+          "layer": 16,
+          "l1_coherence": 2.6332,
+          "relative_entropy": 0.9519,
+          "normalized": 0.3762
+        },
+        {
+          "layer": 18,
+          "l1_coherence": 3.1043,
+          "relative_entropy": 0.9781,
+          "normalized": 0.4435
+        },
+        {
+          "layer": 20,
+          "l1_coherence": 3.2609,
+          "relative_entropy": 1.1355,
+          "normalized": 0.4658
+        },
+        {
+          "layer": 22,
+          "l1_coherence": 3.2095,
+          "relative_entropy": 1.0234,
+          "normalized": 0.4585
+        },
+        {
+          "layer": 24,
+          "l1_coherence": 3.0647,
+          "relative_entropy": 0.9752,
+          "normalized": 0.4378
+        },
+        {
+          "layer": 26,
+          "l1_coherence": 2.5269,
+          "relative_entropy": 0.8137,
+          "normalized": 0.361
+        },
+        {
+          "layer": 28,
+          "l1_coherence": 3.7273,
+          "relative_entropy": 1.1489,
+          "normalized": 0.5325
+        }
+      ]
+    },
+    {
+      "prompt": "thermal equilibrium at room tempera",
+      "layers": [
+        {
+          "layer": 0,
+          "l1_coherence": 3.8398,
+          "relative_entropy": 1.243,
+          "normalized": 0.5485
+        },
+        {
+          "layer": 2,
+          "l1_coherence": 3.7617,
+          "relative_entropy": 1.2015,
+          "normalized": 0.5374
+        },
+        {
+          "layer": 4,
+          "l1_coherence": 3.8906,
+          "relative_entropy": 1.2623,
+          "normalized": 0.5558
+        },
+        {
+          "layer": 6,
+          "l1_coherence": 2.9695,
+          "relative_entropy": 1.0753,
+          "normalized": 0.4242
+        },
+        {
+          "layer": 8,
+          "l1_coherence": 1.8566,
+          "relative_entropy": 0.5986,
+          "normalized": 0.2652
+        },
+        {
+          "layer": 10,
+          "l1_coherence": 1.7838,
+          "relative_entropy": 0.5792,
+          "normalized": 0.2548
+        },
+        {
+          "layer": 12,
+          "l1_coherence": 2.9653,
+          "relative_entropy": 0.9342,
+          "normalized": 0.4236
+        },
+        {
+          "layer": 14,
+          "l1_coherence": 2.9925,
+          "relative_entropy": 0.954,
+          "normalized": 0.4275
+        },
+        {
+          "layer": 16,
+          "l1_coherence": 2.872,
+          "relative_entropy": 0.8433,
+          "normalized": 0.4103
+        },
+        {
+          "layer": 18,
+          "l1_coherence": 3.1656,
+          "relative_entropy": 1.0374,
+          "normalized": 0.4522
+        },
+        {
+          "layer": 20,
+          "l1_coherence": 2.2027,
+          "relative_entropy": 0.7476,
+          "normalized": 0.3147
+        },
+        {
+          "layer": 22,
+          "l1_coherence": 2.4868,
+          "relative_entropy": 0.8762,
+          "normalized": 0.3553
+        },
+        {
+          "layer": 24,
+          "l1_coherence": 2.4771,
+          "relative_entropy": 0.8451,
+          "normalized": 0.3539
+        },
+        {
+          "layer": 26,
+          "l1_coherence": 2.7875,
+          "relative_entropy": 0.9899,
+          "normalized": 0.3982
+        },
+        {
+          "layer": 28,
+          "l1_coherence": 2.9153,
+          "relative_entropy": 0.9212,
+          "normalized": 0.4165
+        }
+      ]
+    },
+    {
+      "prompt": "coherent laser light source",
+      "layers": [
+        {
+          "layer": 0,
+          "l1_coherence": 3.595,
+          "relative_entropy": 1.1815,
+          "normalized": 0.5136
+        },
+        {
+          "layer": 2,
+          "l1_coherence": 2.9371,
+          "relative_entropy": 0.8656,
+          "normalized": 0.4196
+        },
+        {
+          "layer": 4,
+          "l1_coherence": 2.4843,
+          "relative_entropy": 0.8286,
+          "normalized": 0.3549
+        },
+        {
+          "layer": 6,
+          "l1_coherence": 2.9361,
+          "relative_entropy": 1.0015,
+          "normalized": 0.4194
+        },
+        {
+          "layer": 8,
+          "l1_coherence": 2.2125,
+          "relative_entropy": 0.7505,
+          "normalized": 0.3161
+        },
+        {
+          "layer": 10,
+          "l1_coherence": 1.8993,
+          "relative_entropy": 0.5359,
+          "normalized": 0.2713
+        },
+        {
+          "layer": 12,
+          "l1_coherence": 2.1518,
+          "relative_entropy": 0.6062,
+          "normalized": 0.3074
+        },
+        {
+          "layer": 14,
+          "l1_coherence": 1.992,
+          "relative_entropy": 0.5745,
+          "normalized": 0.2846
+        },
+        {
+          "layer": 16,
+          "l1_coherence": 3.0345,
+          "relative_entropy": 0.9144,
+          "normalized": 0.4335
+        },
+        {
+          "layer": 18,
+          "l1_coherence": 3.4822,
+          "relative_entropy": 1.141,
+          "normalized": 0.4975
+        },
+        {
+          "layer": 20,
+          "l1_coherence": 3.7517,
+          "relative_entropy": 1.1817,
+          "normalized": 0.536
+        },
+        {
+          "layer": 22,
+          "l1_coherence": 3.1317,
+          "relative_entropy": 1.0241,
+          "normalized": 0.4474
+        },
+        {
+          "layer": 24,
+          "l1_coherence": 3.3334,
+          "relative_entropy": 1.0787,
+          "normalized": 0.4762
+        },
+        {
+          "layer": 26,
+          "l1_coherence": 3.1342,
+          "relative_entropy": 1.0561,
+          "normalized": 0.4477
+        },
+        {
+          "layer": 28,
+          "l1_coherence": 1.6457,
+          "relative_entropy": 0.5938,
+          "normalized": 0.2351
+        }
+      ]
+    },
+    {
+      "prompt": "decoherence destroys quantum state",
+      "layers": [
+        {
+          "layer": 0,
+          "l1_coherence": 3.575,
+          "relative_entropy": 1.1501,
+          "normalized": 0.5107
+        },
+        {
+          "layer": 2,
+          "l1_coherence": 3.5162,
+          "relative_entropy": 1.0761,
+          "normalized": 0.5023
+        },
+        {
+          "layer": 4,
+          "l1_coherence": 2.9559,
+          "relative_entropy": 1.1224,
+          "normalized": 0.4223
+        },
+        {
+          "layer": 6,
+          "l1_coherence": 3.1657,
+          "relative_entropy": 1.0218,
+          "normalized": 0.4522
+        },
+        {
+          "layer": 8,
+          "l1_coherence": 2.4056,
+          "relative_entropy": 0.8045,
+          "normalized": 0.3437
+        },
+        {
+          "layer": 10,
+          "l1_coherence": 2.9705,
+          "relative_entropy": 0.9171,
+          "normalized": 0.4244
+        },
+        {
+          "layer": 12,
+          "l1_coherence": 2.3439,
+          "relative_entropy": 0.714,
+          "normalized": 0.3348
+        },
+        {
+          "layer": 14,
+          "l1_coherence": 1.3625,
+          "relative_entropy": 0.5195,
+          "normalized": 0.1946
+        },
+        {
+          "layer": 16,
+          "l1_coherence": 2.5356,
+          "relative_entropy": 0.8287,
+          "normalized": 0.3622
+        },
+        {
+          "layer": 18,
+          "l1_coherence": 1.8183,
+          "relative_entropy": 0.6791,
+          "normalized": 0.2598
+        },
+        {
+          "layer": 20,
+          "l1_coherence": 2.4187,
+          "relative_entropy": 0.8685,
+          "normalized": 0.3455
+        },
+        {
+          "layer": 22,
+          "l1_coherence": 2.4718,
+          "relative_entropy": 0.975,
+          "normalized": 0.3531
+        },
+        {
+          "layer": 24,
+          "l1_coherence": 4.0989,
+          "relative_entropy": 1.2878,
+          "normalized": 0.5856
+        },
+        {
+          "layer": 26,
+          "l1_coherence": 3.5025,
+          "relative_entropy": 1.115,
+          "normalized": 0.5004
+        },
+        {
+          "layer": 28,
+          "l1_coherence": 3.8948,
+          "relative_entropy": 1.1618,
+          "normalized": 0.5564
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_l1": 3.006,
+    "avg_normalized": 0.4294,
+    "verdict": "MODERATE COHERENCE: avg 42.9% of maximum"
+  },
+  "elapsed": 2.62
+}

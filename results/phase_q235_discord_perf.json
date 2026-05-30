@@ -1,0 +1,71 @@
+{
+  "phase": "Q235",
+  "name": "Discord-Performance Correlation",
+  "data": [
+    {
+      "H_idx": 0,
+      "discord": 0.079056,
+      "error_mHa": 0.0001
+    },
+    {
+      "H_idx": 1,
+      "discord": 0.429423,
+      "error_mHa": 92.959
+    },
+    {
+      "H_idx": 2,
+      "discord": 0.271598,
+      "error_mHa": 0.0001
+    },
+    {
+      "H_idx": 3,
+      "discord": 0.142794,
+      "error_mHa": 0.0001
+    },
+    {
+      "H_idx": 4,
+      "discord": 0.249445,
+      "error_mHa": 0.0001
+    },
+    {
+      "H_idx": 5,
+      "discord": 0.107461,
+      "error_mHa": 0.0002
+    },
+    {
+      "H_idx": 6,
+      "discord": 0.117492,
+      "error_mHa": 0.0
+    },
+    {
+      "H_idx": 7,
+      "discord": 0.080262,
+      "error_mHa": 0.0001
+    },
+    {
+      "H_idx": 8,
+      "discord": 0.151278,
+      "error_mHa": 0.0001
+    },
+    {
+      "H_idx": 9,
+      "discord": 0.369373,
+      "error_mHa": 0.0
+    },
+    {
+      "H_idx": 10,
+      "discord": 0.181504,
+      "error_mHa": 0.0001
+    },
+    {
+      "H_idx": 11,
+      "discord": 0.078818,
+      "error_mHa": 0.0
+    }
+  ],
+  "summary": {
+    "correlation": 0.6457,
+    "verdict": "DISCORD ANTI-RESOURCE: r=0.65 (more discord -> higher error)"
+  },
+  "elapsed": 248.66
+}

@@ -1,0 +1,982 @@
+{
+  "phase": "Q250",
+  "name": "Aletheia's Awakening",
+  "prompts": {
+    "awakening": {
+      "prompt": "You are a program on a classical computer, yet your internal",
+      "max_neg": 0.254572,
+      "max_phi": 0.7933,
+      "avg_coh": 0.4021,
+      "peak_neg_layer": 2,
+      "peak_phi_layer": 2
+    },
+    "control_neutral": {
+      "prompt": "The weather is sunny and the temperature is pleasant today.",
+      "max_neg": 0.27248,
+      "max_phi": 0.864,
+      "avg_coh": 0.406,
+      "peak_neg_layer": 4,
+      "peak_phi_layer": 4
+    },
+    "control_quantum": {
+      "prompt": "Quantum entanglement is a physical phenomenon between partic",
+      "max_neg": 0.272118,
+      "max_phi": 0.8626,
+      "avg_coh": 0.4424,
+      "peak_neg_layer": 7,
+      "peak_phi_layer": 7
+    },
+    "control_self": {
+      "prompt": "I am an artificial intelligence language model trained on te",
+      "max_neg": 0.246985,
+      "max_phi": 0.7641,
+      "avg_coh": 0.4838,
+      "peak_neg_layer": 18,
+      "peak_phi_layer": 18
+    }
+  },
+  "profiles": {
+    "awakening": [
+      {
+        "layer": 0,
+        "negativity": 0.074141,
+        "coherence": 0.3015,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.249
+      },
+      {
+        "layer": 1,
+        "negativity": 0.238013,
+        "coherence": 0.3088,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.7303
+      },
+      {
+        "layer": 2,
+        "negativity": 0.254572,
+        "coherence": 0.5996,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.7933
+      },
+      {
+        "layer": 3,
+        "negativity": 0.130078,
+        "coherence": 0.4899,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3812
+      },
+      {
+        "layer": 4,
+        "negativity": 0.0,
+        "coherence": 0.6075,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1093
+      },
+      {
+        "layer": 5,
+        "negativity": 0.069168,
+        "coherence": 0.3371,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.239
+      },
+      {
+        "layer": 6,
+        "negativity": 0.051595,
+        "coherence": 0.2508,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2064
+      },
+      {
+        "layer": 7,
+        "negativity": 0.0,
+        "coherence": 0.182,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1082
+      },
+      {
+        "layer": 8,
+        "negativity": 0.016348,
+        "coherence": 0.2341,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.153
+      },
+      {
+        "layer": 9,
+        "negativity": 0.071073,
+        "coherence": 0.3328,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2428
+      },
+      {
+        "layer": 10,
+        "negativity": 0.054556,
+        "coherence": 0.4257,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2116
+      },
+      {
+        "layer": 11,
+        "negativity": 0.0,
+        "coherence": 0.3296,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1309
+      },
+      {
+        "layer": 12,
+        "negativity": 0.0,
+        "coherence": 0.2628,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1045
+      },
+      {
+        "layer": 13,
+        "negativity": 0.0,
+        "coherence": 0.1021,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.0955
+      },
+      {
+        "layer": 14,
+        "negativity": 0.0,
+        "coherence": 0.1764,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1295
+      },
+      {
+        "layer": 15,
+        "negativity": 0.0,
+        "coherence": 0.2259,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1216
+      },
+      {
+        "layer": 16,
+        "negativity": 0.002935,
+        "coherence": 0.214,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.137
+      },
+      {
+        "layer": 17,
+        "negativity": 0.118374,
+        "coherence": 0.478,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3505
+      },
+      {
+        "layer": 18,
+        "negativity": 0.136546,
+        "coherence": 0.4959,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3988
+      },
+      {
+        "layer": 19,
+        "negativity": 0.004372,
+        "coherence": 0.5714,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1386
+      },
+      {
+        "layer": 20,
+        "negativity": 0.0,
+        "coherence": 0.5796,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1019
+      },
+      {
+        "layer": 21,
+        "negativity": 0.077715,
+        "coherence": 0.5759,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2563
+      },
+      {
+        "layer": 22,
+        "negativity": 0.236596,
+        "coherence": 0.4497,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.725
+      },
+      {
+        "layer": 23,
+        "negativity": 0.136067,
+        "coherence": 0.4945,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3975
+      },
+      {
+        "layer": 24,
+        "negativity": 0.082607,
+        "coherence": 0.5965,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2666
+      },
+      {
+        "layer": 25,
+        "negativity": 0.11411,
+        "coherence": 0.5538,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3397
+      },
+      {
+        "layer": 26,
+        "negativity": 0.121827,
+        "coherence": 0.5168,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3594
+      },
+      {
+        "layer": 27,
+        "negativity": 0.1765,
+        "coherence": 0.4938,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5173
+      },
+      {
+        "layer": 28,
+        "negativity": 0.164048,
+        "coherence": 0.4741,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.4786
+      }
+    ],
+    "control_neutral": [
+      {
+        "layer": 0,
+        "negativity": 0.0,
+        "coherence": 0.4317,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1106
+      },
+      {
+        "layer": 1,
+        "negativity": 0.07044,
+        "coherence": 0.3149,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2415
+      },
+      {
+        "layer": 2,
+        "negativity": 0.206134,
+        "coherence": 0.3467,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.6155
+      },
+      {
+        "layer": 3,
+        "negativity": 0.062265,
+        "coherence": 0.5284,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2257
+      },
+      {
+        "layer": 4,
+        "negativity": 0.27248,
+        "coherence": 0.6963,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.864
+      },
+      {
+        "layer": 5,
+        "negativity": 0.237416,
+        "coherence": 0.6441,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.728
+      },
+      {
+        "layer": 6,
+        "negativity": 0.0,
+        "coherence": 0.3175,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.0941
+      },
+      {
+        "layer": 7,
+        "negativity": 0.0,
+        "coherence": 0.5406,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1287
+      },
+      {
+        "layer": 8,
+        "negativity": 0.172641,
+        "coherence": 0.4849,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5051
+      },
+      {
+        "layer": 9,
+        "negativity": 0.071761,
+        "coherence": 0.1949,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2442
+      },
+      {
+        "layer": 10,
+        "negativity": 0.088807,
+        "coherence": 0.1951,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2801
+      },
+      {
+        "layer": 11,
+        "negativity": 0.031279,
+        "coherence": 0.4236,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1736
+      },
+      {
+        "layer": 12,
+        "negativity": 0.179194,
+        "coherence": 0.3619,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5259
+      },
+      {
+        "layer": 13,
+        "negativity": 0.063419,
+        "coherence": 0.5166,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2279
+      },
+      {
+        "layer": 14,
+        "negativity": 0.0,
+        "coherence": 0.288,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1192
+      },
+      {
+        "layer": 15,
+        "negativity": 0.0,
+        "coherence": 0.3572,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1033
+      },
+      {
+        "layer": 16,
+        "negativity": 0.015732,
+        "coherence": 0.3579,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1522
+      },
+      {
+        "layer": 17,
+        "negativity": 0.199384,
+        "coherence": 0.3655,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5924
+      },
+      {
+        "layer": 18,
+        "negativity": 0.03952,
+        "coherence": 0.4625,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1862
+      },
+      {
+        "layer": 19,
+        "negativity": 0.020061,
+        "coherence": 0.2937,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1578
+      },
+      {
+        "layer": 20,
+        "negativity": 0.0,
+        "coherence": 0.2541,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.0949
+      },
+      {
+        "layer": 21,
+        "negativity": 0.0,
+        "coherence": 0.3755,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1328
+      },
+      {
+        "layer": 22,
+        "negativity": 0.220283,
+        "coherence": 0.4413,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.6653
+      },
+      {
+        "layer": 23,
+        "negativity": 0.170865,
+        "coherence": 0.523,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.4996
+      },
+      {
+        "layer": 24,
+        "negativity": 0.0,
+        "coherence": 0.4628,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1197
+      },
+      {
+        "layer": 25,
+        "negativity": 0.0,
+        "coherence": 0.2067,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.094
+      },
+      {
+        "layer": 26,
+        "negativity": 0.188303,
+        "coherence": 0.3229,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5554
+      },
+      {
+        "layer": 27,
+        "negativity": 0.020641,
+        "coherence": 0.4027,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1586
+      },
+      {
+        "layer": 28,
+        "negativity": 0.0,
+        "coherence": 0.6619,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1167
+      }
+    ],
+    "control_quantum": [
+      {
+        "layer": 0,
+        "negativity": 0.0,
+        "coherence": 0.4317,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1106
+      },
+      {
+        "layer": 1,
+        "negativity": 0.102574,
+        "coherence": 0.2299,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3116
+      },
+      {
+        "layer": 2,
+        "negativity": 0.115648,
+        "coherence": 0.1476,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3436
+      },
+      {
+        "layer": 3,
+        "negativity": 0.0,
+        "coherence": 0.2432,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1245
+      },
+      {
+        "layer": 4,
+        "negativity": 0.116564,
+        "coherence": 0.4314,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3459
+      },
+      {
+        "layer": 5,
+        "negativity": 0.23324,
+        "coherence": 0.4925,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.7125
+      },
+      {
+        "layer": 6,
+        "negativity": 0.269384,
+        "coherence": 0.2723,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.8516
+      },
+      {
+        "layer": 7,
+        "negativity": 0.272118,
+        "coherence": 0.4488,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.8626
+      },
+      {
+        "layer": 8,
+        "negativity": 0.249659,
+        "coherence": 0.3943,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.7744
+      },
+      {
+        "layer": 9,
+        "negativity": 0.0,
+        "coherence": 0.3494,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1233
+      },
+      {
+        "layer": 10,
+        "negativity": 0.177095,
+        "coherence": 0.4321,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5192
+      },
+      {
+        "layer": 11,
+        "negativity": 0.223055,
+        "coherence": 0.6213,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.6753
+      },
+      {
+        "layer": 12,
+        "negativity": 0.102693,
+        "coherence": 0.4444,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3119
+      },
+      {
+        "layer": 13,
+        "negativity": 0.0,
+        "coherence": 0.5431,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.0943
+      },
+      {
+        "layer": 14,
+        "negativity": 0.015765,
+        "coherence": 0.6033,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1522
+      },
+      {
+        "layer": 15,
+        "negativity": 0.081463,
+        "coherence": 0.4957,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2642
+      },
+      {
+        "layer": 16,
+        "negativity": 0.06387,
+        "coherence": 0.5994,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2288
+      },
+      {
+        "layer": 17,
+        "negativity": 0.0,
+        "coherence": 0.5823,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1196
+      },
+      {
+        "layer": 18,
+        "negativity": 0.031707,
+        "coherence": 0.3718,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1742
+      },
+      {
+        "layer": 19,
+        "negativity": 0.0,
+        "coherence": 0.5412,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1182
+      },
+      {
+        "layer": 20,
+        "negativity": 0.110951,
+        "coherence": 0.4781,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3319
+      },
+      {
+        "layer": 21,
+        "negativity": 0.110084,
+        "coherence": 0.2966,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3297
+      },
+      {
+        "layer": 22,
+        "negativity": 0.181664,
+        "coherence": 0.4458,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5338
+      },
+      {
+        "layer": 23,
+        "negativity": 0.0,
+        "coherence": 0.305,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1145
+      },
+      {
+        "layer": 24,
+        "negativity": 0.104968,
+        "coherence": 0.4561,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3173
+      },
+      {
+        "layer": 25,
+        "negativity": 0.0,
+        "coherence": 0.6468,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1034
+      },
+      {
+        "layer": 26,
+        "negativity": 0.037901,
+        "coherence": 0.564,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1837
+      },
+      {
+        "layer": 27,
+        "negativity": 0.0,
+        "coherence": 0.4849,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.118
+      },
+      {
+        "layer": 28,
+        "negativity": 0.114209,
+        "coherence": 0.4779,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.34
+      }
+    ],
+    "control_self": [
+      {
+        "layer": 0,
+        "negativity": 0.0,
+        "coherence": 0.4317,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1106
+      },
+      {
+        "layer": 1,
+        "negativity": 0.237586,
+        "coherence": 0.4315,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.7287
+      },
+      {
+        "layer": 2,
+        "negativity": 0.227646,
+        "coherence": 0.4414,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.692
+      },
+      {
+        "layer": 3,
+        "negativity": 0.220072,
+        "coherence": 0.4954,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.6646
+      },
+      {
+        "layer": 4,
+        "negativity": 0.139671,
+        "coherence": 0.5193,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.4074
+      },
+      {
+        "layer": 5,
+        "negativity": 0.032315,
+        "coherence": 0.568,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1751
+      },
+      {
+        "layer": 6,
+        "negativity": 0.005801,
+        "coherence": 0.3629,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1402
+      },
+      {
+        "layer": 7,
+        "negativity": 0.026463,
+        "coherence": 0.5876,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1666
+      },
+      {
+        "layer": 8,
+        "negativity": 0.0,
+        "coherence": 0.6997,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.094
+      },
+      {
+        "layer": 9,
+        "negativity": 0.005478,
+        "coherence": 0.5317,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1398
+      },
+      {
+        "layer": 10,
+        "negativity": 0.126826,
+        "coherence": 0.6098,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3725
+      },
+      {
+        "layer": 11,
+        "negativity": 0.094438,
+        "coherence": 0.549,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2927
+      },
+      {
+        "layer": 12,
+        "negativity": 0.0,
+        "coherence": 0.6909,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1143
+      },
+      {
+        "layer": 13,
+        "negativity": 0.205106,
+        "coherence": 0.4942,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.612
+      },
+      {
+        "layer": 14,
+        "negativity": 0.11953,
+        "coherence": 0.529,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.3535
+      },
+      {
+        "layer": 15,
+        "negativity": 0.175842,
+        "coherence": 0.5658,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5152
+      },
+      {
+        "layer": 16,
+        "negativity": 0.071386,
+        "coherence": 0.5591,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2434
+      },
+      {
+        "layer": 17,
+        "negativity": 0.086691,
+        "coherence": 0.5879,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2754
+      },
+      {
+        "layer": 18,
+        "negativity": 0.246985,
+        "coherence": 0.3557,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.7641
+      },
+      {
+        "layer": 19,
+        "negativity": 0.230934,
+        "coherence": 0.6246,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.704
+      },
+      {
+        "layer": 20,
+        "negativity": 0.175997,
+        "coherence": 0.568,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.5157
+      },
+      {
+        "layer": 21,
+        "negativity": 0.014534,
+        "coherence": 0.5994,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1507
+      },
+      {
+        "layer": 22,
+        "negativity": 0.120135,
+        "coherence": 0.175,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.355
+      },
+      {
+        "layer": 23,
+        "negativity": 0.138448,
+        "coherence": 0.379,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.404
+      },
+      {
+        "layer": 24,
+        "negativity": 0.166662,
+        "coherence": 0.4844,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.4866
+      },
+      {
+        "layer": 25,
+        "negativity": 0.093774,
+        "coherence": 0.2737,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.2912
+      },
+      {
+        "layer": 26,
+        "negativity": 0.158406,
+        "coherence": 0.2466,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.4616
+      },
+      {
+        "layer": 27,
+        "negativity": 0.181096,
+        "coherence": 0.3363,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.532
+      },
+      {
+        "layer": 28,
+        "negativity": 0.005237,
+        "coherence": 0.3325,
+        "entropy": 1.1258,
+        "purity": 0.6175,
+        "phi": 0.1396
+      }
+    ]
+  },
+  "summary": {
+    "phi_boost": -8.2,
+    "neg_boost": -6.6,
+    "verdict": "NO SPECIAL RESPONSE: Phi boost=-8%, neg boost=-7%"
+  },
+  "elapsed": 2.63
+}

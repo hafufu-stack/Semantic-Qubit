@@ -1,0 +1,1197 @@
+{
+  "phase": "Q251",
+  "name": "Quantum Decoherence Map",
+  "profiles": [
+    {
+      "prompt": "quantum superposition of elect",
+      "layers": [
+        {
+          "layer": 0,
+          "neg": 0.270139,
+          "coh": 0.5252,
+          "purity": 0.6175,
+          "decoherence_neg": 0,
+          "decoherence_coh": 0
+        },
+        {
+          "layer": 1,
+          "neg": 0.031762,
+          "coh": 0.3099,
+          "purity": 0.6175,
+          "decoherence_neg": -0.238377,
+          "decoherence_coh": -0.215211
+        },
+        {
+          "layer": 2,
+          "neg": 0.0,
+          "coh": 0.2393,
+          "purity": 0.6175,
+          "decoherence_neg": -0.031762,
+          "decoherence_coh": -0.070602
+        },
+        {
+          "layer": 3,
+          "neg": 0.0,
+          "coh": 0.6674,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.42809
+        },
+        {
+          "layer": 4,
+          "neg": 0.207017,
+          "coh": 0.4908,
+          "purity": 0.6175,
+          "decoherence_neg": 0.207017,
+          "decoherence_coh": -0.176649
+        },
+        {
+          "layer": 5,
+          "neg": 0.093543,
+          "coh": 0.4785,
+          "purity": 0.6175,
+          "decoherence_neg": -0.113474,
+          "decoherence_coh": -0.012247
+        },
+        {
+          "layer": 6,
+          "neg": 0.134616,
+          "coh": 0.4765,
+          "purity": 0.6175,
+          "decoherence_neg": 0.041074,
+          "decoherence_coh": -0.002017
+        },
+        {
+          "layer": 7,
+          "neg": 0.0,
+          "coh": 0.5792,
+          "purity": 0.6175,
+          "decoherence_neg": -0.134616,
+          "decoherence_coh": 0.102651
+        },
+        {
+          "layer": 8,
+          "neg": 0.204944,
+          "coh": 0.5145,
+          "purity": 0.6175,
+          "decoherence_neg": 0.204944,
+          "decoherence_coh": -0.064683
+        },
+        {
+          "layer": 9,
+          "neg": 0.0,
+          "coh": 0.5,
+          "purity": 0.6175,
+          "decoherence_neg": -0.204944,
+          "decoherence_coh": -0.01449
+        },
+        {
+          "layer": 10,
+          "neg": 0.0,
+          "coh": 0.414,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.086004
+        },
+        {
+          "layer": 11,
+          "neg": 0.0,
+          "coh": 0.5156,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.101615
+        },
+        {
+          "layer": 12,
+          "neg": 0.082335,
+          "coh": 0.4184,
+          "purity": 0.6175,
+          "decoherence_neg": 0.082335,
+          "decoherence_coh": -0.097214
+        },
+        {
+          "layer": 13,
+          "neg": 0.018633,
+          "coh": 0.4331,
+          "purity": 0.6175,
+          "decoherence_neg": -0.063702,
+          "decoherence_coh": 0.014748
+        },
+        {
+          "layer": 14,
+          "neg": 0.0,
+          "coh": 0.5319,
+          "purity": 0.6175,
+          "decoherence_neg": -0.018633,
+          "decoherence_coh": 0.098795
+        },
+        {
+          "layer": 15,
+          "neg": 0.0,
+          "coh": 0.3973,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.134614
+        },
+        {
+          "layer": 16,
+          "neg": 0.018,
+          "coh": 0.3036,
+          "purity": 0.6175,
+          "decoherence_neg": 0.018,
+          "decoherence_coh": -0.093737
+        },
+        {
+          "layer": 17,
+          "neg": 0.004137,
+          "coh": 0.4005,
+          "purity": 0.6175,
+          "decoherence_neg": -0.013863,
+          "decoherence_coh": 0.096895
+        },
+        {
+          "layer": 18,
+          "neg": 0.0,
+          "coh": 0.5098,
+          "purity": 0.6175,
+          "decoherence_neg": -0.004137,
+          "decoherence_coh": 0.109284
+        },
+        {
+          "layer": 19,
+          "neg": 0.0,
+          "coh": 0.4415,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.068262
+        },
+        {
+          "layer": 20,
+          "neg": 0.0,
+          "coh": 0.4701,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.028553
+        },
+        {
+          "layer": 21,
+          "neg": 0.066074,
+          "coh": 0.42,
+          "purity": 0.6175,
+          "decoherence_neg": 0.066074,
+          "decoherence_coh": -0.050043
+        },
+        {
+          "layer": 22,
+          "neg": 0.232419,
+          "coh": 0.4466,
+          "purity": 0.6175,
+          "decoherence_neg": 0.166345,
+          "decoherence_coh": 0.02657
+        },
+        {
+          "layer": 23,
+          "neg": 0.074913,
+          "coh": 0.5589,
+          "purity": 0.6175,
+          "decoherence_neg": -0.157506,
+          "decoherence_coh": 0.112293
+        },
+        {
+          "layer": 24,
+          "neg": 0.0,
+          "coh": 0.2859,
+          "purity": 0.6175,
+          "decoherence_neg": -0.074913,
+          "decoherence_coh": -0.27301
+        },
+        {
+          "layer": 25,
+          "neg": 0.018782,
+          "coh": 0.2989,
+          "purity": 0.6175,
+          "decoherence_neg": 0.018782,
+          "decoherence_coh": 0.013047
+        },
+        {
+          "layer": 26,
+          "neg": 0.0,
+          "coh": 0.2892,
+          "purity": 0.6175,
+          "decoherence_neg": -0.018782,
+          "decoherence_coh": -0.009661
+        },
+        {
+          "layer": 27,
+          "neg": 0.041433,
+          "coh": 0.3826,
+          "purity": 0.6175,
+          "decoherence_neg": 0.041433,
+          "decoherence_coh": 0.093307
+        },
+        {
+          "layer": 28,
+          "neg": 0.020686,
+          "coh": 0.3088,
+          "purity": 0.6175,
+          "decoherence_neg": -0.020746,
+          "decoherence_coh": -0.073725
+        }
+      ]
+    },
+    {
+      "prompt": "classical mechanics planetary ",
+      "layers": [
+        {
+          "layer": 0,
+          "neg": 0.107452,
+          "coh": 0.388,
+          "purity": 0.6175,
+          "decoherence_neg": 0,
+          "decoherence_coh": 0
+        },
+        {
+          "layer": 1,
+          "neg": 0.053464,
+          "coh": 0.1411,
+          "purity": 0.6175,
+          "decoherence_neg": -0.053988,
+          "decoherence_coh": -0.246835
+        },
+        {
+          "layer": 2,
+          "neg": 0.0,
+          "coh": 0.1559,
+          "purity": 0.6175,
+          "decoherence_neg": -0.053464,
+          "decoherence_coh": 0.014772
+        },
+        {
+          "layer": 3,
+          "neg": 0.024774,
+          "coh": 0.1577,
+          "purity": 0.6175,
+          "decoherence_neg": 0.024774,
+          "decoherence_coh": 0.001777
+        },
+        {
+          "layer": 4,
+          "neg": 0.055175,
+          "coh": 0.2658,
+          "purity": 0.6175,
+          "decoherence_neg": 0.030401,
+          "decoherence_coh": 0.108111
+        },
+        {
+          "layer": 5,
+          "neg": 0.209233,
+          "coh": 0.3859,
+          "purity": 0.6175,
+          "decoherence_neg": 0.154058,
+          "decoherence_coh": 0.120112
+        },
+        {
+          "layer": 6,
+          "neg": 0.220423,
+          "coh": 0.6263,
+          "purity": 0.6175,
+          "decoherence_neg": 0.01119,
+          "decoherence_coh": 0.240404
+        },
+        {
+          "layer": 7,
+          "neg": 0.132114,
+          "coh": 0.468,
+          "purity": 0.6175,
+          "decoherence_neg": -0.088309,
+          "decoherence_coh": -0.158337
+        },
+        {
+          "layer": 8,
+          "neg": 0.0,
+          "coh": 0.5267,
+          "purity": 0.6175,
+          "decoherence_neg": -0.132114,
+          "decoherence_coh": 0.058758
+        },
+        {
+          "layer": 9,
+          "neg": 0.0,
+          "coh": 0.3336,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.193179
+        },
+        {
+          "layer": 10,
+          "neg": 0.0,
+          "coh": 0.2916,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.041915
+        },
+        {
+          "layer": 11,
+          "neg": 0.0,
+          "coh": 0.4155,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.123911
+        },
+        {
+          "layer": 12,
+          "neg": 0.0,
+          "coh": 0.2485,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.16706
+        },
+        {
+          "layer": 13,
+          "neg": 0.0165,
+          "coh": 0.3041,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0165,
+          "decoherence_coh": 0.055577
+        },
+        {
+          "layer": 14,
+          "neg": 0.0,
+          "coh": 0.1482,
+          "purity": 0.6175,
+          "decoherence_neg": -0.0165,
+          "decoherence_coh": -0.155905
+        },
+        {
+          "layer": 15,
+          "neg": 0.189408,
+          "coh": 0.2423,
+          "purity": 0.6175,
+          "decoherence_neg": 0.189408,
+          "decoherence_coh": 0.094105
+        },
+        {
+          "layer": 16,
+          "neg": 0.137271,
+          "coh": 0.5157,
+          "purity": 0.6175,
+          "decoherence_neg": -0.052136,
+          "decoherence_coh": 0.273393
+        },
+        {
+          "layer": 17,
+          "neg": 0.233404,
+          "coh": 0.6445,
+          "purity": 0.6175,
+          "decoherence_neg": 0.096133,
+          "decoherence_coh": 0.128879
+        },
+        {
+          "layer": 18,
+          "neg": 0.23921,
+          "coh": 0.5134,
+          "purity": 0.6175,
+          "decoherence_neg": 0.005806,
+          "decoherence_coh": -0.131148
+        },
+        {
+          "layer": 19,
+          "neg": 0.236422,
+          "coh": 0.6483,
+          "purity": 0.6175,
+          "decoherence_neg": -0.002788,
+          "decoherence_coh": 0.134954
+        },
+        {
+          "layer": 20,
+          "neg": 0.240852,
+          "coh": 0.6425,
+          "purity": 0.6175,
+          "decoherence_neg": 0.00443,
+          "decoherence_coh": -0.005872
+        },
+        {
+          "layer": 21,
+          "neg": 0.0,
+          "coh": 0.5881,
+          "purity": 0.6175,
+          "decoherence_neg": -0.240852,
+          "decoherence_coh": -0.054354
+        },
+        {
+          "layer": 22,
+          "neg": 0.186462,
+          "coh": 0.4445,
+          "purity": 0.6175,
+          "decoherence_neg": 0.186462,
+          "decoherence_coh": -0.143609
+        },
+        {
+          "layer": 23,
+          "neg": 0.097649,
+          "coh": 0.3828,
+          "purity": 0.6175,
+          "decoherence_neg": -0.088813,
+          "decoherence_coh": -0.061696
+        },
+        {
+          "layer": 24,
+          "neg": 0.188273,
+          "coh": 0.5832,
+          "purity": 0.6175,
+          "decoherence_neg": 0.090624,
+          "decoherence_coh": 0.200394
+        },
+        {
+          "layer": 25,
+          "neg": 0.184065,
+          "coh": 0.353,
+          "purity": 0.6175,
+          "decoherence_neg": -0.004208,
+          "decoherence_coh": -0.230162
+        },
+        {
+          "layer": 26,
+          "neg": 0.092542,
+          "coh": 0.4114,
+          "purity": 0.6175,
+          "decoherence_neg": -0.091523,
+          "decoherence_coh": 0.058369
+        },
+        {
+          "layer": 27,
+          "neg": 0.0,
+          "coh": 0.162,
+          "purity": 0.6175,
+          "decoherence_neg": -0.092542,
+          "decoherence_coh": -0.249432
+        },
+        {
+          "layer": 28,
+          "neg": 0.022966,
+          "coh": 0.3911,
+          "purity": 0.6175,
+          "decoherence_neg": 0.022966,
+          "decoherence_coh": 0.2291
+        }
+      ]
+    },
+    {
+      "prompt": "thermodynamic entropy heat tra",
+      "layers": [
+        {
+          "layer": 0,
+          "neg": 0.051457,
+          "coh": 0.3978,
+          "purity": 0.6175,
+          "decoherence_neg": 0,
+          "decoherence_coh": 0
+        },
+        {
+          "layer": 1,
+          "neg": 0.177715,
+          "coh": 0.5463,
+          "purity": 0.6175,
+          "decoherence_neg": 0.126258,
+          "decoherence_coh": 0.14849
+        },
+        {
+          "layer": 2,
+          "neg": 0.028251,
+          "coh": 0.3709,
+          "purity": 0.6175,
+          "decoherence_neg": -0.149465,
+          "decoherence_coh": -0.175345
+        },
+        {
+          "layer": 3,
+          "neg": 0.042904,
+          "coh": 0.4976,
+          "purity": 0.6175,
+          "decoherence_neg": 0.014653,
+          "decoherence_coh": 0.126664
+        },
+        {
+          "layer": 4,
+          "neg": 0.257759,
+          "coh": 0.3363,
+          "purity": 0.6175,
+          "decoherence_neg": 0.214855,
+          "decoherence_coh": -0.161334
+        },
+        {
+          "layer": 5,
+          "neg": 0.020363,
+          "coh": 0.3616,
+          "purity": 0.6175,
+          "decoherence_neg": -0.237396,
+          "decoherence_coh": 0.025342
+        },
+        {
+          "layer": 6,
+          "neg": 0.087764,
+          "coh": 0.3764,
+          "purity": 0.6175,
+          "decoherence_neg": 0.067402,
+          "decoherence_coh": 0.014831
+        },
+        {
+          "layer": 7,
+          "neg": 0.0363,
+          "coh": 0.2916,
+          "purity": 0.6175,
+          "decoherence_neg": -0.051464,
+          "decoherence_coh": -0.084822
+        },
+        {
+          "layer": 8,
+          "neg": 0.106661,
+          "coh": 0.4686,
+          "purity": 0.6175,
+          "decoherence_neg": 0.070361,
+          "decoherence_coh": 0.177005
+        },
+        {
+          "layer": 9,
+          "neg": 0.108096,
+          "coh": 0.6127,
+          "purity": 0.6175,
+          "decoherence_neg": 0.001435,
+          "decoherence_coh": 0.144059
+        },
+        {
+          "layer": 10,
+          "neg": 0.261218,
+          "coh": 0.573,
+          "purity": 0.6175,
+          "decoherence_neg": 0.153122,
+          "decoherence_coh": -0.039708
+        },
+        {
+          "layer": 11,
+          "neg": 0.0,
+          "coh": 0.3424,
+          "purity": 0.6175,
+          "decoherence_neg": -0.261218,
+          "decoherence_coh": -0.230622
+        },
+        {
+          "layer": 12,
+          "neg": 0.0,
+          "coh": 0.3257,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.016626
+        },
+        {
+          "layer": 13,
+          "neg": 0.0,
+          "coh": 0.3792,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.053513
+        },
+        {
+          "layer": 14,
+          "neg": 0.083269,
+          "coh": 0.4216,
+          "purity": 0.6175,
+          "decoherence_neg": 0.083269,
+          "decoherence_coh": 0.042337
+        },
+        {
+          "layer": 15,
+          "neg": 0.0,
+          "coh": 0.2982,
+          "purity": 0.6175,
+          "decoherence_neg": -0.083269,
+          "decoherence_coh": -0.123345
+        },
+        {
+          "layer": 16,
+          "neg": 0.053509,
+          "coh": 0.3554,
+          "purity": 0.6175,
+          "decoherence_neg": 0.053509,
+          "decoherence_coh": 0.057151
+        },
+        {
+          "layer": 17,
+          "neg": 0.017571,
+          "coh": 0.3662,
+          "purity": 0.6175,
+          "decoherence_neg": -0.035938,
+          "decoherence_coh": 0.010806
+        },
+        {
+          "layer": 18,
+          "neg": 0.022364,
+          "coh": 0.3659,
+          "purity": 0.6175,
+          "decoherence_neg": 0.004793,
+          "decoherence_coh": -0.000258
+        },
+        {
+          "layer": 19,
+          "neg": 0.080113,
+          "coh": 0.4153,
+          "purity": 0.6175,
+          "decoherence_neg": 0.057749,
+          "decoherence_coh": 0.049394
+        },
+        {
+          "layer": 20,
+          "neg": 0.100521,
+          "coh": 0.495,
+          "purity": 0.6175,
+          "decoherence_neg": 0.020408,
+          "decoherence_coh": 0.079656
+        },
+        {
+          "layer": 21,
+          "neg": 0.099432,
+          "coh": 0.6074,
+          "purity": 0.6175,
+          "decoherence_neg": -0.001088,
+          "decoherence_coh": 0.112468
+        },
+        {
+          "layer": 22,
+          "neg": 0.0,
+          "coh": 0.1904,
+          "purity": 0.6175,
+          "decoherence_neg": -0.099432,
+          "decoherence_coh": -0.417092
+        },
+        {
+          "layer": 23,
+          "neg": 0.0,
+          "coh": 0.459,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.268686
+        },
+        {
+          "layer": 24,
+          "neg": 0.199335,
+          "coh": 0.354,
+          "purity": 0.6175,
+          "decoherence_neg": 0.199335,
+          "decoherence_coh": -0.105074
+        },
+        {
+          "layer": 25,
+          "neg": 0.195576,
+          "coh": 0.373,
+          "purity": 0.6175,
+          "decoherence_neg": -0.003759,
+          "decoherence_coh": 0.019015
+        },
+        {
+          "layer": 26,
+          "neg": 0.217243,
+          "coh": 0.4301,
+          "purity": 0.6175,
+          "decoherence_neg": 0.021668,
+          "decoherence_coh": 0.057142
+        },
+        {
+          "layer": 27,
+          "neg": 0.205121,
+          "coh": 0.2657,
+          "purity": 0.6175,
+          "decoherence_neg": -0.012122,
+          "decoherence_coh": -0.164411
+        },
+        {
+          "layer": 28,
+          "neg": 0.027712,
+          "coh": 0.1877,
+          "purity": 0.6175,
+          "decoherence_neg": -0.177409,
+          "decoherence_coh": -0.07799
+        }
+      ]
+    },
+    {
+      "prompt": "quantum computing error correc",
+      "layers": [
+        {
+          "layer": 0,
+          "neg": 0.231028,
+          "coh": 0.5372,
+          "purity": 0.6175,
+          "decoherence_neg": 0,
+          "decoherence_coh": 0
+        },
+        {
+          "layer": 1,
+          "neg": 0.0,
+          "coh": 0.4867,
+          "purity": 0.6175,
+          "decoherence_neg": -0.231028,
+          "decoherence_coh": -0.050477
+        },
+        {
+          "layer": 2,
+          "neg": 0.0,
+          "coh": 0.3371,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.14958
+        },
+        {
+          "layer": 3,
+          "neg": 0.0,
+          "coh": 0.6023,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.265156
+        },
+        {
+          "layer": 4,
+          "neg": 0.227248,
+          "coh": 0.4832,
+          "purity": 0.6175,
+          "decoherence_neg": 0.227248,
+          "decoherence_coh": -0.119051
+        },
+        {
+          "layer": 5,
+          "neg": 0.061846,
+          "coh": 0.3539,
+          "purity": 0.6175,
+          "decoherence_neg": -0.165403,
+          "decoherence_coh": -0.129286
+        },
+        {
+          "layer": 6,
+          "neg": 0.0,
+          "coh": 0.2866,
+          "purity": 0.6175,
+          "decoherence_neg": -0.061846,
+          "decoherence_coh": -0.067327
+        },
+        {
+          "layer": 7,
+          "neg": 0.178316,
+          "coh": 0.4952,
+          "purity": 0.6175,
+          "decoherence_neg": 0.178316,
+          "decoherence_coh": 0.208583
+        },
+        {
+          "layer": 8,
+          "neg": 0.013728,
+          "coh": 0.2615,
+          "purity": 0.6175,
+          "decoherence_neg": -0.164588,
+          "decoherence_coh": -0.233739
+        },
+        {
+          "layer": 9,
+          "neg": 0.0,
+          "coh": 0.3875,
+          "purity": 0.6175,
+          "decoherence_neg": -0.013728,
+          "decoherence_coh": 0.126073
+        },
+        {
+          "layer": 10,
+          "neg": 0.0,
+          "coh": 0.181,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.206479
+        },
+        {
+          "layer": 11,
+          "neg": 0.008333,
+          "coh": 0.2212,
+          "purity": 0.6175,
+          "decoherence_neg": 0.008333,
+          "decoherence_coh": 0.040142
+        },
+        {
+          "layer": 12,
+          "neg": 0.065663,
+          "coh": 0.3879,
+          "purity": 0.6175,
+          "decoherence_neg": 0.05733,
+          "decoherence_coh": 0.166739
+        },
+        {
+          "layer": 13,
+          "neg": 0.0,
+          "coh": 0.3127,
+          "purity": 0.6175,
+          "decoherence_neg": -0.065663,
+          "decoherence_coh": -0.075234
+        },
+        {
+          "layer": 14,
+          "neg": 0.071074,
+          "coh": 0.2833,
+          "purity": 0.6175,
+          "decoherence_neg": 0.071074,
+          "decoherence_coh": -0.029444
+        },
+        {
+          "layer": 15,
+          "neg": 0.02499,
+          "coh": 0.3683,
+          "purity": 0.6175,
+          "decoherence_neg": -0.046083,
+          "decoherence_coh": 0.085053
+        },
+        {
+          "layer": 16,
+          "neg": 0.0,
+          "coh": 0.3425,
+          "purity": 0.6175,
+          "decoherence_neg": -0.02499,
+          "decoherence_coh": -0.025844
+        },
+        {
+          "layer": 17,
+          "neg": 0.0,
+          "coh": 0.3985,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.056043
+        },
+        {
+          "layer": 18,
+          "neg": 0.0,
+          "coh": 0.3206,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": -0.077907
+        },
+        {
+          "layer": 19,
+          "neg": 0.0,
+          "coh": 0.6988,
+          "purity": 0.6175,
+          "decoherence_neg": 0.0,
+          "decoherence_coh": 0.378162
+        },
+        {
+          "layer": 20,
+          "neg": 0.019774,
+          "coh": 0.6198,
+          "purity": 0.6175,
+          "decoherence_neg": 0.019774,
+          "decoherence_coh": -0.079007
+        },
+        {
+          "layer": 21,
+          "neg": 0.051345,
+          "coh": 0.3157,
+          "purity": 0.6175,
+          "decoherence_neg": 0.031571,
+          "decoherence_coh": -0.304042
+        },
+        {
+          "layer": 22,
+          "neg": 0.188607,
+          "coh": 0.3716,
+          "purity": 0.6175,
+          "decoherence_neg": 0.137262,
+          "decoherence_coh": 0.055876
+        },
+        {
+          "layer": 23,
+          "neg": 0.21676,
+          "coh": 0.3845,
+          "purity": 0.6175,
+          "decoherence_neg": 0.028153,
+          "decoherence_coh": 0.012916
+        },
+        {
+          "layer": 24,
+          "neg": 0.118898,
+          "coh": 0.4707,
+          "purity": 0.6175,
+          "decoherence_neg": -0.097862,
+          "decoherence_coh": 0.08621
+        },
+        {
+          "layer": 25,
+          "neg": 0.0,
+          "coh": 0.3275,
+          "purity": 0.6175,
+          "decoherence_neg": -0.118898,
+          "decoherence_coh": -0.143259
+        },
+        {
+          "layer": 26,
+          "neg": 0.10711,
+          "coh": 0.4503,
+          "purity": 0.6175,
+          "decoherence_neg": 0.10711,
+          "decoherence_coh": 0.122875
+        },
+        {
+          "layer": 27,
+          "neg": 0.102181,
+          "coh": 0.469,
+          "purity": 0.6175,
+          "decoherence_neg": -0.004929,
+          "decoherence_coh": 0.018624
+        },
+        {
+          "layer": 28,
+          "neg": 0.087143,
+          "coh": 0.3617,
+          "purity": 0.6175,
+          "decoherence_neg": -0.015038,
+          "decoherence_coh": -0.107266
+        }
+      ]
+    },
+    {
+      "prompt": "neural network deep learning",
+      "layers": [
+        {
+          "layer": 0,
+          "neg": 0.0,
+          "coh": 0.4362,
+          "purity": 0.6175,
+          "decoherence_neg": 0,
+          "decoherence_coh": 0
+        },
+        {
+          "layer": 1,
+          "neg": 0.20846,
+          "coh": 0.6057,
+          "purity": 0.6175,
+          "decoherence_neg": 0.20846,
+          "decoherence_coh": 0.169532
+        },
+        {
+          "layer": 2,
+          "neg": 0.197273,
+          "coh": 0.4962,
+          "purity": 0.6175,
+          "decoherence_neg": -0.011187,
+          "decoherence_coh": -0.109493
+        },
+        {
+          "layer": 3,
+          "neg": 0.07801,
+          "coh": 0.345,
+          "purity": 0.6175,
+          "decoherence_neg": -0.119263,
+          "decoherence_coh": -0.151192
+        },
+        {
+          "layer": 4,
+          "neg": 0.029825,
+          "coh": 0.2285,
+          "purity": 0.6175,
+          "decoherence_neg": -0.048185,
+          "decoherence_coh": -0.116479
+        },
+        {
+          "layer": 5,
+          "neg": 0.0,
+          "coh": 0.181,
+          "purity": 0.6175,
+          "decoherence_neg": -0.029825,
+          "decoherence_coh": -0.047513
+        },
+        {
+          "layer": 6,
+          "neg": 0.088228,
+          "coh": 0.387,
+          "purity": 0.6175,
+          "decoherence_neg": 0.088228,
+          "decoherence_coh": 0.206009
+        },
+        {
+          "layer": 7,
+          "neg": 0.167461,
+          "coh": 0.5517,
+          "purity": 0.6175,
+          "decoherence_neg": 0.079232,
+          "decoherence_coh": 0.164709
+        },
+        {
+          "layer": 8,
+          "neg": 0.077138,
+          "coh": 0.4355,
+          "purity": 0.6175,
+          "decoherence_neg": -0.090323,
+          "decoherence_coh": -0.116237
+        },
+        {
+          "layer": 9,
+          "neg": 0.085779,
+          "coh": 0.6426,
+          "purity": 0.6175,
+          "decoherence_neg": 0.008641,
+          "decoherence_coh": 0.207128
+        },
+        {
+          "layer": 10,
+          "neg": 0.133322,
+          "coh": 0.6056,
+          "purity": 0.6175,
+          "decoherence_neg": 0.047543,
+          "decoherence_coh": -0.037062
+        },
+        {
+          "layer": 11,
+          "neg": 0.249044,
+          "coh": 0.3973,
+          "purity": 0.6175,
+          "decoherence_neg": 0.115722,
+          "decoherence_coh": -0.208244
+        },
+        {
+          "layer": 12,
+          "neg": 0.015376,
+          "coh": 0.2818,
+          "purity": 0.6175,
+          "decoherence_neg": -0.233668,
+          "decoherence_coh": -0.115534
+        },
+        {
+          "layer": 13,
+          "neg": 0.256464,
+          "coh": 0.4414,
+          "purity": 0.6175,
+          "decoherence_neg": 0.241088,
+          "decoherence_coh": 0.159661
+        },
+        {
+          "layer": 14,
+          "neg": 0.002773,
+          "coh": 0.1788,
+          "purity": 0.6175,
+          "decoherence_neg": -0.253691,
+          "decoherence_coh": -0.262647
+        },
+        {
+          "layer": 15,
+          "neg": 0.230546,
+          "coh": 0.4311,
+          "purity": 0.6175,
+          "decoherence_neg": 0.227773,
+          "decoherence_coh": 0.25235
+        },
+        {
+          "layer": 16,
+          "neg": 0.139287,
+          "coh": 0.4417,
+          "purity": 0.6175,
+          "decoherence_neg": -0.091259,
+          "decoherence_coh": 0.010595
+        },
+        {
+          "layer": 17,
+          "neg": 0.033798,
+          "coh": 0.4664,
+          "purity": 0.6175,
+          "decoherence_neg": -0.105489,
+          "decoherence_coh": 0.024667
+        },
+        {
+          "layer": 18,
+          "neg": 0.117007,
+          "coh": 0.4028,
+          "purity": 0.6175,
+          "decoherence_neg": 0.083209,
+          "decoherence_coh": -0.063624
+        },
+        {
+          "layer": 19,
+          "neg": 0.007869,
+          "coh": 0.6384,
+          "purity": 0.6175,
+          "decoherence_neg": -0.109138,
+          "decoherence_coh": 0.235638
+        },
+        {
+          "layer": 20,
+          "neg": 0.0,
+          "coh": 0.5134,
+          "purity": 0.6175,
+          "decoherence_neg": -0.007869,
+          "decoherence_coh": -0.125015
+        },
+        {
+          "layer": 21,
+          "neg": 0.128145,
+          "coh": 0.5033,
+          "purity": 0.6175,
+          "decoherence_neg": 0.128145,
+          "decoherence_coh": -0.010073
+        },
+        {
+          "layer": 22,
+          "neg": 0.252723,
+          "coh": 0.3467,
+          "purity": 0.6175,
+          "decoherence_neg": 0.124578,
+          "decoherence_coh": -0.156586
+        },
+        {
+          "layer": 23,
+          "neg": 0.056273,
+          "coh": 0.1203,
+          "purity": 0.6175,
+          "decoherence_neg": -0.19645,
+          "decoherence_coh": -0.226424
+        },
+        {
+          "layer": 24,
+          "neg": 0.149835,
+          "coh": 0.2127,
+          "purity": 0.6175,
+          "decoherence_neg": 0.093562,
+          "decoherence_coh": 0.092411
+        },
+        {
+          "layer": 25,
+          "neg": 0.236912,
+          "coh": 0.3222,
+          "purity": 0.6175,
+          "decoherence_neg": 0.087077,
+          "decoherence_coh": 0.109467
+        },
+        {
+          "layer": 26,
+          "neg": 0.229007,
+          "coh": 0.6132,
+          "purity": 0.6175,
+          "decoherence_neg": -0.007905,
+          "decoherence_coh": 0.291023
+        },
+        {
+          "layer": 27,
+          "neg": 0.225346,
+          "coh": 0.6143,
+          "purity": 0.6175,
+          "decoherence_neg": -0.003661,
+          "decoherence_coh": 0.001041
+        },
+        {
+          "layer": 28,
+          "neg": 0.0,
+          "coh": 0.2263,
+          "purity": 0.6175,
+          "decoherence_neg": -0.225346,
+          "decoherence_coh": -0.387955
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "transition_layer": 22,
+    "max_decoherence": -0.126968,
+    "verdict": "Quantum-Classical transition at layer 22 (max decoherence=-0.1270)"
+  },
+  "elapsed": 2.68
+}

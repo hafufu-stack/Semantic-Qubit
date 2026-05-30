@@ -1,0 +1,97 @@
+{
+  "phase": "Q239",
+  "name": "Semantic-Dependent Quantum Properties",
+  "categories": {
+    "quantum": {
+      "prompts": [
+        "quantum entanglement between p",
+        "Bell state preparation",
+        "superposition of quantum state",
+        "quantum teleportation protocol",
+        "Schrodinger cat alive and dead",
+        "quantum tunneling through barr"
+      ],
+      "negativities": [
+        0.0,
+        0.0,
+        0.005949,
+        0.0,
+        0.0,
+        0.045617
+      ],
+      "coherences": [
+        0.3888,
+        0.3604,
+        0.3589,
+        0.3215,
+        0.6092,
+        0.3915
+      ],
+      "avg_neg": 0.008594,
+      "avg_coh": 0.405
+    },
+    "classical": {
+      "prompts": [
+        "classical mechanics Newton law",
+        "thermodynamic heat engine",
+        "electromagnetic wave propagati",
+        "fluid dynamics turbulence",
+        "gravitational force between ma",
+        "statistical mechanics ensemble"
+      ],
+      "negativities": [
+        0.003298,
+        0.103373,
+        0.269713,
+        0.025888,
+        0.221694,
+        0.210629
+      ],
+      "coherences": [
+        0.4998,
+        0.1924,
+        0.4657,
+        0.2586,
+        0.6225,
+        0.418
+      ],
+      "avg_neg": 0.139099,
+      "avg_coh": 0.4095
+    },
+    "neutral": {
+      "prompts": [
+        "the weather is sunny today",
+        "cooking recipe for pasta",
+        "history of ancient Rome",
+        "mathematical proof by inductio",
+        "programming in Python language",
+        "music theory chord progression"
+      ],
+      "negativities": [
+        0.00255,
+        0.109192,
+        0.0,
+        0.09409,
+        0.0,
+        0.043614
+      ],
+      "coherences": [
+        0.5361,
+        0.3218,
+        0.3759,
+        0.4564,
+        0.4915,
+        0.391
+      ],
+      "avg_neg": 0.041574,
+      "avg_coh": 0.4288
+    }
+  },
+  "summary": {
+    "t_stat": -2.8432,
+    "p_value": 0.0175,
+    "p_value_qn": 0.1577,
+    "verdict": "REVERSE COUPLING: classical prompts more entangled (p=0.017)"
+  },
+  "elapsed": 3.01
+}

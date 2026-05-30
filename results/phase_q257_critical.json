@@ -1,0 +1,14 @@
+{
+  "phase": "Q257",
+  "name": "Quantum Critical Exponents",
+  "critical_layer": 22,
+  "peak_susceptibility_layer": 0,
+  "min_correlation_layer": 1,
+  "order_drop": -0.0174,
+  "critical_exponent_beta": 0.056,
+  "summary": {
+    "is_critical": false,
+    "verdict": "NOT CRITICAL: susc peak at L0 (expected L22), order drop=-0.017"
+  },
+  "elapsed": 2.11
+}

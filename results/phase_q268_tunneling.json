@@ -1,0 +1,40 @@
+{
+  "phase": "Q268",
+  "name": "Macroscopic Quantum Tunneling",
+  "pairs": [
+    {
+      "source": "apple fruit tree",
+      "target": "black hole singularity",
+      "cos_baseline": 0.5454,
+      "cos_classical": 1.0,
+      "cos_quantum": 0.9994,
+      "improvement_pct": -0.1,
+      "tunneled": false
+    },
+    {
+      "source": "snow white cold",
+      "target": "desert heat sand",
+      "cos_baseline": 0.3887,
+      "cos_classical": 1.0,
+      "cos_quantum": 1.0,
+      "improvement_pct": -0.0,
+      "tunneled": false
+    },
+    {
+      "source": "love happiness joy",
+      "target": "entropy chaos death",
+      "cos_baseline": 0.1769,
+      "cos_classical": 1.0,
+      "cos_quantum": 1.0,
+      "improvement_pct": -0.0,
+      "tunneled": false
+    }
+  ],
+  "summary": {
+    "n_tunneled": 0,
+    "total": 3,
+    "avg_improvement": -0.0,
+    "verdict": "NO TUNNELING: classical >= quantum in all cases"
+  },
+  "elapsed": 73.48
+}

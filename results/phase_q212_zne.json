@@ -1,0 +1,148 @@
+{
+  "phase": "Q212",
+  "name": "Zero-Noise Extrapolation",
+  "molecules": [
+    {
+      "molecule": "H2",
+      "dim": 4,
+      "E_exact": -0.884997,
+      "clean": {
+        "E": -0.884997,
+        "error_mHa": 0.0
+      },
+      "noisy": [
+        {
+          "noise": 0.05,
+          "E": -0.884994,
+          "error_mHa": 0.0022
+        },
+        {
+          "noise": 0.1,
+          "E": -0.884516,
+          "error_mHa": 0.4808
+        },
+        {
+          "noise": 0.15,
+          "E": -0.884806,
+          "error_mHa": 0.1907
+        },
+        {
+          "noise": 0.2,
+          "E": -0.884365,
+          "error_mHa": 0.6318
+        },
+        {
+          "noise": 0.25,
+          "E": -0.884972,
+          "error_mHa": 0.0242
+        }
+      ],
+      "zne": {
+        "E": -0.88551,
+        "error_mHa": 0.5132
+      },
+      "zne_full": {
+        "E": -0.885088,
+        "error_mHa": 0.0916
+      },
+      "improvement_over_noisy": 0.0
+    },
+    {
+      "molecule": "LiH",
+      "dim": 8,
+      "E_exact": -1.263212,
+      "clean": {
+        "E": -1.263212,
+        "error_mHa": 0.0
+      },
+      "noisy": [
+        {
+          "noise": 0.05,
+          "E": -1.262559,
+          "error_mHa": 0.6527
+        },
+        {
+          "noise": 0.1,
+          "E": -1.261337,
+          "error_mHa": 1.8752
+        },
+        {
+          "noise": 0.15,
+          "E": -1.261339,
+          "error_mHa": 1.8726
+        },
+        {
+          "noise": 0.2,
+          "E": -1.262351,
+          "error_mHa": 0.8609
+        },
+        {
+          "noise": 0.25,
+          "E": -1.261788,
+          "error_mHa": 1.424
+        }
+      ],
+      "zne": {
+        "E": -1.263197,
+        "error_mHa": 0.0147
+      },
+      "zne_full": {
+        "E": -1.263209,
+        "error_mHa": 0.0027
+      },
+      "improvement_over_noisy": 44.39
+    },
+    {
+      "molecule": "BeH2",
+      "dim": 16,
+      "E_exact": -1.553581,
+      "clean": {
+        "E": -1.553581,
+        "error_mHa": 0.0002
+      },
+      "noisy": [
+        {
+          "noise": 0.05,
+          "E": -1.551748,
+          "error_mHa": 1.8336
+        },
+        {
+          "noise": 0.1,
+          "E": -1.541263,
+          "error_mHa": 12.3178
+        },
+        {
+          "noise": 0.15,
+          "E": -1.549287,
+          "error_mHa": 4.2943
+        },
+        {
+          "noise": 0.2,
+          "E": -1.551708,
+          "error_mHa": 1.873
+        },
+        {
+          "noise": 0.25,
+          "E": -1.550478,
+          "error_mHa": 3.1037
+        }
+      ],
+      "zne": {
+        "E": -1.552978,
+        "error_mHa": 0.6035
+      },
+      "zne_full": {
+        "E": -1.553474,
+        "error_mHa": 0.1076
+      },
+      "improvement_over_noisy": 3.04
+    }
+  ],
+  "summary": {
+    "avg_zne_error_mHa": 0.3771,
+    "avg_noisy_error_mHa": 0.8295,
+    "avg_improvement": 15.81,
+    "verdict": "ZNE SUCCESS: 15.8x improvement over best noisy"
+  },
+  "elapsed": 333.7
+}

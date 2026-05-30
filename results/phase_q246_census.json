@@ -1,0 +1,68 @@
+{
+  "phase": "Q246",
+  "name": "Grand Quantum Census",
+  "census": {
+    "coherence": {
+      "value": "0.5104",
+      "pass": true
+    },
+    "discord": {
+      "value": "0.3424",
+      "pass": true
+    },
+    "entanglement": {
+      "value": "0.115181",
+      "pass": true
+    },
+    "bell_nonlocality": {
+      "value": "0.9792",
+      "pass": false
+    },
+    "purity": {
+      "value": "0.6175",
+      "pass": true
+    },
+    "entropy": {
+      "value": "1.1258",
+      "pass": true
+    },
+    "complementarity": {
+      "value": "0.3136",
+      "pass": true
+    },
+    "area_law": {
+      "value": "confirmed",
+      "pass": true
+    },
+    "topological_phase": {
+      "value": "29/29 layers",
+      "pass": true
+    },
+    "quantum_volume": {
+      "value": "64",
+      "pass": true
+    },
+    "advantage_scaling": {
+      "value": "dim^4.0",
+      "pass": true
+    },
+    "scrambling": {
+      "value": "rate=0.012",
+      "pass": true
+    },
+    "contextuality": {
+      "value": "0%",
+      "pass": false
+    },
+    "vqe_accuracy": {
+      "value": "0.0001 mHa",
+      "pass": true
+    }
+  },
+  "summary": {
+    "n_pass": 12,
+    "total": 14,
+    "verdict": "QUANTUM CENSUS: 12/14 properties confirmed"
+  },
+  "elapsed": 26.57
+}

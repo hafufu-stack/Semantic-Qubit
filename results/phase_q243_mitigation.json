@@ -1,0 +1,36 @@
+{
+  "phase": "Q243",
+  "name": "Error Mitigation Portfolio",
+  "dimensions": [
+    {
+      "dim": 4,
+      "clean": 0.0001,
+      "raw": 398.3217,
+      "zne": 1.2695,
+      "symmetry": 81.6295,
+      "combined": 11.7261
+    },
+    {
+      "dim": 8,
+      "clean": 0.0013,
+      "raw": 173.8093,
+      "zne": 54.0198,
+      "symmetry": 118.5166,
+      "combined": 223.8097
+    }
+  ],
+  "summary": {
+    "best_techniques": [
+      {
+        "method": "ZNE",
+        "improvement": 313.8
+      },
+      {
+        "method": "ZNE",
+        "improvement": 3.2
+      }
+    ],
+    "verdict": "Best mitigation: ZNE(313.8x), ZNE(3.2x)"
+  },
+  "elapsed": 333.01
+}

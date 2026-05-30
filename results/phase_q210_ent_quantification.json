@@ -1,0 +1,653 @@
+{
+  "phase": "Q210",
+  "name": "Entanglement Quantification",
+  "layer_data": {
+    "0": {
+      "negativity": 0.080782,
+      "log_negativity": 0.21432,
+      "concurrence": 0.161564,
+      "ent_entropy": 0.6967
+    },
+    "2": {
+      "negativity": 0.025762,
+      "log_negativity": 0.067587,
+      "concurrence": 0.051525,
+      "ent_entropy": 0.6438
+    },
+    "4": {
+      "negativity": 0.072411,
+      "log_negativity": 0.180136,
+      "concurrence": 0.144823,
+      "ent_entropy": 0.7023
+    },
+    "6": {
+      "negativity": 0.103883,
+      "log_negativity": 0.25785,
+      "concurrence": 0.207766,
+      "ent_entropy": 0.7421
+    },
+    "8": {
+      "negativity": 0.045897,
+      "log_negativity": 0.121341,
+      "concurrence": 0.091794,
+      "ent_entropy": 0.6594
+    },
+    "10": {
+      "negativity": 0.096726,
+      "log_negativity": 0.235622,
+      "concurrence": 0.193451,
+      "ent_entropy": 0.7326
+    },
+    "12": {
+      "negativity": 0.137593,
+      "log_negativity": 0.325154,
+      "concurrence": 0.275185,
+      "ent_entropy": 0.8012
+    },
+    "14": {
+      "negativity": 0.093088,
+      "log_negativity": 0.228849,
+      "concurrence": 0.186175,
+      "ent_entropy": 0.7292
+    },
+    "16": {
+      "negativity": 0.052232,
+      "log_negativity": 0.125928,
+      "concurrence": 0.104465,
+      "ent_entropy": 0.6798
+    },
+    "18": {
+      "negativity": 0.113099,
+      "log_negativity": 0.282703,
+      "concurrence": 0.226198,
+      "ent_entropy": 0.7482
+    },
+    "20": {
+      "negativity": 0.159033,
+      "log_negativity": 0.383058,
+      "concurrence": 0.318066,
+      "ent_entropy": 0.8183
+    },
+    "22": {
+      "negativity": 0.102502,
+      "log_negativity": 0.248018,
+      "concurrence": 0.205004,
+      "ent_entropy": 0.7448
+    },
+    "24": {
+      "negativity": 0.200418,
+      "log_negativity": 0.47755,
+      "concurrence": 0.400836,
+      "ent_entropy": 0.8746
+    },
+    "26": {
+      "negativity": 0.133704,
+      "log_negativity": 0.327482,
+      "concurrence": 0.267409,
+      "ent_entropy": 0.7802
+    },
+    "28": {
+      "negativity": 0.020742,
+      "log_negativity": 0.057476,
+      "concurrence": 0.041484,
+      "ent_entropy": 0.6406
+    }
+  },
+  "per_prompt": {
+    "quantum entanglement between t": [
+      {
+        "negativity": 0.036495,
+        "log_negativity": 0.101636,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6536,
+        "concurrence": 0.072989,
+        "layer": 0
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6115,
+        "concurrence": 0.0,
+        "layer": 2
+      },
+      {
+        "negativity": 0.04893,
+        "log_negativity": 0.134694,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6638,
+        "concurrence": 0.09786,
+        "layer": 4
+      },
+      {
+        "negativity": 0.259092,
+        "log_negativity": 0.602347,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9684,
+        "concurrence": 0.518185,
+        "layer": 6
+      },
+      {
+        "negativity": 0.076431,
+        "log_negativity": 0.20522,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6897,
+        "concurrence": 0.152862,
+        "layer": 8
+      },
+      {
+        "negativity": 0.173093,
+        "log_negativity": 0.428878,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.8162,
+        "concurrence": 0.346186,
+        "layer": 10
+      },
+      {
+        "negativity": 0.267695,
+        "log_negativity": 0.618605,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9853,
+        "concurrence": 0.535389,
+        "layer": 12
+      },
+      {
+        "negativity": 0.101986,
+        "log_negativity": 0.267802,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.718,
+        "concurrence": 0.203972,
+        "layer": 14
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6106,
+        "concurrence": 0.0,
+        "layer": 16
+      },
+      {
+        "negativity": 0.124302,
+        "log_negativity": 0.320316,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.7458,
+        "concurrence": 0.248604,
+        "layer": 18
+      },
+      {
+        "negativity": 0.243179,
+        "log_negativity": 0.571781,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9377,
+        "concurrence": 0.486357,
+        "layer": 20
+      },
+      {
+        "negativity": 0.108437,
+        "log_negativity": 0.28318,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.7258,
+        "concurrence": 0.216874,
+        "layer": 22
+      },
+      {
+        "negativity": 0.253364,
+        "log_negativity": 0.591418,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9572,
+        "concurrence": 0.506727,
+        "layer": 24
+      },
+      {
+        "negativity": 0.101468,
+        "log_negativity": 0.266561,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.7174,
+        "concurrence": 0.202937,
+        "layer": 26
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6239,
+        "concurrence": 0.0,
+        "layer": 28
+      }
+    ],
+    "Bell state maximally entangled": [
+      {
+        "negativity": 0.076451,
+        "log_negativity": 0.205271,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6897,
+        "concurrence": 0.152903,
+        "layer": 0
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6161,
+        "concurrence": 0.0,
+        "layer": 2
+      },
+      {
+        "negativity": 0.218405,
+        "log_negativity": 0.522869,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.8922,
+        "concurrence": 0.43681,
+        "layer": 4
+      },
+      {
+        "negativity": 0.061254,
+        "log_negativity": 0.166727,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6748,
+        "concurrence": 0.122509,
+        "layer": 6
+      },
+      {
+        "negativity": 0.107158,
+        "log_negativity": 0.280144,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.7242,
+        "concurrence": 0.214316,
+        "layer": 8
+      },
+      {
+        "negativity": 0.21381,
+        "log_negativity": 0.513611,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.8841,
+        "concurrence": 0.427619,
+        "layer": 10
+      },
+      {
+        "negativity": 0.242434,
+        "log_negativity": 0.570334,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9363,
+        "concurrence": 0.484867,
+        "layer": 12
+      },
+      {
+        "negativity": 0.243892,
+        "log_negativity": 0.573165,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9391,
+        "concurrence": 0.487784,
+        "layer": 14
+      },
+      {
+        "negativity": 0.20893,
+        "log_negativity": 0.503714,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.8755,
+        "concurrence": 0.417859,
+        "layer": 16
+      },
+      {
+        "negativity": 0.216335,
+        "log_negativity": 0.518707,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.8885,
+        "concurrence": 0.43267,
+        "layer": 18
+      },
+      {
+        "negativity": 0.265362,
+        "log_negativity": 0.614214,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9807,
+        "concurrence": 0.530724,
+        "layer": 20
+      },
+      {
+        "negativity": 0.272783,
+        "log_negativity": 0.628135,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9955,
+        "concurrence": 0.545566,
+        "layer": 22
+      },
+      {
+        "negativity": 0.269305,
+        "log_negativity": 0.621628,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9886,
+        "concurrence": 0.538611,
+        "layer": 24
+      },
+      {
+        "negativity": 0.273969,
+        "log_negativity": 0.630348,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.9979,
+        "concurrence": 0.547938,
+        "layer": 26
+      },
+      {
+        "negativity": 0.045387,
+        "log_negativity": 0.125352,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6608,
+        "concurrence": 0.090774,
+        "layer": 28
+      }
+    ],
+    "superposition of spin up and s": [
+      {
+        "negativity": 0.100748,
+        "log_negativity": 0.264832,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.7165,
+        "concurrence": 0.201496,
+        "layer": 0
+      },
+      {
+        "negativity": 0.10305,
+        "log_negativity": 0.270349,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.7193,
+        "concurrence": 0.2061,
+        "layer": 2
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6099,
+        "concurrence": 0.0,
+        "layer": 4
+      },
+      {
+        "negativity": 0.045545,
+        "log_negativity": 0.125769,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6609,
+        "concurrence": 0.091089,
+        "layer": 6
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6116,
+        "concurrence": 0.0,
+        "layer": 8
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6166,
+        "concurrence": 0.0,
+        "layer": 10
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6267,
+        "concurrence": 0.0,
+        "layer": 12
+      },
+      {
+        "negativity": 0.026472,
+        "log_negativity": 0.074429,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6462,
+        "concurrence": 0.052944,
+        "layer": 14
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6101,
+        "concurrence": 0.0,
+        "layer": 16
+      },
+      {
+        "negativity": 0.001449,
+        "log_negativity": 0.004176,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6306,
+        "concurrence": 0.002899,
+        "layer": 18
+      },
+      {
+        "negativity": 0.05638,
+        "log_negativity": 0.154143,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6703,
+        "concurrence": 0.11276,
+        "layer": 20
+      },
+      {
+        "negativity": 0.028787,
+        "log_negativity": 0.080758,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6479,
+        "concurrence": 0.057574,
+        "layer": 22
+      },
+      {
+        "negativity": 0.199795,
+        "log_negativity": 0.485003,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.8598,
+        "concurrence": 0.399589,
+        "layer": 24
+      },
+      {
+        "negativity": 0.136026,
+        "log_negativity": 0.347158,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.7616,
+        "concurrence": 0.272053,
+        "layer": 26
+      },
+      {
+        "negativity": 0.03758,
+        "log_negativity": 0.104551,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6545,
+        "concurrence": 0.07516,
+        "layer": 28
+      }
+    ],
+    "hydrogen molecule covalent bon": [
+      {
+        "negativity": 0.109433,
+        "log_negativity": 0.28554,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.727,
+        "concurrence": 0.218866,
+        "layer": 0
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6284,
+        "concurrence": 0.0,
+        "layer": 2
+      },
+      {
+        "negativity": 0.02231,
+        "log_negativity": 0.062979,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6433,
+        "concurrence": 0.044621,
+        "layer": 4
+      },
+      {
+        "negativity": 0.04964,
+        "log_negativity": 0.136558,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6644,
+        "concurrence": 0.099279,
+        "layer": 6
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6122,
+        "concurrence": 0.0,
+        "layer": 8
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6135,
+        "concurrence": 0.0,
+        "layer": 10
+      },
+      {
+        "negativity": 0.040242,
+        "log_negativity": 0.111678,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6566,
+        "concurrence": 0.080484,
+        "layer": 12
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6135,
+        "concurrence": 0.0,
+        "layer": 14
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.623,
+        "concurrence": 0.0,
+        "layer": 16
+      },
+      {
+        "negativity": 0.110309,
+        "log_negativity": 0.287612,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.728,
+        "concurrence": 0.220618,
+        "layer": 18
+      },
+      {
+        "negativity": 0.071211,
+        "log_negativity": 0.192096,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6844,
+        "concurrence": 0.142422,
+        "layer": 20
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6098,
+        "concurrence": 0.0,
+        "layer": 22
+      },
+      {
+        "negativity": 0.079207,
+        "log_negativity": 0.212152,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6926,
+        "concurrence": 0.158415,
+        "layer": 24
+      },
+      {
+        "negativity": 0.023354,
+        "log_negativity": 0.065859,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.644,
+        "concurrence": 0.046708,
+        "layer": 26
+      },
+      {
+        "negativity": 0.0,
+        "log_negativity": 0.0,
+        "purity": 0.6175,
+        "vn_entropy": 1.1258,
+        "entanglement_entropy": 0.6233,
+        "concurrence": 0.0,
+        "layer": 28
+      }
+    ]
+  },
+  "summary": {
+    "peak_layer": 24,
+    "peak_log_negativity": 0.47755,
+    "trend_per_layer": 0.009247,
+    "verdict": "GROWING: entanglement increases with depth (peak at L24, log_neg=0.478)"
+  },
+  "elapsed": 4.81
+}

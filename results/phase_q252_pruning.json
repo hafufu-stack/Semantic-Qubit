@@ -1,0 +1,32 @@
+{
+  "phase": "Q252",
+  "name": "Entanglement-Guided Pruning",
+  "neuron_entanglement": [
+    0.0,
+    -0.037663,
+    -0.011938,
+    -0.077362,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "vqe_errors": {
+    "full": 0.0001,
+    "prune_low_ent": 570.8619,
+    "prune_high_ent": 0.0001,
+    "prune_random": 570.8619
+  },
+  "summary": {
+    "verdict": "NO CLEAR GUIDANCE: high-ent prune=0.0001, low-ent prune=570.8619"
+  },
+  "elapsed": 116.82
+}

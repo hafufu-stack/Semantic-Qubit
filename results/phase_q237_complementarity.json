@@ -1,0 +1,973 @@
+{
+  "phase": "Q237",
+  "name": "Coherence-Entanglement Complementarity",
+  "data": [
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 0,
+      "coherence": 0.4877,
+      "entanglement": 0.4486,
+      "sum_sq": 0.4391,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 2,
+      "coherence": 0.6486,
+      "entanglement": 0.122,
+      "sum_sq": 0.4356,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 4,
+      "coherence": 0.3898,
+      "entanglement": 0.4643,
+      "sum_sq": 0.3676,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 6,
+      "coherence": 0.3708,
+      "entanglement": 0.0691,
+      "sum_sq": 0.1423,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 8,
+      "coherence": 0.3219,
+      "entanglement": 0.0,
+      "sum_sq": 0.1036,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 10,
+      "coherence": 0.4451,
+      "entanglement": 0.1983,
+      "sum_sq": 0.2374,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 12,
+      "coherence": 0.3779,
+      "entanglement": 0.0852,
+      "sum_sq": 0.15,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 14,
+      "coherence": 0.3814,
+      "entanglement": 0.1832,
+      "sum_sq": 0.179,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 16,
+      "coherence": 0.4766,
+      "entanglement": 0.2197,
+      "sum_sq": 0.2754,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 18,
+      "coherence": 0.5234,
+      "entanglement": 0.0,
+      "sum_sq": 0.2739,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 20,
+      "coherence": 0.639,
+      "entanglement": 0.0,
+      "sum_sq": 0.4084,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 22,
+      "coherence": 0.618,
+      "entanglement": 0.0,
+      "sum_sq": 0.382,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 24,
+      "coherence": 0.6792,
+      "entanglement": 0.0372,
+      "sum_sq": 0.4627,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 26,
+      "coherence": 0.4966,
+      "entanglement": 0.0,
+      "sum_sq": 0.2467,
+      "respects": true
+    },
+    {
+      "prompt": "quantum coherent superpos",
+      "layer": 28,
+      "coherence": 0.5971,
+      "entanglement": 0.0,
+      "sum_sq": 0.3565,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 0,
+      "coherence": 0.5197,
+      "entanglement": 0.147,
+      "sum_sq": 0.2917,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 2,
+      "coherence": 0.1615,
+      "entanglement": 0.0108,
+      "sum_sq": 0.0262,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 4,
+      "coherence": 0.2387,
+      "entanglement": 0.0102,
+      "sum_sq": 0.0571,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 6,
+      "coherence": 0.3133,
+      "entanglement": 0.1665,
+      "sum_sq": 0.1259,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 8,
+      "coherence": 0.2177,
+      "entanglement": 0.1095,
+      "sum_sq": 0.0594,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 10,
+      "coherence": 0.2163,
+      "entanglement": 0.0,
+      "sum_sq": 0.0468,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 12,
+      "coherence": 0.1053,
+      "entanglement": 0.0,
+      "sum_sq": 0.0111,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 14,
+      "coherence": 0.0983,
+      "entanglement": 0.0235,
+      "sum_sq": 0.0102,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 16,
+      "coherence": 0.0782,
+      "entanglement": 0.0,
+      "sum_sq": 0.0061,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 18,
+      "coherence": 0.0948,
+      "entanglement": 0.0238,
+      "sum_sq": 0.0095,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 20,
+      "coherence": 0.163,
+      "entanglement": 0.0,
+      "sum_sq": 0.0266,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 22,
+      "coherence": 0.1632,
+      "entanglement": 0.0,
+      "sum_sq": 0.0266,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 24,
+      "coherence": 0.3602,
+      "entanglement": 0.2523,
+      "sum_sq": 0.1934,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 26,
+      "coherence": 0.5008,
+      "entanglement": 0.2967,
+      "sum_sq": 0.3388,
+      "respects": true
+    },
+    {
+      "prompt": "decoherence thermal bath",
+      "layer": 28,
+      "coherence": 0.5204,
+      "entanglement": 0.4061,
+      "sum_sq": 0.4358,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 0,
+      "coherence": 0.0902,
+      "entanglement": 0.0,
+      "sum_sq": 0.0081,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 2,
+      "coherence": 0.1061,
+      "entanglement": 0.0772,
+      "sum_sq": 0.0172,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 4,
+      "coherence": 0.4303,
+      "entanglement": 0.329,
+      "sum_sq": 0.2934,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 6,
+      "coherence": 0.4493,
+      "entanglement": 0.2889,
+      "sum_sq": 0.2854,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 8,
+      "coherence": 0.3623,
+      "entanglement": 0.0708,
+      "sum_sq": 0.1363,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 10,
+      "coherence": 0.3293,
+      "entanglement": 0.0,
+      "sum_sq": 0.1084,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 12,
+      "coherence": 0.3325,
+      "entanglement": 0.0,
+      "sum_sq": 0.1106,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 14,
+      "coherence": 0.2679,
+      "entanglement": 0.0,
+      "sum_sq": 0.0718,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 16,
+      "coherence": 0.4033,
+      "entanglement": 0.1052,
+      "sum_sq": 0.1737,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 18,
+      "coherence": 0.3741,
+      "entanglement": 0.0377,
+      "sum_sq": 0.1414,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 20,
+      "coherence": 0.5811,
+      "entanglement": 0.0073,
+      "sum_sq": 0.3377,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 22,
+      "coherence": 0.6006,
+      "entanglement": 0.0,
+      "sum_sq": 0.3607,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 24,
+      "coherence": 0.6462,
+      "entanglement": 0.0,
+      "sum_sq": 0.4175,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 26,
+      "coherence": 0.5591,
+      "entanglement": 0.0,
+      "sum_sq": 0.3125,
+      "respects": true
+    },
+    {
+      "prompt": "entangled Bell pair",
+      "layer": 28,
+      "coherence": 0.3929,
+      "entanglement": 0.1228,
+      "sum_sq": 0.1695,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 0,
+      "coherence": 0.5268,
+      "entanglement": 0.5456,
+      "sum_sq": 0.5752,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 2,
+      "coherence": 0.6303,
+      "entanglement": 0.448,
+      "sum_sq": 0.598,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 4,
+      "coherence": 0.4834,
+      "entanglement": 0.0,
+      "sum_sq": 0.2336,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 6,
+      "coherence": 0.2893,
+      "entanglement": 0.0134,
+      "sum_sq": 0.0838,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 8,
+      "coherence": 0.1303,
+      "entanglement": 0.0,
+      "sum_sq": 0.017,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 10,
+      "coherence": 0.4,
+      "entanglement": 0.3122,
+      "sum_sq": 0.2575,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 12,
+      "coherence": 0.5091,
+      "entanglement": 0.3944,
+      "sum_sq": 0.4147,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 14,
+      "coherence": 0.356,
+      "entanglement": 0.2512,
+      "sum_sq": 0.1898,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 16,
+      "coherence": 0.3612,
+      "entanglement": 0.3198,
+      "sum_sq": 0.2327,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 18,
+      "coherence": 0.5042,
+      "entanglement": 0.0698,
+      "sum_sq": 0.2591,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 20,
+      "coherence": 0.4261,
+      "entanglement": 0.1445,
+      "sum_sq": 0.2024,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 22,
+      "coherence": 0.4682,
+      "entanglement": 0.0303,
+      "sum_sq": 0.2201,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 24,
+      "coherence": 0.6082,
+      "entanglement": 0.082,
+      "sum_sq": 0.3766,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 26,
+      "coherence": 0.5155,
+      "entanglement": 0.1361,
+      "sum_sq": 0.2843,
+      "respects": true
+    },
+    {
+      "prompt": "separable product state",
+      "layer": 28,
+      "coherence": 0.3791,
+      "entanglement": 0.139,
+      "sum_sq": 0.1631,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 0,
+      "coherence": 0.2976,
+      "entanglement": 0.0,
+      "sum_sq": 0.0886,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 2,
+      "coherence": 0.2246,
+      "entanglement": 0.0456,
+      "sum_sq": 0.0525,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 4,
+      "coherence": 0.3813,
+      "entanglement": 0.3933,
+      "sum_sq": 0.3001,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 6,
+      "coherence": 0.2848,
+      "entanglement": 0.0,
+      "sum_sq": 0.0811,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 8,
+      "coherence": 0.5115,
+      "entanglement": 0.0,
+      "sum_sq": 0.2616,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 10,
+      "coherence": 0.5365,
+      "entanglement": 0.116,
+      "sum_sq": 0.3013,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 12,
+      "coherence": 0.1746,
+      "entanglement": 0.0,
+      "sum_sq": 0.0305,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 14,
+      "coherence": 0.1411,
+      "entanglement": 0.0,
+      "sum_sq": 0.0199,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 16,
+      "coherence": 0.337,
+      "entanglement": 0.2023,
+      "sum_sq": 0.1545,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 18,
+      "coherence": 0.5327,
+      "entanglement": 0.5037,
+      "sum_sq": 0.5376,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 20,
+      "coherence": 0.407,
+      "entanglement": 0.2552,
+      "sum_sq": 0.2308,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 22,
+      "coherence": 0.4423,
+      "entanglement": 0.1699,
+      "sum_sq": 0.2245,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 24,
+      "coherence": 0.5871,
+      "entanglement": 0.0,
+      "sum_sq": 0.3447,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 26,
+      "coherence": 0.5779,
+      "entanglement": 0.0,
+      "sum_sq": 0.334,
+      "respects": true
+    },
+    {
+      "prompt": "GHZ state multipartite",
+      "layer": 28,
+      "coherence": 0.4061,
+      "entanglement": 0.0729,
+      "sum_sq": 0.1703,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 0,
+      "coherence": 0.5268,
+      "entanglement": 0.5456,
+      "sum_sq": 0.5752,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 2,
+      "coherence": 0.5542,
+      "entanglement": 0.0,
+      "sum_sq": 0.3071,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 4,
+      "coherence": 0.3918,
+      "entanglement": 0.1149,
+      "sum_sq": 0.1667,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 6,
+      "coherence": 0.3617,
+      "entanglement": 0.204,
+      "sum_sq": 0.1724,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 8,
+      "coherence": 0.4011,
+      "entanglement": 0.0,
+      "sum_sq": 0.1609,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 10,
+      "coherence": 0.3674,
+      "entanglement": 0.1289,
+      "sum_sq": 0.1516,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 12,
+      "coherence": 0.5677,
+      "entanglement": 0.0,
+      "sum_sq": 0.3223,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 14,
+      "coherence": 0.461,
+      "entanglement": 0.0,
+      "sum_sq": 0.2125,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 16,
+      "coherence": 0.2636,
+      "entanglement": 0.0,
+      "sum_sq": 0.0695,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 18,
+      "coherence": 0.2638,
+      "entanglement": 0.0,
+      "sum_sq": 0.0696,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 20,
+      "coherence": 0.266,
+      "entanglement": 0.4878,
+      "sum_sq": 0.3087,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 22,
+      "coherence": 0.5668,
+      "entanglement": 0.5084,
+      "sum_sq": 0.5796,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 24,
+      "coherence": 0.4737,
+      "entanglement": 0.3484,
+      "sum_sq": 0.3458,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 26,
+      "coherence": 0.3131,
+      "entanglement": 0.0,
+      "sum_sq": 0.098,
+      "respects": true
+    },
+    {
+      "prompt": "vacuum ground state",
+      "layer": 28,
+      "coherence": 0.4231,
+      "entanglement": 0.2075,
+      "sum_sq": 0.222,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 0,
+      "coherence": 0.5268,
+      "entanglement": 0.5456,
+      "sum_sq": 0.5752,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 2,
+      "coherence": 0.3907,
+      "entanglement": 0.0789,
+      "sum_sq": 0.1589,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 4,
+      "coherence": 0.3875,
+      "entanglement": 0.0949,
+      "sum_sq": 0.1592,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 6,
+      "coherence": 0.2627,
+      "entanglement": 0.118,
+      "sum_sq": 0.0829,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 8,
+      "coherence": 0.4269,
+      "entanglement": 0.3837,
+      "sum_sq": 0.3295,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 10,
+      "coherence": 0.5154,
+      "entanglement": 0.3055,
+      "sum_sq": 0.3589,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 12,
+      "coherence": 0.2987,
+      "entanglement": 0.0,
+      "sum_sq": 0.0892,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 14,
+      "coherence": 0.3716,
+      "entanglement": 0.0408,
+      "sum_sq": 0.1398,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 16,
+      "coherence": 0.3539,
+      "entanglement": 0.093,
+      "sum_sq": 0.1339,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 18,
+      "coherence": 0.4456,
+      "entanglement": 0.0,
+      "sum_sq": 0.1986,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 20,
+      "coherence": 0.3707,
+      "entanglement": 0.0681,
+      "sum_sq": 0.1421,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 22,
+      "coherence": 0.4733,
+      "entanglement": 0.0005,
+      "sum_sq": 0.224,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 24,
+      "coherence": 0.4647,
+      "entanglement": 0.206,
+      "sum_sq": 0.2584,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 26,
+      "coherence": 0.4161,
+      "entanglement": 0.1488,
+      "sum_sq": 0.1952,
+      "respects": true
+    },
+    {
+      "prompt": "Schrodinger cat state",
+      "layer": 28,
+      "coherence": 0.353,
+      "entanglement": 0.1354,
+      "sum_sq": 0.143,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 0,
+      "coherence": 0.4492,
+      "entanglement": 0.3791,
+      "sum_sq": 0.3455,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 2,
+      "coherence": 0.0182,
+      "entanglement": 0.0,
+      "sum_sq": 0.0003,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 4,
+      "coherence": 0.1012,
+      "entanglement": 0.0,
+      "sum_sq": 0.0102,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 6,
+      "coherence": 0.2842,
+      "entanglement": 0.0806,
+      "sum_sq": 0.0873,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 8,
+      "coherence": 0.2934,
+      "entanglement": 0.0588,
+      "sum_sq": 0.0895,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 10,
+      "coherence": 0.2455,
+      "entanglement": 0.0,
+      "sum_sq": 0.0603,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 12,
+      "coherence": 0.1681,
+      "entanglement": 0.0064,
+      "sum_sq": 0.0283,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 14,
+      "coherence": 0.1774,
+      "entanglement": 0.0953,
+      "sum_sq": 0.0406,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 16,
+      "coherence": 0.1762,
+      "entanglement": 0.0,
+      "sum_sq": 0.0311,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 18,
+      "coherence": 0.2659,
+      "entanglement": 0.0,
+      "sum_sq": 0.0707,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 20,
+      "coherence": 0.1992,
+      "entanglement": 0.0172,
+      "sum_sq": 0.04,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 22,
+      "coherence": 0.2245,
+      "entanglement": 0.0,
+      "sum_sq": 0.0504,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 24,
+      "coherence": 0.1211,
+      "entanglement": 0.0,
+      "sum_sq": 0.0147,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 26,
+      "coherence": 0.0946,
+      "entanglement": 0.0,
+      "sum_sq": 0.0089,
+      "respects": true
+    },
+    {
+      "prompt": "laser coherent light",
+      "layer": 28,
+      "coherence": 0.1162,
+      "entanglement": 0.0,
+      "sum_sq": 0.0135,
+      "respects": true
+    }
+  ],
+  "summary": {
+    "n_respects": 120,
+    "total": 120,
+    "avg_sum_sq": 0.2013,
+    "verdict": "COMPLEMENTARITY OBEYED: 120/120 (avg C^2+E^2=0.201)"
+  },
+  "elapsed": 2.86
+}

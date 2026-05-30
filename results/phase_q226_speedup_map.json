@@ -1,0 +1,107 @@
+{
+  "phase": "Q226",
+  "name": "Quantum Speedup Map",
+  "benchmarks": [
+    {
+      "problem": "SYK",
+      "dim": 4,
+      "vqe_error_mHa": 0.0,
+      "vqe_time": 17.61,
+      "sa_error_mHa": 0.7289,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 999
+    },
+    {
+      "problem": "SYK",
+      "dim": 8,
+      "vqe_error_mHa": 0.0002,
+      "vqe_time": 17.47,
+      "sa_error_mHa": 48.2751,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 202480.64
+    },
+    {
+      "problem": "SYK",
+      "dim": 16,
+      "vqe_error_mHa": 0.0001,
+      "vqe_time": 17.6,
+      "sa_error_mHa": 311.0098,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 2608939.35
+    },
+    {
+      "problem": "Ising",
+      "dim": 4,
+      "vqe_error_mHa": 0.0001,
+      "vqe_time": 18.15,
+      "sa_error_mHa": 0.5399,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 999
+    },
+    {
+      "problem": "Ising",
+      "dim": 8,
+      "vqe_error_mHa": 0.0001,
+      "vqe_time": 17.88,
+      "sa_error_mHa": 28.7311,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 999
+    },
+    {
+      "problem": "Ising",
+      "dim": 16,
+      "vqe_error_mHa": 0.0001,
+      "vqe_time": 17.29,
+      "sa_error_mHa": 233.1111,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 1955477.45
+    },
+    {
+      "problem": "Hubbard",
+      "dim": 4,
+      "vqe_error_mHa": 0.0,
+      "vqe_time": 17.18,
+      "sa_error_mHa": 0.8799,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 999
+    },
+    {
+      "problem": "Hubbard",
+      "dim": 8,
+      "vqe_error_mHa": 0.0,
+      "vqe_time": 17.2,
+      "sa_error_mHa": 17.7902,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 999
+    },
+    {
+      "problem": "Hubbard",
+      "dim": 16,
+      "vqe_error_mHa": 0.0001,
+      "vqe_time": 17.2,
+      "sa_error_mHa": 187.5,
+      "sa_time": 0.03,
+      "winner": "S-QUBIT",
+      "accuracy_ratio": 999
+    }
+  ],
+  "summary": {
+    "squbit_wins": 9,
+    "total": 9,
+    "by_type": {
+      "SYK": "3/3",
+      "Ising": "3/3",
+      "Hubbard": "3/3"
+    },
+    "verdict": "S-Qubit wins 9/9 overall (SYK:3/3, Ising:3/3, Hubbard:3/3)"
+  },
+  "elapsed": 159.63
+}

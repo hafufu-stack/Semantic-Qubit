@@ -1,0 +1,331 @@
+{
+  "phase": "Q225",
+  "name": "Quantum Discord",
+  "prompts": [
+    {
+      "prompt": "quantum entanglement between partic",
+      "layers": [
+        {
+          "layer": 0,
+          "discord": 0.071703,
+          "mutual_info": 0.181487,
+          "classical_corr": 0.109784
+        },
+        {
+          "layer": 4,
+          "discord": 0.039732,
+          "mutual_info": 0.150478,
+          "classical_corr": 0.110746
+        },
+        {
+          "layer": 8,
+          "discord": 0.07575,
+          "mutual_info": 0.188953,
+          "classical_corr": 0.113203
+        },
+        {
+          "layer": 12,
+          "discord": 0.425714,
+          "mutual_info": 0.773524,
+          "classical_corr": 0.34781
+        },
+        {
+          "layer": 16,
+          "discord": 0.113631,
+          "mutual_info": 0.254117,
+          "classical_corr": 0.140486
+        },
+        {
+          "layer": 20,
+          "discord": 0.375763,
+          "mutual_info": 0.688637,
+          "classical_corr": 0.312875
+        },
+        {
+          "layer": 24,
+          "discord": 0.423914,
+          "mutual_info": 0.770904,
+          "classical_corr": 0.34699
+        },
+        {
+          "layer": 28,
+          "discord": 0.00637,
+          "mutual_info": 0.099832,
+          "classical_corr": 0.093462
+        }
+      ]
+    },
+    {
+      "prompt": "classical correlation coin flip",
+      "layers": [
+        {
+          "layer": 0,
+          "discord": 0.181876,
+          "mutual_info": 0.366572,
+          "classical_corr": 0.184696
+        },
+        {
+          "layer": 4,
+          "discord": 0.008716,
+          "mutual_info": 0.09456,
+          "classical_corr": 0.085844
+        },
+        {
+          "layer": 8,
+          "discord": 0.121232,
+          "mutual_info": 0.278473,
+          "classical_corr": 0.157241
+        },
+        {
+          "layer": 12,
+          "discord": 0.016342,
+          "mutual_info": 0.098236,
+          "classical_corr": 0.081894
+        },
+        {
+          "layer": 16,
+          "discord": 0.016756,
+          "mutual_info": 0.106174,
+          "classical_corr": 0.089418
+        },
+        {
+          "layer": 20,
+          "discord": 0.005247,
+          "mutual_info": 0.097281,
+          "classical_corr": 0.092033
+        },
+        {
+          "layer": 24,
+          "discord": 0.063469,
+          "mutual_info": 0.186754,
+          "classical_corr": 0.123285
+        },
+        {
+          "layer": 28,
+          "discord": 0.137503,
+          "mutual_info": 0.297231,
+          "classical_corr": 0.159729
+        }
+      ]
+    },
+    {
+      "prompt": "Bell state maximally entangled",
+      "layers": [
+        {
+          "layer": 0,
+          "discord": 0.106905,
+          "mutual_info": 0.253686,
+          "classical_corr": 0.146781
+        },
+        {
+          "layer": 4,
+          "discord": 0.358241,
+          "mutual_info": 0.658632,
+          "classical_corr": 0.300391
+        },
+        {
+          "layer": 8,
+          "discord": 0.149196,
+          "mutual_info": 0.322587,
+          "classical_corr": 0.173391
+        },
+        {
+          "layer": 12,
+          "discord": 0.408826,
+          "mutual_info": 0.746874,
+          "classical_corr": 0.338047
+        },
+        {
+          "layer": 16,
+          "discord": 0.336001,
+          "mutual_info": 0.62524,
+          "classical_corr": 0.289239
+        },
+        {
+          "layer": 20,
+          "discord": 0.461363,
+          "mutual_info": 0.835621,
+          "classical_corr": 0.374258
+        },
+        {
+          "layer": 24,
+          "discord": 0.47075,
+          "mutual_info": 0.851313,
+          "classical_corr": 0.380563
+        },
+        {
+          "layer": 28,
+          "discord": 0.071103,
+          "mutual_info": 0.195785,
+          "classical_corr": 0.124681
+        }
+      ]
+    },
+    {
+      "prompt": "thermal noise random process",
+      "layers": [
+        {
+          "layer": 0,
+          "discord": 0.157131,
+          "mutual_info": 0.329899,
+          "classical_corr": 0.172768
+        },
+        {
+          "layer": 4,
+          "discord": 0.004804,
+          "mutual_info": 0.099997,
+          "classical_corr": 0.095194
+        },
+        {
+          "layer": 8,
+          "discord": 0.020446,
+          "mutual_info": 0.111593,
+          "classical_corr": 0.091147
+        },
+        {
+          "layer": 12,
+          "discord": 0.016033,
+          "mutual_info": 0.116742,
+          "classical_corr": 0.100709
+        },
+        {
+          "layer": 16,
+          "discord": 0.008614,
+          "mutual_info": 0.104777,
+          "classical_corr": 0.096163
+        },
+        {
+          "layer": 20,
+          "discord": 0.199771,
+          "mutual_info": 0.402837,
+          "classical_corr": 0.203066
+        },
+        {
+          "layer": 24,
+          "discord": 0.273142,
+          "mutual_info": 0.512427,
+          "classical_corr": 0.239285
+        },
+        {
+          "layer": 28,
+          "discord": 0.184405,
+          "mutual_info": 0.370652,
+          "classical_corr": 0.186247
+        }
+      ]
+    },
+    {
+      "prompt": "superposition of quantum states",
+      "layers": [
+        {
+          "layer": 0,
+          "discord": 0.472579,
+          "mutual_info": 0.854648,
+          "classical_corr": 0.382069
+        },
+        {
+          "layer": 4,
+          "discord": 0.18776,
+          "mutual_info": 0.383407,
+          "classical_corr": 0.195646
+        },
+        {
+          "layer": 8,
+          "discord": 0.202004,
+          "mutual_info": 0.399132,
+          "classical_corr": 0.197128
+        },
+        {
+          "layer": 12,
+          "discord": 0.02394,
+          "mutual_info": 0.101505,
+          "classical_corr": 0.077565
+        },
+        {
+          "layer": 16,
+          "discord": 0.214061,
+          "mutual_info": 0.424259,
+          "classical_corr": 0.210198
+        },
+        {
+          "layer": 20,
+          "discord": 0.242295,
+          "mutual_info": 0.471756,
+          "classical_corr": 0.229461
+        },
+        {
+          "layer": 24,
+          "discord": 0.439934,
+          "mutual_info": 0.798993,
+          "classical_corr": 0.359059
+        },
+        {
+          "layer": 28,
+          "discord": 0.032597,
+          "mutual_info": 0.140365,
+          "classical_corr": 0.107768
+        }
+      ]
+    },
+    {
+      "prompt": "separable mixed quantum state",
+      "layers": [
+        {
+          "layer": 0,
+          "discord": 0.478907,
+          "mutual_info": 0.865368,
+          "classical_corr": 0.386461
+        },
+        {
+          "layer": 4,
+          "discord": 0.126458,
+          "mutual_info": 0.263704,
+          "classical_corr": 0.137246
+        },
+        {
+          "layer": 8,
+          "discord": 0.037029,
+          "mutual_info": 0.144331,
+          "classical_corr": 0.107302
+        },
+        {
+          "layer": 12,
+          "discord": 0.011985,
+          "mutual_info": 0.110449,
+          "classical_corr": 0.098464
+        },
+        {
+          "layer": 16,
+          "discord": 0.029413,
+          "mutual_info": 0.131733,
+          "classical_corr": 0.102321
+        },
+        {
+          "layer": 20,
+          "discord": 0.051167,
+          "mutual_info": 0.141391,
+          "classical_corr": 0.090224
+        },
+        {
+          "layer": 24,
+          "discord": 0.030633,
+          "mutual_info": 0.113117,
+          "classical_corr": 0.082484
+        },
+        {
+          "layer": 28,
+          "discord": 0.11887,
+          "mutual_info": 0.264739,
+          "classical_corr": 0.145869
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_discord": 0.166877,
+    "n_nonzero": 48,
+    "total": 48,
+    "verdict": "QUANTUM DISCORD: avg=0.1669 (48/48 nonzero)"
+  },
+  "elapsed": 2.06
+}

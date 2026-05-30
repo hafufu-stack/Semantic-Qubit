@@ -1,0 +1,145 @@
+{
+  "phase": "Q245",
+  "name": "Quantum Witness Hierarchy",
+  "data": [
+    {
+      "coherence": 0.19,
+      "has_coherence": true,
+      "discord_MI": 0.102,
+      "has_discord": true,
+      "negativity": 0.0,
+      "has_entanglement": false,
+      "bell_S": 0.892,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "quantum entanglement"
+    },
+    {
+      "coherence": 0.2885,
+      "has_coherence": true,
+      "discord_MI": 0.5118,
+      "has_discord": true,
+      "negativity": 0.174756,
+      "has_entanglement": true,
+      "bell_S": 1.0227,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "classical physics"
+    },
+    {
+      "coherence": 0.3638,
+      "has_coherence": true,
+      "discord_MI": 0.348,
+      "has_discord": true,
+      "negativity": 0.117392,
+      "has_entanglement": true,
+      "bell_S": 1.5297,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "superposition states"
+    },
+    {
+      "coherence": 0.1264,
+      "has_coherence": true,
+      "discord_MI": 0.1615,
+      "has_discord": true,
+      "negativity": 0.022816,
+      "has_entanglement": true,
+      "bell_S": 0.7572,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "Bell inequality"
+    },
+    {
+      "coherence": 0.5423,
+      "has_coherence": true,
+      "discord_MI": 0.402,
+      "has_discord": true,
+      "negativity": 0.137724,
+      "has_entanglement": true,
+      "bell_S": 1.0985,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "thermal noise"
+    },
+    {
+      "coherence": 0.2179,
+      "has_coherence": true,
+      "discord_MI": 0.1594,
+      "has_discord": true,
+      "negativity": 0.021253,
+      "has_entanglement": true,
+      "bell_S": 0.5584,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "quantum computing"
+    },
+    {
+      "coherence": 0.1711,
+      "has_coherence": true,
+      "discord_MI": 0.1016,
+      "has_discord": true,
+      "negativity": 0.0,
+      "has_entanglement": false,
+      "bell_S": 0.2671,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "machine learning"
+    },
+    {
+      "coherence": 0.4569,
+      "has_coherence": true,
+      "discord_MI": 0.3295,
+      "has_discord": true,
+      "negativity": 0.10997,
+      "has_entanglement": true,
+      "bell_S": 1.3793,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "protein folding"
+    },
+    {
+      "coherence": 0.4638,
+      "has_coherence": true,
+      "discord_MI": 0.1715,
+      "has_discord": true,
+      "negativity": 0.029859,
+      "has_entanglement": true,
+      "bell_S": 0.592,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "dark matter"
+    },
+    {
+      "coherence": 0.4937,
+      "has_coherence": true,
+      "discord_MI": 0.379,
+      "has_discord": true,
+      "negativity": 0.129274,
+      "has_entanglement": true,
+      "bell_S": 1.3528,
+      "has_bell": false,
+      "has_contextuality": false,
+      "prompt": "Shakespeare poetry"
+    }
+  ],
+  "counts": {
+    "L1_coherence": 10,
+    "L2_discord": 10,
+    "L3_entanglement": 8,
+    "L4_bell": 0,
+    "L5_contextuality": 0
+  },
+  "summary": {
+    "percentages": {
+      "L1_coherence": 100.0,
+      "L2_discord": 100.0,
+      "L3_entanglement": 80.0,
+      "L4_bell": 0.0,
+      "L5_contextuality": 0.0
+    },
+    "hierarchy_valid": true,
+    "verdict": "Hierarchy VALID: L1=100% >= L2=100% >= L3=80% >= L4=0% >= L5=0%"
+  },
+  "elapsed": 3.22
+}

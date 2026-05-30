@@ -1,0 +1,163 @@
+{
+  "phase": "Q208",
+  "name": "Quantum Advantage Scaling Law",
+  "dimensions": [
+    {
+      "dim": 2,
+      "avg_error_mHa": 0.0,
+      "avg_converged_step": 6.3,
+      "trials": [
+        {
+          "E_exact": -1.1851037237713318,
+          "E_final": -1.185104,
+          "error_mHa": 0.0001,
+          "converged_step": 4
+        },
+        {
+          "E_exact": -0.09130438989291219,
+          "E_final": -0.091304,
+          "error_mHa": 0.0,
+          "converged_step": 3
+        },
+        {
+          "E_exact": 0.0676618622127181,
+          "E_final": 0.067662,
+          "error_mHa": 0.0,
+          "converged_step": 12
+        }
+      ]
+    },
+    {
+      "dim": 4,
+      "avg_error_mHa": 0.0,
+      "avg_converged_step": 17.0,
+      "trials": [
+        {
+          "E_exact": -0.776593929717367,
+          "E_final": -0.776594,
+          "error_mHa": 0.0001,
+          "converged_step": 18
+        },
+        {
+          "E_exact": -0.1447151540788845,
+          "E_final": -0.144715,
+          "error_mHa": 0.0,
+          "converged_step": 14
+        },
+        {
+          "E_exact": -0.7919334989824416,
+          "E_final": -0.791933,
+          "error_mHa": 0.0,
+          "converged_step": 19
+        }
+      ]
+    },
+    {
+      "dim": 8,
+      "avg_error_mHa": 0.0001,
+      "avg_converged_step": 21.7,
+      "trials": [
+        {
+          "E_exact": -0.9710694918765351,
+          "E_final": -0.97107,
+          "error_mHa": 0.0,
+          "converged_step": 14
+        },
+        {
+          "E_exact": -1.6125848037075692,
+          "E_final": -1.612585,
+          "error_mHa": 0.0,
+          "converged_step": 30
+        },
+        {
+          "E_exact": -0.8105092281857812,
+          "E_final": -0.810509,
+          "error_mHa": 0.0002,
+          "converged_step": 21
+        }
+      ]
+    },
+    {
+      "dim": 16,
+      "avg_error_mHa": 0.3325,
+      "avg_converged_step": 86.0,
+      "trials": [
+        {
+          "E_exact": -1.788279955291427,
+          "E_final": -1.78828,
+          "error_mHa": 0.0002,
+          "converged_step": 43
+        },
+        {
+          "E_exact": -1.574864185391248,
+          "E_final": -1.574864,
+          "error_mHa": 0.0002,
+          "converged_step": 33
+        },
+        {
+          "E_exact": -1.8193269120956086,
+          "E_final": -1.81833,
+          "error_mHa": 0.9971,
+          "converged_step": 182
+        }
+      ]
+    },
+    {
+      "dim": 32,
+      "avg_error_mHa": 83.5264,
+      "avg_converged_step": 135.0,
+      "trials": [
+        {
+          "E_exact": -2.314861901159372,
+          "E_final": -2.064311,
+          "error_mHa": 250.5514,
+          "converged_step": 200
+        },
+        {
+          "E_exact": -2.4637237285302005,
+          "E_final": -2.463696,
+          "error_mHa": 0.0275,
+          "converged_step": 159
+        },
+        {
+          "E_exact": -2.360608186795878,
+          "E_final": -2.360608,
+          "error_mHa": 0.0002,
+          "converged_step": 46
+        }
+      ]
+    },
+    {
+      "dim": 64,
+      "avg_error_mHa": 6.3184,
+      "avg_converged_step": 141.7,
+      "trials": [
+        {
+          "E_exact": -3.271452783127147,
+          "E_final": -3.271452,
+          "error_mHa": 0.0004,
+          "converged_step": 112
+        },
+        {
+          "E_exact": -3.282438180917007,
+          "E_final": -3.263485,
+          "error_mHa": 18.953,
+          "converged_step": 200
+        },
+        {
+          "E_exact": -3.408154510270939,
+          "E_final": -3.408153,
+          "error_mHa": 0.0017,
+          "converged_step": 113
+        }
+      ]
+    }
+  ],
+  "scaling": {
+    "error_exponent_alpha": 5.5815,
+    "error_r_squared": 0.7132,
+    "convergence_exponent_beta": 0.9182,
+    "verdict": "UNFAVORABLE: error ~ dim^5.58 (super-linear)"
+  },
+  "elapsed": 655.6
+}

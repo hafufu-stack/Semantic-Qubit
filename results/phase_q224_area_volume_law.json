@@ -1,0 +1,373 @@
+{
+  "phase": "Q224",
+  "name": "Area Law vs Volume Law",
+  "data": [
+    {
+      "total_dim": 4,
+      "layer": 0,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.4188
+        }
+      ]
+    },
+    {
+      "total_dim": 4,
+      "layer": 14,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.249
+        }
+      ]
+    },
+    {
+      "total_dim": 4,
+      "layer": 28,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.4837
+        }
+      ]
+    },
+    {
+      "total_dim": 8,
+      "layer": 0,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.7403
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 0.7888
+        }
+      ]
+    },
+    {
+      "total_dim": 8,
+      "layer": 14,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.328
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 0.4461
+        }
+      ]
+    },
+    {
+      "total_dim": 8,
+      "layer": 28,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.8288
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 0.5975
+        }
+      ]
+    },
+    {
+      "total_dim": 16,
+      "layer": 0,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.8508
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 1.379
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 0.8149
+        }
+      ]
+    },
+    {
+      "total_dim": 16,
+      "layer": 14,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.6904
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 0.8575
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 0.6824
+        }
+      ]
+    },
+    {
+      "total_dim": 16,
+      "layer": 28,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.9316
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 1.3155
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 0.7872
+        }
+      ]
+    },
+    {
+      "total_dim": 32,
+      "layer": 0,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.8656
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 1.567
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 1.6212
+        },
+        {
+          "subsystem_size": 16,
+          "boundary_size": 16,
+          "volume": 16,
+          "entropy": 0.8994
+        }
+      ]
+    },
+    {
+      "total_dim": 32,
+      "layer": 14,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.6886
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 1.207
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 1.0671
+        },
+        {
+          "subsystem_size": 16,
+          "boundary_size": 16,
+          "volume": 16,
+          "entropy": 0.7288
+        }
+      ]
+    },
+    {
+      "total_dim": 32,
+      "layer": 28,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.8612
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 1.5023
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 1.4544
+        },
+        {
+          "subsystem_size": 16,
+          "boundary_size": 16,
+          "volume": 16,
+          "entropy": 0.9345
+        }
+      ]
+    },
+    {
+      "total_dim": 64,
+      "layer": 0,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.9701
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 1.8183
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 2.2748
+        },
+        {
+          "subsystem_size": 16,
+          "boundary_size": 16,
+          "volume": 16,
+          "entropy": 1.7934
+        },
+        {
+          "subsystem_size": 32,
+          "boundary_size": 32,
+          "volume": 32,
+          "entropy": 0.9574
+        }
+      ]
+    },
+    {
+      "total_dim": 64,
+      "layer": 14,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.925
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 1.6252
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 1.9277
+        },
+        {
+          "subsystem_size": 16,
+          "boundary_size": 16,
+          "volume": 16,
+          "entropy": 1.4804
+        },
+        {
+          "subsystem_size": 32,
+          "boundary_size": 32,
+          "volume": 32,
+          "entropy": 0.9028
+        }
+      ]
+    },
+    {
+      "total_dim": 64,
+      "layer": 28,
+      "entropies": [
+        {
+          "subsystem_size": 2,
+          "boundary_size": 2,
+          "volume": 2,
+          "entropy": 0.9655
+        },
+        {
+          "subsystem_size": 4,
+          "boundary_size": 4,
+          "volume": 4,
+          "entropy": 1.7688
+        },
+        {
+          "subsystem_size": 8,
+          "boundary_size": 8,
+          "volume": 8,
+          "entropy": 2.1412
+        },
+        {
+          "subsystem_size": 16,
+          "boundary_size": 16,
+          "volume": 16,
+          "entropy": 1.7065
+        },
+        {
+          "subsystem_size": 32,
+          "boundary_size": 32,
+          "volume": 32,
+          "entropy": 0.9479
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "law": "AREA LAW (or flat)",
+    "r2_volume": 0.1386,
+    "r2_log": 0.0009,
+    "verdict": "AREA LAW (or flat): S ~ const (R2_vol=0.139, R2_log=0.001)"
+  },
+  "elapsed": 9.83
+}

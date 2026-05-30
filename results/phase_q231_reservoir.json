@@ -1,0 +1,54 @@
+{
+  "phase": "Q231",
+  "name": "Quantum Reservoir Computing",
+  "tests": [
+    {
+      "task": "nonlinear_classification",
+      "layer": 0,
+      "reservoir_accuracy": 0.55,
+      "baseline_accuracy": 0.55,
+      "improvement": 0.0
+    },
+    {
+      "task": "nonlinear_classification",
+      "layer": 14,
+      "reservoir_accuracy": 0.45,
+      "baseline_accuracy": 0.55,
+      "improvement": -0.1818
+    },
+    {
+      "task": "nonlinear_classification",
+      "layer": 28,
+      "reservoir_accuracy": 0.8,
+      "baseline_accuracy": 0.55,
+      "improvement": 0.4545
+    },
+    {
+      "task": "time_series",
+      "layer": 0,
+      "reservoir_mse": 0.000101,
+      "baseline_mse": 0.000101,
+      "improvement": 0.0
+    },
+    {
+      "task": "time_series",
+      "layer": 14,
+      "reservoir_mse": 4.6e-05,
+      "baseline_mse": 0.000101,
+      "improvement": 0.5468
+    },
+    {
+      "task": "time_series",
+      "layer": 28,
+      "reservoir_mse": 3e-06,
+      "baseline_mse": 0.000101,
+      "improvement": 0.9735
+    }
+  ],
+  "summary": {
+    "n_improved": 3,
+    "avg_improvement": 0.2988,
+    "verdict": "QUANTUM RESERVOIR: avg 30% improvement (3/6 tasks)"
+  },
+  "elapsed": 15.18
+}

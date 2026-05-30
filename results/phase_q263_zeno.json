@@ -1,0 +1,47 @@
+{
+  "phase": "Q263",
+  "name": "Quantum Zeno Effect",
+  "configs": [
+    {
+      "label": "No obs",
+      "n_obs": 0,
+      "coherence": 0.2606,
+      "state_change": 0.1825
+    },
+    {
+      "label": "Every 7",
+      "n_obs": 4,
+      "coherence": 0.2606,
+      "state_change": 0.1825
+    },
+    {
+      "label": "Every 5",
+      "n_obs": 6,
+      "coherence": 0.2606,
+      "state_change": 0.1825
+    },
+    {
+      "label": "Every 3",
+      "n_obs": 10,
+      "coherence": 0.2606,
+      "state_change": 0.1825
+    },
+    {
+      "label": "Every 2",
+      "n_obs": 14,
+      "coherence": 0.2606,
+      "state_change": 0.1825
+    },
+    {
+      "label": "Every 1",
+      "n_obs": 28,
+      "coherence": 0.2606,
+      "state_change": 0.1825
+    }
+  ],
+  "summary": {
+    "zeno_gradient": 0.0,
+    "verdict": "NO ZENO: observation does not freeze evolution (0.182 -> 0.182)"
+  },
+  "elapsed": 5.48
+}

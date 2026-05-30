@@ -1,0 +1,246 @@
+{
+  "phase": "Q229",
+  "name": "Quantum Phase Diagram",
+  "layers": [
+    {
+      "negativity": 0.194804,
+      "coherence": 0.4545,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 0,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.252875,
+      "coherence": 0.3818,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 1,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.204274,
+      "coherence": 0.4524,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 2,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.20235,
+      "coherence": 0.3809,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 3,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.191346,
+      "coherence": 0.4008,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 4,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.20881,
+      "coherence": 0.4572,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 5,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.206644,
+      "coherence": 0.4086,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 6,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.226837,
+      "coherence": 0.419,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 7,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.193849,
+      "coherence": 0.3921,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 8,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.199617,
+      "coherence": 0.3778,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 9,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.182564,
+      "coherence": 0.3682,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 10,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.18933,
+      "coherence": 0.3972,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 11,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.204135,
+      "coherence": 0.3746,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 12,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.179421,
+      "coherence": 0.3769,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 13,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.17747,
+      "coherence": 0.3542,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 14,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.149796,
+      "coherence": 0.3101,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 15,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.128478,
+      "coherence": 0.328,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 16,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.176394,
+      "coherence": 0.3698,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 17,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.186357,
+      "coherence": 0.3925,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 18,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.190625,
+      "coherence": 0.4251,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 19,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.21588,
+      "coherence": 0.4237,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 20,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.235104,
+      "coherence": 0.4153,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 21,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.23342,
+      "coherence": 0.4282,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 22,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.201176,
+      "coherence": 0.4515,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 23,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.245509,
+      "coherence": 0.4458,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 24,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.231522,
+      "coherence": 0.4149,
+      "entropy": 1.5674,
+      "purity": 0.5537,
+      "layer": 25,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.270038,
+      "coherence": 0.4836,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 26,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.255854,
+      "coherence": 0.4556,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 27,
+      "phase": "Topological"
+    },
+    {
+      "negativity": 0.222221,
+      "coherence": 0.422,
+      "entropy": 1.5674,
+      "purity": 0.5538,
+      "layer": 28,
+      "phase": "Topological"
+    }
+  ],
+  "summary": {
+    "phase_counts": {
+      "Topological": 29
+    },
+    "dominant_phase": "Topological",
+    "verdict": "Dominant phase: Topological (29/29 layers). Phases: Topological:29"
+  },
+  "elapsed": 7.0
+}

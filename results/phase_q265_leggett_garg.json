@@ -1,0 +1,126 @@
+{
+  "phase": "Q265",
+  "name": "Leggett-Garg Inequality",
+  "measurements": [
+    {
+      "prompt": "quantum superposition state ev",
+      "layers": [
+        5,
+        15,
+        25
+      ],
+      "C12": 0.3457,
+      "C23": 0.6822,
+      "C13": 0.9053,
+      "K3": 0.1225,
+      "violated": false,
+      "nsit": 0.6695
+    },
+    {
+      "prompt": "quantum superposition state ev",
+      "layers": [
+        3,
+        14,
+        27
+      ],
+      "C12": -0.528,
+      "C23": 0.4608,
+      "C13": 0.0161,
+      "K3": -0.0832,
+      "violated": false,
+      "nsit": 0.2594
+    },
+    {
+      "prompt": "quantum superposition state ev",
+      "layers": [
+        8,
+        16,
+        24
+      ],
+      "C12": 0.4635,
+      "C23": 0.1472,
+      "C13": -0.801,
+      "K3": 1.4117,
+      "violated": true,
+      "nsit": 0.8692
+    },
+    {
+      "prompt": "quantum superposition state ev",
+      "layers": [
+        2,
+        11,
+        22
+      ],
+      "C12": -0.8117,
+      "C23": -0.431,
+      "C13": 0.1407,
+      "K3": -1.3834,
+      "violated": false,
+      "nsit": 0.2091
+    },
+    {
+      "prompt": "classical particle trajectory ",
+      "layers": [
+        5,
+        15,
+        25
+      ],
+      "C12": 0.7204,
+      "C23": 0.9709,
+      "C13": 0.709,
+      "K3": 0.9824,
+      "violated": false,
+      "nsit": 0.0095
+    },
+    {
+      "prompt": "classical particle trajectory ",
+      "layers": [
+        3,
+        14,
+        27
+      ],
+      "C12": 0.9814,
+      "C23": 0.8915,
+      "C13": 0.9063,
+      "K3": 0.9666,
+      "violated": false,
+      "nsit": 0.0313
+    },
+    {
+      "prompt": "classical particle trajectory ",
+      "layers": [
+        8,
+        16,
+        24
+      ],
+      "C12": 0.7625,
+      "C23": 0.9499,
+      "C13": 0.8112,
+      "K3": 0.9012,
+      "violated": false,
+      "nsit": 0.0869
+    },
+    {
+      "prompt": "classical particle trajectory ",
+      "layers": [
+        2,
+        11,
+        22
+      ],
+      "C12": 0.782,
+      "C23": 0.97,
+      "C13": 0.6353,
+      "K3": 1.1167,
+      "violated": true,
+      "nsit": 0.1233
+    }
+  ],
+  "summary": {
+    "n_violated": 6,
+    "total": 16,
+    "max_K3": 1.4117,
+    "avg_K3": 0.6975,
+    "verdict": "PARTIAL VIOLATION: 6/16 exceed K3=1 (max=1.412, avg=0.698)"
+  },
+  "elapsed": 4.56
+}

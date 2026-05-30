@@ -1,0 +1,60 @@
+{
+  "phase": "Q264",
+  "name": "Entanglement Monogamy",
+  "scenarios": [
+    {
+      "prompt": "quantum entanglement between three ",
+      "tau_AB": 0.0,
+      "tau_AC": 0.0,
+      "tau_ABC": 0.6518,
+      "ckw_satisfied": true,
+      "residual": 0.6518
+    },
+    {
+      "prompt": "classical information shared among ",
+      "tau_AB": 0.0475,
+      "tau_AC": 0.0547,
+      "tau_ABC": 0.4943,
+      "ckw_satisfied": true,
+      "residual": 0.3921
+    },
+    {
+      "prompt": "love triangle between three people",
+      "tau_AB": 0.1087,
+      "tau_AC": 0.0368,
+      "tau_ABC": 0.5339,
+      "ckw_satisfied": true,
+      "residual": 0.3884
+    },
+    {
+      "prompt": "energy transfer in molecular chains",
+      "tau_AB": 0.0,
+      "tau_AC": 0.0,
+      "tau_ABC": 0.588,
+      "ckw_satisfied": true,
+      "residual": 0.588
+    },
+    {
+      "prompt": "neural connections between brain re",
+      "tau_AB": 0.0094,
+      "tau_AC": 0.0023,
+      "tau_ABC": 0.3907,
+      "ckw_satisfied": true,
+      "residual": 0.379
+    },
+    {
+      "prompt": "gravitational interaction of three ",
+      "tau_AB": 0.1458,
+      "tau_AC": 0.0006,
+      "tau_ABC": 0.6466,
+      "ckw_satisfied": true,
+      "residual": 0.5001
+    }
+  ],
+  "summary": {
+    "n_satisfied": 6,
+    "total": 6,
+    "verdict": "MONOGAMY HOLDS: CKW satisfied 6/6 (quantum law obeyed!)"
+  },
+  "elapsed": 2.83
+}

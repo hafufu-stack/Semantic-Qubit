@@ -1,0 +1,64 @@
+{
+  "phase": "Q215b",
+  "name": "Entanglement Swapping (Fixed)",
+  "chains": [
+    {
+      "chain": "Full",
+      "layers": [
+        0,
+        14,
+        28
+      ],
+      "neg_AB": 0.0,
+      "neg_BC": 0.0,
+      "neg_AC": 0.0,
+      "neg_swap_pred": 0,
+      "gain": 0
+    },
+    {
+      "chain": "Early",
+      "layers": [
+        0,
+        7,
+        14
+      ],
+      "neg_AB": 0.0,
+      "neg_BC": 0.0,
+      "neg_AC": 0.0,
+      "neg_swap_pred": 0,
+      "gain": 0
+    },
+    {
+      "chain": "Middle",
+      "layers": [
+        7,
+        14,
+        21
+      ],
+      "neg_AB": 0.0,
+      "neg_BC": 0.0,
+      "neg_AC": 0.0,
+      "neg_swap_pred": 0,
+      "gain": 0
+    },
+    {
+      "chain": "Late",
+      "layers": [
+        14,
+        21,
+        28
+      ],
+      "neg_AB": 0.0,
+      "neg_BC": 0.0,
+      "neg_AC": 0.0,
+      "neg_swap_pred": 0,
+      "gain": 0
+    }
+  ],
+  "summary": {
+    "avg_gain": 0,
+    "monogamy_violations": 0,
+    "verdict": "NO TRANSITIVE ENTANGLEMENT"
+  },
+  "elapsed": 2.03
+}

@@ -1,0 +1,104 @@
+{
+  "phase": "Q218",
+  "name": "Quantum Fisher Information",
+  "layers": [
+    {
+      "layer": 0,
+      "avg_qfi": 983.06,
+      "avg_cfi": 766.6332,
+      "avg_heisenberg_ratio": 419.8271
+    },
+    {
+      "layer": 2,
+      "avg_qfi": 2.2429,
+      "avg_cfi": 2.1362,
+      "avg_heisenberg_ratio": 1.0338
+    },
+    {
+      "layer": 4,
+      "avg_qfi": 0.9835,
+      "avg_cfi": 1.1949,
+      "avg_heisenberg_ratio": 0.9228
+    },
+    {
+      "layer": 6,
+      "avg_qfi": 1.1349,
+      "avg_cfi": 1.0835,
+      "avg_heisenberg_ratio": 1.0163
+    },
+    {
+      "layer": 8,
+      "avg_qfi": 1.1897,
+      "avg_cfi": 1.1825,
+      "avg_heisenberg_ratio": 0.9996
+    },
+    {
+      "layer": 10,
+      "avg_qfi": 1.0276,
+      "avg_cfi": 1.0291,
+      "avg_heisenberg_ratio": 0.9964
+    },
+    {
+      "layer": 12,
+      "avg_qfi": 1.12,
+      "avg_cfi": 1.128,
+      "avg_heisenberg_ratio": 0.9992
+    },
+    {
+      "layer": 14,
+      "avg_qfi": 0.9298,
+      "avg_cfi": 0.9321,
+      "avg_heisenberg_ratio": 0.989
+    },
+    {
+      "layer": 16,
+      "avg_qfi": 0.869,
+      "avg_cfi": 0.8654,
+      "avg_heisenberg_ratio": 0.9978
+    },
+    {
+      "layer": 18,
+      "avg_qfi": 0.7266,
+      "avg_cfi": 0.7297,
+      "avg_heisenberg_ratio": 0.9929
+    },
+    {
+      "layer": 20,
+      "avg_qfi": 0.5054,
+      "avg_cfi": 0.5049,
+      "avg_heisenberg_ratio": 0.9955
+    },
+    {
+      "layer": 22,
+      "avg_qfi": 1.0425,
+      "avg_cfi": 1.0456,
+      "avg_heisenberg_ratio": 0.9833
+    },
+    {
+      "layer": 24,
+      "avg_qfi": 0.6074,
+      "avg_cfi": 0.5981,
+      "avg_heisenberg_ratio": 0.9954
+    },
+    {
+      "layer": 26,
+      "avg_qfi": 0.2569,
+      "avg_cfi": 0.2538,
+      "avg_heisenberg_ratio": 1.0105
+    },
+    {
+      "layer": 28,
+      "avg_qfi": 0.059,
+      "avg_cfi": 0.0599,
+      "avg_heisenberg_ratio": 0.9648
+    }
+  ],
+  "summary": {
+    "peak_layer": 0,
+    "peak_qfi": 983.06,
+    "avg_heisenberg_ratio": 28.915,
+    "n_super_heisenberg": 4,
+    "verdict": "QUANTUM SENSOR: avg Heisenberg ratio=28.9 (peak QFI at L0)"
+  },
+  "elapsed": 6.88
+}

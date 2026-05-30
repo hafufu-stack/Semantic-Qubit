@@ -1,0 +1,210 @@
+{
+  "phase": "Q214",
+  "name": "Quantum Channel Capacity",
+  "layers": [
+    {
+      "layer": 0,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.104099
+    },
+    {
+      "layer": 1,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.590584
+    },
+    {
+      "layer": 2,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.718434
+    },
+    {
+      "layer": 3,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.600273
+    },
+    {
+      "layer": 4,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.695012
+    },
+    {
+      "layer": 5,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.586618
+    },
+    {
+      "layer": 6,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.719756
+    },
+    {
+      "layer": 7,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.672954
+    },
+    {
+      "layer": 8,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.75855
+    },
+    {
+      "layer": 9,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.875271
+    },
+    {
+      "layer": 10,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.843198
+    },
+    {
+      "layer": 11,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.90258
+    },
+    {
+      "layer": 12,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.921487
+    },
+    {
+      "layer": 13,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.93593
+    },
+    {
+      "layer": 14,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.934363
+    },
+    {
+      "layer": 15,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.93439
+    },
+    {
+      "layer": 16,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.936312
+    },
+    {
+      "layer": 17,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.951116
+    },
+    {
+      "layer": 18,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.892396
+    },
+    {
+      "layer": 19,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.885537
+    },
+    {
+      "layer": 20,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.901254
+    },
+    {
+      "layer": 21,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.780986
+    },
+    {
+      "layer": 22,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.828022
+    },
+    {
+      "layer": 23,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.901791
+    },
+    {
+      "layer": 24,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.862396
+    },
+    {
+      "layer": 25,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.926249
+    },
+    {
+      "layer": 26,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.917185
+    },
+    {
+      "layer": 27,
+      "holevo": 0.0,
+      "coherent_info": 0.0,
+      "mutual_info": 0.0,
+      "overlap": 0.711952
+    }
+  ],
+  "summary": {
+    "highway_layer": 0,
+    "bottleneck_layer": 0,
+    "avg_holevo": 0.0,
+    "max_holevo": 0.0,
+    "verdict": "Highway=L0 (0.000 bits), Bottleneck=L0 (0.000 bits), Avg=0.000 bits"
+  },
+  "elapsed": 6.44
+}

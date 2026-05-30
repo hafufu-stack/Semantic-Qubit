@@ -1,0 +1,49 @@
+{
+  "phase": "Q260",
+  "name": "Environment-Assisted Quantum Transport",
+  "noise_sweep": [
+    {
+      "noise": 0.0,
+      "error": 0.001,
+      "efficiency": 0.1631
+    },
+    {
+      "noise": 0.01,
+      "error": 0.0086,
+      "efficiency": 0.1585
+    },
+    {
+      "noise": 0.05,
+      "error": 0.1001,
+      "efficiency": 0.1611
+    },
+    {
+      "noise": 0.1,
+      "error": 0.1936,
+      "efficiency": 0.1746
+    },
+    {
+      "noise": 0.2,
+      "error": 1.0529,
+      "efficiency": 0.1946
+    },
+    {
+      "noise": 0.5,
+      "error": 1.3371,
+      "efficiency": 0.1621
+    },
+    {
+      "noise": 1.0,
+      "error": 1.0509,
+      "efficiency": 0.1542
+    }
+  ],
+  "summary": {
+    "optimal_noise": 0.2,
+    "peak_eff": 0.1946,
+    "zero_noise_eff": 0.1631,
+    "enaqt": true,
+    "verdict": "ENAQT CONFIRMED: optimal noise=0.20 (eff=0.195 vs zero-noise=0.163)"
+  },
+  "elapsed": 782.14
+}

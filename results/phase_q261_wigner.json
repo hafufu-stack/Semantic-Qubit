@@ -1,0 +1,81 @@
+{
+  "phase": "Q261",
+  "name": "Wigner's Friend Paradox",
+  "scenarios": [
+    {
+      "prompt": "Schrodinger's cat is simultaneously aliv",
+      "friend": {
+        "entropy": 1.1258,
+        "coherence": 0.3092,
+        "negativity": 0.054457,
+        "purity": 0.6175
+      },
+      "wigner": {
+        "entropy": 1.1258,
+        "coherence": 0.1595,
+        "negativity": 0.0,
+        "purity": 0.6175
+      },
+      "overlap": -0.256,
+      "disagreement": 0.1497
+    },
+    {
+      "prompt": "The electron passes through both slits a",
+      "friend": {
+        "entropy": 1.1258,
+        "coherence": 0.2383,
+        "negativity": 0.054972,
+        "purity": 0.6175
+      },
+      "wigner": {
+        "entropy": 1.1258,
+        "coherence": 0.3877,
+        "negativity": 0.045607,
+        "purity": 0.6175
+      },
+      "overlap": -0.6664,
+      "disagreement": 0.1494
+    },
+    {
+      "prompt": "Quantum measurement collapses the wavefu",
+      "friend": {
+        "entropy": 1.1258,
+        "coherence": 0.3858,
+        "negativity": 0.074731,
+        "purity": 0.6175
+      },
+      "wigner": {
+        "entropy": 1.1258,
+        "coherence": 0.5273,
+        "negativity": 0.223211,
+        "purity": 0.6175
+      },
+      "overlap": 0.7162,
+      "disagreement": 0.1415
+    },
+    {
+      "prompt": "The moon exists even when nobody looks a",
+      "friend": {
+        "entropy": 1.1258,
+        "coherence": 0.5001,
+        "negativity": 0.130146,
+        "purity": 0.6175
+      },
+      "wigner": {
+        "entropy": 1.1258,
+        "coherence": 0.3056,
+        "negativity": 0.1423,
+        "purity": 0.6175
+      },
+      "overlap": 0.2141,
+      "disagreement": 0.1945
+    }
+  ],
+  "summary": {
+    "avg_overlap": 0.002,
+    "avg_disagreement": 0.1588,
+    "wigner_more_quantum": 2,
+    "verdict": "PARTIAL PARADOX: observers disagree (overlap=0.002)"
+  },
+  "elapsed": 12.28
+}

@@ -1,0 +1,763 @@
+{
+  "phase": "Q232",
+  "name": "Quantum Scrambling (OTOC)",
+  "prompts": [
+    {
+      "prompt": "black hole information paradox",
+      "otoc_data": [
+        {
+          "layer": 0,
+          "otoc": 0.131009
+        },
+        {
+          "layer": 1,
+          "otoc": 0.363466
+        },
+        {
+          "layer": 2,
+          "otoc": 0.649514
+        },
+        {
+          "layer": 3,
+          "otoc": 0.544825
+        },
+        {
+          "layer": 4,
+          "otoc": 0.060629
+        },
+        {
+          "layer": 5,
+          "otoc": 0.130375
+        },
+        {
+          "layer": 6,
+          "otoc": 8.1e-05
+        },
+        {
+          "layer": 7,
+          "otoc": 0.089582
+        },
+        {
+          "layer": 8,
+          "otoc": 0.078009
+        },
+        {
+          "layer": 9,
+          "otoc": 0.850641
+        },
+        {
+          "layer": 10,
+          "otoc": 0.53572
+        },
+        {
+          "layer": 11,
+          "otoc": 0.193325
+        },
+        {
+          "layer": 12,
+          "otoc": 0.824479
+        },
+        {
+          "layer": 13,
+          "otoc": 0.423671
+        },
+        {
+          "layer": 14,
+          "otoc": 0.212969
+        },
+        {
+          "layer": 15,
+          "otoc": 0.005663
+        },
+        {
+          "layer": 16,
+          "otoc": 0.009834
+        },
+        {
+          "layer": 17,
+          "otoc": 0.001577
+        },
+        {
+          "layer": 18,
+          "otoc": 0.007155
+        },
+        {
+          "layer": 19,
+          "otoc": 0.23927
+        },
+        {
+          "layer": 20,
+          "otoc": 0.286271
+        },
+        {
+          "layer": 21,
+          "otoc": 0.30902
+        },
+        {
+          "layer": 22,
+          "otoc": 0.280002
+        },
+        {
+          "layer": 23,
+          "otoc": 0.086747
+        },
+        {
+          "layer": 24,
+          "otoc": 0.449656
+        },
+        {
+          "layer": 25,
+          "otoc": 0.166512
+        },
+        {
+          "layer": 26,
+          "otoc": 0.136848
+        },
+        {
+          "layer": 27,
+          "otoc": 0.099446
+        },
+        {
+          "layer": 28,
+          "otoc": 0.54376
+        }
+      ],
+      "scrambling_rate": -0.00895,
+      "scrambling_time": 6,
+      "initial_otoc": 0.131009,
+      "final_otoc": 0.54376
+    },
+    {
+      "prompt": "quantum chaos butterfly effect",
+      "otoc_data": [
+        {
+          "layer": 0,
+          "otoc": 0.002155
+        },
+        {
+          "layer": 1,
+          "otoc": 0.665226
+        },
+        {
+          "layer": 2,
+          "otoc": 0.158079
+        },
+        {
+          "layer": 3,
+          "otoc": 0.05965
+        },
+        {
+          "layer": 4,
+          "otoc": 0.009384
+        },
+        {
+          "layer": 5,
+          "otoc": 0.23379
+        },
+        {
+          "layer": 6,
+          "otoc": 0.005108
+        },
+        {
+          "layer": 7,
+          "otoc": 0.461672
+        },
+        {
+          "layer": 8,
+          "otoc": 0.481817
+        },
+        {
+          "layer": 9,
+          "otoc": 0.422667
+        },
+        {
+          "layer": 10,
+          "otoc": 0.427157
+        },
+        {
+          "layer": 11,
+          "otoc": 0.17659
+        },
+        {
+          "layer": 12,
+          "otoc": 0.089125
+        },
+        {
+          "layer": 13,
+          "otoc": 0.004719
+        },
+        {
+          "layer": 14,
+          "otoc": 0.014757
+        },
+        {
+          "layer": 15,
+          "otoc": 0.223151
+        },
+        {
+          "layer": 16,
+          "otoc": 0.490186
+        },
+        {
+          "layer": 17,
+          "otoc": 0.148835
+        },
+        {
+          "layer": 18,
+          "otoc": 0.103655
+        },
+        {
+          "layer": 19,
+          "otoc": 0.735379
+        },
+        {
+          "layer": 20,
+          "otoc": 0.798514
+        },
+        {
+          "layer": 21,
+          "otoc": 0.631333
+        },
+        {
+          "layer": 22,
+          "otoc": 0.048444
+        },
+        {
+          "layer": 23,
+          "otoc": 0.274637
+        },
+        {
+          "layer": 24,
+          "otoc": 0.001357
+        },
+        {
+          "layer": 25,
+          "otoc": 0.004388
+        },
+        {
+          "layer": 26,
+          "otoc": 0.014679
+        },
+        {
+          "layer": 27,
+          "otoc": 0.01221
+        },
+        {
+          "layer": 28,
+          "otoc": 0.029588
+        }
+      ],
+      "scrambling_rate": 0.0312,
+      "scrambling_time": -1,
+      "initial_otoc": 0.002155,
+      "final_otoc": 0.029588
+    },
+    {
+      "prompt": "thermalization quantum system",
+      "otoc_data": [
+        {
+          "layer": 0,
+          "otoc": 0.003392
+        },
+        {
+          "layer": 1,
+          "otoc": 0.445178
+        },
+        {
+          "layer": 2,
+          "otoc": 0.005481
+        },
+        {
+          "layer": 3,
+          "otoc": 0.000125
+        },
+        {
+          "layer": 4,
+          "otoc": 0.524002
+        },
+        {
+          "layer": 5,
+          "otoc": 0.059933
+        },
+        {
+          "layer": 6,
+          "otoc": 0.002299
+        },
+        {
+          "layer": 7,
+          "otoc": 0.400215
+        },
+        {
+          "layer": 8,
+          "otoc": 0.346162
+        },
+        {
+          "layer": 9,
+          "otoc": 0.938896
+        },
+        {
+          "layer": 10,
+          "otoc": 0.806872
+        },
+        {
+          "layer": 11,
+          "otoc": 0.837749
+        },
+        {
+          "layer": 12,
+          "otoc": 0.940817
+        },
+        {
+          "layer": 13,
+          "otoc": 0.891067
+        },
+        {
+          "layer": 14,
+          "otoc": 0.671893
+        },
+        {
+          "layer": 15,
+          "otoc": 0.586001
+        },
+        {
+          "layer": 16,
+          "otoc": 0.52877
+        },
+        {
+          "layer": 17,
+          "otoc": 0.665722
+        },
+        {
+          "layer": 18,
+          "otoc": 0.429159
+        },
+        {
+          "layer": 19,
+          "otoc": 0.361711
+        },
+        {
+          "layer": 20,
+          "otoc": 0.307781
+        },
+        {
+          "layer": 21,
+          "otoc": 0.355262
+        },
+        {
+          "layer": 22,
+          "otoc": 0.560448
+        },
+        {
+          "layer": 23,
+          "otoc": 0.389844
+        },
+        {
+          "layer": 24,
+          "otoc": 0.531268
+        },
+        {
+          "layer": 25,
+          "otoc": 0.153283
+        },
+        {
+          "layer": 26,
+          "otoc": 0.138287
+        },
+        {
+          "layer": 27,
+          "otoc": 0.066142
+        },
+        {
+          "layer": 28,
+          "otoc": 0.117387
+        }
+      ],
+      "scrambling_rate": -0.094414,
+      "scrambling_time": 3,
+      "initial_otoc": 0.003392,
+      "final_otoc": 0.117387
+    },
+    {
+      "prompt": "scrambling time fast scrambler",
+      "otoc_data": [
+        {
+          "layer": 0,
+          "otoc": 0.22496
+        },
+        {
+          "layer": 1,
+          "otoc": 2e-05
+        },
+        {
+          "layer": 2,
+          "otoc": 0.457056
+        },
+        {
+          "layer": 3,
+          "otoc": 0.055142
+        },
+        {
+          "layer": 4,
+          "otoc": 0.089189
+        },
+        {
+          "layer": 5,
+          "otoc": 0.135898
+        },
+        {
+          "layer": 6,
+          "otoc": 0.890459
+        },
+        {
+          "layer": 7,
+          "otoc": 0.362136
+        },
+        {
+          "layer": 8,
+          "otoc": 0.020477
+        },
+        {
+          "layer": 9,
+          "otoc": 0.084438
+        },
+        {
+          "layer": 10,
+          "otoc": 0.0022
+        },
+        {
+          "layer": 11,
+          "otoc": 0.063229
+        },
+        {
+          "layer": 12,
+          "otoc": 0.145249
+        },
+        {
+          "layer": 13,
+          "otoc": 0.463314
+        },
+        {
+          "layer": 14,
+          "otoc": 0.824356
+        },
+        {
+          "layer": 15,
+          "otoc": 0.497982
+        },
+        {
+          "layer": 16,
+          "otoc": 0.254165
+        },
+        {
+          "layer": 17,
+          "otoc": 0.083512
+        },
+        {
+          "layer": 18,
+          "otoc": 0.249557
+        },
+        {
+          "layer": 19,
+          "otoc": 0.08799
+        },
+        {
+          "layer": 20,
+          "otoc": 0.274033
+        },
+        {
+          "layer": 21,
+          "otoc": 0.242952
+        },
+        {
+          "layer": 22,
+          "otoc": 0.100602
+        },
+        {
+          "layer": 23,
+          "otoc": 0.019947
+        },
+        {
+          "layer": 24,
+          "otoc": 0.04076
+        },
+        {
+          "layer": 25,
+          "otoc": 0.016079
+        },
+        {
+          "layer": 26,
+          "otoc": 0.000578
+        },
+        {
+          "layer": 27,
+          "otoc": 0.072328
+        },
+        {
+          "layer": 28,
+          "otoc": 0.000136
+        }
+      ],
+      "scrambling_rate": 0.049011,
+      "scrambling_time": 1,
+      "initial_otoc": 0.22496,
+      "final_otoc": 0.000136
+    },
+    {
+      "prompt": "quantum error correction code",
+      "otoc_data": [
+        {
+          "layer": 0,
+          "otoc": 0.446728
+        },
+        {
+          "layer": 1,
+          "otoc": 0.153206
+        },
+        {
+          "layer": 2,
+          "otoc": 0.00052
+        },
+        {
+          "layer": 3,
+          "otoc": 0.2406
+        },
+        {
+          "layer": 4,
+          "otoc": 0.250919
+        },
+        {
+          "layer": 5,
+          "otoc": 0.134478
+        },
+        {
+          "layer": 6,
+          "otoc": 0.187832
+        },
+        {
+          "layer": 7,
+          "otoc": 0.090875
+        },
+        {
+          "layer": 8,
+          "otoc": 0.087978
+        },
+        {
+          "layer": 9,
+          "otoc": 0.070567
+        },
+        {
+          "layer": 10,
+          "otoc": 0.010999
+        },
+        {
+          "layer": 11,
+          "otoc": 0.081189
+        },
+        {
+          "layer": 12,
+          "otoc": 0.093729
+        },
+        {
+          "layer": 13,
+          "otoc": 0.237757
+        },
+        {
+          "layer": 14,
+          "otoc": 0.216137
+        },
+        {
+          "layer": 15,
+          "otoc": 0.244712
+        },
+        {
+          "layer": 16,
+          "otoc": 0.378767
+        },
+        {
+          "layer": 17,
+          "otoc": 0.51187
+        },
+        {
+          "layer": 18,
+          "otoc": 0.119143
+        },
+        {
+          "layer": 19,
+          "otoc": 0.030842
+        },
+        {
+          "layer": 20,
+          "otoc": 0.001298
+        },
+        {
+          "layer": 21,
+          "otoc": 0.004744
+        },
+        {
+          "layer": 22,
+          "otoc": 0.062464
+        },
+        {
+          "layer": 23,
+          "otoc": 0.0964
+        },
+        {
+          "layer": 24,
+          "otoc": 0.252046
+        },
+        {
+          "layer": 25,
+          "otoc": 0.321485
+        },
+        {
+          "layer": 26,
+          "otoc": 0.130174
+        },
+        {
+          "layer": 27,
+          "otoc": 0.210653
+        },
+        {
+          "layer": 28,
+          "otoc": 0.201318
+        }
+      ],
+      "scrambling_rate": -0.009091,
+      "scrambling_time": 1,
+      "initial_otoc": 0.446728,
+      "final_otoc": 0.201318
+    },
+    {
+      "prompt": "classical deterministic system",
+      "otoc_data": [
+        {
+          "layer": 0,
+          "otoc": 0.003392
+        },
+        {
+          "layer": 1,
+          "otoc": 0.463624
+        },
+        {
+          "layer": 2,
+          "otoc": 0.624935
+        },
+        {
+          "layer": 3,
+          "otoc": 0.005588
+        },
+        {
+          "layer": 4,
+          "otoc": 0.211593
+        },
+        {
+          "layer": 5,
+          "otoc": 0.066993
+        },
+        {
+          "layer": 6,
+          "otoc": 0.195818
+        },
+        {
+          "layer": 7,
+          "otoc": 0.566212
+        },
+        {
+          "layer": 8,
+          "otoc": 0.605161
+        },
+        {
+          "layer": 9,
+          "otoc": 0.003273
+        },
+        {
+          "layer": 10,
+          "otoc": 0.030177
+        },
+        {
+          "layer": 11,
+          "otoc": 0.118094
+        },
+        {
+          "layer": 12,
+          "otoc": 0.029289
+        },
+        {
+          "layer": 13,
+          "otoc": 0.163677
+        },
+        {
+          "layer": 14,
+          "otoc": 0.460413
+        },
+        {
+          "layer": 15,
+          "otoc": 0.337148
+        },
+        {
+          "layer": 16,
+          "otoc": 0.234911
+        },
+        {
+          "layer": 17,
+          "otoc": 0.103894
+        },
+        {
+          "layer": 18,
+          "otoc": 0.099614
+        },
+        {
+          "layer": 19,
+          "otoc": 0.018102
+        },
+        {
+          "layer": 20,
+          "otoc": 0.01462
+        },
+        {
+          "layer": 21,
+          "otoc": 0.11095
+        },
+        {
+          "layer": 22,
+          "otoc": 0.11266
+        },
+        {
+          "layer": 23,
+          "otoc": 0.11078
+        },
+        {
+          "layer": 24,
+          "otoc": 0.092341
+        },
+        {
+          "layer": 25,
+          "otoc": 0.001243
+        },
+        {
+          "layer": 26,
+          "otoc": 0.000822
+        },
+        {
+          "layer": 27,
+          "otoc": 0.000378
+        },
+        {
+          "layer": 28,
+          "otoc": 0.003622
+        }
+      ],
+      "scrambling_rate": 0.104325,
+      "scrambling_time": 25,
+      "initial_otoc": 0.003392,
+      "final_otoc": 0.003622
+    }
+  ],
+  "summary": {
+    "avg_scrambling_rate": 0.012013,
+    "avg_scrambling_time": 7.2,
+    "log_bound": 3.33,
+    "verdict": "SCRAMBLER: rate=0.0120 (avg time=7.2)"
+  },
+  "elapsed": 2.02
+}

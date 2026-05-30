@@ -1,0 +1,33 @@
+{
+  "phase": "Q269",
+  "name": "Quantum Error Correction",
+  "noise_levels": [
+    0.0,
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "avg_corrected": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "avg_uncorrected": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "summary": {
+    "qec_better": 0,
+    "verdict": "NO QEC ADVANTAGE: correction does not help"
+  },
+  "elapsed": 2.85
+}

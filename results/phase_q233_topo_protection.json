@@ -1,0 +1,140 @@
+{
+  "phase": "Q233",
+  "name": "Topological Protection",
+  "dimensions": [
+    {
+      "dim": 4,
+      "results": [
+        {
+          "noise": 0.0,
+          "error_mHa": 0.0001
+        },
+        {
+          "noise": 0.01,
+          "error_mHa": 0.0113
+        },
+        {
+          "noise": 0.05,
+          "error_mHa": 50.7806
+        },
+        {
+          "noise": 0.1,
+          "error_mHa": 27.027
+        },
+        {
+          "noise": 0.2,
+          "error_mHa": 24.1138
+        },
+        {
+          "noise": 0.5,
+          "error_mHa": 584.1844
+        },
+        {
+          "noise": 1.0,
+          "error_mHa": 554.3673
+        }
+      ],
+      "degradation": [
+        1.0,
+        113.0,
+        507806.0,
+        270270.0,
+        241138.0,
+        5841844.0,
+        5543673.0
+      ],
+      "threshold_noise": 0.05
+    },
+    {
+      "dim": 8,
+      "results": [
+        {
+          "noise": 0.0,
+          "error_mHa": 0.0001
+        },
+        {
+          "noise": 0.01,
+          "error_mHa": 0.4979
+        },
+        {
+          "noise": 0.05,
+          "error_mHa": 2.7591
+        },
+        {
+          "noise": 0.1,
+          "error_mHa": 261.6836
+        },
+        {
+          "noise": 0.2,
+          "error_mHa": 144.6803
+        },
+        {
+          "noise": 0.5,
+          "error_mHa": 406.1483
+        },
+        {
+          "noise": 1.0,
+          "error_mHa": 306.5451
+        }
+      ],
+      "degradation": [
+        1.0,
+        4979.0,
+        27591.0,
+        2616836.0,
+        1446803.0,
+        4061483.0,
+        3065451.0
+      ],
+      "threshold_noise": 0.05
+    },
+    {
+      "dim": 16,
+      "results": [
+        {
+          "noise": 0.0,
+          "error_mHa": 0.0
+        },
+        {
+          "noise": 0.01,
+          "error_mHa": 3.4786
+        },
+        {
+          "noise": 0.05,
+          "error_mHa": 138.1006
+        },
+        {
+          "noise": 0.1,
+          "error_mHa": 283.4572
+        },
+        {
+          "noise": 0.2,
+          "error_mHa": 550.6773
+        },
+        {
+          "noise": 0.5,
+          "error_mHa": 994.2852
+        },
+        {
+          "noise": 1.0,
+          "error_mHa": 1322.6228
+        }
+      ],
+      "degradation": [
+        0.0,
+        34786.0,
+        1381006.0,
+        2834572.0,
+        5506773.0,
+        9942852.0,
+        13226228.0
+      ],
+      "threshold_noise": 0.01
+    }
+  ],
+  "summary": {
+    "avg_threshold": 0.0367,
+    "verdict": "WEAK PROTECTION: threshold=0.037"
+  },
+  "elapsed": 391.53
+}

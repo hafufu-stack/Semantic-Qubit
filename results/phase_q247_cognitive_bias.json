@@ -1,0 +1,45 @@
+{
+  "phase": "Q247",
+  "name": "Quantum Cognitive Bias",
+  "scenarios": [
+    {
+      "name": "Linda Problem",
+      "sim_A": 0.9694,
+      "sim_B": 0.9347,
+      "sim_AB": 0.9775,
+      "conjunction_fallacy": true,
+      "interference": 1.6501
+    },
+    {
+      "name": "Bill Problem",
+      "sim_A": 0.9094,
+      "sim_B": 0.9194,
+      "sim_AB": 0.924,
+      "conjunction_fallacy": true,
+      "interference": 1.1678
+    },
+    {
+      "name": "Terrorism",
+      "sim_A": 0.937,
+      "sim_B": 0.9477,
+      "sim_AB": 0.9386,
+      "conjunction_fallacy": true,
+      "interference": 1.3225
+    },
+    {
+      "name": "Medical Diagnosis",
+      "sim_A": 0.9779,
+      "sim_B": 0.9749,
+      "sim_AB": 0.9782,
+      "conjunction_fallacy": true,
+      "interference": 1.6842
+    }
+  ],
+  "summary": {
+    "fallacy_rate": 100.0,
+    "n_violations": 4,
+    "avg_interference": 1.4561,
+    "verdict": "QUANTUM COGNITION: 100% conjunction fallacy rate (4/4)"
+  },
+  "elapsed": 5.64
+}

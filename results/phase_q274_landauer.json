@@ -1,0 +1,138 @@
+{
+  "phase": "Q274",
+  "name": "Landauer's Principle",
+  "pairs": [
+    {
+      "info": "The capital of France is Paris",
+      "erase": "I don't know anything",
+      "S_info_final": 1.956,
+      "S_erase_final": 1.956,
+      "delta_S": 0.0,
+      "delta_norm": -2.219,
+      "landauer": true,
+      "S_info_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ],
+      "S_erase_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ]
+    },
+    {
+      "info": "Einstein discovered E equals m",
+      "erase": "Nothing happened ever",
+      "S_info_final": 1.956,
+      "S_erase_final": 1.956,
+      "delta_S": 0.0,
+      "delta_norm": -3.008,
+      "landauer": true,
+      "S_info_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ],
+      "S_erase_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ]
+    },
+    {
+      "info": "Water boils at 100 degrees Cel",
+      "erase": "No information available",
+      "S_info_final": 1.956,
+      "S_erase_final": 1.956,
+      "delta_S": -0.0,
+      "delta_norm": -1.26,
+      "landauer": true,
+      "S_info_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ],
+      "S_erase_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ]
+    },
+    {
+      "info": "The speed of light is 29979245",
+      "erase": "Everything is unknown",
+      "S_info_final": 1.956,
+      "S_erase_final": 1.956,
+      "delta_S": 0.0,
+      "delta_norm": -1.8863,
+      "landauer": true,
+      "S_info_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ],
+      "S_erase_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ]
+    },
+    {
+      "info": "DNA has a double helix structu",
+      "erase": "I have forgotten everythi",
+      "S_info_final": 1.956,
+      "S_erase_final": 1.956,
+      "delta_S": -0.0,
+      "delta_norm": -9.2234,
+      "landauer": true,
+      "S_info_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ],
+      "S_erase_profile": [
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956,
+        1.956
+      ]
+    }
+  ],
+  "summary": {
+    "n_landauer": 5,
+    "total": 5,
+    "avg_delta_S": 0.0,
+    "verdict": "LANDAUER HOLDS: 5/5, avg delta_S=0.000 bits"
+  },
+  "elapsed": 2.48
+}

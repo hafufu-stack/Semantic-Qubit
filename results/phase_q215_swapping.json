@@ -1,0 +1,145 @@
+{
+  "phase": "Q215",
+  "name": "Entanglement Swapping Chain",
+  "chains": [
+    {
+      "chain": "Full chain",
+      "layers": [
+        0,
+        14,
+        28
+      ],
+      "data": [
+        {
+          "prompt": "quantum entanglement swapping ",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "Bell state teleportation",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "quantum repeater network",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "long-distance entanglement dis",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        }
+      ],
+      "avg_swap_gain": 0.0,
+      "n_positive_swaps": 0
+    },
+    {
+      "chain": "First half",
+      "layers": [
+        0,
+        7,
+        14
+      ],
+      "data": [
+        {
+          "prompt": "quantum entanglement swapping ",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "Bell state teleportation",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "quantum repeater network",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "long-distance entanglement dis",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        }
+      ],
+      "avg_swap_gain": 0.0,
+      "n_positive_swaps": 0
+    },
+    {
+      "chain": "Second half",
+      "layers": [
+        14,
+        21,
+        28
+      ],
+      "data": [
+        {
+          "prompt": "quantum entanglement swapping ",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "Bell state teleportation",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "quantum repeater network",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        },
+        {
+          "prompt": "long-distance entanglement dis",
+          "neg_AB": 0.0,
+          "neg_BC": 0.0,
+          "neg_AC_direct": 0.0,
+          "neg_AC_swapped": 0.0,
+          "swap_gain": 0.0
+        }
+      ],
+      "avg_swap_gain": 0.0,
+      "n_positive_swaps": 0
+    }
+  ],
+  "summary": {
+    "avg_swap_gain": 0.0,
+    "total_positive_swaps": 0,
+    "total_tests": 12,
+    "verdict": "NO SWAPPING: direct entanglement stronger (gain=0.00)"
+  },
+  "elapsed": 2.07
+}

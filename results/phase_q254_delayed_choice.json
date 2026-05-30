@@ -1,0 +1,27 @@
+{
+  "phase": "Q254",
+  "name": "Quantum Delayed-Choice",
+  "decoherence_layer": 22,
+  "experiments": {
+    "baseline": {
+      "error": 0.0,
+      "neg": 0.0
+    },
+    "l22_bypass": {
+      "error": 0.0001,
+      "neg": 0.0
+    },
+    "l22_28_bypass": {
+      "error": 0.0001,
+      "neg": 0.016759
+    },
+    "l15_28_bypass": {
+      "error": 0.0001,
+      "neg": 0.249464
+    }
+  },
+  "summary": {
+    "verdict": "MORE ENTANGLED: neg 0.0000 -> 0.0168 (+1675930%) but VQE 0.0001 mHa"
+  },
+  "elapsed": 55.01
+}

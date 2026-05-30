@@ -1,0 +1,172 @@
+{
+  "phase": "Q242",
+  "name": "Advantage vs Conditioning",
+  "data": [
+    {
+      "seed": 0,
+      "condition": 12.03,
+      "gap": 0.0042,
+      "vqe_err": 0.4626,
+      "sa_err": 19.34,
+      "advantage": 41.81
+    },
+    {
+      "seed": 1,
+      "condition": 21.23,
+      "gap": 0.5108,
+      "vqe_err": 0.0,
+      "sa_err": 38.2088,
+      "advantage": 1709433.0
+    },
+    {
+      "seed": 2,
+      "condition": 38.82,
+      "gap": 0.3291,
+      "vqe_err": 0.0,
+      "sa_err": 111.9826,
+      "advantage": 15030045.14
+    },
+    {
+      "seed": 3,
+      "condition": 20.08,
+      "gap": 0.5134,
+      "vqe_err": 0.0,
+      "sa_err": 69.8536,
+      "advantage": 1875119.11
+    },
+    {
+      "seed": 4,
+      "condition": 10.6,
+      "gap": 0.2204,
+      "vqe_err": 0.0,
+      "sa_err": 33.7878,
+      "advantage": 33787787.32
+    },
+    {
+      "seed": 5,
+      "condition": 6.56,
+      "gap": 0.2324,
+      "vqe_err": 0.0001,
+      "sa_err": 59.3449,
+      "advantage": 663761.89
+    },
+    {
+      "seed": 6,
+      "condition": 2.38,
+      "gap": 0.0987,
+      "vqe_err": 0.0006,
+      "sa_err": 41.961,
+      "advantage": 70398.91
+    },
+    {
+      "seed": 7,
+      "condition": 6.46,
+      "gap": 0.8186,
+      "vqe_err": 0.0,
+      "sa_err": 125.4525,
+      "advantage": 125452520.82
+    },
+    {
+      "seed": 8,
+      "condition": 31.5,
+      "gap": 0.6322,
+      "vqe_err": 0.0,
+      "sa_err": 40.5318,
+      "advantage": 1088016.4
+    },
+    {
+      "seed": 9,
+      "condition": 6.93,
+      "gap": 0.9219,
+      "vqe_err": 0.0,
+      "sa_err": 14.1722,
+      "advantage": 14172191.54
+    },
+    {
+      "seed": 10,
+      "condition": 10.48,
+      "gap": 0.0025,
+      "vqe_err": 1.7719,
+      "sa_err": 13.2294,
+      "advantage": 7.47
+    },
+    {
+      "seed": 11,
+      "condition": 3.67,
+      "gap": 1.6824,
+      "vqe_err": 0.0,
+      "sa_err": 59.1105,
+      "advantage": 59110479.42
+    },
+    {
+      "seed": 12,
+      "condition": 28.39,
+      "gap": 1.856,
+      "vqe_err": 0.0,
+      "sa_err": 24.8214,
+      "advantage": 24821408.7
+    },
+    {
+      "seed": 13,
+      "condition": 4.12,
+      "gap": 0.9182,
+      "vqe_err": 0.0001,
+      "sa_err": 70.222,
+      "advantage": 589065.04
+    },
+    {
+      "seed": 14,
+      "condition": 11.87,
+      "gap": 1.0713,
+      "vqe_err": 0.0001,
+      "sa_err": 307.5969,
+      "advantage": 5160620.13
+    },
+    {
+      "seed": 15,
+      "condition": 8.62,
+      "gap": 0.9329,
+      "vqe_err": 0.0001,
+      "sa_err": 284.4347,
+      "advantage": 4772022.08
+    },
+    {
+      "seed": 16,
+      "condition": 10.75,
+      "gap": 0.6266,
+      "vqe_err": 0.0001,
+      "sa_err": 43.1249,
+      "advantage": 361757.51
+    },
+    {
+      "seed": 17,
+      "condition": 6.19,
+      "gap": 2.2379,
+      "vqe_err": 0.0,
+      "sa_err": 44.9027,
+      "advantage": 44902728.55
+    },
+    {
+      "seed": 18,
+      "condition": 604.58,
+      "gap": 0.0112,
+      "vqe_err": 1.2973,
+      "sa_err": 64.4916,
+      "advantage": 49.71
+    },
+    {
+      "seed": 19,
+      "condition": 4.7,
+      "gap": 0.4969,
+      "vqe_err": 0.0001,
+      "sa_err": 58.2085,
+      "advantage": 488287.88
+    }
+  ],
+  "summary": {
+    "corr_condition": -0.1411,
+    "corr_gap": 0.4152,
+    "verdict": "Advantage correlates with: condition r=-0.14, gap r=0.42"
+  },
+  "elapsed": 265.0
+}

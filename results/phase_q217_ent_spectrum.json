@@ -1,0 +1,621 @@
+{
+  "phase": "Q217",
+  "name": "Entanglement Spectrum Analysis",
+  "prompts": [
+    {
+      "prompt": "quantum entanglement between particles",
+      "layers": [
+        {
+          "layer": 0,
+          "spectrum": [
+            0.579884,
+            0.208463,
+            0.135039,
+            0.076614
+          ],
+          "type": "Thermal",
+          "entropy": 1.6015,
+          "participation_ratio": 2.4763
+        },
+        {
+          "layer": 4,
+          "spectrum": [
+            0.665136,
+            0.139844,
+            0.120012,
+            0.075008
+          ],
+          "type": "Thermal",
+          "entropy": 1.4356,
+          "participation_ratio": 2.0747
+        },
+        {
+          "layer": 8,
+          "spectrum": [
+            0.667,
+            0.163524,
+            0.09058,
+            0.078895
+          ],
+          "type": "Thermal",
+          "entropy": 1.4198,
+          "participation_ratio": 2.0574
+        },
+        {
+          "layer": 12,
+          "spectrum": [
+            0.706367,
+            0.119443,
+            0.096779,
+            0.077411
+          ],
+          "type": "Thermal",
+          "entropy": 1.3322,
+          "participation_ratio": 1.8919
+        },
+        {
+          "layer": 16,
+          "spectrum": [
+            0.709981,
+            0.121674,
+            0.092143,
+            0.076202
+          ],
+          "type": "Thermal",
+          "entropy": 1.3206,
+          "participation_ratio": 1.8756
+        },
+        {
+          "layer": 20,
+          "spectrum": [
+            0.698421,
+            0.121584,
+            0.102203,
+            0.077791
+          ],
+          "type": "Thermal",
+          "entropy": 1.3542,
+          "participation_ratio": 1.9265
+        },
+        {
+          "layer": 24,
+          "spectrum": [
+            0.554807,
+            0.252921,
+            0.112038,
+            0.080234
+          ],
+          "type": "Thermal",
+          "entropy": 1.619,
+          "participation_ratio": 2.559
+        },
+        {
+          "layer": 28,
+          "spectrum": [
+            0.556618,
+            0.259592,
+            0.107526,
+            0.076264
+          ],
+          "type": "Thermal",
+          "entropy": 1.6047,
+          "participation_ratio": 2.5343
+        }
+      ]
+    },
+    {
+      "prompt": "the cat is alive and dead simultaneously",
+      "layers": [
+        {
+          "layer": 0,
+          "spectrum": [
+            0.435685,
+            0.252239,
+            0.208437,
+            0.103639
+          ],
+          "type": "Thermal",
+          "entropy": 1.834,
+          "participation_ratio": 3.2506
+        },
+        {
+          "layer": 4,
+          "spectrum": [
+            0.699621,
+            0.130729,
+            0.094107,
+            0.075543
+          ],
+          "type": "Thermal",
+          "entropy": 1.3467,
+          "participation_ratio": 1.9189
+        },
+        {
+          "layer": 8,
+          "spectrum": [
+            0.720403,
+            0.106835,
+            0.095341,
+            0.077421
+          ],
+          "type": "Thermal",
+          "entropy": 1.2946,
+          "participation_ratio": 1.8333
+        },
+        {
+          "layer": 12,
+          "spectrum": [
+            0.748104,
+            0.094497,
+            0.082027,
+            0.075372
+          ],
+          "type": "Novel",
+          "entropy": 1.2119,
+          "participation_ratio": 1.7212
+        },
+        {
+          "layer": 16,
+          "spectrum": [
+            0.750728,
+            0.093346,
+            0.079559,
+            0.076367
+          ],
+          "type": "Novel",
+          "entropy": 1.2038,
+          "participation_ratio": 1.711
+        },
+        {
+          "layer": 20,
+          "spectrum": [
+            0.714629,
+            0.127691,
+            0.080387,
+            0.077292
+          ],
+          "type": "Novel",
+          "entropy": 1.3034,
+          "participation_ratio": 1.8538
+        },
+        {
+          "layer": 24,
+          "spectrum": [
+            0.686579,
+            0.155023,
+            0.082524,
+            0.075874
+          ],
+          "type": "Novel",
+          "entropy": 1.3687,
+          "participation_ratio": 1.9685
+        },
+        {
+          "layer": 28,
+          "spectrum": [
+            0.503443,
+            0.270249,
+            0.150623,
+            0.075686
+          ],
+          "type": "Thermal",
+          "entropy": 1.7018,
+          "participation_ratio": 2.8177
+        }
+      ]
+    },
+    {
+      "prompt": "hydrogen bond energy landscape",
+      "layers": [
+        {
+          "layer": 0,
+          "spectrum": [
+            0.400752,
+            0.261057,
+            0.250159,
+            0.088032
+          ],
+          "type": "Novel",
+          "entropy": 1.8432,
+          "participation_ratio": 3.3436
+        },
+        {
+          "layer": 4,
+          "spectrum": [
+            0.506349,
+            0.31971,
+            0.098544,
+            0.075397
+          ],
+          "type": "Thermal",
+          "entropy": 1.6337,
+          "participation_ratio": 2.6738
+        },
+        {
+          "layer": 8,
+          "spectrum": [
+            0.562598,
+            0.283988,
+            0.078034,
+            0.07538
+          ],
+          "type": "Novel",
+          "entropy": 1.5509,
+          "participation_ratio": 2.4454
+        },
+        {
+          "layer": 12,
+          "spectrum": [
+            0.644338,
+            0.196471,
+            0.082886,
+            0.076305
+          ],
+          "type": "Novel",
+          "entropy": 1.4509,
+          "participation_ratio": 2.1438
+        },
+        {
+          "layer": 16,
+          "spectrum": [
+            0.675591,
+            0.171662,
+            0.077524,
+            0.075224
+          ],
+          "type": "Novel",
+          "entropy": 1.3854,
+          "participation_ratio": 2.0098
+        },
+        {
+          "layer": 20,
+          "spectrum": [
+            0.586743,
+            0.258715,
+            0.079477,
+            0.075065
+          ],
+          "type": "Novel",
+          "entropy": 1.5267,
+          "participation_ratio": 2.3632
+        },
+        {
+          "layer": 24,
+          "spectrum": [
+            0.461566,
+            0.33165,
+            0.13095,
+            0.075833
+          ],
+          "type": "Thermal",
+          "entropy": 1.7091,
+          "participation_ratio": 2.8907
+        },
+        {
+          "layer": 28,
+          "spectrum": [
+            0.499875,
+            0.295159,
+            0.129966,
+            0.075001
+          ],
+          "type": "Thermal",
+          "entropy": 1.6825,
+          "participation_ratio": 2.7816
+        }
+      ]
+    },
+    {
+      "prompt": "Bell inequality violation experiment",
+      "layers": [
+        {
+          "layer": 0,
+          "spectrum": [
+            0.483745,
+            0.289498,
+            0.131541,
+            0.095215
+          ],
+          "type": "Thermal",
+          "entropy": 1.7325,
+          "participation_ratio": 2.9054
+        },
+        {
+          "layer": 4,
+          "spectrum": [
+            0.534888,
+            0.186716,
+            0.161718,
+            0.116678
+          ],
+          "type": "Thermal",
+          "entropy": 1.7216,
+          "participation_ratio": 2.7721
+        },
+        {
+          "layer": 8,
+          "spectrum": [
+            0.667271,
+            0.163844,
+            0.090052,
+            0.078833
+          ],
+          "type": "Thermal",
+          "entropy": 1.4187,
+          "participation_ratio": 2.0558
+        },
+        {
+          "layer": 12,
+          "spectrum": [
+            0.656585,
+            0.179943,
+            0.087128,
+            0.076344
+          ],
+          "type": "Thermal",
+          "entropy": 1.4339,
+          "participation_ratio": 2.0969
+        },
+        {
+          "layer": 16,
+          "spectrum": [
+            0.662275,
+            0.156346,
+            0.102419,
+            0.078961
+          ],
+          "type": "Thermal",
+          "entropy": 1.4382,
+          "participation_ratio": 2.0843
+        },
+        {
+          "layer": 20,
+          "spectrum": [
+            0.668271,
+            0.154623,
+            0.102085,
+            0.075021
+          ],
+          "type": "Thermal",
+          "entropy": 1.4214,
+          "participation_ratio": 2.0553
+        },
+        {
+          "layer": 24,
+          "spectrum": [
+            0.509964,
+            0.24568,
+            0.151272,
+            0.093084
+          ],
+          "type": "Thermal",
+          "entropy": 1.724,
+          "participation_ratio": 2.8412
+        },
+        {
+          "layer": 28,
+          "spectrum": [
+            0.446591,
+            0.275128,
+            0.168036,
+            0.110245
+          ],
+          "type": "Thermal",
+          "entropy": 1.8147,
+          "participation_ratio": 3.1693
+        }
+      ]
+    },
+    {
+      "prompt": "topological quantum error correction",
+      "layers": [
+        {
+          "layer": 0,
+          "spectrum": [
+            0.549449,
+            0.276345,
+            0.09391,
+            0.080296
+          ],
+          "type": "Thermal",
+          "entropy": 1.6001,
+          "participation_ratio": 2.5411
+        },
+        {
+          "layer": 4,
+          "spectrum": [
+            0.449627,
+            0.272981,
+            0.198188,
+            0.079204
+          ],
+          "type": "Thermal",
+          "entropy": 1.7824,
+          "participation_ratio": 3.1033
+        },
+        {
+          "layer": 8,
+          "spectrum": [
+            0.598775,
+            0.211343,
+            0.107342,
+            0.082541
+          ],
+          "type": "Thermal",
+          "entropy": 1.5596,
+          "participation_ratio": 2.3723
+        },
+        {
+          "layer": 12,
+          "spectrum": [
+            0.613984,
+            0.167809,
+            0.137193,
+            0.081014
+          ],
+          "type": "Thermal",
+          "entropy": 1.5511,
+          "participation_ratio": 2.3228
+        },
+        {
+          "layer": 16,
+          "spectrum": [
+            0.590283,
+            0.204549,
+            0.128554,
+            0.076614
+          ],
+          "type": "Thermal",
+          "entropy": 1.5816,
+          "participation_ratio": 2.4232
+        },
+        {
+          "layer": 20,
+          "spectrum": [
+            0.547548,
+            0.233545,
+            0.126177,
+            0.092729
+          ],
+          "type": "Thermal",
+          "entropy": 1.6608,
+          "participation_ratio": 2.6394
+        },
+        {
+          "layer": 24,
+          "spectrum": [
+            0.515422,
+            0.300552,
+            0.105448,
+            0.078579
+          ],
+          "type": "Thermal",
+          "entropy": 1.6447,
+          "participation_ratio": 2.6789
+        },
+        {
+          "layer": 28,
+          "spectrum": [
+            0.543991,
+            0.258446,
+            0.122546,
+            0.075017
+          ],
+          "type": "Thermal",
+          "entropy": 1.6338,
+          "participation_ratio": 2.6085
+        }
+      ]
+    },
+    {
+      "prompt": "many-body quantum phase transition",
+      "layers": [
+        {
+          "layer": 0,
+          "spectrum": [
+            0.459555,
+            0.247485,
+            0.208515,
+            0.084445
+          ],
+          "type": "Thermal",
+          "entropy": 1.7868,
+          "participation_ratio": 3.0955
+        },
+        {
+          "layer": 4,
+          "spectrum": [
+            0.581296,
+            0.223594,
+            0.120059,
+            0.075051
+          ],
+          "type": "Thermal",
+          "entropy": 1.5857,
+          "participation_ratio": 2.4513
+        },
+        {
+          "layer": 8,
+          "spectrum": [
+            0.686231,
+            0.132564,
+            0.106023,
+            0.075182
+          ],
+          "type": "Thermal",
+          "entropy": 1.3832,
+          "participation_ratio": 1.9787
+        },
+        {
+          "layer": 12,
+          "spectrum": [
+            0.683714,
+            0.145937,
+            0.094434,
+            0.075915
+          ],
+          "type": "Thermal",
+          "entropy": 1.3841,
+          "participation_ratio": 1.9863
+        },
+        {
+          "layer": 16,
+          "spectrum": [
+            0.700774,
+            0.142186,
+            0.081676,
+            0.075364
+          ],
+          "type": "Novel",
+          "entropy": 1.3359,
+          "participation_ratio": 1.9097
+        },
+        {
+          "layer": 20,
+          "spectrum": [
+            0.690561,
+            0.145052,
+            0.087031,
+            0.077356
+          ],
+          "type": "Thermal",
+          "entropy": 1.3651,
+          "participation_ratio": 1.9551
+        },
+        {
+          "layer": 24,
+          "spectrum": [
+            0.506197,
+            0.319593,
+            0.097818,
+            0.076392
+          ],
+          "type": "Thermal",
+          "entropy": 1.6347,
+          "participation_ratio": 2.6754
+        },
+        {
+          "layer": 28,
+          "spectrum": [
+            0.479959,
+            0.294475,
+            0.144426,
+            0.08114
+          ],
+          "type": "Thermal",
+          "entropy": 1.7249,
+          "participation_ratio": 2.9026
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "type_counts": {
+      "Thermal": 38,
+      "Novel": 10
+    },
+    "dominant_type": "Thermal",
+    "verdict": "Dominant: Thermal (38/48 = 79%)"
+  },
+  "elapsed": 3.13
+}

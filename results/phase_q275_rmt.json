@@ -1,0 +1,77 @@
+{
+  "phase": "Q275",
+  "name": "Random Matrix Theory",
+  "per_prompt": [
+    {
+      "prompt": "quantum chaos scrambling dynam",
+      "ks_poisson": 0.9683,
+      "p_poisson": 0.0,
+      "ks_wd": 1.8218,
+      "mean_spacing": 1.0,
+      "var_spacing": 35.4861
+    },
+    {
+      "prompt": "integrable system conservation",
+      "ks_poisson": 0.9683,
+      "p_poisson": 0.0,
+      "ks_wd": 1.8218,
+      "mean_spacing": 1.0,
+      "var_spacing": 33.5444
+    },
+    {
+      "prompt": "random matrix eigenvalue stati",
+      "ks_poisson": 0.9683,
+      "p_poisson": 0.0,
+      "ks_wd": 1.8218,
+      "mean_spacing": 1.0,
+      "var_spacing": 31.1978
+    },
+    {
+      "prompt": "neural network weight distribu",
+      "ks_poisson": 0.9683,
+      "p_poisson": 0.0,
+      "ks_wd": 1.8218,
+      "mean_spacing": 1.0,
+      "var_spacing": 32.5544
+    },
+    {
+      "prompt": "classical harmonic oscillator ",
+      "ks_poisson": 0.9683,
+      "p_poisson": 0.0,
+      "ks_wd": 1.8218,
+      "mean_spacing": 1.0,
+      "var_spacing": 34.1973
+    },
+    {
+      "prompt": "turbulent fluid flow dynamics",
+      "ks_poisson": 0.9683,
+      "p_poisson": 0.0,
+      "ks_wd": 1.8218,
+      "mean_spacing": 1.0,
+      "var_spacing": 34.6641
+    },
+    {
+      "prompt": "crystalline lattice vibration ",
+      "ks_poisson": 0.9683,
+      "p_poisson": 0.0,
+      "ks_wd": 1.8218,
+      "mean_spacing": 1.0,
+      "var_spacing": 37.7281
+    },
+    {
+      "prompt": "prime number distribution patt",
+      "ks_poisson": 0.9683,
+      "p_poisson": 0.0,
+      "ks_wd": 1.8218,
+      "mean_spacing": 1.0,
+      "var_spacing": 33.9253
+    }
+  ],
+  "summary": {
+    "brody": 0,
+    "ks_poisson": 0.9683,
+    "n_spacings": 504,
+    "verdict": "INTEGRABLE (Poisson): Brody=0.00, no level repulsion"
+  },
+  "elapsed": 2.28
+}

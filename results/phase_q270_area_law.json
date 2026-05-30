@@ -1,0 +1,28 @@
+{
+  "phase": "Q270",
+  "name": "Entanglement Entropy Area Law",
+  "region_sizes": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "avg_entropy": [
+    0.6098,
+    1.1258,
+    1.5674,
+    1.956,
+    2.3093,
+    2.6407,
+    2.9586
+  ],
+  "scaling_exponent": 0.352,
+  "summary": {
+    "alpha": 0.352,
+    "verdict": "SUB-VOLUME: S ~ L^0.35 (between area and volume)"
+  },
+  "elapsed": 2.83
+}

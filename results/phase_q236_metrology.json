@@ -1,0 +1,66 @@
+{
+  "phase": "Q236",
+  "name": "Quantum Metrology",
+  "estimations": [
+    {
+      "theta_true": -1.0,
+      "llm_error": 1.824771,
+      "classical_error": 0.021808,
+      "advantage_ratio": 0.01
+    },
+    {
+      "theta_true": -0.75,
+      "llm_error": 1.394833,
+      "classical_error": 0.005225,
+      "advantage_ratio": 0.0
+    },
+    {
+      "theta_true": -0.5,
+      "llm_error": 0.8636,
+      "classical_error": 0.078626,
+      "advantage_ratio": 0.09
+    },
+    {
+      "theta_true": -0.25,
+      "llm_error": 0.401171,
+      "classical_error": 0.005023,
+      "advantage_ratio": 0.01
+    },
+    {
+      "theta_true": 0.0,
+      "llm_error": 0.016404,
+      "classical_error": 0.00333,
+      "advantage_ratio": 0.2
+    },
+    {
+      "theta_true": 0.25,
+      "llm_error": 0.5644,
+      "classical_error": 0.000362,
+      "advantage_ratio": 0.0
+    },
+    {
+      "theta_true": 0.5,
+      "llm_error": 1.258847,
+      "classical_error": 0.004637,
+      "advantage_ratio": 0.0
+    },
+    {
+      "theta_true": 0.75,
+      "llm_error": 1.624387,
+      "classical_error": 0.001786,
+      "advantage_ratio": 0.0
+    },
+    {
+      "theta_true": 1.0,
+      "llm_error": 1.919735,
+      "classical_error": 0.23283,
+      "advantage_ratio": 0.12
+    }
+  ],
+  "summary": {
+    "avg_ratio": 0.05,
+    "avg_llm_err": 1.096461,
+    "verdict": "NO ADVANTAGE: ratio=0.05"
+  },
+  "elapsed": 120.95
+}

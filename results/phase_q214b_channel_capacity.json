@@ -1,0 +1,295 @@
+{
+  "phase": "Q214b",
+  "name": "Quantum Channel Capacity (Fixed)",
+  "layers": [
+    {
+      "layer": 0,
+      "S_in": 2.6408,
+      "S_out": 2.6347,
+      "delta_S": -0.0061,
+      "holevo": 2.6347,
+      "purity_in": 0.1841,
+      "purity_out": 0.1916,
+      "overlap": 0.116803
+    },
+    {
+      "layer": 1,
+      "S_in": 2.6347,
+      "S_out": 2.6733,
+      "delta_S": 0.0386,
+      "holevo": 2.6733,
+      "purity_in": 0.1916,
+      "purity_out": 0.1837,
+      "overlap": 0.134915
+    },
+    {
+      "layer": 2,
+      "S_in": 2.6733,
+      "S_out": 2.5309,
+      "delta_S": -0.1424,
+      "holevo": 2.5309,
+      "purity_in": 0.1837,
+      "purity_out": 0.2063,
+      "overlap": 0.177104
+    },
+    {
+      "layer": 3,
+      "S_in": 2.5309,
+      "S_out": 2.4565,
+      "delta_S": -0.0744,
+      "holevo": 2.4565,
+      "purity_in": 0.2063,
+      "purity_out": 0.2198,
+      "overlap": 0.187544
+    },
+    {
+      "layer": 4,
+      "S_in": 2.4565,
+      "S_out": 2.4781,
+      "delta_S": 0.0216,
+      "holevo": 2.4781,
+      "purity_in": 0.2198,
+      "purity_out": 0.2217,
+      "overlap": 0.190892
+    },
+    {
+      "layer": 5,
+      "S_in": 2.4781,
+      "S_out": 2.4202,
+      "delta_S": -0.058,
+      "holevo": 2.4202,
+      "purity_in": 0.2217,
+      "purity_out": 0.2308,
+      "overlap": 0.196961
+    },
+    {
+      "layer": 6,
+      "S_in": 2.4202,
+      "S_out": 2.4796,
+      "delta_S": 0.0594,
+      "holevo": 2.4796,
+      "purity_in": 0.2308,
+      "purity_out": 0.2175,
+      "overlap": 0.195525
+    },
+    {
+      "layer": 7,
+      "S_in": 2.4796,
+      "S_out": 2.3426,
+      "delta_S": -0.137,
+      "holevo": 2.3426,
+      "purity_in": 0.2175,
+      "purity_out": 0.2502,
+      "overlap": 0.21593
+    },
+    {
+      "layer": 8,
+      "S_in": 2.3426,
+      "S_out": 2.2984,
+      "delta_S": -0.0441,
+      "holevo": 2.2984,
+      "purity_in": 0.2502,
+      "purity_out": 0.2688,
+      "overlap": 0.241358
+    },
+    {
+      "layer": 9,
+      "S_in": 2.2984,
+      "S_out": 2.2527,
+      "delta_S": -0.0458,
+      "holevo": 2.2527,
+      "purity_in": 0.2688,
+      "purity_out": 0.277,
+      "overlap": 0.261406
+    },
+    {
+      "layer": 10,
+      "S_in": 2.2527,
+      "S_out": 2.2643,
+      "delta_S": 0.0117,
+      "holevo": 2.2643,
+      "purity_in": 0.277,
+      "purity_out": 0.2677,
+      "overlap": 0.260688
+    },
+    {
+      "layer": 11,
+      "S_in": 2.2643,
+      "S_out": 2.1758,
+      "delta_S": -0.0885,
+      "holevo": 2.1758,
+      "purity_in": 0.2677,
+      "purity_out": 0.2931,
+      "overlap": 0.26221
+    },
+    {
+      "layer": 12,
+      "S_in": 2.1758,
+      "S_out": 2.1285,
+      "delta_S": -0.0474,
+      "holevo": 2.1285,
+      "purity_in": 0.2931,
+      "purity_out": 0.3005,
+      "overlap": 0.282589
+    },
+    {
+      "layer": 13,
+      "S_in": 2.1285,
+      "S_out": 2.1118,
+      "delta_S": -0.0167,
+      "holevo": 2.1118,
+      "purity_in": 0.3005,
+      "purity_out": 0.3035,
+      "overlap": 0.297308
+    },
+    {
+      "layer": 14,
+      "S_in": 2.1118,
+      "S_out": 2.15,
+      "delta_S": 0.0382,
+      "holevo": 2.15,
+      "purity_in": 0.3035,
+      "purity_out": 0.2897,
+      "overlap": 0.280676
+    },
+    {
+      "layer": 15,
+      "S_in": 2.15,
+      "S_out": 2.1669,
+      "delta_S": 0.0169,
+      "holevo": 2.1669,
+      "purity_in": 0.2897,
+      "purity_out": 0.2874,
+      "overlap": 0.2767
+    },
+    {
+      "layer": 16,
+      "S_in": 2.1669,
+      "S_out": 2.0127,
+      "delta_S": -0.1542,
+      "holevo": 2.0127,
+      "purity_in": 0.2874,
+      "purity_out": 0.3252,
+      "overlap": 0.28888
+    },
+    {
+      "layer": 17,
+      "S_in": 2.0127,
+      "S_out": 1.9313,
+      "delta_S": -0.0814,
+      "holevo": 1.9313,
+      "purity_in": 0.3252,
+      "purity_out": 0.3476,
+      "overlap": 0.311632
+    },
+    {
+      "layer": 18,
+      "S_in": 1.9313,
+      "S_out": 2.1836,
+      "delta_S": 0.2523,
+      "holevo": 2.1836,
+      "purity_in": 0.3476,
+      "purity_out": 0.2818,
+      "overlap": 0.261835
+    },
+    {
+      "layer": 19,
+      "S_in": 2.1836,
+      "S_out": 2.0754,
+      "delta_S": -0.1082,
+      "holevo": 2.0754,
+      "purity_in": 0.2818,
+      "purity_out": 0.3052,
+      "overlap": 0.272684
+    },
+    {
+      "layer": 20,
+      "S_in": 2.0754,
+      "S_out": 2.38,
+      "delta_S": 0.3047,
+      "holevo": 2.38,
+      "purity_in": 0.3052,
+      "purity_out": 0.2444,
+      "overlap": 0.251842
+    },
+    {
+      "layer": 21,
+      "S_in": 2.38,
+      "S_out": 2.4394,
+      "delta_S": 0.0594,
+      "holevo": 2.4394,
+      "purity_in": 0.2444,
+      "purity_out": 0.2274,
+      "overlap": 0.21396
+    },
+    {
+      "layer": 22,
+      "S_in": 2.4394,
+      "S_out": 2.3633,
+      "delta_S": -0.0761,
+      "holevo": 2.3633,
+      "purity_in": 0.2274,
+      "purity_out": 0.2464,
+      "overlap": 0.204815
+    },
+    {
+      "layer": 23,
+      "S_in": 2.3633,
+      "S_out": 2.4233,
+      "delta_S": 0.0601,
+      "holevo": 2.4233,
+      "purity_in": 0.2464,
+      "purity_out": 0.2325,
+      "overlap": 0.219743
+    },
+    {
+      "layer": 24,
+      "S_in": 2.4233,
+      "S_out": 2.3997,
+      "delta_S": -0.0236,
+      "holevo": 2.3997,
+      "purity_in": 0.2325,
+      "purity_out": 0.2382,
+      "overlap": 0.216502
+    },
+    {
+      "layer": 25,
+      "S_in": 2.3997,
+      "S_out": 2.2375,
+      "delta_S": -0.1622,
+      "holevo": 2.2375,
+      "purity_in": 0.2382,
+      "purity_out": 0.2992,
+      "overlap": 0.232574
+    },
+    {
+      "layer": 26,
+      "S_in": 2.2375,
+      "S_out": 2.1338,
+      "delta_S": -0.1038,
+      "holevo": 2.1338,
+      "purity_in": 0.2992,
+      "purity_out": 0.3246,
+      "overlap": 0.284798
+    },
+    {
+      "layer": 27,
+      "S_in": 2.1338,
+      "S_out": 2.0577,
+      "delta_S": -0.0761,
+      "holevo": 2.0577,
+      "purity_in": 0.3246,
+      "purity_out": 0.3438,
+      "overlap": 0.21924
+    }
+  ],
+  "summary": {
+    "highway_layer": 1,
+    "bottleneck_layer": 17,
+    "avg_holevo": 2.2929,
+    "n_compressing": 17,
+    "n_expanding": 10,
+    "verdict": "Highway=L1 (2.673 bits), Bottleneck=L17 (1.931 bits), 17 compressing/10 expanding layers"
+  },
+  "elapsed": 15.78
+}

@@ -1,0 +1,67 @@
+{
+  "phase": "Q271",
+  "name": "ER=EPR Conjecture",
+  "pairs": [
+    {
+      "p1": "electron spin up",
+      "p2": "electron spin down",
+      "negativity": 0.0,
+      "euclidean_dist": 0.189,
+      "min_layer_dist": 0.1517,
+      "wormhole_shortcut": 0.0373,
+      "cosine_sim": 0.9821
+    },
+    {
+      "p1": "photon polarization horiz",
+      "p2": "photon polarization verti",
+      "negativity": 0.0,
+      "euclidean_dist": 0.743,
+      "min_layer_dist": 0.9539,
+      "wormhole_shortcut": -0.2109,
+      "cosine_sim": 0.724
+    },
+    {
+      "p1": "quantum entangled particl",
+      "p2": "quantum entangled particl",
+      "negativity": 0.0,
+      "euclidean_dist": 0.5098,
+      "min_layer_dist": 1.3966,
+      "wormhole_shortcut": -0.8868,
+      "cosine_sim": 0.8701
+    },
+    {
+      "p1": "apple fruit red",
+      "p2": "bicycle wheel metal",
+      "negativity": 0.0,
+      "euclidean_dist": 1.1425,
+      "min_layer_dist": 0.3423,
+      "wormhole_shortcut": 0.8002,
+      "cosine_sim": 0.3473
+    },
+    {
+      "p1": "ocean wave blue",
+      "p2": "computer keyboard typing",
+      "negativity": 0.0,
+      "euclidean_dist": 0.6553,
+      "min_layer_dist": 0.6962,
+      "wormhole_shortcut": -0.0409,
+      "cosine_sim": 0.7853
+    },
+    {
+      "p1": "cat sleeping soft",
+      "p2": "rocket engine thrust",
+      "negativity": 0.0,
+      "euclidean_dist": 0.6212,
+      "min_layer_dist": 0.3842,
+      "wormhole_shortcut": 0.237,
+      "cosine_sim": 0.807
+    }
+  ],
+  "summary": {
+    "correlation": 0,
+    "related_cos": 0.8587,
+    "unrelated_cos": 0.6465,
+    "verdict": "ER=EPR SIGNAL: entangled pairs closer (corr=0.00, related=0.859 vs unrelated=0.647)"
+  },
+  "elapsed": 3.0
+}

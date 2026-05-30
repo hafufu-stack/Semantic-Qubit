@@ -1,0 +1,104 @@
+{
+  "phase": "Q222",
+  "name": "Genuine Multipartite Entanglement",
+  "tests": [
+    {
+      "n_parties": 3,
+      "prompt": "GHZ state three-party entanglement",
+      "full_negativity": 0.175938,
+      "reduced_negativities": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "is_genuine": false
+    },
+    {
+      "n_parties": 3,
+      "prompt": "W state distributed entanglement",
+      "full_negativity": 0.128602,
+      "reduced_negativities": [
+        0.0,
+        0.003298,
+        0.0
+      ],
+      "is_genuine": false
+    },
+    {
+      "n_parties": 3,
+      "prompt": "quantum network multipartite",
+      "full_negativity": 0.062281,
+      "reduced_negativities": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "is_genuine": false
+    },
+    {
+      "n_parties": 3,
+      "prompt": "three-body quantum correlation",
+      "full_negativity": 0.033267,
+      "reduced_negativities": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "is_genuine": false
+    },
+    {
+      "n_parties": 4,
+      "prompt": "GHZ state three-party entanglement",
+      "full_negativity": 0.1961,
+      "reduced_negativities": [
+        0.041849,
+        0.081546,
+        0.074977,
+        0.054352
+      ],
+      "is_genuine": true
+    },
+    {
+      "n_parties": 4,
+      "prompt": "W state distributed entanglement",
+      "full_negativity": 0.15896,
+      "reduced_negativities": [
+        0.0,
+        0.029415,
+        0.074581,
+        0.0
+      ],
+      "is_genuine": false
+    },
+    {
+      "n_parties": 4,
+      "prompt": "quantum network multipartite",
+      "full_negativity": 0.16502,
+      "reduced_negativities": [
+        0.0,
+        0.080095,
+        0.056032,
+        0.002399
+      ],
+      "is_genuine": false
+    },
+    {
+      "n_parties": 4,
+      "prompt": "three-body quantum correlation",
+      "full_negativity": 0.14788,
+      "reduced_negativities": [
+        0.0,
+        0.053554,
+        0.008624,
+        0.0
+      ],
+      "is_genuine": false
+    }
+  ],
+  "summary": {
+    "n_genuine": 1,
+    "total": 8,
+    "verdict": "PARTIAL MULTIPARTITE: 1/8 genuine"
+  },
+  "elapsed": 2.12
+}

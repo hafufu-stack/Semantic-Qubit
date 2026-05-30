@@ -1,0 +1,240 @@
+{
+  "phase": "Q209",
+  "name": "Entanglement Witness (PPT Criterion)",
+  "configs": [
+    {
+      "config": "2x2 (2-qubit)",
+      "dim_a": 2,
+      "dim_b": 2,
+      "n_entangled": 7,
+      "total": 8,
+      "results": [
+        {
+          "prompt": "quantum entanglement between two particl",
+          "negativity": 0.174094,
+          "min_eigval_pt": -0.174094,
+          "is_entangled": true,
+          "purity": 0.6705,
+          "entropy": 0.9239,
+          "concurrence": 0.348496
+        },
+        {
+          "prompt": "the cat is both alive and dead",
+          "negativity": 0.028082,
+          "min_eigval_pt": -0.028082,
+          "is_entangled": true,
+          "purity": 0.472,
+          "entropy": 1.3049,
+          "concurrence": 0.081788
+        },
+        {
+          "prompt": "hydrogen molecule bond",
+          "negativity": 0.022322,
+          "min_eigval_pt": -0.022322,
+          "is_entangled": true,
+          "purity": 0.9157,
+          "entropy": 0.3007,
+          "concurrence": 0.058124
+        },
+        {
+          "prompt": "Einstein Podolsky Rosen paradox",
+          "negativity": 0.0,
+          "min_eigval_pt": 0.003178,
+          "is_entangled": false,
+          "purity": 0.6142,
+          "entropy": 1.0753,
+          "concurrence": 0.0
+        },
+        {
+          "prompt": "superposition of spin up and spin down",
+          "negativity": 0.073461,
+          "min_eigval_pt": -0.073461,
+          "is_entangled": true,
+          "purity": 0.814,
+          "entropy": 0.5763,
+          "concurrence": 0.169642
+        },
+        {
+          "prompt": "Bell state maximally entangled",
+          "negativity": 0.333214,
+          "min_eigval_pt": -0.333214,
+          "is_entangled": true,
+          "purity": 0.7751,
+          "entropy": 0.6314,
+          "concurrence": 0.698472
+        },
+        {
+          "prompt": "classical correlation without entangleme",
+          "negativity": 0.001521,
+          "min_eigval_pt": -0.001521,
+          "is_entangled": true,
+          "purity": 0.6975,
+          "entropy": 0.8308,
+          "concurrence": 0.003376
+        },
+        {
+          "prompt": "random noise signal",
+          "negativity": 0.122475,
+          "min_eigval_pt": -0.122475,
+          "is_entangled": true,
+          "purity": 0.8972,
+          "entropy": 0.3579,
+          "concurrence": 0.251749
+        }
+      ]
+    },
+    {
+      "config": "2x4",
+      "dim_a": 2,
+      "dim_b": 4,
+      "n_entangled": 8,
+      "total": 8,
+      "results": [
+        {
+          "prompt": "quantum entanglement between two particl",
+          "negativity": 0.206413,
+          "min_eigval_pt": -0.191046,
+          "is_entangled": true,
+          "purity": 0.4854,
+          "entropy": 1.3749
+        },
+        {
+          "prompt": "the cat is both alive and dead",
+          "negativity": 0.262796,
+          "min_eigval_pt": -0.183557,
+          "is_entangled": true,
+          "purity": 0.4042,
+          "entropy": 1.6115
+        },
+        {
+          "prompt": "hydrogen molecule bond",
+          "negativity": 0.110279,
+          "min_eigval_pt": -0.106742,
+          "is_entangled": true,
+          "purity": 0.8863,
+          "entropy": 0.4149
+        },
+        {
+          "prompt": "Einstein Podolsky Rosen paradox",
+          "negativity": 0.303158,
+          "min_eigval_pt": -0.303158,
+          "is_entangled": true,
+          "purity": 0.6122,
+          "entropy": 1.146
+        },
+        {
+          "prompt": "superposition of spin up and spin down",
+          "negativity": 0.309086,
+          "min_eigval_pt": -0.309086,
+          "is_entangled": true,
+          "purity": 0.7358,
+          "entropy": 0.8199
+        },
+        {
+          "prompt": "Bell state maximally entangled",
+          "negativity": 0.140923,
+          "min_eigval_pt": -0.121688,
+          "is_entangled": true,
+          "purity": 0.7271,
+          "entropy": 0.7643
+        },
+        {
+          "prompt": "classical correlation without entangleme",
+          "negativity": 0.263465,
+          "min_eigval_pt": -0.247811,
+          "is_entangled": true,
+          "purity": 0.6031,
+          "entropy": 1.1802
+        },
+        {
+          "prompt": "random noise signal",
+          "negativity": 0.162243,
+          "min_eigval_pt": -0.159223,
+          "is_entangled": true,
+          "purity": 0.5869,
+          "entropy": 1.1217
+        }
+      ]
+    },
+    {
+      "config": "4x4",
+      "dim_a": 4,
+      "dim_b": 4,
+      "n_entangled": 8,
+      "total": 8,
+      "results": [
+        {
+          "prompt": "quantum entanglement between two particl",
+          "negativity": 0.352415,
+          "min_eigval_pt": -0.15735,
+          "is_entangled": true,
+          "purity": 0.7854,
+          "entropy": 0.6515
+        },
+        {
+          "prompt": "the cat is both alive and dead",
+          "negativity": 0.527663,
+          "min_eigval_pt": -0.196179,
+          "is_entangled": true,
+          "purity": 0.4818,
+          "entropy": 1.4999
+        },
+        {
+          "prompt": "hydrogen molecule bond",
+          "negativity": 0.501048,
+          "min_eigval_pt": -0.392088,
+          "is_entangled": true,
+          "purity": 0.8283,
+          "entropy": 0.5942
+        },
+        {
+          "prompt": "Einstein Podolsky Rosen paradox",
+          "negativity": 0.455478,
+          "min_eigval_pt": -0.289625,
+          "is_entangled": true,
+          "purity": 0.6097,
+          "entropy": 1.1359
+        },
+        {
+          "prompt": "superposition of spin up and spin down",
+          "negativity": 0.657362,
+          "min_eigval_pt": -0.305873,
+          "is_entangled": true,
+          "purity": 0.613,
+          "entropy": 1.1342
+        },
+        {
+          "prompt": "Bell state maximally entangled",
+          "negativity": 0.465911,
+          "min_eigval_pt": -0.357436,
+          "is_entangled": true,
+          "purity": 0.65,
+          "entropy": 1.0017
+        },
+        {
+          "prompt": "classical correlation without entangleme",
+          "negativity": 0.433516,
+          "min_eigval_pt": -0.217303,
+          "is_entangled": true,
+          "purity": 0.4115,
+          "entropy": 1.6543
+        },
+        {
+          "prompt": "random noise signal",
+          "negativity": 0.506128,
+          "min_eigval_pt": -0.359842,
+          "is_entangled": true,
+          "purity": 0.7149,
+          "entropy": 0.8501
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_entangled": 23,
+    "total_tests": 24,
+    "entanglement_rate": 0.9583,
+    "verdict": "GENUINE ENTANGLEMENT: 96% of states PPT-certified entangled"
+  },
+  "elapsed": 3.49
+}

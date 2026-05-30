@@ -1,0 +1,114 @@
+{
+  "phase": "Q221",
+  "name": "Quantum Volume",
+  "qubits": [
+    {
+      "n_qubits": 1,
+      "dim": 2,
+      "fidelities": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "avg_fidelity": 1.0,
+      "success_rate": 1.0,
+      "passed": true
+    },
+    {
+      "n_qubits": 2,
+      "dim": 4,
+      "fidelities": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "avg_fidelity": 1.0,
+      "success_rate": 1.0,
+      "passed": true
+    },
+    {
+      "n_qubits": 3,
+      "dim": 8,
+      "fidelities": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "avg_fidelity": 1.0,
+      "success_rate": 1.0,
+      "passed": true
+    },
+    {
+      "n_qubits": 4,
+      "dim": 16,
+      "fidelities": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "avg_fidelity": 1.0,
+      "success_rate": 1.0,
+      "passed": true
+    },
+    {
+      "n_qubits": 5,
+      "dim": 32,
+      "fidelities": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "avg_fidelity": 1.0,
+      "success_rate": 1.0,
+      "passed": true
+    },
+    {
+      "n_qubits": 6,
+      "dim": 64,
+      "fidelities": [
+        1.0,
+        1.0,
+        0.9993,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "avg_fidelity": 0.9999,
+      "success_rate": 1.0,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "quantum_volume": 64,
+    "max_qubits": 6,
+    "verdict": "Quantum Volume = 64 (6 effective qubits)"
+  },
+  "elapsed": 864.18
+}

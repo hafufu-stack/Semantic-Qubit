@@ -1,0 +1,20 @@
+{
+  "phase": "Q253",
+  "name": "Entanglement-Orthogonal Pruning",
+  "singular_values": [
+    357.8608,
+    57.7501,
+    54.2427,
+    44.8148
+  ],
+  "vqe_errors": {
+    "full": 0.0,
+    "protected": 70.9332,
+    "extended": 70.9332,
+    "random": 0.0001
+  },
+  "summary": {
+    "verdict": "PRUNING DEGRADES: protected=70.9332, full=0.0000"
+  },
+  "elapsed": 116.8
+}

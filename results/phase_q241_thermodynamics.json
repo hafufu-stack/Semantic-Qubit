@@ -1,0 +1,1278 @@
+{
+  "phase": "Q241",
+  "name": "Quantum Thermodynamics",
+  "prompts": [
+    {
+      "prompt": "thermodynamic equilibrium entropy",
+      "layers": [
+        {
+          "layer": 0,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0
+        },
+        {
+          "layer": 1,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 2,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 3,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 4,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 5,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 6,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 7,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 8,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 9,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 10,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 11,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 12,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 13,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 14,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 15,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 16,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 17,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 18,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 19,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 20,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 21,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 22,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 23,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 24,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 25,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 26,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 27,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 28,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        }
+      ],
+      "total_entropy_change": 0.0,
+      "second_law_satisfied": true,
+      "landauer_cost": 0.0
+    },
+    {
+      "prompt": "information erasure Landauer",
+      "layers": [
+        {
+          "layer": 0,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0
+        },
+        {
+          "layer": 1,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 2,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 3,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 4,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 5,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 6,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 7,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 8,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 9,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 10,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 11,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 12,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 13,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 14,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 15,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 16,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 17,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 18,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 19,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 20,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 21,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 22,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 23,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 24,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 25,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 26,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 27,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 28,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        }
+      ],
+      "total_entropy_change": 0.0,
+      "second_law_satisfied": true,
+      "landauer_cost": 0.0
+    },
+    {
+      "prompt": "Maxwell demon second law",
+      "layers": [
+        {
+          "layer": 0,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0
+        },
+        {
+          "layer": 1,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 2,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 3,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 4,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 5,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 6,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 7,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 8,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 9,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 10,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 11,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 12,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 13,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 14,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 15,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 16,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 17,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 18,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 19,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 20,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 21,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 22,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 23,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 24,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 25,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 26,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 27,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 28,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        }
+      ],
+      "total_entropy_change": 0.0,
+      "second_law_satisfied": true,
+      "landauer_cost": 0.0
+    },
+    {
+      "prompt": "quantum heat engine efficiency",
+      "layers": [
+        {
+          "layer": 0,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0
+        },
+        {
+          "layer": 1,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 2,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 3,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 4,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 5,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 6,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 7,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 8,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 9,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 10,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 11,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 12,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 13,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 14,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 15,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 16,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 17,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 18,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 19,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 20,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 21,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 22,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 23,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 24,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 25,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 26,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 27,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 28,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        }
+      ],
+      "total_entropy_change": 0.0,
+      "second_law_satisfied": true,
+      "landauer_cost": 0.0
+    },
+    {
+      "prompt": "free energy minimization principle",
+      "layers": [
+        {
+          "layer": 0,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0
+        },
+        {
+          "layer": 1,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 2,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 3,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 4,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 5,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 6,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 7,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 8,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 9,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 10,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 11,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 12,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 13,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 14,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 15,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 16,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 17,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 18,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 19,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 20,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 21,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 22,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 23,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 24,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 25,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 26,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 27,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 28,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        }
+      ],
+      "total_entropy_change": 0.0,
+      "second_law_satisfied": true,
+      "landauer_cost": 0.0
+    },
+    {
+      "prompt": "irreversible process entropy produc",
+      "layers": [
+        {
+          "layer": 0,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0
+        },
+        {
+          "layer": 1,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 2,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 3,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 4,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 5,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 6,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 7,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 8,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 9,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 10,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 11,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 12,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 13,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 14,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 15,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 16,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 17,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 18,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 19,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 20,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 21,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 22,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 23,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 24,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 25,
+          "entropy": 1.5674,
+          "energy": 0.5537,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 26,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        },
+        {
+          "layer": 27,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": 0.0
+        },
+        {
+          "layer": 28,
+          "entropy": 1.5674,
+          "energy": 0.5538,
+          "free_energy": 0.397,
+          "delta_entropy": -0.0
+        }
+      ],
+      "total_entropy_change": 0.0,
+      "second_law_satisfied": true,
+      "landauer_cost": 0.0
+    }
+  ],
+  "summary": {
+    "n_second_law": 6,
+    "avg_entropy_change": 0.0,
+    "verdict": "THERMODYNAMIC: 2nd law 6/6, avg dS=0.0000"
+  },
+  "elapsed": 1.91
+}

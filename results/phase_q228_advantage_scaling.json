@@ -1,0 +1,50 @@
+{
+  "phase": "Q228",
+  "name": "Quantum Advantage Scaling",
+  "dimensions": [
+    {
+      "dim": 2,
+      "avg_vqe_mHa": 0.0001,
+      "avg_sa_mHa": 0.0,
+      "advantage_ratio": 0.19
+    },
+    {
+      "dim": 4,
+      "avg_vqe_mHa": 0.0029,
+      "avg_sa_mHa": 1.0868,
+      "advantage_ratio": 370.76
+    },
+    {
+      "dim": 8,
+      "avg_vqe_mHa": 0.0,
+      "avg_sa_mHa": 27.0971,
+      "advantage_ratio": 670668.36
+    },
+    {
+      "dim": 16,
+      "avg_vqe_mHa": 0.0001,
+      "avg_sa_mHa": 347.8773,
+      "advantage_ratio": 2910069.31
+    },
+    {
+      "dim": 32,
+      "avg_vqe_mHa": 0.0002,
+      "avg_sa_mHa": 1057.608,
+      "advantage_ratio": 6639969.3
+    },
+    {
+      "dim": 64,
+      "avg_vqe_mHa": 0.0202,
+      "avg_sa_mHa": 1891.5006,
+      "advantage_ratio": 93703.09
+    }
+  ],
+  "summary": {
+    "scaling_type": "SUPER-POLYNOMIAL (dim^4.0)",
+    "exponent": 3.9732,
+    "r2_polynomial": 0.5956,
+    "r2_exponential": 0.1923,
+    "verdict": "SUPER-POLYNOMIAL (dim^4.0) advantage scaling (R2_poly=0.596, R2_exp=0.192)"
+  },
+  "elapsed": 319.5
+}

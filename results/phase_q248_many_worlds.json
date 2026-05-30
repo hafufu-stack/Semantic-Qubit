@@ -1,0 +1,42 @@
+{
+  "phase": "Q248",
+  "name": "Many-Worlds Prompting",
+  "puzzles": [
+    {
+      "question": "If all cats are animals, and some animals are pets",
+      "n_paths": 3,
+      "neg_single": 0.2955,
+      "neg_classical": 0.299055,
+      "neg_quantum": 0.299055,
+      "coh_single": 0.5434,
+      "coh_quantum": 0.556,
+      "avg_interference": 0.8991
+    },
+    {
+      "question": "A bat and ball cost $1.10 total. The bat costs $1.",
+      "n_paths": 3,
+      "neg_single": 0.235887,
+      "neg_classical": 0.144313,
+      "neg_quantum": 0.144313,
+      "coh_single": 0.3377,
+      "coh_quantum": 0.3854,
+      "avg_interference": 0.5733
+    },
+    {
+      "question": "What is heavier, a pound of feathers or a pound of",
+      "n_paths": 3,
+      "neg_single": 0.17324,
+      "neg_classical": 0.204856,
+      "neg_quantum": 0.204856,
+      "coh_single": 0.4648,
+      "coh_quantum": 0.4791,
+      "avg_interference": 0.9362
+    }
+  ],
+  "summary": {
+    "avg_ent_boost": -6.5,
+    "avg_coh_boost": 6.5,
+    "verdict": "NO BOOST: multi-path does not increase quantumness"
+  },
+  "elapsed": 3.24
+}

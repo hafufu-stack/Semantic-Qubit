@@ -1,0 +1,56 @@
+{
+  "phase": "Q258",
+  "name": "Entanglement Entropy Production Rate",
+  "prompts": [
+    {
+      "prompt": "quantum chaos scrambling dynam",
+      "avg_production": 0.0,
+      "peak_rate": 0.0,
+      "peak_layer": 16,
+      "ks_entropy": 0.0
+    },
+    {
+      "prompt": "classical harmonic oscillator ",
+      "avg_production": 0.0,
+      "peak_rate": 0.0,
+      "peak_layer": 6,
+      "ks_entropy": 0.0
+    },
+    {
+      "prompt": "black hole information paradox",
+      "avg_production": 0.0,
+      "peak_rate": 0.0,
+      "peak_layer": 21,
+      "ks_entropy": 0.0
+    },
+    {
+      "prompt": "protein folding energy landsca",
+      "avg_production": 0.0,
+      "peak_rate": 0.0,
+      "peak_layer": 16,
+      "ks_entropy": 0.0
+    },
+    {
+      "prompt": "stock market volatility predic",
+      "avg_production": 0.0,
+      "peak_rate": 0.0,
+      "peak_layer": 9,
+      "ks_entropy": 0.0
+    },
+    {
+      "prompt": "neural network gradient flow",
+      "avg_production": 0.0,
+      "peak_rate": 0.0,
+      "peak_layer": 5,
+      "ks_entropy": 0.0
+    }
+  ],
+  "scrambling_rate_q232": 0.012,
+  "summary": {
+    "avg_production": 0.0,
+    "avg_ks": 0.0,
+    "ratio_to_scrambling": 0.0,
+    "verdict": "SLOWER ENTROPY: production=0.0000 < scrambling=0.0120 (ratio=0.00)"
+  },
+  "elapsed": 1.96
+}

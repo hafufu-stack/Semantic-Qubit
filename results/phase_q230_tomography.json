@@ -1,0 +1,131 @@
+{
+  "phase": "Q230",
+  "name": "Quantum State Tomography",
+  "data": [
+    {
+      "dim": 2,
+      "n_bases": 3,
+      "fidelity": 0.9722,
+      "trace_distance": 0.1416,
+      "n_params_needed": 3,
+      "efficiency": 1.0
+    },
+    {
+      "dim": 2,
+      "n_bases": 6,
+      "fidelity": 0.9756,
+      "trace_distance": 0.1306,
+      "n_params_needed": 3,
+      "efficiency": 0.5
+    },
+    {
+      "dim": 2,
+      "n_bases": 12,
+      "fidelity": 0.9662,
+      "trace_distance": 0.1542,
+      "n_params_needed": 3,
+      "efficiency": 0.25
+    },
+    {
+      "dim": 2,
+      "n_bases": 24,
+      "fidelity": 0.9624,
+      "trace_distance": 0.1653,
+      "n_params_needed": 3,
+      "efficiency": 0.12
+    },
+    {
+      "dim": 2,
+      "n_bases": 48,
+      "fidelity": 0.9484,
+      "trace_distance": 0.2006,
+      "n_params_needed": 3,
+      "efficiency": 0.06
+    },
+    {
+      "dim": 4,
+      "n_bases": 3,
+      "fidelity": 0.8198,
+      "trace_distance": 0.4113,
+      "n_params_needed": 15,
+      "efficiency": 5.0
+    },
+    {
+      "dim": 4,
+      "n_bases": 6,
+      "fidelity": 0.8398,
+      "trace_distance": 0.392,
+      "n_params_needed": 15,
+      "efficiency": 2.5
+    },
+    {
+      "dim": 4,
+      "n_bases": 12,
+      "fidelity": 0.8444,
+      "trace_distance": 0.387,
+      "n_params_needed": 15,
+      "efficiency": 1.25
+    },
+    {
+      "dim": 4,
+      "n_bases": 24,
+      "fidelity": 0.8405,
+      "trace_distance": 0.3947,
+      "n_params_needed": 15,
+      "efficiency": 0.62
+    },
+    {
+      "dim": 4,
+      "n_bases": 48,
+      "fidelity": 0.8348,
+      "trace_distance": 0.403,
+      "n_params_needed": 15,
+      "efficiency": 0.31
+    },
+    {
+      "dim": 8,
+      "n_bases": 3,
+      "fidelity": 0.7189,
+      "trace_distance": 0.5108,
+      "n_params_needed": 63,
+      "efficiency": 21.0
+    },
+    {
+      "dim": 8,
+      "n_bases": 6,
+      "fidelity": 0.7275,
+      "trace_distance": 0.5031,
+      "n_params_needed": 63,
+      "efficiency": 10.5
+    },
+    {
+      "dim": 8,
+      "n_bases": 12,
+      "fidelity": 0.7447,
+      "trace_distance": 0.491,
+      "n_params_needed": 63,
+      "efficiency": 5.25
+    },
+    {
+      "dim": 8,
+      "n_bases": 24,
+      "fidelity": 0.7388,
+      "trace_distance": 0.4996,
+      "n_params_needed": 63,
+      "efficiency": 2.62
+    },
+    {
+      "dim": 8,
+      "n_bases": 48,
+      "fidelity": 0.738,
+      "trace_distance": 0.5014,
+      "n_params_needed": 63,
+      "efficiency": 1.31
+    }
+  ],
+  "summary": {
+    "min_bases_for_99": {},
+    "verdict": "Tomography: min bases for F>0.99: not achieved"
+  },
+  "elapsed": 2.57
+}

@@ -1,0 +1,36 @@
+{
+  "phase": "Q259",
+  "name": "Decoherence-Free High-Dim VQE",
+  "dims": [
+    {
+      "dim": 4,
+      "normal": 0.0,
+      "bypass": 0.0001,
+      "improvement_pct": -5960.5
+    },
+    {
+      "dim": 8,
+      "normal": 0.0002,
+      "bypass": 0.0405,
+      "improvement_pct": -22533.3
+    },
+    {
+      "dim": 16,
+      "normal": 0.0001,
+      "bypass": 0.0001,
+      "improvement_pct": 0.0
+    },
+    {
+      "dim": 32,
+      "normal": 0.0019,
+      "bypass": 0.0002,
+      "improvement_pct": 87.5
+    }
+  ],
+  "summary": {
+    "n_improved": 1,
+    "avg_improvement": -7101.6,
+    "verdict": "CURSE HOLDS: only 1/4 improved"
+  },
+  "elapsed": 809.19
+}

@@ -1,0 +1,54 @@
+{
+  "phase": "Q255",
+  "name": "Entanglement-Boosted AGI",
+  "tasks": [
+    {
+      "question": "2 + 3 =",
+      "base": 0.5435,
+      "quantum": 0.5423
+    },
+    {
+      "question": "If A implies B and A is true t",
+      "base": 0.6662,
+      "quantum": 0.6649
+    },
+    {
+      "question": "The capital of France is",
+      "base": 0.811,
+      "quantum": 0.8112
+    },
+    {
+      "question": "Water freezes at",
+      "base": 0.6404,
+      "quantum": 0.6387
+    },
+    {
+      "question": "The square root of 16 is",
+      "base": 0.4503,
+      "quantum": 0.4486
+    },
+    {
+      "question": "All birds can fly. Penguins ar",
+      "base": 0.4881,
+      "quantum": 0.4877
+    },
+    {
+      "question": "If x = 5 and y = x + 3, then y",
+      "base": 0.5093,
+      "quantum": 0.508
+    },
+    {
+      "question": "The opposite of hot is",
+      "base": 0.7094,
+      "quantum": 0.7085
+    }
+  ],
+  "summary": {
+    "avg_base": 0.6023,
+    "avg_quantum": 0.6012,
+    "boost_pct": -0.2,
+    "n_improved": 1,
+    "verdict": "NO GENERAL BOOST: -0.2% change, 1/8 improved"
+  },
+  "elapsed": 6.08
+}

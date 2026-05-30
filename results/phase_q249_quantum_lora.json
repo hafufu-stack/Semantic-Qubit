@@ -1,0 +1,48 @@
+{
+  "phase": "Q249",
+  "name": "Quantum-Native LoRA",
+  "pre_neg": 0.041081,
+  "post_neg": 0.091617,
+  "pre_vqe": 0.0005,
+  "post_vqe": 0.0001,
+  "training": [
+    {
+      "step": 0,
+      "neg": 0.0
+    },
+    {
+      "step": 10,
+      "neg": 0.01158
+    },
+    {
+      "step": 20,
+      "neg": 0.25104
+    },
+    {
+      "step": 30,
+      "neg": 0.0
+    },
+    {
+      "step": 40,
+      "neg": 0.0
+    },
+    {
+      "step": 50,
+      "neg": 0.270624
+    },
+    {
+      "step": 60,
+      "neg": 0.0
+    },
+    {
+      "step": 70,
+      "neg": 0.0
+    }
+  ],
+  "summary": {
+    "neg_change_pct": 123.0,
+    "vqe_change_pct": 87.5,
+    "verdict": "QUANTUM LORA WORKS: +123% entanglement, +88% VQE accuracy"
+  },
+  "elapsed": 87.53
+}

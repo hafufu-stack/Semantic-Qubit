@@ -1,0 +1,57 @@
+{
+  "phase": "Q272",
+  "name": "Eigenstate Thermalization",
+  "scenarios": [
+    {
+      "prompt": "thermal equilibrium energy distribu",
+      "smoothness": 1.6285,
+      "suppression": 0.0687,
+      "eigval_range": [
+        -28.3637,
+        35.9991
+      ]
+    },
+    {
+      "prompt": "quantum state evolution dynamics",
+      "smoothness": 1.07,
+      "suppression": 0.0767,
+      "eigval_range": [
+        -28.6925,
+        45.5301
+      ]
+    },
+    {
+      "prompt": "classical statistical mechanics",
+      "smoothness": 1.1785,
+      "suppression": 0.0745,
+      "eigval_range": [
+        -29.1629,
+        45.1094
+      ]
+    },
+    {
+      "prompt": "information entropy maximization",
+      "smoothness": 1.2841,
+      "suppression": 0.0849,
+      "eigval_range": [
+        -24.9742,
+        25.2984
+      ]
+    },
+    {
+      "prompt": "neural network weight distribution",
+      "smoothness": 1.2669,
+      "suppression": 0.076,
+      "eigval_range": [
+        -21.3445,
+        39.8285
+      ]
+    }
+  ],
+  "summary": {
+    "avg_smoothness": 1.2856,
+    "avg_suppression": 0.0762,
+    "verdict": "PARTIAL ETH: suppression=0.076, smoothness=1.286"
+  },
+  "elapsed": 2.78
+}

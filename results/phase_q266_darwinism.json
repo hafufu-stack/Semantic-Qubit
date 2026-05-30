@@ -1,0 +1,96 @@
+{
+  "phase": "Q266",
+  "name": "Quantum Darwinism",
+  "scenarios": [
+    {
+      "prompt": "The cat is sitting on the mat",
+      "fragment_info": [
+        0.0937,
+        0.0942,
+        0.1403,
+        0.1538,
+        0.1248,
+        0.185
+      ],
+      "cumulative_info": [
+        0.0937,
+        0.0939,
+        0.1094,
+        0.1205,
+        0.1213,
+        0.132
+      ],
+      "redundancy": 0.0,
+      "plateau": 0.0115
+    },
+    {
+      "prompt": "Quantum superposition of all possib",
+      "fragment_info": [
+        0.0725,
+        0.0743,
+        0.1039,
+        0.1087,
+        0.1156,
+        0.181
+      ],
+      "cumulative_info": [
+        0.0725,
+        0.0734,
+        0.0836,
+        0.0899,
+        0.095,
+        0.1093
+      ],
+      "redundancy": 0.0,
+      "plateau": 0.0194
+    },
+    {
+      "prompt": "The answer to the question is 42",
+      "fragment_info": [
+        0.0356,
+        0.0423,
+        0.0585,
+        0.0622,
+        0.0712,
+        0.1071
+      ],
+      "cumulative_info": [
+        0.0356,
+        0.0389,
+        0.0455,
+        0.0497,
+        0.054,
+        0.0628
+      ],
+      "redundancy": 0.0,
+      "plateau": 0.0131
+    },
+    {
+      "prompt": "Schrodinger's cat is alive and dead",
+      "fragment_info": [
+        0.0569,
+        0.0715,
+        0.1173,
+        0.1471,
+        0.1634,
+        0.2223
+      ],
+      "cumulative_info": [
+        0.0569,
+        0.0642,
+        0.0819,
+        0.0982,
+        0.1112,
+        0.1297
+      ],
+      "redundancy": 0.0,
+      "plateau": 0.0315
+    }
+  ],
+  "summary": {
+    "avg_redundancy": 0.0,
+    "avg_plateau": 0.0189,
+    "verdict": "NO DARWINISM: low redundancy 0%"
+  },
+  "elapsed": 5.0
+}

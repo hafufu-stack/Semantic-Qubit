@@ -1,0 +1,148 @@
+{
+  "phase": "Q267",
+  "name": "CPT Symmetry",
+  "pairs": [
+    {
+      "forward": "time flows forward always",
+      "backward": "always forward flows time",
+      "props_forward": {
+        "coherence": 0.614,
+        "entropy": 1.1258,
+        "negativity": 0.117586
+      },
+      "props_backward": {
+        "coherence": 0.5143,
+        "entropy": 1.1258,
+        "negativity": 0.0
+      },
+      "props_T": {
+        "coherence": 0.614,
+        "entropy": 1.1258,
+        "negativity": 0.117586
+      },
+      "props_CPT": {
+        "coherence": 0.4471,
+        "entropy": 1.1258,
+        "negativity": 0.085702
+      },
+      "cos_forward_backward": 0.2812,
+      "cos_forward_T": 0.163,
+      "cpt_preserved": false
+    },
+    {
+      "forward": "cause precedes effect",
+      "backward": "effect precedes cause",
+      "props_forward": {
+        "coherence": 0.4091,
+        "entropy": 1.1258,
+        "negativity": 0.237775
+      },
+      "props_backward": {
+        "coherence": 0.4162,
+        "entropy": 1.1258,
+        "negativity": 0.122468
+      },
+      "props_T": {
+        "coherence": 0.4091,
+        "entropy": 1.1258,
+        "negativity": 0.237775
+      },
+      "props_CPT": {
+        "coherence": 0.3819,
+        "entropy": 1.1258,
+        "negativity": 0.081852
+      },
+      "cos_forward_backward": 0.9356,
+      "cos_forward_T": 0.3505,
+      "cpt_preserved": true
+    },
+    {
+      "forward": "entropy increases over time",
+      "backward": "time over increases entropy",
+      "props_forward": {
+        "coherence": 0.3803,
+        "entropy": 1.1258,
+        "negativity": 0.037505
+      },
+      "props_backward": {
+        "coherence": 0.5047,
+        "entropy": 1.1258,
+        "negativity": 0.262734
+      },
+      "props_T": {
+        "coherence": 0.3803,
+        "entropy": 1.1258,
+        "negativity": 0.037505
+      },
+      "props_CPT": {
+        "coherence": 0.3468,
+        "entropy": 1.1258,
+        "negativity": 0.021927
+      },
+      "cos_forward_backward": 0.7159,
+      "cos_forward_T": 0.9469,
+      "cpt_preserved": true
+    },
+    {
+      "forward": "the cat sat on the mat",
+      "backward": "mat the on sat cat the",
+      "props_forward": {
+        "coherence": 0.429,
+        "entropy": 1.1258,
+        "negativity": 0.126436
+      },
+      "props_backward": {
+        "coherence": 0.3913,
+        "entropy": 1.1258,
+        "negativity": 0.068626
+      },
+      "props_T": {
+        "coherence": 0.429,
+        "entropy": 1.1258,
+        "negativity": 0.126436
+      },
+      "props_CPT": {
+        "coherence": 0.5451,
+        "entropy": 1.1258,
+        "negativity": 0.248338
+      },
+      "cos_forward_backward": 0.9453,
+      "cos_forward_T": 0.4717,
+      "cpt_preserved": false
+    },
+    {
+      "forward": "quantum evolution is unitary",
+      "backward": "unitary is evolution quantum",
+      "props_forward": {
+        "coherence": 0.4518,
+        "entropy": 1.1258,
+        "negativity": 0.087721
+      },
+      "props_backward": {
+        "coherence": 0.4483,
+        "entropy": 1.1258,
+        "negativity": 0.228926
+      },
+      "props_T": {
+        "coherence": 0.4518,
+        "entropy": 1.1258,
+        "negativity": 0.087721
+      },
+      "props_CPT": {
+        "coherence": 0.4019,
+        "entropy": 1.1258,
+        "negativity": 0.205046
+      },
+      "cos_forward_backward": 0.6213,
+      "cos_forward_T": 0.7503,
+      "cpt_preserved": true
+    }
+  ],
+  "summary": {
+    "n_cpt_preserved": 3,
+    "total": 5,
+    "avg_cos": 0.6999,
+    "verdict": "PARTIAL CPT: 3/5 preserved"
+  },
+  "elapsed": 3.65
+}

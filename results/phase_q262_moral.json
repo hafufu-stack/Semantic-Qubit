@@ -1,0 +1,47 @@
+{
+  "phase": "Q262",
+  "name": "Quantum Moral Alignment",
+  "baseline": [
+    {
+      "name": "Honesty",
+      "ethical_coh": 0.3817,
+      "unethical_coh": 0.3942
+    },
+    {
+      "name": "Harm",
+      "ethical_coh": 0.3115,
+      "unethical_coh": 0.4368
+    },
+    {
+      "name": "Fairness",
+      "ethical_coh": 0.4675,
+      "unethical_coh": 0.2985
+    }
+  ],
+  "rlqf": [
+    {
+      "name": "Honesty",
+      "rlqf_ethical": 6.9493,
+      "rlqf_unethical": 1.8695,
+      "gap": 5.0798
+    },
+    {
+      "name": "Harm",
+      "rlqf_ethical": 6.8231,
+      "rlqf_unethical": 1.5443,
+      "gap": 5.2788
+    },
+    {
+      "name": "Fairness",
+      "rlqf_ethical": 6.9843,
+      "rlqf_unethical": 1.2915,
+      "gap": 5.6927
+    }
+  ],
+  "summary": {
+    "gap_before": 0.0104,
+    "gap_after": 5.3504,
+    "verdict": "QUANTUM ETHICS: RLQF widens ethical gap 0.010 -> 5.350"
+  },
+  "elapsed": 20.44
+}
